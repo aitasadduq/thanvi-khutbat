@@ -4,7 +4,7 @@ Input: directory of *.txt files with blocks
     === <pdf_page> | <printed_page>
     ...text...
     ## terms
-    <Type>: <Head> > <Sub>
+    <Type>: <Head> > <Sub> [| heading|main|mention]
 Output: index.json (structured) and index.html (printable, RTL).
 """
 import sys, os, re, json, html
@@ -123,6 +123,7 @@ def parse_ayah(head):
 
 entries = defaultdict(lambda: defaultdict(lambda: defaultdict(set)))  # sec -> head -> sub -> pages
 summaries = {}
+strong = defaultdict(lambda: defaultdict(lambda: defaultdict(set)))  # heading/main references
 for fn in sorted(os.listdir(SRC)):
     if not fn.endswith('.txt'): continue
     page = None; in_terms = False
@@ -137,11 +138,15 @@ for fn in sorted(os.listdir(SRC)):
         typ, rest = line.split(':', 1)
         sec = TYPE_MAP.get(typ.strip())
         if not sec: continue
+        lab = re.search(r'\s*\|\s*(heading|main|mention)\s*$', rest)
+        if lab: rest = rest[:lab.start()]
+        strong_ref = bool(lab) and lab.group(1) in ('heading', 'main')
         head, _, sub = rest.partition('>')
         head, sub = head.strip(), sub.strip()
         if sec == 'topics': head = MERGE.get(head, head)
         if sec == 'people': head = PEOPLE_MERGE.get(head, re.sub(r'\s*\(.*?\)\s*$', '', head))
         entries[sec][head][sub].add(page)
+        if strong_ref: strong[sec][head][sub].add(page)
 
 def esc(s): return html.escape(s)
 
@@ -174,8 +179,10 @@ for sec, title in SECTIONS:
             letter = grp
             body.append(f'<h3 class="letter">{esc(grp)}</h3>')
         named = {s: p for s, p in subs.items() if s}
-        out_json[sec].append({'head': h, 'pages': sorted(allp),
-                              'subs': [{'sub': s, 'pages': sorted(p)} for s, p in named.items()]})
+        st = strong[sec][h]
+        out_json[sec].append({'head': h, 'pages': sorted(allp), 'strong': sorted(set().union(set(), *st.values())),
+                              'subs': [{'sub': s, 'pages': sorted(p), 'strong': sorted(st.get(s, ()))}
+                                       for s, p in named.items()]})
         if sec == 'ayat':
             label = f'{esc(name)} {esc(nums)}' if nums else esc(name)
             texts = sorted(named, key=lambda s: min(named[s]))

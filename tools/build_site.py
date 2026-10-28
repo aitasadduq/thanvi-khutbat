@@ -150,13 +150,14 @@ def render_index(index):
     sections = [('topics', 'موضوعات'), ('ayat', 'آیات قرآنی'), ('hadith', 'احادیث و ادعیہ'),
                 ('people', 'شخصیات'), ('stories', 'حکایات و واقعات'), ('parables', 'تمثیلات'),
                 ('places', 'مقامات'), ('books', 'کتب'), ('poetry', 'اشعار'), ('sayings', 'اقوال و قواعد')]
-    def links(pages):
-        ps = sorted(set(pages)); out = []; i = 0
+    def links(pages, strong=()):
+        ps = sorted(set(pages)); out = []; i = 0; strong = set(strong)
         while i < len(ps):
             j = i
             while j + 1 < len(ps) and ps[j + 1] == ps[j] + 1: j += 1
             lab = ud(ps[i]) if i == j else f'{ud(ps[i])}–{ud(ps[j])}'
-            out.append(f'<a href="#p{ps[i]}">{lab}</a>')
+            b = ' class="b"' if strong & set(ps[i:j + 1]) else ''
+            out.append(f'<a href="#p{ps[i]}"{b}>{lab}</a>')
             i = j + 1
         return '<span class="pp">' + '، '.join(out) + '</span>'
     chips, secs, total = [], [], 0
@@ -173,9 +174,9 @@ def render_index(index):
                 g = k[:1]
                 if g != letter:
                     letter = g; rows.append(f'<h4 class="lt">{esc(g)}</h4>')
-            subs = ''.join(f'<li class="{"ar" if key == "ayat" else ""}">{inline(s["sub"])[0]} {links(s["pages"])}</li>'
+            subs = ''.join(f'<li class="{"ar" if key == "ayat" else ""}">{inline(s["sub"])[0]} {links(s["pages"], s.get("strong", ()))}</li>'
                            for s in e['subs'])
-            rows.append(f'<div class="ie"><span class="ih">{esc(e["head"])}</span> {links(e["pages"])}'
+            rows.append(f'<div class="ie"><span class="ih">{esc(e["head"])}</span> {links(e["pages"], e.get("strong", ()))}'
                         + (f'<ul>{subs}</ul>' if subs else '') + '</div>')
         secs.append(f'<section class="ixs" id="ix-{key}"><h3>اشاریۂ {title} <small>({ud(len(items))})</small></h3>'
                     f'<div class="cols">{"".join(rows)}</div></section>')
@@ -288,6 +289,7 @@ color:var(--ink);padding:0 10px;width:220px;max-width:100%;line-height:2.2}
 .ie li.ar{font-size:15px}
 .pp{font-size:12.5px;font-variant-numeric:tabular-nums}
 .pp a{text-decoration:none}
+.pp a.b{font-weight:700}
 .pp a:hover{text-decoration:underline}
 .note{font-size:12.5px;color:var(--muted);margin-top:16px;line-height:2.1}
 .scrim{display:none}
