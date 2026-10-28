@@ -105,3 +105,21 @@ Quality notes:
 3. Transcribe the full text of Volume 1, pp. 45–456. The existing summaries and terms can serve as a cross-check. Add the heading/main/mention label to each term.
 4. Continue with Volumes 2–32, one volume at a time, and commit after every batch.
 5. Build the merged master index and the GitHub Pages site.
+
+## 9. Session 2 (2026-10-28): website started
+
+Owner's decisions this session:
+- Build the site for **Volume 1 only** first; the owner reviews it before work moves to Volume 2.
+- The site shows the **contents list (فہرست)** of each volume: every khutbah heading and sub-heading is a link to its page.
+- Reading view: **one printed page at a time**, like the book (Next/Previous buttons, arrow keys, swipe, go-to-page box).
+- Order: build the site first with what exists, then transcribe pp. 45–456 in batches and rebuild after each batch.
+- Khutba-e-masura stays **abbreviated**. **No scans** on the site.
+
+How the site is built:
+- `python3 -I tools/build_index.py "<vol dir>/page-notes" "<vol dir>" "<vol dir>/toc.tsv"` (refreshes index.json)
+- `python3 -I tools/build_site.py site` writes `site/index.html` (volume list) and `site/v01.html`.
+  Add each new volume to `VOLUMES` in `tools/build_site.py`.
+- `v01.html` routes on the hash: `#contents`, `#index`, `#p25` (printed page), `#h7` (row 7 of toc.tsv).
+- Pages with only a `خلاصہ` show the summary with a notice that the full text is pending.
+- Preview for the owner (private artifact): https://claude.ai/artifact/BJf9yjkgpMPxrtyiVvyq5r
+  (rebuild with `--artifact` into a scratch folder and republish to the same URL).
