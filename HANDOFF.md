@@ -129,3 +129,31 @@ Status at end of session 2 (2026-10-29):
   full text plus labelled `## terms`. No summary-only pages remain.
 - Index rebuilt: 2241 entries, 3596 page references. All contents rows link to their pages.
 - **Waiting on the owner's review of Volume 1** before starting Volume 2.
+
+## 10. Arabic accuracy (decided 2026-10-29)
+
+Owner's decision: (1) ayat are replaced by verified Qur'an text, (3) Arabic is read from sharper images,
+(2) ahadith are checked against the collections at the end of each volume, (4) readers can report mistakes.
+
+- **Reference texts:** `tools/get_reference.sh` downloads the Qur'an (Indo-Pak script) and nine hadith
+  collections into `reference/` (not committed). Source: public-domain fawazahmed0 quran-api / hadith-api.
+- **Markup in page-notes** (use it when transcribing from now on):
+  - `﴿9:119|<ayah text>﴾` an ayah or part of one; the text comes from the reference mushaf.
+  - `«…»` any other Arabic: hadith, dua, Arabic verse or saying.
+  The site sets both in the same Arabic face (Scheherazade New).
+- **Sharper images:** read Arabic/Persian lines from `python3 -I tools/zoom.py <pdf> <pdf page> <top> <bottom> out.png`
+  (full-resolution page image, enlarged 3×), not from the reduced two-page images.
+- **After transcribing a volume:**
+  1. `python3 -I tools/mark_arabic.py "<vol dir>"` (report) then `--write`. It marks Arabic, replaces each ayah
+     whose letters match the Qur'an word for word (spelling-level differences only) and lists `CHECK` items
+     where the book's wording differs (left as printed).
+  2. `python3 -I tools/check_hadith.py "<vol dir>" > reports/volNN-hadith-check.md`. Items under `differs`
+     are checked by hand against the scan (many are the book's own wording, not reading errors).
+  3. Rebuild index and site.
+- **Index:** a hadith/dua entry whose Arabic is not on the page (only its translation or meaning) is listed
+  under the sub-entry «ترجمہ یا مفہوم (عربی متن اس صفحے پر نہیں)».
+- **Report link:** every page has «اس صفحے میں کوئی غلطی نظر آئے تو اطلاع دیں», which opens a prefilled GitHub
+  issue at `REPORT_URL` in `tools/build_site.py` (currently the planned public repo
+  `iatasadduq/thanvi-khutbat-site`; it works once that repo exists with Issues enabled).
+- Volume 1 results: 287 ayat replaced/verified, 6 spelling corrections; hadith check in `reports/vol01-hadith-check.md`.
+  Fixed from the scan: p66 «البعد شیء…», p53 «یقول ابن آدم…» (extra words removed), p37 «…شبرا جئت الیہ…».

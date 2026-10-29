@@ -1,0 +1,188 @@
+"""Mark the Arabic passages in a volume's page-notes and put in the verified Qur'an text.
+
+Usage:
+    python3 -I tools/mark_arabic.py "<vol dir>" [--write]
+
+Markup written into page-notes (also what transcription should use from now on):
+    ﴿9:119|<Qur'an text>﴾   an ayah or part of one; the text is copied from the reference mushaf
+    «<Arabic>»               any other Arabic: hadith, dua, Arabic saying or verse
+Both are set in the Arabic face on the site.
+
+Without --write the script only reports what it would change. The report lists
+  QURAN   spans replaced by the reference text (with the old text when the letters differed)
+  CHECK   spans that look like the Qur'an but did not match well enough to replace
+  ARABIC  spans marked as other Arabic
+"""
+import sys, os, re
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from arabic import Quran, norm, ratio
+
+URDU_CHARS = re.compile('[ٹڈڑںےگچپژ]')
+URDU_WORDS = set(('ہے ہیں کہ میں کی کا کے سے نے کو اور یہ وہ تو بھی نہ تھا تھے تھی پر جو اس جس کس ایک یعنی '
+              # Persian (couplets are not Arabic)
+              'اند است ست را می بر از چہ چو چوں نیست باشد شد شود کند کرد در ایں آں تا باید خود ہمہ گر اگر بود').split())
+HARAKAT = re.compile(r'[ً-ْٰ]')
+VOWEL = re.compile(r'[\u064E-\u0652]')      # fatha..sukun: Urdu words (تعالیٰ، فوراً) never carry these
+ANY_MARK = re.compile(r'[﴿﴾«»]')
+
+
+def urdu_word(w):
+    w = w.strip('"\'“”()،۔.:!؟?')
+    return bool(URDU_CHARS.search(w)) or w in URDU_WORDS
+
+
+def is_ar_word(w):
+    return bool(VOWEL.search(w))
+
+
+def arabic_runs(words):
+    """Index ranges [s, e) of runs of vocalised words; short unvocalised gaps without Urdu words are bridged."""
+    runs, s, last = [], None, None
+    for i, w in enumerate(words):
+        if s is not None and w[:1] in '"“(' and last == i - 1:
+            runs.append((s, last + 1)); s = None      # a new quotation starts
+        if is_ar_word(w):
+            if s is None: s = i
+            last = i
+            if w[-1:] in '"”)' and w[:1] not in '"“(':
+                runs.append((s, last + 1)); s = None  # quotation closed
+        elif s is not None and (urdu_word(w) or i - last > 2):
+            runs.append((s, last + 1)); s = None
+    if s is not None: runs.append((s, last + 1))
+    return runs
+
+
+def plain_arabic_line(words):
+    """A whole line of unvocalised Arabic (hadith typed without harakat)."""
+    core = [w for w in words if w.strip('"\'“”()،۔.:!؟?')]
+    return len(core) >= 2 and not any(urdu_word(w) for w in core) and \
+        sum(w.lstrip('"“(').startswith(('ال', 'لا', 'من', 'فی', 'ما', 'ان', 'علی', 'اللہ', 'و')) for w in core) >= 1
+
+
+def split_trail(words):
+    """Keep trailing punctuation/quotes outside the marked span."""
+    head = words[0]; tail = words[-1]
+    lead = re.match(r'^["“(]*', head).group(0)
+    trail = re.search(r'["”)۔،:.]*$', tail).group(0)
+    inner = ' '.join(words)
+    inner = inner[len(lead):len(inner) - len(trail)] if trail else inner[len(lead):]
+    return lead, inner, trail
+
+
+def good(Q, f):
+    """A match is usable when it is clean at both ends; short ones must be near-exact."""
+    return Q.clean(f[1], f[2]) and (f[2] - f[1] >= 12 or f[0] >= 0.95)
+
+
+def best_sub(text, Q):
+    """Longest word window (>= 3 words) of `text` that matches the Qur'an at >= 0.9."""
+    ws = text.split(); best = None
+    for a in range(len(ws)):
+        for b in range(len(ws), a + 2, -1):
+            if best and b - a <= best[1] - best[0]: break
+            g = Q.find(' '.join(ws[a:b]))
+            if fits(Q, g, ' '.join(ws[a:b])):
+                best = (a, b, g); break
+    return best
+
+
+def terms_of(block):
+    return [l.split(':', 1)[1].split('|')[0].split('>')[-1].strip()
+            for l in block if re.match(r'^(حدیث|دعا|قول):', l)]
+
+
+PREAMBLE = re.compile(r'^((?:فَقَدْ|فقد)\s+)?(?:قَالَ|قال)\s+(?:اللّٰهُ|اللہ|النَّبِیُّ|النبی)\s+.*?(?:تَعَالٰ[یى]|تعالیٰ|وَسَلَّمَ|وسلم):?\s+')
+ELLIPSIS = re.compile(r'\s*(?:\.\.\.|…|۔۔۔)\s*')
+
+
+def fits(Q, f, text):
+    """A Qur'an match to use: near-exact, clean at both ends, and covering the whole quotation."""
+    if not f or f[0] < 0.9 or not good(Q, f): return False
+    n = len(norm(text).replace(' ', ''))
+    if not 0.85 <= (f[2] - f[1]) / max(1, n) <= 1.15: return False
+    # first and last words must be the same words (no words of the book dropped or swapped at the ends)
+    # Only spelling-level differences are corrected: same number of words, each word nearly the same.
+    # A wording difference (the author quoting loosely) is left as printed and reported for checking.
+    tw, cw = norm(text).split(), norm(Q.text(f[1], f[2])).split()
+    return len(tw) == len(cw) and all(a == b or ratio(a, b) >= 0.8 for a, b in zip(tw, cw))
+
+
+def mark(inner, Q, report, page):
+    """Markup for one Arabic quotation."""
+    if ELLIPSIS.search(inner):
+        return ' ... '.join(mark(x, Q, report, page) for x in ELLIPSIS.split(inner) if x.strip())
+    m = PREAMBLE.match(inner)
+    if m and len(inner) > m.end():
+        return f'«{inner[:m.end()].strip()}» ' + mark(inner[m.end():], Q, report, page)
+    f = Q.find(inner) if len(norm(inner).split()) >= 2 else None
+    if fits(Q, f, inner):
+        ref = Q.ref(f[1], f[2]); canon = Q.text(f[1], f[2])
+        if norm(canon) != norm(inner):
+            report.append(f'QURAN  p{page} {ref} [{f[0]:.2f}]\n   old: {inner}\n   new: {canon}')
+        return f'﴿{ref}|{canon}﴾'
+    if f and f[0] >= 0.5:
+        sub = best_sub(inner, Q)
+        if sub:
+            a, b, g = sub; ws = inner.split()
+            mid = ' '.join(ws[a:b])
+            if len(norm(mid)) >= 0.7 * len(norm(inner)):
+                pre, post = ' '.join(ws[:a]), ' '.join(ws[b:])
+                return ' '.join(([f'«{pre}»'] if pre else []) + [mark(mid, Q, report, page)] + ([f'«{post}»'] if post else []))
+    if f and f[0] >= 0.6:
+        report.append(f'CHECK  p{page} {Q.ref(f[1], f[2])} [{f[0]:.2f}]\n   text: {inner}\n   near: {Q.text(f[1], f[2])}')
+    else:
+        report.append(f'ARABIC p{page}  {inner}')
+    return f'«{inner}»'
+
+
+def process(lines, Q, report, page):
+    """Return new lines for one page's text part."""
+    out = []
+    for line in lines:
+        if not line.strip() or line.startswith(('#', '[', '===')) or ANY_MARK.search(line):
+            out.append(line); continue
+        words = line.split(' ')
+        spans = arabic_runs(words)
+        if not spans and plain_arabic_line(words):
+            spans = [(0, len(words))]
+        new, pos = [], 0
+        for s, e in spans:
+            lead, inner, trail = split_trail(words[s:e])
+            if len(inner.split()) < 2: continue
+            new.extend(words[pos:s])
+            new.append(lead + mark(inner, Q, report, page) + trail)
+            pos = e
+        new.extend(words[pos:])
+        out.append(' '.join(new))
+    return out
+
+
+def main():
+    vdir = sys.argv[1]; write = '--write' in sys.argv
+    Q = Quran(); report = []
+    ndir = os.path.join(vdir, 'page-notes')
+    for fn in sorted(os.listdir(ndir)):
+        if not fn.endswith('.txt'): continue
+        path = os.path.join(ndir, fn)
+        src = open(path, encoding='utf-8').read().split('\n')
+        out, block, page, in_terms = [], [], None, False
+        def flush():
+            out.extend(process(block, Q, report, page)); block.clear()
+        for l in src:
+            m = re.match(r'^=== \d+ \| (\d+)', l)
+            if m:
+                flush(); page = int(m.group(1)); in_terms = False; out.append(l); continue
+            if l.strip() == '## terms':
+                flush(); in_terms = True; out.append(l); continue
+            (out if in_terms or page is None else block).append(l)
+        flush()
+        if write and out != src:
+            open(path, 'w', encoding='utf-8').write('\n'.join(out))
+    print('\n'.join(report))
+    print(f"\n# {sum(r.startswith('QURAN') for r in report)} Qur'an corrections, "
+          f"{sum(r.startswith('CHECK') for r in report)} to check, {sum(r.startswith('ARABIC') for r in report)} other Arabic",
+          file=sys.stderr)
+
+
+if __name__ == '__main__':
+    main()

@@ -121,6 +121,33 @@ def parse_ayah(head):
     no = SURAH_NO.get(name.translate(FOLD), 999)
     return name, nums, no, int(first[0]) if first else 0
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import difflib
+from arabic import norm as ar_norm
+
+from mark_arabic import urdu_word
+
+def arabic_part(head):
+    """Longest run of Arabic words in an index head (heads may add an Urdu description)."""
+    best, run = [], []
+    for w in re.sub(r'\(.*?\)', ' ', head).replace(':', ' ').split():
+        if urdu_word(w) or w in ('حضور', 'ﷺ', 'حدیث', 'قدسی'): run = []
+        else:
+            run.append(w)
+            if len(run) > len(best): best = list(run)
+    return ' '.join(best) if len(best) >= 3 else ''
+
+def quoted_on(head, text):
+    """False only when the head carries an Arabic text that is not quoted in the page text."""
+    h, t = ar_norm(arabic_part(head)).replace(' ', ''), ar_norm(text).replace(' ', '')
+    if not h: return True
+    if h in t: return True
+    n = len(h)
+    return any(difflib.SequenceMatcher(None, h, t[i:i + n], autojunk=False).ratio() >= 0.8
+               for i in range(0, max(1, len(t) - n + 1)))
+
+MEANING = 'ترجمہ یا مفہوم (عربی متن اس صفحے پر نہیں)'
+page_text = defaultdict(str)
 entries = defaultdict(lambda: defaultdict(lambda: defaultdict(set)))  # sec -> head -> sub -> pages
 summaries = {}
 strong = defaultdict(lambda: defaultdict(lambda: defaultdict(set)))  # heading/main references
@@ -134,6 +161,7 @@ for fn in sorted(os.listdir(SRC)):
         if line.startswith('خلاصہ:') and page: summaries[page] = line[6:].strip()
         if line.startswith('## terms'): in_terms = True; continue
         if line.startswith('#'): in_terms = False; continue
+        if not in_terms and page is not None: page_text[page] += ' ' + line
         if not in_terms or ':' not in line or page is None: continue
         typ, rest = line.split(':', 1)
         sec = TYPE_MAP.get(typ.strip())
@@ -145,6 +173,8 @@ for fn in sorted(os.listdir(SRC)):
         head, sub = head.strip(), sub.strip()
         if sec == 'topics': head = MERGE.get(head, head)
         if sec == 'people': head = PEOPLE_MERGE.get(head, re.sub(r'\s*\(.*?\)\s*$', '', head))
+        if typ.strip() in ('حدیث', 'دعا') and not sub and not quoted_on(head, page_text[page]):
+            sub = MEANING
         entries[sec][head][sub].add(page)
         if strong_ref: strong[sec][head][sub].add(page)
 

@@ -11,12 +11,15 @@ With --artifact the volume page is written without the <!doctype>/<html>/<head> 
 for publishing a preview as a claude.ai artifact.
 """
 import sys, os, re, json, html
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 VOLUMES = [
     {'no': 1, 'title': 'دنیا و آخرت', 'dir': 'Index pilot - 01 dunya o akhiret'},
 ]
 TOTAL_VOLUMES = 32
+# Where readers report mistakes: "new issue" page of the public site repository (prefilled with volume and page).
+REPORT_URL = 'https://github.com/iatasadduq/thanvi-khutbat-site/issues/new'
 
 URDU_DIG = str.maketrans('0123456789', '۰۱۲۳۴۵۶۷۸۹')
 ORDINAL = {1: 'اول', 2: 'دوم', 3: 'سوم', 4: 'چہارم', 5: 'پنجم', 6: 'ششم', 7: 'ہفتم', 8: 'ہشتم',
@@ -29,26 +32,33 @@ FOLD = str.maketrans({'ك': 'ک', 'ي': 'ی', 'ى': 'ی', 'ه': 'ہ', 'ة': 'ہ'
 STRIP = re.compile(r'''[ً-ٰٟۖ-ۭؐ-ؚ«»"'()\[\]،,.:؛!؟?\-]''')
 def norm(s): return re.sub(r'\s+', ' ', STRIP.sub('', s.translate(FOLD))).strip()
 
-# A word is Arabic (set in Amiri) when it carries harakat; Urdu text here is printed without them.
-HARAKAT = re.compile(r'[ً-ْ]')
-def is_ar(w): return bool(HARAKAT.search(w))
+# Arabic is marked in page-notes: ﴿9:119|ayah text﴾ (verified Qur'an text) and «…» (hadith, dua, other Arabic).
+# Both are set in the same Arabic face. Unmarked words with full harakat (fatha..sukun) also get the Arabic face.
+MARKUP = re.compile(r'﴿(\d+:[\d:-]+)\|([^﴾]*)﴾|«([^»]*)»')
+VOWEL = re.compile(r'[\u064E-\u0652]')
+SURAH_UR = None   # filled lazily from build_index's surah list when needed
+
+
+def _plain(text):
+    out = []
+    for w in text.split(' '):
+        out.append(f'<span class="ar">{esc(w)}</span>' if VOWEL.search(w) else esc(w))
+    return ' '.join(out)
 
 
 def inline(text):
-    """Escape a line of text, setting runs of Arabic (vocalised) words in the Arabic face."""
-    words = text.split(' ')
-    if words and sum(map(is_ar, words)) * 2 > len(words):
-        return f'<span class="ar">{esc(text)}</span>', True
-    out, run = [], []
-    for w in words:
-        if is_ar(w):
-            run.append(w)
-            continue
-        if run:
-            out.append(f'<span class="ar">{esc(" ".join(run))}</span>'); run = []
-        out.append(esc(w))
-    if run: out.append(f'<span class="ar">{esc(" ".join(run))}</span>')
-    return ' '.join(out), False
+    """Escape a line of text; marked Arabic in the Arabic face. Returns (html, whole line is Arabic)."""
+    out, pos, ar_len = [], 0, 0
+    for m in MARKUP.finditer(text):
+        out.append(_plain(text[pos:m.start()]))
+        if m.group(1):
+            out.append(f'<span class="ar ay" title="{esc(m.group(1))}">{esc(m.group(2))}</span>')
+        else:
+            out.append(f'<span class="ar">{esc(m.group(3))}</span>')
+        ar_len += len(m.group(0)); pos = m.end()
+    out.append(_plain(text[pos:]))
+    rest = re.sub(r'[\s"“”()۔،:]', '', MARKUP.sub('', text))
+    return ''.join(out), ar_len > 0 and not rest
 
 
 def read_volume(vdir):
@@ -124,7 +134,10 @@ def render_page(no, pg, toc_here, khutba, first_title):
             body.append(f'<p class="masura"><span class="lbl">{esc(m.group(1))}</span>'
                         f'<span class="ar">{esc(m.group(2))}</span></p>'); continue
         if ' / ' in text and len(text) < 160:
-            misras = ''.join(f'<span>{inline(x.strip())[0]}</span>' for x in text.split(' / '))
+            parts = text.split(' / ')
+            if len(parts) == 2 and parts[0].startswith('«') and parts[1].endswith('»') and '»' not in parts[0]:
+                parts = ['«' + parts[0][1:] + '»', '«' + parts[1][:-1] + '»']
+            misras = ''.join(f'<span>{inline(x.strip())[0]}</span>' for x in parts)
             body.append(f'<p class="sher">{misras}</p>'); continue
         h, ar = inline(text)
         body.append(f'<p class="arb">{h}</p>' if ar else f'<p>{h}</p>')
@@ -144,6 +157,23 @@ def render_page(no, pg, toc_here, khutba, first_title):
             f'<header class="rh">{esc(khutba)}</header>'
             f'<div class="tx">{"".join(body)}</div>{foot}'
             f'<footer class="pn">{ud(no)}</footer></article>')
+
+
+def ar_head(head):
+    """A hadith index head: its Arabic words in the Arabic face, any Urdu description as it is."""
+    from mark_arabic import urdu_word
+    words, out, run = head.split(' '), [], []
+    def flush():
+        if run:
+            t = ' '.join(run)
+            arabic = len(run) >= 2 and (re.search('[ةهيىكأإؤ]', t) or any(w.startswith('ال') or w in ('لا', 'من', 'فی', 'علی', 'الی') for w in run))
+            out.append(f'<span class="ar">{esc(t)}</span>' if arabic else esc(t))
+            run.clear()
+    for w in words:
+        if urdu_word(w) or w in ('حضور', 'ﷺ', 'حدیث', 'قدسی') or w.startswith('('): flush(); out.append(esc(w))
+        else: run.append(w)
+    flush()
+    return ' '.join(out)
 
 
 def render_index(index):
@@ -176,7 +206,8 @@ def render_index(index):
                     letter = g; rows.append(f'<h4 class="lt">{esc(g)}</h4>')
             subs = ''.join(f'<li class="{"ar" if key == "ayat" else ""}">{inline(s["sub"])[0]} {links(s["pages"], s.get("strong", ()))}</li>'
                            for s in e['subs'])
-            rows.append(f'<div class="ie"><span class="ih">{esc(e["head"])}</span> {links(e["pages"], e.get("strong", ()))}'
+            hh = ar_head(e['head']) if key == 'hadith' else esc(e['head'])
+            rows.append(f'<div class="ie"><span class="ih">{hh}</span> {links(e["pages"], e.get("strong", ()))}'
                         + (f'<ul>{subs}</ul>' if subs else '') + '</div>')
         secs.append(f'<section class="ixs" id="ix-{key}"><h3>اشاریۂ {title} <small>({ud(len(items))})</small></h3>'
                     f'<div class="cols">{"".join(rows)}</div></section>')
@@ -189,7 +220,7 @@ CSS = r'''
 :root{--desk:#e3e8e4;--paper:#fbfcf8;--ink:#1d2523;--muted:#5b6964;--rule:#c9d3ce;--frame:#8fa69e;
 --accent:#1d5a52;--wash:#e8efeb;--warn:#8a5a12;--warnbg:#f6eedf;
 --f-urdu:'Noto Nastaliq Urdu','Jameel Noori Nastaleeq','Urdu Typesetting',serif;
---f-ar:'Amiri','Traditional Arabic','Scheherazade New',serif;--bar:52px}
+--f-ar:'Scheherazade New','Amiri','Traditional Arabic',serif;--bar:52px}
 @media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--desk:#0e1312;--paper:#161d1b;--ink:#dce5e1;
 --muted:#93a39d;--rule:#2b3633;--frame:#3e5650;--accent:#7cc3b6;--wash:#1c2624;--warn:#e0b467;--warnbg:#2a2418;color-scheme:dark}}
 :root[data-theme="dark"]{--desk:#0e1312;--paper:#161d1b;--ink:#dce5e1;--muted:#93a39d;--rule:#2b3633;--frame:#3e5650;
@@ -240,7 +271,8 @@ border:1px solid var(--rule);border-radius:3px;box-shadow:0 1px 0 var(--rule),0 
 .page .sh{font-size:1.08em;text-align:center;color:var(--accent);margin:.6em 0 .3em;text-wrap:balance}
 .page .sh::before,.page .sh::after{content:"❖";font-size:.6em;color:var(--frame);margin-inline:.6em;vertical-align:middle}
 .page .arb{text-align:center;font-size:1.12em;line-height:2.1}
-.page .tx .ar{font-size:1.08em}
+.page .tx .ar{font-size:1.12em;line-height:2.2}
+.report{display:block;text-align:center;font-size:12px;color:var(--muted);margin-top:4px}
 .page .sher{display:grid;grid-template-columns:1fr 1fr;gap:0 2em;text-align:center;max-width:36rem;margin:.3em auto .5em}
 @media (max-width:560px){.page .sher{grid-template-columns:1fr}}
 .page .masura{text-align:center;background:var(--wash);border-radius:6px;padding:4px 10px}
@@ -274,7 +306,9 @@ border:1px solid var(--rule);border-radius:3px;box-shadow:0 1px 0 var(--rule),0 
 .cl li a .t{order:0}
 .cl li a .d{flex:1;border-bottom:1px dotted var(--rule);margin-bottom:.7em;min-width:1em}
 .cl li a:hover .t{color:var(--accent)}
-.ixbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:6px 0 4px}
+.ixbar{display:flex;flex-wrap:wrap;gap:6px;align-items:center;margin:6px 0 4px;position:sticky;top:var(--bar);z-index:5;
+background:var(--paper);padding:6px 0;border-bottom:1px solid var(--rule)}
+.ixs h3,.ixs{scroll-margin-top:calc(var(--bar) + 110px)}
 .chip{font:inherit;font-size:13px;border:0;background:var(--wash);color:var(--ink);border-radius:6px;padding:0 10px;cursor:pointer;line-height:2.2}
 #q{font:inherit;font-size:13px;margin-inline-start:auto;border:1px solid var(--rule);border-radius:6px;background:var(--paper);
 color:var(--ink);padding:0 10px;width:220px;max-width:100%;line-height:2.2}
@@ -330,6 +364,8 @@ function openPage(p,target){
  if(!byNo[p]){p=Math.min(Math.max(p,first),last);while(!byNo[p]&&p<last)p++;}
  if(cur)cur.classList.remove('on');cur=byNo[p];cur.classList.add('on');show('reader');
  document.getElementById('where').textContent='صفحہ '+ud(p)+' — '+ud(first)+' تا '+ud(last);
+ var rp=document.getElementById('report'); if(rp){var t='جلد '+VOL.vol+'، صفحہ '+p+': غلطی'; var b='جلد '+VOL.vol+'، صفحہ '+p+'\n\nغلط متن:\n\nصحیح متن:\n';
+  rp.href=rp.getAttribute('href').split('?')[0]+'?title='+encodeURIComponent(t)+'&body='+encodeURIComponent(b);}
  document.getElementById('prev').disabled=p<=first;document.getElementById('next').disabled=p>=last;
  document.title=D.title+' · صفحہ '+ud(p);
  store(KEY,p);markSide(p);
@@ -408,7 +444,7 @@ def build_volume(v, artifact=False):
 <meta name="claude:viewport-fit-sides" content="cover">
 <meta name="description" content="خطبات حکیم الامت مولانا اشرف علی تھانویؒ، {vt}: {esc(v['title'])} — متن، فہرست اور اشاریہ">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Amiri:wght@400;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Nastaliq+Urdu:wght@400;700&family=Scheherazade+New:wght@400;700&display=swap" rel="stylesheet">
 <script>document.documentElement.classList.add('js')</script>
 <style>{CSS}</style>'''
     body = f'''<div dir="rtl" lang="ur">
@@ -438,12 +474,13 @@ def build_volume(v, artifact=False):
 <nav class="pager" aria-label="صفحات"><button type="button" class="btn" id="prev">→ پچھلا صفحہ</button>
 <span class="where" id="where"></span><button type="button" class="btn" id="next">اگلا صفحہ ←</button></nav>
 <p class="hint">کی بورڈ: ← اگلا صفحہ، → پچھلا صفحہ</p>
+<a class="report" id="report" href="{REPORT_URL}" target="_blank" rel="noopener">اس صفحے میں کوئی غلطی نظر آئے تو اطلاع دیں</a>
 </section>
 <section class="view" id="v-index"><div class="sheet">
 <h1>اشاریہ</h1><p class="sub">{vt}: {esc(v['title'])} · {ud(ix_total)} اندراجات · صفحہ نمبر پر کلک کریں تو وہ صفحہ کھل جائے گا</p>
 <div class="ixbar">{chips}<input id="q" type="search" placeholder="اشاریہ میں تلاش…" aria-label="اشاریہ میں تلاش"></div>
 {ix}
-<p class="note">تجرباتی اشاریہ برائے جائزہ۔ جن صفحات کا مکمل متن ابھی تیار نہیں، ان کے اندراجات خلاصے سے لیے گئے ہیں۔</p>
+<p class="note">جہاں کسی حدیث کا عربی متن صفحے پر نہیں بلکہ صرف اس کا ترجمہ یا مفہوم بیان ہوا ہے، وہ صفحہ «ترجمہ یا مفہوم» کے تحت درج ہے۔ آیات کا متن مستند مصحف سے لیا گیا ہے۔</p>
 </div></section>
 </main></div></div>
 <script>window.VOL={data}</script>
