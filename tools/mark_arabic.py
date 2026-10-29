@@ -126,7 +126,7 @@ def choose(Q, f, cited, page):
     return (f[0],) + occ[0], not cited
 
 
-def mark(inner, Q, report, page, after='', decisions=None):
+def mark(inner, Q, report, page, after='', decisions=None, cited=None):
     """Markup for one Arabic quotation. `after` is the text that follows it (for a citation)."""
     if ELLIPSIS.search(inner):
         return ' ... '.join(mark(x, Q, report, page, '', decisions) for x in ELLIPSIS.split(inner) if x.strip())
@@ -139,7 +139,7 @@ def mark(inner, Q, report, page, after='', decisions=None):
         s, e = Q.phrase(*dec)
         report.append(f'DECIDED p{page} {Q.ref(s, e)} (owner): {inner} → {Q.text(s, e)}')
         return f'﴿{Q.ref(s, e)}|{Q.text(s, e)}﴾'
-    cited = cited_surah(after)
+    cited = cited or cited_surah(after)
     if norm(inner) in FORMULAS and not cited:      # closing praise of a sermon, not a quotation
         report.append(f'ARABIC p{page}  {inner}')
         return f'«{inner}»'
@@ -168,6 +168,21 @@ def mark(inner, Q, report, page, after='', decisions=None):
     return f'«{inner}»'
 
 
+AYAH_MARK = re.compile(r'﴿(\d+):(\d+)[^|﴾]*\|([^﴾]*)﴾')
+
+
+def recheck(m, Q, report, page, decisions):
+    """An ayah marked by hand: replaced by the verified text, or (wording differs) reported to the owner."""
+    n = len(report)
+    new = mark(m.group(3), Q, report, page, '', decisions, cited=(int(m.group(1)), int(m.group(2))))
+    if new.startswith('«') and not any(r.startswith(('DIFFERS', 'KEPT')) for r in report[n:]):
+        report[n:] = []
+        alts = '\n'.join(f'   alt {i + 1}: {Q.ref(g[1], g[2])} [{g[0]:.2f}] {Q.text(*Q.span(Q.ref(g[1], g[2])))}'
+                         for i, g in enumerate(Q.alternatives(m.group(3))))
+        report.append(f'DIFFERS p{page} (marked {m.group(1)}:{m.group(2)} while transcribing)\n   book: {m.group(3)}\n{alts}')
+    return new
+
+
 def process(lines, Q, report, page, decisions=None):
     """Return new lines for one page's text part."""
     out = []
@@ -180,6 +195,8 @@ def process(lines, Q, report, page, decisions=None):
                 if not dec or dec[0] == 'keep': return m.group(0)
                 return mark(m.group(1), Q, report, page, '', decisions)
             line = re.sub(r'«([^»]*)»', apply, line)
+        # ayat marked while transcribing (﴿ref|text﴾) are checked like unmarked ones; the ref is the citation
+        line = AYAH_MARK.sub(lambda m: recheck(m, Q, report, page, decisions), line)
         if not line.strip() or line.startswith(('#', '[', '===')) or ANY_MARK.search(line):
             out.append(line); continue
         words = line.split(' ')

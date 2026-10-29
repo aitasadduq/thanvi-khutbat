@@ -42,6 +42,9 @@ Update the **Status** and **Next steps** sections at the end of every working se
 9. Mark Arabic while transcribing: `﴿surah:ayah|text﴾` for ayat (the tool fills in the verified text) and `«…»` for
    hadith, dua, Arabic verse/sayings. Footnotes as `[حاشیہ: …]`. Editor's notes as `[حاشیہ: (از مرتب) …]`
    (use plain quotes "…" inside notes, not «»).
+   Hand-marked ayat are re-checked by `mark_arabic.py` (fixed 2026-10-29: it used to skip any line already
+   marked): matching ayat get the verified text; a differing wording becomes «…» and is listed under DIFFERS.
+   Open DIFFERS so far in Vol 2: p40 «ولست علیہم بوکیل» (Qur'an: وما انت علیہم بوکیل, 6:107) — confirmed on the scan.
 
 **Ayat (Qur'an) — owner's rule**
 10. Ayat on the site use the verified Qur'an text (Indo-Pak script, `reference/`). Spelling-level differences
