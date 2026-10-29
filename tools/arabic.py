@@ -110,6 +110,46 @@ class Quran:
                 out.append('۝')
         return ' '.join(out)
 
+    def occurrences(self, s, e):
+        """All letter ranges with exactly the same skeleton as s..e (the same words occur in several ayat)."""
+        q, out, i = self.flat[s:e], [], self.flat.find(self.flat[s:e])
+        while i >= 0:
+            if self.clean(i, i + len(q)): out.append((i, i + len(q)))
+            i = self.flat.find(q, i + 1)
+        return out or [(s, e)]
+
+    def surah(self, s):
+        return self.words[self.where[s][0]][0]
+
+    def ayah(self, s):
+        return self.words[self.where[s][0]][:2]
+
+    def alternatives(self, text, n=3):
+        """The `n` ayat closest to `text`: [(score, s, e)] with one entry per ayah, best first."""
+        q = norm(text).replace(' ', '')
+        votes = defaultdict(int)
+        for k in range(len(q) - self.K + 1):
+            for pos in self.grams.get(q[k:k + self.K], ()):
+                votes[pos - k] += 1
+        by_ayah = {}
+        for s0, v in sorted(votes.items(), key=lambda x: -x[1])[:60]:
+            best = None
+            for s in range(max(0, s0 - 3), s0 + 4):
+                for L in range(max(4, len(q) - 6), len(q) + 7):
+                    r = ratio(q, self.flat[s:s + L])
+                    if not best or r > best[0]: best = (r, s, min(len(self.flat), s + L))
+            key = self.words[self.where[best[1]][0]][:2]
+            if key not in by_ayah or best[0] > by_ayah[key][0]: by_ayah[key] = best
+        return sorted(by_ayah.values(), reverse=True)[:n]
+
+    def phrase(self, ref, text):
+        """Letter range of the words `text` inside the ayah range `ref` (an owner's chosen replacement)."""
+        s, e = self.span(ref)
+        q = norm(text).replace(' ', '')
+        i = self.flat.find(q, s, e)
+        if i < 0: raise ValueError(f'{text!r} not found in {ref}')
+        return i, i + len(q)
+
     def clean(self, s, e):
         """True when the match starts at a word start (or after a one-letter prefix و ف ب ل ک) and ends at a word end."""
         ws, we = self.where[s][0], self.where[e - 1][0]
@@ -129,6 +169,32 @@ class Quran:
         a2 = int(m.group(3) or a1); b2 = int(m.group(4) or b1)
         idx = [i for i, (wi, _) in enumerate(self.where) if (a1, b1) <= self.words[wi][:2] <= (a2, b2)]
         return idx[0], idx[-1] + 1
+
+
+# ---------------------------------------------------------------- surah names (as the books write them)
+_NAME_FOLD = str.maketrans({'ك': 'ک', 'ي': 'ی', 'ى': 'ی', 'ه': 'ہ', 'ة': 'ہ', 'ۃ': 'ہ', 'ۂ': 'ہ', 'أ': 'ا',
+                            'إ': 'ا', 'آ': 'ا', 'ٰ': ''})
+SURAHS = ('الفاتحة البقرة آل_عمران النساء المائدة الانعام الاعراف الانفال التوبة یونس ہود یوسف الرعد ابراہیم الحجر '
+          'النحل بنی_اسرائیل الکہف مریم طہ الانبیاء الحج المؤمنون النور الفرقان الشعراء النمل القصص العنکبوت الروم '
+          'لقمان السجدة الاحزاب سبا فاطر یس الصافات ص الزمر غافر حم_السجدة الشوری الزخرف الدخان الجاثیة الاحقاف '
+          'محمد الفتح الحجرات ق الذاریات الطور النجم القمر الرحمن الواقعة الحدید المجادلة الحشر الممتحنة الصف '
+          'الجمعة المنافقون التغابن الطلاق التحریم الملک القلم الحاقة المعارج نوح الجن المزمل المدثر القیامة الدہر '
+          'المرسلات النبا النازعات عبس التکویر الانفطار المطففین الانشقاق البروج الطارق الاعلی الغاشیة الفجر البلد '
+          'الشمس اللیل الضحی الانشراح التین العلق القدر البینة الزلزال العادیات القارعة التکاثر العصر الہمزة الفیل '
+          'قریش الماعون الکوثر الکافرون النصر اللہب الاخلاص الفلق الناس').split()
+SURAH_NO = {s.replace('_', ' ').translate(_NAME_FOLD): i + 1 for i, s in enumerate(SURAHS)}
+SURAH_NO.update({'فصلت': 41, 'الاسراء': 17, 'المومن': 40, 'المومنون': 23, 'الانسان': 76, 'آل عمران'.translate(_NAME_FOLD): 3})
+CITE = re.compile(r'^[\s"”۔]*\((?:سورۃ|سورہ|سورة)?\s*([^()0-9۰-۹،,:]+?)\s*[،,:]?\s*(?:آیت(?:\s*نمبر)?)?\s*([0-9۰-۹]+)')
+_DIG = str.maketrans('۰۱۲۳۴۵۶۷۸۹', '0123456789')
+
+
+def cited_surah(after):
+    """(surah, ayah) of a citation such as (التوبہ آیت نمبر ۱۱۹) right after a quotation, or None."""
+    m = CITE.match(after)
+    if not m: return None
+    name = re.sub(r'\s*آیت.*$', '', m.group(1)).strip().translate(_NAME_FOLD).rstrip('،, ')
+    no = SURAH_NO.get(name)
+    return (no, int(m.group(2).translate(_DIG))) if no else None
 
 
 # ---------------------------------------------------------------- hadith

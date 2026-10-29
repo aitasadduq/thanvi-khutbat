@@ -144,9 +144,16 @@ Owner's decision: (1) ayat are replaced by verified Qur'an text, (3) Arabic is r
 - **Sharper images:** read Arabic/Persian lines from `python3 -I tools/zoom.py <pdf> <pdf page> <top> <bottom> out.png`
   (full-resolution page image, enlarged 3×), not from the reduced two-page images.
 - **After transcribing a volume:**
-  1. `python3 -I tools/mark_arabic.py "<vol dir>"` (report) then `--write`. It marks Arabic, replaces each ayah
-     whose letters match the Qur'an word for word (spelling-level differences only) and lists `CHECK` items
-     where the book's wording differs (left as printed).
+  1. `python3 -I tools/mark_arabic.py "<vol dir>" > reports/volNN-quran-check.md` (report only) then `--write`.
+     It marks Arabic and replaces each ayah whose words match the Qur'an word for word (spelling-level
+     differences only). The report lists for the owner:
+     - **DIFFERS**: the book's ayah wording differs from the Qur'an; left as printed, with the 3 closest ayat.
+       **Owner's rule (2026-10-29): flag every such case and give alternatives; the owner decides each one.**
+     - **CITE**: the words are an ayah, but the book's citation names another surah/ayah.
+     The owner's decisions go in `<vol dir>/quran-decisions.tsv` (page, the book's words, `keep` or the
+     reference + the Qur'an words to put in), and are applied on every run.
+     When the same words occur in several ayat, the reference follows the book's citation, else an ayah
+     quoted earlier in the same sermon.
   2. `python3 -I tools/check_hadith.py "<vol dir>" > reports/volNN-hadith-check.md`. Items under `differs`
      are checked by hand against the scan (many are the book's own wording, not reading errors).
   3. Rebuild index and site.

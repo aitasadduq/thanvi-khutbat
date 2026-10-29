@@ -15,7 +15,7 @@ Without --write the script only reports what it would change. The report lists
 """
 import sys, os, re
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from arabic import Quran, norm, ratio
+from arabic import Quran, norm, ratio, cited_surah, SURAHS
 
 URDU_CHARS = re.compile('[ٹڈڑںےگچپژ]')
 URDU_WORDS = set(('ہے ہیں کہ میں کی کا کے سے نے کو اور یہ وہ تو بھی نہ تھا تھے تھی پر جو اس جس کس ایک یعنی '
@@ -74,18 +74,6 @@ def good(Q, f):
     return Q.clean(f[1], f[2]) and (f[2] - f[1] >= 12 or f[0] >= 0.95)
 
 
-def best_sub(text, Q):
-    """Longest word window (>= 3 words) of `text` that matches the Qur'an at >= 0.9."""
-    ws = text.split(); best = None
-    for a in range(len(ws)):
-        for b in range(len(ws), a + 2, -1):
-            if best and b - a <= best[1] - best[0]: break
-            g = Q.find(' '.join(ws[a:b]))
-            if fits(Q, g, ' '.join(ws[a:b])):
-                best = (a, b, g); break
-    return best
-
-
 def terms_of(block):
     return [l.split(':', 1)[1].split('|')[0].split('>')[-1].strip()
             for l in block if re.match(r'^(حدیث|دعا|قول):', l)]
@@ -107,35 +95,80 @@ def fits(Q, f, text):
     return len(tw) == len(cw) and all(a == b or ratio(a, b) >= 0.8 for a, b in zip(tw, cw))
 
 
-def mark(inner, Q, report, page):
-    """Markup for one Arabic quotation."""
+_H = None
+def is_hadith(text, quran_score):
+    """True when the passage is closer to a hadith than to any ayah (so it is not reported as an ayah)."""
+    global _H
+    if _H is None:
+        from arabic import Hadith
+        _H = Hadith()
+    h = _H.find(text, top=1)
+    return bool(h) and h[0][0] >= quran_score
+
+
+FORMULAS = {norm('الحمد لله رب العالمين'), norm('والحمد لله رب العالمين')}
+PAGE_SURAHS = {}   # page -> surahs of ayat already quoted on that page (and the page before)
+
+
+def choose(Q, f, cited, page):
+    """Of all places where the matched words occur, take the one the book cites (surah and ayah, else surah),
+    else one in an ayah or surah already quoted nearby (a phrase like لو کانوا یعلمون occurs in several ayat)."""
+    occ = Q.occurrences(f[1], f[2])
+    if cited:
+        for test in (lambda s: Q.ayah(s) == cited, lambda s: Q.surah(s) == cited[0]):
+            for s, e in occ:
+                if test(s): return (f[0], s, e), True
+    near = [a for p in range(page - 35, page + 1) for a in PAGE_SURAHS.get(p, [])]
+    for test in (lambda s, a: Q.ayah(s) == a, lambda s, a: Q.surah(s) == a[0]):
+        for a in reversed(near):
+            for s, e in occ:
+                if test(s, a): return (f[0], s, e), not cited
+    return (f[0],) + occ[0], not cited
+
+
+def mark(inner, Q, report, page, after='', decisions=None):
+    """Markup for one Arabic quotation. `after` is the text that follows it (for a citation)."""
     if ELLIPSIS.search(inner):
-        return ' ... '.join(mark(x, Q, report, page) for x in ELLIPSIS.split(inner) if x.strip())
+        return ' ... '.join(mark(x, Q, report, page, '', decisions) for x in ELLIPSIS.split(inner) if x.strip())
     m = PREAMBLE.match(inner)
     if m and len(inner) > m.end():
-        return f'«{inner[:m.end()].strip()}» ' + mark(inner[m.end():], Q, report, page)
+        return f'«{inner[:m.end()].strip()}» ' + mark(inner[m.end():], Q, report, page, after, decisions)
+    key = (page, norm(inner))
+    dec = (decisions or {}).get(key)
+    if dec and dec[0] != 'keep':
+        s, e = Q.phrase(*dec)
+        report.append(f'DECIDED p{page} {Q.ref(s, e)} (owner): {inner} → {Q.text(s, e)}')
+        return f'﴿{Q.ref(s, e)}|{Q.text(s, e)}﴾'
+    cited = cited_surah(after)
+    if norm(inner) in FORMULAS and not cited:      # closing praise of a sermon, not a quotation
+        report.append(f'ARABIC p{page}  {inner}')
+        return f'«{inner}»'
     f = Q.find(inner) if len(norm(inner).split()) >= 2 else None
     if fits(Q, f, inner):
+        f, ok = choose(Q, f, cited, page)
         ref = Q.ref(f[1], f[2]); canon = Q.text(f[1], f[2])
+        PAGE_SURAHS.setdefault(page, []).append(Q.ayah(f[1]))
         if norm(canon) != norm(inner):
             report.append(f'QURAN  p{page} {ref} [{f[0]:.2f}]\n   old: {inner}\n   new: {canon}')
+        if not ok:
+            report.append(f'CITE   p{page} the words are {ref}, but the book cites {SURAHS[cited[0] - 1].replace("_", " ")} {cited[1]} '
+                          f'({cited[0]}:{cited[1]}): {after[:40].strip()}\n   text: {canon}')
         return f'﴿{ref}|{canon}﴾'
-    if f and f[0] >= 0.5:
-        sub = best_sub(inner, Q)
-        if sub:
-            a, b, g = sub; ws = inner.split()
-            mid = ' '.join(ws[a:b])
-            if len(norm(mid)) >= 0.7 * len(norm(inner)):
-                pre, post = ' '.join(ws[:a]), ' '.join(ws[b:])
-                return ' '.join(([f'«{pre}»'] if pre else []) + [mark(mid, Q, report, page)] + ([f'«{post}»'] if post else []))
-    if f and f[0] >= 0.6:
-        report.append(f'CHECK  p{page} {Q.ref(f[1], f[2])} [{f[0]:.2f}]\n   text: {inner}\n   near: {Q.text(f[1], f[2])}')
+    if dec and dec[0] == 'keep':
+        report.append(f'KEPT   p{page} (owner: keep as printed) {inner}')
+    elif f and f[0] >= 0.78 and not is_hadith(inner, f[0]):
+        if False:
+            report.append(f'KEPT   p{page} (owner: keep as printed) {inner}')
+        else:
+            alts = '\n'.join(f'   alt {i + 1}: {Q.ref(g[1], g[2])} [{g[0]:.2f}] {Q.text(*Q.span(Q.ref(g[1], g[2])))}'
+                             for i, g in enumerate(Q.alternatives(inner)))
+            report.append(f'DIFFERS p{page}\n   book: {inner}\n{alts}')
     else:
         report.append(f'ARABIC p{page}  {inner}')
     return f'«{inner}»'
 
 
-def process(lines, Q, report, page):
+def process(lines, Q, report, page, decisions=None):
     """Return new lines for one page's text part."""
     out = []
     for line in lines:
@@ -150,16 +183,28 @@ def process(lines, Q, report, page):
             lead, inner, trail = split_trail(words[s:e])
             if len(inner.split()) < 2: continue
             new.extend(words[pos:s])
-            new.append(lead + mark(inner, Q, report, page) + trail)
+            after = trail + ' ' + ' '.join(words[e:])
+            new.append(lead + mark(inner, Q, report, page, after, decisions) + trail)
             pos = e
         new.extend(words[pos:])
         out.append(' '.join(new))
     return out
 
 
+def read_decisions(vdir):
+    """quran-decisions.tsv: page, the book's words, and `keep` or `<ref>` + tab + the Qur'an words to use."""
+    path = os.path.join(vdir, 'quran-decisions.tsv'); out = {}
+    if os.path.exists(path):
+        for l in open(path, encoding='utf-8'):
+            if not l.strip() or l.startswith('#'): continue
+            f = l.rstrip('\n').split('\t')
+            out[(int(f[0]), norm(f[1]))] = ('keep',) if f[2] == 'keep' else (f[2], f[3])
+    return out
+
+
 def main():
     vdir = sys.argv[1]; write = '--write' in sys.argv
-    Q = Quran(); report = []
+    Q = Quran(); report = []; decisions = read_decisions(vdir)
     ndir = os.path.join(vdir, 'page-notes')
     for fn in sorted(os.listdir(ndir)):
         if not fn.endswith('.txt'): continue
@@ -167,7 +212,7 @@ def main():
         src = open(path, encoding='utf-8').read().split('\n')
         out, block, page, in_terms = [], [], None, False
         def flush():
-            out.extend(process(block, Q, report, page)); block.clear()
+            out.extend(process(block, Q, report, page, decisions)); block.clear()
         for l in src:
             m = re.match(r'^=== \d+ \| (\d+)', l)
             if m:
@@ -178,10 +223,16 @@ def main():
         flush()
         if write and out != src:
             open(path, 'w', encoding='utf-8').write('\n'.join(out))
-    print('\n'.join(report))
-    print(f"\n# {sum(r.startswith('QURAN') for r in report)} Qur'an corrections, "
-          f"{sum(r.startswith('CHECK') for r in report)} to check, {sum(r.startswith('ARABIC') for r in report)} other Arabic",
-          file=sys.stderr)
+    order = ['DIFFERS', 'CITE', 'DECIDED', 'KEPT', 'QURAN', 'ARABIC']
+    titles = {'DIFFERS': "Book's ayah differs from the Qur'an: owner to decide (closest ayat given)",
+              'CITE': "Words match an ayah, but not the surah the book cites",
+              'DECIDED': "Replaced as the owner decided", 'KEPT': "Kept as printed (owner's decision)",
+              'QURAN': "Spelling corrected to the Qur'an text", 'ARABIC': "Other Arabic (hadith, dua, verse)"}
+    for k in order:
+        rows = [r for r in report if r.split()[0] == k]
+        print(f'\n## {titles[k]} ({len(rows)})\n')
+        for r in rows: print(r)
+    print('\n# ' + ', '.join(f"{k}: {sum(r.split()[0] == k for r in report)}" for k in order), file=sys.stderr)
 
 
 if __name__ == '__main__':
