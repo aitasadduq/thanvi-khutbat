@@ -123,3 +123,9 @@ How the site is built:
 - Pages with only a `خلاصہ` show the summary with a notice that the full text is pending.
 - Preview for the owner (private artifact): https://claude.ai/artifact/BJf9yjkgpMPxrtyiVvyq5r
   (rebuild with `--artifact` into a scratch folder and republish to the same URL).
+
+Status at end of session 2 (2026-10-29):
+- Volume 1 full text is complete: printed pp. 13–456 (PDF = printed + 1), every page in `page-notes/` has
+  full text plus labelled `## terms`. No summary-only pages remain.
+- Index rebuilt: 2241 entries, 3596 page references. All contents rows link to their pages.
+- **Waiting on the owner's review of Volume 1** before starting Volume 2.
