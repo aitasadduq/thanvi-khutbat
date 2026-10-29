@@ -10,6 +10,7 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 - **Volume 1 (دنیا و آخرت)**: full text of printed pp. 13–456 done; index built (2241 entries); site built.
   All owner corrections to ayat and citations are applied (see `reports/vol01-quran-check.md`, last section).
+  2026-10-29: index → page highlighting and return-to-index-position added to the site (owner's request).
   **Waiting for the owner's final approval of Volume 1.** Do **not** start Volume 2 until the owner says so.
 - Preview (private artifact, always republish to the same URL): https://claude.ai/artifact/BJf9yjkgpMPxrtyiVvyq5r
   Rebuild: `python3 -I tools/build_site.py <scratch>/art --artifact`, then publish `<scratch>/art/v01.html` to that URL.
@@ -66,6 +67,9 @@ Update the **Status** and **Next steps** sections at the end of every working se
     time like the book (buttons, arrow keys, swipe, go-to-page); linked index with sticky category buttons and
     search; an "report an error" link on every page (`REPORT_URL` in `tools/build_site.py`, the planned public repo
     `iatasadduq/thanvi-khutbat-site`, which must exist with Issues on before the link works).
+    Index page links carry a locator (`#p164~3.12.4`): the page opens with the term highlighted (ayah by its
+    reference, hadith/verse as the whole passage, otherwise the matching words). Returning to the index (top-bar
+    button, the "back to index" button or the browser's back) restores the spot the reader clicked from.
 
 ## 3. Sequence for each volume (do in this order)
 

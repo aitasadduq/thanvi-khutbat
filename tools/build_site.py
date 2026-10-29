@@ -151,6 +151,12 @@ def render_page(no, pg, toc_here, khutba, first_title):
     else:
         # Contents headings the transcription did not mark: anchor them at the top of the page.
         body = [f'<span class="anchor" id="h{n}"></span>' for n in unmatched] + body
+    # Every block (heading, paragraph, footnote) is numbered so an index link can point into it (see locate()).
+    blocks = [x for x in body + notes if not x.startswith('<span')]
+    for i, x in enumerate(blocks):
+        y = re.sub(r'^(<\w+)', rf'\1 data-b="{i}"', x, count=1)
+        if x in body: body[body.index(x)] = y
+        else: notes[notes.index(x)] = y
     foot = f'<aside class="notes" aria-label="حواشی">{"".join(notes)}</aside>' if notes else ''
     status = '' if full else ' data-pending="1"'
     return (f'<article class="page" id="p{no}" data-p="{no}"{status}>'
@@ -176,18 +182,149 @@ def ar_head(head):
     return ' '.join(out)
 
 
-def render_index(index):
+# ---- Index links that point into the page -------------------------------------------------------------
+# An index link is #p<page>~<locator>. The locator names a block of the page (data-b) and the words to highlight:
+# "b" (the whole block) or "b.s.n[.s.n…]" (n words from word s). Words are counted over the block's text nodes,
+# split on white space, exactly as the page script counts them.
+from html.parser import HTMLParser
+
+STOP = set(norm('کا کی کے میں سے کو نے اور ہے ہیں ہو یہ وہ کہ جو بھی تو پر ایک نہ نہیں تھا تھی تھے کر کرنا کرے '
+                'ہی اس ان جس جن کسی کچھ اپنے اپنی اپنا یا لیے لئے بعد پھر اگر مگر جب تک ساتھ طرح والا والے والی '
+                'حضرت حضور مولانا رحمہ اللہ علیہ صلی وسلم رضی عنہ تعالی فی من علی الی ما لا ان و ب ل '
+                'مولوی شیخ امام حاجی شاہ حافظ خواجہ قاضی علامہ سید نواب صاحب الدین بن ابن عبد').split())
+UNIT_MAX = 70     # an Arabic passage or couplet up to this many words is highlighted whole
+
+
+class _Tokens(HTMLParser):
+    """Words of a rendered page: (block, word no. in block, normalised word, unit). A unit is an Arabic span or a
+    couplet, so a hit inside a hadith or verse is widened to the whole passage. titles: unit -> ayah reference."""
+    def __init__(self):
+        super().__init__(); self.out = []; self.stack = []; self.block = None; self.n = 0; self.units = 0
+        self.titles = {}
+    def handle_starttag(self, tag, attrs):
+        a = dict(attrs)
+        unit = None
+        if 'data-b' in a: self.block = int(a['data-b']); self.n = 0
+        cls = (a.get('class') or '').split()
+        if (tag == 'span' and 'ar' in cls) or (tag == 'p' and ('sher' in cls or 'arb' in cls or 'masura' in cls)):
+            self.units += 1; unit = self.units
+            if 'ay' in cls and a.get('title'): self.titles[unit] = a['title']
+        inherited = next((u for _, u in reversed(self.stack) if u), None)
+        self.stack.append((tag, unit or inherited))
+    def handle_endtag(self, tag):
+        while self.stack:
+            t, _ = self.stack.pop()
+            if t == tag: break
+    def handle_data(self, data):
+        if self.block is None: return
+        # innermost unit: an ayah span inside an Arabic paragraph is its own unit
+        unit = next((u for _, u in reversed(self.stack) if u), None)
+        for w in data.split():
+            self.out.append((self.block, self.n, norm(w), unit)); self.n += 1
+
+
+def page_tokens(article_html):
+    t = _Tokens(); t.feed(article_html); return t.out, t.titles
+
+
+def _eq(a, b):
+    if not a or not b: return False
+    if a == b: return True
+    return len(a) >= 4 and len(b) >= 4 and (a.startswith(b) or b.startswith(a)) and abs(len(a) - len(b)) <= 3
+
+
+def _unit(toks, u):
+    idx = [k for k, t in enumerate(toks) if t[3] == u]
+    if not idx or toks[idx[0]][0] != toks[idx[-1]][0]: return ''
+    return f'{toks[idx[0]][0]}.{toks[idx[0]][1]}.{toks[idx[-1]][1] - toks[idx[0]][1] + 1}'
+
+
+def _span(toks, i, j):
+    """Locator for tokens i..j (same block), widened to the whole Arabic passage or couplet it lies in."""
+    u = toks[i][3]
+    if u and u == toks[j][3] and sum(t[3] == u for t in toks) <= UNIT_MAX:
+        loc = _unit(toks, u)
+        if loc: return loc
+    return f'{toks[i][0]}.{toks[i][1]}.{toks[j][1] - toks[i][1] + 1}'
+
+
+def _ayah_units(titles, surah, ayahs):
+    out = []
+    for u, ref in titles.items():
+        parts = ref.split(':')
+        if int(parts[0]) != surah: continue
+        a = [int(x) for x in parts[1].split('-')]
+        if not ayahs or set(range(a[0], a[-1] + 1)) & ayahs: out.append(u)
+    return out
+
+
+def locate(page, cands, ayahs=()):
+    """Best place on a page for an index term. page: page_tokens(); cands: texts in order of preference
+    (sub-entry, then head); ayahs: [(surah, {ayah numbers})] for a Qur'an entry. Returns a locator or ''."""
+    toks, titles = page
+    if not toks: return ''
+    for surah, nums in ayahs:
+        for u in _ayah_units(titles, surah, nums):
+            loc = _unit(toks, u)
+            if loc: return loc
+    best, best_score = None, 0
+    for rank, c in enumerate(cands):
+        tw = norm(c).split()
+        for i in range(len(tw)):
+            for j in range(len(toks)):
+                k, e = 0, j        # k term words matched, ending before page word e
+                while i + k < len(tw) and e < len(toks) and toks[e][0] == toks[j][0]:
+                    if _eq(tw[i + k], toks[e][2]): e += 1
+                    elif e + 1 < len(toks) and toks[e + 1][0] == toks[j][0] and tw[i + k] == toks[e][2] + toks[e + 1][2]:
+                        e += 2     # عبدالقادر in the term, عبد القادر on the page
+                    elif i + k + 1 < len(tw) and tw[i + k] + tw[i + k + 1] == toks[e][2]:
+                        e += 1; k += 1     # and the other way round
+                    else: break
+                    k += 1
+                if not k: continue
+                content = [w for w in tw[i:i + k] if w not in STOP and len(w) > 2]
+                score = 2 * len(content) + 0.3 * (k - len(content)) - 0.1 * rank
+                if score > best_score: best, best_score = (j, e - 1), score
+    # a run of two content words, or the single content word of a one-word term (a name, a place)
+    single = len([w for w in norm(cands[-1]).split() if w not in STOP and len(w) > 2]) <= 1
+    if best and (best_score >= 3.5 or (single and best_score >= 1.9)):
+        return _span(toks, *best)
+    # No run of words: the block sharing most of the term's words, with those words marked.
+    words = {w for c in cands for w in norm(c).split() if w not in STOP and len(w) > 2}
+    per = {}
+    for t in toks:
+        if any(_eq(w, t[2]) for w in words): per.setdefault(t[0], set()).add((t[1], t[2]))
+    if not per: return ''
+    b = max(per, key=lambda b: (len({w for _, w in per[b]}), -b))
+    return f'{b}' + ''.join(f'.{n}.1' for n in sorted(n for n, _ in per[b])[:12])
+
+
+def ayah_refs(head):
+    """[(surah, {ayahs})] from an ayat index head such as "البقرة ۲۱۹–۲۲۰" or "النساء ۴۳ / المائدة ۶"."""
+    from arabic import SURAH_NO, _NAME_FOLD
+    out = []
+    for part in head.split(' / '):
+        m = re.match(r'^(.*?)\s*([0-9۰-۹]+)?(?:\s*[-–]\s*([0-9۰-۹]+))?$', part.strip())
+        no = SURAH_NO.get(m.group(1).translate(_NAME_FOLD)) if m else None
+        if not no: continue
+        a = [int(x.translate(str.maketrans('۰۱۲۳۴۵۶۷۸۹', '0123456789'))) for x in m.groups()[1:] if x]
+        out.append((no, set(range(a[0], a[-1] + 1)) if a else set()))
+    return out
+
+
+def render_index(index, page_toks):
     sections = [('topics', 'موضوعات'), ('ayat', 'آیات قرآنی'), ('hadith', 'احادیث و ادعیہ'),
                 ('people', 'شخصیات'), ('stories', 'حکایات و واقعات'), ('parables', 'تمثیلات'),
                 ('places', 'مقامات'), ('books', 'کتب'), ('poetry', 'اشعار'), ('sayings', 'اقوال و قواعد')]
-    def links(pages, strong=()):
+    def links(pages, strong=(), cands=(), ayahs=()):
         ps = sorted(set(pages)); out = []; i = 0; strong = set(strong)
         while i < len(ps):
             j = i
             while j + 1 < len(ps) and ps[j + 1] == ps[j] + 1: j += 1
             lab = ud(ps[i]) if i == j else f'{ud(ps[i])}–{ud(ps[j])}'
             b = ' class="b"' if strong & set(ps[i:j + 1]) else ''
-            out.append(f'<a href="#p{ps[i]}"{b}>{lab}</a>')
+            loc = locate(page_toks[ps[i]], cands, ayahs) if ps[i] in page_toks else ''
+            out.append(f'<a href="#p{ps[i]}{"~" + loc if loc else ""}"{b}>{lab}</a>')
             i = j + 1
         return '<span class="pp">' + '، '.join(out) + '</span>'
     chips, secs, total = [], [], 0
@@ -204,10 +341,17 @@ def render_index(index):
                 g = k[:1]
                 if g != letter:
                     letter = g; rows.append(f'<h4 class="lt">{esc(g)}</h4>')
-            subs = ''.join(f'<li class="{"ar" if key == "ayat" else ""}">{inline(s["sub"])[0]} {links(s["pages"], s.get("strong", ()))}</li>'
+            head = re.sub(r'\([^)]*\)', ' ', e['head'])
+            ayahs = ayah_refs(e['head']) if key == 'ayat' else ()
+            if key == 'people': head = re.sub(r'^(حضرت|حضرات|مولانا|مولوی|شیخ|امام|حاجی|شاہ|حافظ|خواجہ|قاضی|علامہ|سید)\s+', '', head)
+            def cands(sub=None):
+                c = [sub] if sub and not sub.startswith('ترجمہ یا مفہوم') else []
+                return c + [x for x in re.split(r'\s*[:/،]\s*', head) if x.strip()] + [head]
+            subs = ''.join(f'<li class="{"ar" if key == "ayat" else ""}">{inline(s["sub"])[0]} '
+                           f'{links(s["pages"], s.get("strong", ()), cands(s["sub"]), ayahs)}</li>'
                            for s in e['subs'])
             hh = ar_head(e['head']) if key == 'hadith' else esc(e['head'])
-            rows.append(f'<div class="ie"><span class="ih">{hh}</span> {links(e["pages"], e.get("strong", ()))}'
+            rows.append(f'<div class="ie"><span class="ih">{hh}</span> {links(e["pages"], e.get("strong", ()), cands(), ayahs)}'
                         + (f'<ul>{subs}</ul>' if subs else '') + '</div>')
         secs.append(f'<section class="ixs" id="ix-{key}"><h3>اشاریۂ {title} <small>({ud(len(items))})</small></h3>'
                     f'<div class="cols">{"".join(rows)}</div></section>')
@@ -282,6 +426,12 @@ border:1px solid var(--rule);border-radius:3px;box-shadow:0 1px 0 var(--rule),0 
 .page .pn{text-align:center;border-top:3px double var(--frame);margin-top:12px;padding-top:2px;font-size:14px;color:var(--muted)}
 .pending{background:var(--warnbg);border-radius:6px;padding:8px 14px;margin-top:8px}
 .pending .pl{color:var(--warn);font-size:.8em;margin:0}
+mark.hl{background:#f3dd8a;color:inherit;border-radius:3px;box-shadow:0 0 0 2px #f3dd8a}
+.hlb{background:color-mix(in srgb,#f3dd8a 28%,transparent);border-radius:4px;box-shadow:0 0 0 4px color-mix(in srgb,#f3dd8a 28%,transparent)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]) mark.hl{background:#6b5a1c;box-shadow:0 0 0 2px #6b5a1c}}
+:root[data-theme="dark"] mark.hl{background:#6b5a1c;box-shadow:0 0 0 2px #6b5a1c}
+.pp a.last{outline:2px solid var(--accent);outline-offset:1px;border-radius:3px}
+#backix{display:block;width:fit-content;margin:0 auto 10px}
 .flash{animation:fl 1.6s ease-out}
 @keyframes fl{from{background:var(--wash)}to{background:transparent}}
 @media (prefers-reduced-motion:reduce){.flash{animation:none}}
@@ -360,9 +510,25 @@ function markSide(p){const t=tocAt(p);
  if(!t)return;const a=side.querySelector('a[href="#h'+t.n+'"]');
  if(a){a.setAttribute('aria-current','true');const d=a.closest('details');if(d&&!d.open)d.open=true;
   const r=a.getBoundingClientRect(),s=side.getBoundingClientRect();if(r.top<s.top||r.bottom>s.bottom)a.scrollIntoView({block:'center'});}}
-function openPage(p,target){
+function clearMarks(){document.querySelectorAll('mark.hl').forEach(m=>{const t=document.createTextNode(m.textContent);m.replaceWith(t);t.parentNode.normalize()});
+ document.querySelectorAll('.hlb').forEach(b=>b.classList.remove('hlb'));}
+// Locator from an index link: block, then (first word, number of words) pairs; words counted over text nodes.
+function highlight(pg,loc){const n=loc.split('.').map(Number),blk=pg.querySelector('[data-b="'+n[0]+'"]');if(!blk)return null;
+ if(n.length<3){blk.classList.add('hlb');return blk;}
+ const want=new Set();for(let i=1;i+1<n.length;i+=2)for(let k=0;k<n[i+1];k++)want.add(n[i]+k);
+ const w=document.createTreeWalker(blk,NodeFilter.SHOW_TEXT),nodes=[];while(w.nextNode())nodes.push(w.currentNode);
+ let c=0,firstMark=null;
+ for(const t of nodes){const re=/\S+/g,hits=[];let m;while((m=re.exec(t.data))){if(want.has(c))hits.push([m.index,m.index+m[0].length]);c++;}
+  const runs=[];for(const h of hits){const r=runs[runs.length-1];if(r&&/^\s*$/.test(t.data.slice(r[1],h[0])))r[1]=h[1];else runs.push(h.slice());}
+  for(let i=runs.length-1;i>=0;i--){const r=document.createRange();r.setStart(t,runs[i][0]);r.setEnd(t,runs[i][1]);
+   const mk=document.createElement('mark');mk.className='hl';r.surroundContents(mk);firstMark=mk;}}
+ if(n.length>3)blk.classList.add('hlb');
+ return firstMark||blk;}
+function openPage(p,target,loc){
  if(!byNo[p]){p=Math.min(Math.max(p,first),last);while(!byNo[p]&&p<last)p++;}
+ clearMarks();
  if(cur)cur.classList.remove('on');cur=byNo[p];cur.classList.add('on');show('reader');
+ document.getElementById('backix').hidden=!fromIndex;
  document.getElementById('where').textContent='صفحہ '+ud(p)+' — '+ud(first)+' تا '+ud(last);
  var rp=document.getElementById('report'); if(rp){var t='جلد '+VOL.vol+'، صفحہ '+p+': غلطی'; var b='جلد '+VOL.vol+'، صفحہ '+p+'\n\nغلط متن:\n\nصحیح متن:\n';
   rp.href=rp.getAttribute('href').split('?')[0]+'?title='+encodeURIComponent(t)+'&body='+encodeURIComponent(b);}
@@ -371,12 +537,25 @@ function openPage(p,target){
  store(KEY,p);markSide(p);
  const el=target&&document.getElementById(target);
  if(el&&el.closest('.page')===cur){el.scrollIntoView({block:'start'});el.classList.add('flash');setTimeout(()=>el.classList.remove('flash'),1700);}
- else window.scrollTo(0,0);}
+ else{window.scrollTo(0,0);const h=loc&&highlight(cur,loc);if(h)h.scrollIntoView({block:'center'});}}
+// Where the reader was in the index when they followed a page link, to return there.
+let fromIndex=null;try{fromIndex=JSON.parse(sessionStorage.getItem(KEY+'-ix'))}catch(e){}
+document.getElementById('v-index').addEventListener('click',e=>{const a=e.target.closest('.pp a');if(!a)return;
+ document.querySelectorAll('.pp a.last').forEach(x=>x.classList.remove('last'));a.classList.add('last');
+ const all=[...document.querySelectorAll('.pp a')];fromIndex={y:window.scrollY,a:all.indexOf(a)};
+ try{sessionStorage.setItem(KEY+'-ix',JSON.stringify(fromIndex))}catch(e){}});
+function showIndex(){show('index');
+ if(!fromIndex){window.scrollTo(0,0);return;}
+ const a=document.querySelectorAll('.pp a')[fromIndex.a];
+ if(a){a.classList.add('last');const ie=a.closest('.ie');
+  if(!a.offsetParent)window.scrollTo(0,fromIndex.y);else{a.scrollIntoView({block:'center'});}
+  if(ie){ie.classList.add('flash');setTimeout(()=>ie.classList.remove('flash'),1700);}}
+ else window.scrollTo(0,fromIndex.y);}
 function route(){const h=decodeURIComponent(location.hash.slice(1));let m;
- if((m=h.match(/^p(\d+)$/)))return openPage(+m[1]);
+ if((m=h.match(/^p(\d+)(?:~([\d.]+))?$/)))return openPage(+m[1],null,m[2]);
  if((m=h.match(/^h(\d+)$/))){const t=D.toc.find(t=>t.n==+m[1]);if(t)return openPage(t.page,h);}
  document.title=D.title;
- if(h==='index'){show('index');window.scrollTo(0,0);return;}
+ if(h==='index'){showIndex();return;}
  show('contents');window.scrollTo(0,0);
  const l=+load(KEY),r=document.getElementById('resume');
  if(l&&byNo[l]){r.hidden=false;r.href='#p'+l;r.textContent='صفحہ '+ud(l)+' سے پڑھنا جاری رکھیں';}}
@@ -435,7 +614,8 @@ def build_volume(v, artifact=False):
         cl.append(f'<section><h3><a href="#h{k["rows"][0]["n"]}">{esc(k["name"])}</a>'
                   f'<span class="pg">{ud(k["page"])}–{ud(end)}</span></h3><ol>{citems}</ol></section>')
 
-    chips, ix, ix_total = render_index(index)
+    page_toks = {no: page_tokens(a) for no, a in zip(sorted(pages), arts)}
+    chips, ix, ix_total = render_index(index, page_toks)
     full_range = f'{ud(full_nums[0])}–{ud(full_nums[-1])}' if full_nums else '—'
     data = json.dumps({'vol': v['no'], 'title': title,
                        'toc': [{'n': r['n'], 'page': r['page']} for r in toc]}, ensure_ascii=False)
@@ -470,6 +650,7 @@ def build_volume(v, artifact=False):
 <p class="note">کسی عنوان پر کلک کریں تو وہ صفحہ کھل جائے گا۔ صفحات کتاب کی طرح ایک ایک کر کے پڑھے جاتے ہیں: «اگلا صفحہ» اور «پچھلا صفحہ» کے بٹن، کی بورڈ کے تیر یا موبائل پر انگلی سے سوائپ۔ صفحہ نمبر کتاب کے مطبوعہ صفحات کے مطابق ہیں۔</p>
 </div></section>
 <section class="view" id="v-reader">
+<a class="btn" id="backix" href="#index" hidden>→ اشاریہ میں واپس جائیں</a>
 <div id="pages">{''.join(arts)}</div>
 <nav class="pager" aria-label="صفحات"><button type="button" class="btn" id="prev">→ پچھلا صفحہ</button>
 <span class="where" id="where"></span><button type="button" class="btn" id="next">اگلا صفحہ ←</button></nav>
