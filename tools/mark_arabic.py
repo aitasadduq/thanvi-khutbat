@@ -172,6 +172,14 @@ def process(lines, Q, report, page, decisions=None):
     """Return new lines for one page's text part."""
     out = []
     for line in lines:
+        if ANY_MARK.search(line) and decisions:
+            # already marked: apply any owner decision made since the last run to its «…» passages
+            def apply(m):
+                key = (page, norm(m.group(1)))
+                dec = decisions.get(key)
+                if not dec or dec[0] == 'keep': return m.group(0)
+                return mark(m.group(1), Q, report, page, '', decisions)
+            line = re.sub(r'«([^»]*)»', apply, line)
         if not line.strip() or line.startswith(('#', '[', '===')) or ANY_MARK.search(line):
             out.append(line); continue
         words = line.split(' ')

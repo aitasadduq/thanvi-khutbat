@@ -1,6 +1,6 @@
 # Handoff: Urdu index and full text of *Khutbat-e-Hakeem-ul-Ummat*
 
-Written 2026-10-28 at the end of the first working session. Read this whole file before starting work.
+Written 2026-10-28 at the end of the first working session. **For the current status and the owner's rules read `PLAN.md` first**; §2–3 below describe the state on 2026-10-28.
 
 ## 1. The project
 
