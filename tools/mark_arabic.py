@@ -127,6 +127,16 @@ def choose(Q, f, cited, page):
 
 
 def mark(inner, Q, report, page, after='', decisions=None, cited=None):
+    def cited_in(ref):
+        """None when nothing is cited; else whether the cited ayah lies inside ref (\"9:119\" or \"17:18-21\")."""
+        if not cited: return None
+        su, ay = ref.split(':'); a = [int(x) for x in ay.split('-')]
+        # every ayah number in the citation counts: (بنی اسرائیل ۱۸، ۱۹), (… ۱۸ تا ۲۱)
+        par = re.match(r'[^()]*\(([^)]*)\)', after)
+        nums = {int(x.translate(str.maketrans('۰۱۲۳۴۵۶۷۸۹', '0123456789')))
+                for x in re.findall(r'[0-9۰-۹]+', par.group(1))} if par else set()
+        nums.add(cited[1])
+        return int(su) != cited[0] or any(a[0] <= n <= a[-1] for n in nums)
     """Markup for one Arabic quotation. `after` is the text that follows it (for a citation)."""
     if ELLIPSIS.search(inner):
         return ' ... '.join(mark(x, Q, report, page, '', decisions) for x in ELLIPSIS.split(inner) if x.strip())
@@ -150,6 +160,8 @@ def mark(inner, Q, report, page, after='', decisions=None, cited=None):
         PAGE_SURAHS.setdefault(page, []).append(Q.ayah(f[1]))
         if norm(canon) != norm(inner):
             report.append(f'QURAN  p{page} {ref} [{f[0]:.2f}]\n   old: {inner}\n   new: {canon}')
+        if ok and cited and cited_in(ref) is False:      # right surah, wrong ayah number
+            ok = False
         if not ok:
             report.append(f'CITE   p{page} the words are {ref}, but the book cites {SURAHS[cited[0] - 1].replace("_", " ")} {cited[1]} '
                           f'({cited[0]}:{cited[1]}): {after[:40].strip()}\n   text: {canon}')
@@ -174,7 +186,10 @@ AYAH_MARK = re.compile(r'﴿(\d+):(\d+)[^|﴾]*\|([^﴾]*)﴾')
 def recheck(m, Q, report, page, decisions):
     """An ayah marked by hand: replaced by the verified text, or (wording differs) reported to the owner."""
     n = len(report)
-    new = mark(m.group(3), Q, report, page, '', decisions, cited=(int(m.group(1)), int(m.group(2))))
+    # the book's own citation after the ayah wins over the reference written while transcribing
+    book = cited_surah(m.string[m.end():])
+    new = mark(m.group(3), Q, report, page, m.string[m.end():] if book else '', decisions,
+               cited=book or (int(m.group(1)), int(m.group(2))))
     if new.startswith('«') and not any(r.startswith(('DIFFERS', 'KEPT')) for r in report[n:]):
         report[n:] = []
         alts = '\n'.join(f'   alt {i + 1}: {Q.ref(g[1], g[2])} [{g[0]:.2f}] {Q.text(*Q.span(Q.ref(g[1], g[2])))}'
