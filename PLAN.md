@@ -8,10 +8,15 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 ## 1. Status (2026-10-29)
 
+- **Volume 2 (علم و عمل) — in progress.** Folder `Vol 02 ilm o amal/`. PDF page = printed page + 1; text runs
+  printed pp. 14–440 (8 sermons). `toc.tsv` done (253 rows, from the فہرست on PDF pp. 9–14; the book's in-text
+  sub-headings sometimes differ from it and are kept as `##`). Reading images: `tools/halves.py` (see §3 step 2).
+  Transcribed so far: printed pp. 14–21.
+
 - **Volume 1 (دنیا و آخرت)**: full text of printed pp. 13–456 done; index built (2241 entries); site built.
   All owner corrections to ayat and citations are applied (see `reports/vol01-quran-check.md`, last section).
   2026-10-29: index → page highlighting and return-to-index-position added to the site (owner's request).
-  **Waiting for the owner's final approval of Volume 1.** Do **not** start Volume 2 until the owner says so.
+  **Approved by the owner on 2026-10-29.**
 - Preview (private artifact, always republish to the same URL): https://claude.ai/artifact/BJf9yjkgpMPxrtyiVvyq5r
   Rebuild: `python3 -I tools/build_site.py <scratch>/art --artifact`, then publish `<scratch>/art/v01.html` to that URL.
 - Branch: `claude/intelligent-rubin-6nl3vu` (push with `git push -u origin claude/intelligent-rubin-6nl3vu`).
@@ -74,7 +79,8 @@ Update the **Status** and **Next steps** sections at the end of every working se
 ## 3. Sequence for each volume (do in this order)
 
 1. Check the page offset (PDF page vs printed page) and transcribe the فہرست into `toc.tsv`.
-2. Extract page images (`HANDOFF.md` §7), transcribe in batches of ≈8 pages with labelled `## terms`,
+2. Extract page images (`pdfimages -png`, then `python3 -I tools/halves.py <imgdir> <outdir> <first> <last>` for
+   enhanced half-page images; read these, not the two-page pairs), transcribe in batches of ≈8 pages with labelled `## terms`,
    using zoomed crops for Arabic/Persian (rule 8) and the markup of rule 9. Commit + push each batch.
 3. `bash tools/get_reference.sh` if `reference/` is missing.
 4. `python3 -I tools/mark_arabic.py "<vol dir>" > reports/volNN-quran-check.md`, read it, then `--write`.
@@ -88,7 +94,6 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 ## 4. Next steps
 
-- Wait for the owner's review of Volume 1 (final approval).
-- On approval of Volume 1: start Volume 2 with the sequence in §3.
+- Volume 2: continue transcription from printed p. 22 (PDF 23), file `page-notes/0023.txt`, batches of 8 pages.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
   `iatasadduq/thanvi-khutbat-site` and turning on GitHub Pages (only after the owner approves).

@@ -13,7 +13,8 @@ def crop(p):
     return im.crop((max(0,l-8), max(0,t-8), min(w,r+8), b))
 font = ImageFont.load_default(size=28)
 for i in range(0, n, 2):
-    ims = [(j, crop(f"{src}/p-{j:03d}.jpg")) for j in (i, i+1) if j < n]
+    ims = [(j, crop(next(f"{src}/p-{j:03d}.{e}" for e in ('png', 'jpg') if os.path.exists(f"{src}/p-{j:03d}.{e}"))))
+           for j in (i, i+1) if j < n]
     H = max(im.size[1] for _, im in ims) + 40
     W = sum(im.size[0] for _, im in ims) + 30*(len(ims)-1)
     canvas = Image.new('L', (W, H), 255)
