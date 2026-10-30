@@ -1,0 +1,8 @@
+# Volume 3 (دین و دنیا): corrections and decisions applied
+
+Owner's instruction (2026-10-30): apply corrections without stopping, keep this record; the owner reviews it after
+the work and names anything to revert.
+
+| Page | Kind | Book had | Applied | How decided |
+|---|---|---|---|---|
+| فہرست | toc page number | «علم دین کی خاصیت» ۲۸ | 278 | misprint (between 276 and 279) |
