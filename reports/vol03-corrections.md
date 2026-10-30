@@ -6,3 +6,4 @@ the work and names anything to revert.
 | Page | Kind | Book had | Applied | How decided |
 |---|---|---|---|---|
 | فہرست | toc page number | «علم دین کی خاصیت» ۲۸ | 278 | misprint (between 276 and 279) |
+| 15 | citation | الزمر آیت نمبر ۳۱ | الزمر آیت نمبر ۱۱ + editor's note | auto (owner's rule) |
