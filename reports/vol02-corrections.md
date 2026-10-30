@@ -17,3 +17,4 @@ owner at the end of the volume; the owner may ask for any correction to be rever
 | 382 | citation | البقرہ: ۲۰۶ (for ومن الناس من یشری نفسہ) | البقرہ: ۲۰۷ + editor's note | auto (owner's rule 2026-10-30) |
 | 394 | other (text, kept) | «صرف روح کو لے لیا» where context needs «صرف صورت کو لے لیا» | book wording kept; editor's note added | possible slip in the book; owner to decide |
 | 405 | other (text, kept) | «مجاہدہ کے لفظ کی سیر» where context suggests «مجاہدہ کے بعد کی سیر» | book wording kept; editor's note added | possible typo in the book; owner to decide |
+| 436 | other (text, kept) | «پہلے تعلماً اور تدریساً ہاتھ میں ہے» (sense: first in hand as a student, now as a teacher) | book wording kept; editor's note added | possible slip in the book; owner to decide |
