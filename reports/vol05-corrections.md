@@ -34,3 +34,4 @@
 | p233 (PDF 234) | Hadith wording | "فان محمدا قدمات" (printed "قدمات") | "فان محمدا قد مات" | Word division only. |
 | p236 (PDF 237) | Hadith wording | "مع الذین انعمت علیہم من النبیین…" | "مع الذین انعم اللہ علیھم…" + editor's note | Corrected to the Bukhari wording of the Prophet's last words. |
 | p235 (PDF 236) | Hadith reference, kept | the Bayhaqi narration (Jibril/Izra'il) is followed by references to Bukhari 6:18 etc. | kept as printed | The references belong to the general wafat narrations; the Bayhaqi wording is not in Bukhari. The book's reference list is kept for the owner to review. |
+| p259 (PDF 260) | Persian verse (Masnavi), kept | "آنچہ شیریں ست آں شد یار دانگ / وانچہ پوشیدہ ست نبود غیر بانگ" etc. (these lines and their Urdu translation are visibly garbled in print) | kept as printed | No reliable reconstruction from the scan alone; the owner may compare with the Masnavi. |
