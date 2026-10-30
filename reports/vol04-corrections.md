@@ -22,3 +22,4 @@
 | p238 (PDF 239) | Reading | Heading damaged in print (looks like «بھکرہ») | «بیگرہ» as in the فہرست | Heading letters broken; toc reading used |
 | p255 (PDF 256) | Citation | (… سنن ابن داؤد: ۲۲۱۰) | Kept as printed | Probably a slip for سنن ابی داؤد; left unchanged because it is a reference note, not the hadith text |
 | p262 (PDF 263) | Verse | «مجلوب تبطہۃ» | «مجلوب بتطریۃ» | Known verse of al-Mutanabbi (حسن الحضارة مجلوب بتطرية); print slip |
+| p318 (PDF 319) | Order | Last paragraph («تفسیر داں نہیں بلکہ تقریر داں…») continues the واعظ theme from the verse at the top of the page | Kept in printed position | Looks misplaced in print, but the text is unchanged |
