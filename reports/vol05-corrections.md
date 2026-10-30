@@ -52,3 +52,4 @@
 | p343 (PDF 344) | Name, kept | "عبد اللہ بن عمر سعد بن ابی سرح" | kept as printed | Printing slip for "عبد اللہ بن سعد بن ابی سرح" (correctly named on p341); kept in the text, term entry uses the correct name. |
 | p345 (PDF 346) | Wording, kept | "نہایت الحاح کے ساتھ وعدہ فرما رہے تھے" (Badr) | kept as printed | "دعا" is clearly meant; kept as printed for the owner. |
 | p350 (PDF 351) | Ayah, duplicated in print | "واذ اخذ اللہ میثاق النبیین لما اتیتکم من کتب وحکمۃ" printed twice in succession | given once | Printer's duplication of the same ayah fragment (3:81). |
+| p351 (PDF 352) | Ayah wording (DIFFERS) | "واتبع ملۃ ابراہیم حنیفا" | 16:123 "اتَّبِعْ مِلَّةَ اِبْرٰهِيْمَ حَنِيْفًا" + editor's note | The Qur'an has "ان اتبع" (16:123) or "فاتبعوا" (3:95); the address to the Prophet fits 16:123. |
