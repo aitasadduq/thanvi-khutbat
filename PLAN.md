@@ -29,8 +29,15 @@ Update the **Status** and **Next steps** sections at the end of every working se
 ## 2. Standing instructions from the owner (apply always)
 
 **Working rules**
-1. One volume at a time. Finish a volume, show it to the owner, and wait for an explicit go-ahead before the next.
-2. Ask the owner when something is genuinely unclear; otherwise follow these rules.
+1. One volume at a time, in order — **but do not stop between volumes** (owner, 2026-10-30, second instruction):
+   finish a volume, log its corrections, then go straight on to the next until all 32 are done. The owner reviews
+   the logs afterwards and names any correction to revert.
+1a. **No decisions are waited for.** Ayat, citations, ahadith and anything else that needs a decision: apply the
+   correction yourself and record it in `reports/volNN-corrections.md` (one file per volume: page, kind, book had,
+   applied, why). Items left as printed but doubtful are recorded there too ("kept"). Ask the owner only if work
+   is truly impossible without him.
+1b. After every context compaction, re-read `CLAUDE.md` and this file before continuing.
+2. Do not stop to ask (rule 1a); decide, apply, and log.
 3. Commit after every batch (≈8 pages) and push to the branch above. No pull request unless asked.
    Commit messages end with:
    `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>` and
@@ -100,16 +107,16 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 3. `bash tools/get_reference.sh` if `reference/` is missing.
 4. `python3 -I tools/mark_arabic.py "<vol dir>" > reports/volNN-quran-check.md`, read it, then `--write`.
 5. `python3 -I tools/check_hadith.py "<vol dir>" > reports/volNN-hadith-check.md`; verify `differs` items on the scan.
-6. Send the owner the `DIFFERS` and `CITE` lists (with alternatives) and the hadith findings; wait; record the
-   decisions in `quran-decisions.tsv` / apply citation notes; rerun step 4 with `--write`.
+6. Apply DIFFERS/CITE/hadith corrections yourself (rule 1a): DIFFERS decisions in `quran-decisions.tsv`, citation
+   notes on the page, hadith slips fixed; log all in `reports/volNN-corrections.md`; rerun step 4 with `--write`.
 7. `python3 -I tools/build_index.py "<vol dir>/page-notes" "<vol dir>" "<vol dir>/toc.tsv"`;
    add the volume to `VOLUMES` in `tools/build_site.py`; `python3 -I tools/build_site.py site`; browser check;
    republish the preview.
-8. Update this file (Status, Next steps), commit, push, and ask the owner for review/approval.
+8. Update this file (Status, Next steps), commit, push, and continue with the next volume (no waiting).
 
 ## 4. Next steps
 
-- Volume 2: owner reviews the preview and `reports/vol02-corrections.md`; revert any rejected correction, rerun
-  mark_arabic/build_index/build_site, republish. After explicit approval, start Volume 3.
+- Volume 3: start now (step 1: page offset + فہرست → `Vol 03 …/toc.tsv`), then transcribe; continue through all volumes.
+- Owner will review `reports/vol02-corrections.md` (and later logs) at leisure; revert anything he rejects.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
   `iatasadduq/thanvi-khutbat-site` and turning on GitHub Pages (only after the owner approves).
