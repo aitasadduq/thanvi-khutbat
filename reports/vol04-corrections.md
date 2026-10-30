@@ -8,3 +8,4 @@
 | p55 (PDF 56) | Ayah reference | «آل عمران آیت نمبر ۷۸، ۷۹» for «ما کان لبشر… اذ انتم مسلمون» | آل عمران ۷۹-۸۰, with an editor's note | The two ayat are 3:79-80 |
 | p79 (PDF 80) | Ayah reference | «ہود آیت نمبر ۱۰۷» for «واما الذین سعدوا ففی الجنۃ…» | ہود ۱۰۸, with an editor's note | The ayah is 11:108 |
 | p79 (PDF 80) | Ayah reference | «ہود آیت نمبر ۱۰۶» for «فاما الذین شقوا ففی النار… خالدین فیہا… الا ما شاء ربک» | ہود ۱۰۶-۱۰۷, with an editor's note | The quoted words span 11:106-107 |
+| p115 (PDF 116) | Hadith | «ولا یصحب» | «ولا یصخب» + editor's note | Bukhari/Muslim text; missing dot is a print slip |
