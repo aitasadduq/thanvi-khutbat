@@ -10,8 +10,8 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 - **Volume 4 (حقوق و فرائض) — in progress.** Folder `Vol 04 huqooq o faraiz/`. PDF page = printed page + 1; text
   printed pp. 13–478 (11 sermons). `toc.tsv` done (268 rows). Reading images: `<scratch>/v04/h/NNN{a,b}.png`.
-  Corrections log: `reports/vol04-corrections.md`. Transcribed so far: printed pp. 13–407 (sermons 1–9 complete; files 0013,
-  0041, 0054, 0107, 0145, 0183, 0253, 0277, 0330; sermon 10 الوقت begun in 0356).
+  Corrections log: `reports/vol04-corrections.md`. Transcribed so far: printed pp. 13–407 (sermons 1–11 complete; files 0013,
+  0041, 0054, 0107, 0145, 0183, 0253, 0277, 0330, 0356, 0388; sermon 12 الصلاح والاصلاح begun in 0406).
 
 - **Volume 3 (دین و دنیا) — done, awaiting the owner's review.** Folder `Vol 03 deen o dunya/`. PDF page = printed
   page + 1; text printed pp. 14–440 (10 sermons), all transcribed (files 0015–0401). mark_arabic: DIFFERS 0, CITE 0,
