@@ -32,3 +32,5 @@
 | p394 (PDF 395) | Hadith | «کلہن یزورفن الیہ» | «کلہن یزدلفن الیہ» with editor's note | Abu Dawud (Manasik), the sacrificial camels «يزدلفن إليه»; "یزورفن" is a misprint |
 | p401 (PDF 402) | Hadith | «واحشرنی فی زمرتہ المساکین» | «فی زمرۃ المساکین» with editor's note | Tirmidhi 2352 «في زمرة المساكين»; "زمرتہ" is a misprint |
 | p412 (PDF 413) | Hadith | «یذکر اللہ فی کل احیانہ» | «یذکر اللہ علیٰ کل احیانہ» with editor's note | Muslim (Hayd) 373 «يذكر الله على كل أحيانه» |
+| p416 (PDF 417) | Hadith | «اذا غلب احدکم النعاس وہو یذکر اللہ فلیرقدا وکما قال علیہ السلام» | «… فلیرقد» او کما قال علیہ السلام | "فلیرقدا وکما" read as "فلیرقد او کما" (typesetting). Wording kept as the author's paraphrase (he says "او کما قال"); the Bukhari/Muslim text is «إذا نعس أحدكم وهو يصلي فليرقد … لعله يستغفر فيسب نفسه» |
+| p417 (PDF 418) | Hadith | «یذکر اللہ فی کل احیانہ» (repeat) | «علیٰ کل احیانہ» with editor's note | Same correction as p412 |
