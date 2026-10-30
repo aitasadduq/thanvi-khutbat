@@ -191,7 +191,9 @@ def fragment(Q, text, ref):
         return None
     q = norm(text).replace(' ', '')
     i = Q.flat.find(q, s, e) if q else -1
-    if i < 0 or not Q.clean(i, i + len(q)): return None
+    while i >= 0 and not Q.clean(i, i + len(q)):   # e.g. وصبرو first hits inside آمنوا اصبروا
+        i = Q.flat.find(q, i + 1, e)
+    if i < 0: return None
     return Q.ref(i, i + len(q)), Q.text(i, i + len(q))
 
 
