@@ -22,3 +22,5 @@ Every place where the book's wording was changed, or kept although doubtful. The
 | p223–224 (PDF 224–225) | Citation (kept) | The same hadith «ان رحمتی سبقت غضبی» is cited to "الاسماء والصفات للبیہقی" as ۳۶۹ on p223 and ۳۱۹ on p224 | Kept as printed | One of the two page numbers is a misprint; not checked against that edition, so both left |
 | p224 (PDF 225) | Text slip (kept) | "اسی طرح استوی علی استوی میں" | Kept as printed | Evidently "استویٰ علی العرش" was meant; left as printed |
 | p225 (PDF 226) | Ayah fragment | «بل هو القاهر فوق عباده» | ﴿6:18﴾ «وَهُوَ الْقَاهِرُ فَوْقَ عِبَادِهٖ» with "بل" outside the ayah | The ayah (6:18, 6:61) reads "وهو"; "بل" is the author's own connective |
+| p236 (PDF 237) | Verse gloss (kept) | Under «تا توانی دور شو از یار بد» the bracketed gloss adds "ایک لمحہ اولیاء اللہ کی صحبت سو سولہ بے ریا عبادت سے افضل ہے", which belongs to the next line (and "سو سولہ" is a slip for "سو سالہ") | Kept as printed | Typesetting slip in the book |
+| p236 (PDF 237) | Verse gloss (kept) | The gloss of «جہد کن…» ends "بلکہ یاد خدا میں یہ دونوں میسر بلکہ (یاد خدا میں تنہائی اختیار کر)" — repeated words | Kept as printed | Typesetting slip |
