@@ -13,3 +13,4 @@ owner at the end of the volume; the owner may ask for any correction to be rever
 | 341 | citation | العنکبوت: ۴۴ | العنکبوت: ۴۵ + editor's note | auto (owner's rule 2026-10-30) |
 | 367 | other (scan) | right edge of the page is cut off in the scan; first word or two of several lines under "ذکر لسانی کے درجات" missing | restored from context, with editor's note | scan damage, not a book error |
 | 368 | other (scan) | right edge of the page cut off in the scan; last word or two of several lines missing | restored from context, with editor's note | scan damage, not a book error |
+| 371 | citation | سورہ البقرہ آیت نمبر ۱۵۸ (for لتکبروا اللہ علیٰ ما ہداکم) | البقرہ آیت نمبر ۱۸۵ + editor's note | auto (owner's rule 2026-10-30) |
