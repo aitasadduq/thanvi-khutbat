@@ -43,3 +43,4 @@
 | p457 (PDF 458) | Athar | «کل ما شئت والبس ماشئت ما اخطاک الثنتان الاسراف والمخیلت» | «… ما اخطاتک اثنتان سرف ومخیلۃ» with editor's note | Bukhari, Kitab al-Libas (mu'allaq from Ibn Abbas) «كل ما شئت والبس ما شئت ما أخطأتك اثنتان سرف أو مخيلة» |
 | p458 (PDF 459) | Athar | «ما اخطاک الثنتان الاسراف والمخیلۃ» (repeat) | «ما اخطاتک اثنتان سرف ومخیلۃ» with editor's note | Same correction as p457 |
 | p466 (PDF 467) | Ayah | «الا من آمن وعمل صالحا منہم» (no reference) | Marked as 34:37 «اِلَّا مَنْ اٰمَنَ وَعَمِلَ صَالِحًا», with the author's added "منہم" kept outside the verse | 34:37 (wealth and children do not bring near, except one who believes and does good) fits the context; "منہم" is not part of the verse |
+| p469 (PDF 470) | Hadith | «مانقص المال من صدقۃ قط او کما قال» | «ما نقص مال من صدقۃ» with editor's note | Muslim 2588 «ما نقصت صدقة من مال»; Tirmidhi 2325/Ahmad «ما نقص مال عبد من صدقة» |
