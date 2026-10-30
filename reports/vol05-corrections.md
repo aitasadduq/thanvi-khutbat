@@ -63,3 +63,12 @@
 | p412 (PDF 413) | Hadith, kept | "کنت کنزا مخفیا فاحببت ان اعرف فخلقت الخلق" | kept as printed | Popular among Sufis; hadith scholars (Ibn Taymiyya, al-Zarkashi, Ibn Hajar, al-Suyuti) say it has no known isnad. The author quotes it without calling it hadith; flagged for the owner. |
 | p418 (PDF 419) | Name, kept | "میرے چھوٹے ماموں حاجی خواجہ عزیز الرحمٰن صاحب" | kept as printed | Context (p416–417) indicates the younger brother is "عزیز الحسن"; the printed name may be a slip. Not changed. |
 | p372 & p422 (PDF 373, 423) | Date, kept | the heading gives "۷ جمادی الاول ۱۳۴۱ھ" while the closing report gives "۶ جمادی الاول ۱۳۴۱ھ" | both kept as printed | Inconsistency in the book; flagged for the owner. Similarly the stenographer is "مرزا منور بیگ" on p371 and "مرزا صاحب انور بیگ" on p422. |
+
+## Hadith check (end of volume)
+
+`reports/vol05-hadith-check.md`: differs 28, loose 55, match 37, not found 161. Every "differs" item was reviewed; apart from the two below they are wording variants or quotations by meaning, kept as printed.
+
+| Page | Kind | Book had | Applied | How decided |
+|---|---|---|---|---|
+| p44 (PDF 45) | Hadith reading | "ستروں ربکم" | "سترون ربکم" | Printing slip (Urdu ں for ن); Bukhari/Tirmidhi "سترون ربکم". |
+| p102 (PDF 103) | Hadith reading (Shama'il, Hind b. Abi Hala) | "کان وصاف الرسول اللہ" | "کان وصافا لرسول اللہ" | Word division slip; Shama'il al-Tirmidhi. |
