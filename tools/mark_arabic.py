@@ -20,7 +20,7 @@ from arabic import Quran, norm, ratio, cited_surah, SURAHS
 URDU_CHARS = re.compile('[ٹڈڑںےگچپژ]')
 URDU_WORDS = set(('ہے ہیں کہ میں کی کا کے سے نے کو اور یہ وہ تو بھی نہ تھا تھے تھی پر جو اس جس کس ایک یعنی '
               # Persian (couplets are not Arabic)
-              'اند است ست را می بر از چہ چو چوں نیست باشد شد شود کند کرد در ایں آں تا باید خود ہمہ گر اگر بود').split())
+              'اند است ست را می بر از چہ چو چوں نیست باشد شد شود کند کرد در ایں آں تا باید خود ہمہ گر اگر بود نبود باش').split())
 HARAKAT = re.compile(r'[ً-ْٰ]')
 VOWEL = re.compile(r'[\u064E-\u0652]')      # fatha..sukun: Urdu words (تعالیٰ، فوراً) never carry these
 ANY_MARK = re.compile(r'[﴿﴾«»]')
@@ -183,6 +183,18 @@ def mark(inner, Q, report, page, after='', decisions=None, cited=None):
 AYAH_MARK = re.compile(r'﴿(\d+):(\d+)[^|﴾]*\|([^﴾]*)﴾')
 
 
+def fragment(Q, text, ref):
+    """(ref, Qur'an words) when `text` is a run of whole words inside ayah `ref`, else None."""
+    try:
+        s, e = Q.span(ref)
+    except (AttributeError, IndexError):
+        return None
+    q = norm(text).replace(' ', '')
+    i = Q.flat.find(q, s, e) if q else -1
+    if i < 0 or not Q.clean(i, i + len(q)): return None
+    return Q.ref(i, i + len(q)), Q.text(i, i + len(q))
+
+
 def recheck(m, Q, report, page, decisions):
     """An ayah marked by hand: replaced by the verified text, or (wording differs) reported to the owner."""
     n = len(report)
@@ -190,6 +202,16 @@ def recheck(m, Q, report, page, decisions):
     book = cited_surah(m.string[m.end():])
     new = mark(m.group(3), Q, report, page, m.string[m.end():] if book else '', decisions,
                cited=book or (int(m.group(1)), int(m.group(2))))
+    if new.startswith('«') and len(norm(m.group(3)).split()) <= 3:
+        # a word or two of the marked ayah quoted for comment (tafsir): too short to search the whole
+        # Qur'an, but exact within the ayah the transcriber named
+        frag = fragment(Q, m.group(3), f'{m.group(1)}:{m.group(2)}')
+        if frag:
+            report[n:] = []
+            ref, canon = frag
+            if norm(canon) != norm(m.group(3)):
+                report.append(f'QURAN  p{page} {ref} [fragment]\n   old: {m.group(3)}\n   new: {canon}')
+            return f'﴿{ref}|{canon}﴾'
     if new.startswith('«') and not any(r.startswith(('DIFFERS', 'KEPT')) for r in report[n:]):
         report[n:] = []
         alts = '\n'.join(f'   alt {i + 1}: {Q.ref(g[1], g[2])} [{g[0]:.2f}] {Q.text(*Q.span(Q.ref(g[1], g[2])))}'
