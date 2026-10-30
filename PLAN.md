@@ -10,7 +10,7 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 - **Volume 3 (دین و دنیا) — in progress.** Folder `Vol 03 deen o dunya/`. PDF page = printed page + 1; text
   printed pp. 14–440 (9 sermons). `toc.tsv` done (275 rows). Reading images: `<scratch>/v03/h/NNN{a,b}.png`.
-  Corrections log: `reports/vol03-corrections.md`. Transcribed so far: printed pp. 14–40 (sermon 1 الدین الخالص).
+  Corrections log: `reports/vol03-corrections.md`. Transcribed so far: printed pp. 14–113 (sermons 1 الدین الخالص, 2 تفصیل الدین; files 0015–0048).
 
 - **Volume 2 (علم و عمل) — done, awaiting the owner's review.** Folder `Vol 02 ilm o amal/`. PDF page = printed
   page + 1; text printed pp. 14–440 (8 sermons), all transcribed. `toc.tsv` 253 rows. mark_arabic: DIFFERS 0,
@@ -120,7 +120,7 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Volume 3: continue transcription from printed p. 41 (PDF 42), file `page-notes/0040.txt` (to p. 47), then `0048.txt`; batches
+- Volume 3: continue transcription from printed p. 114 (PDF 115, sermon 3 الکمال فی الدین), new file `page-notes/0114.txt`; batches
   of ≈8 pages. Then the §3 sequence, then Volume 4 — no stopping between volumes.
 - Owner will review `reports/vol02-corrections.md` (and later logs) at leisure; revert anything he rejects.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
