@@ -15,3 +15,4 @@ the work and names anything to revert.
 | p310 (PDF 311) | Ayah reference | Unattributed quotations of unbelievers' sayings | Marked as المائدہ ۷۳، التوبہ ۳۰، البقرہ ۱۱۶، الانعام ۹۱ and ۹۳ | The book gives no references; the wording matches these verses |
 | p316 (PDF 317) | Ayah reference | «ولا تعجبک اموالہم واولادہم انما یرید اللہ ان یعذبہم بہا فی الدنیا…» (no reference) | Marked as التوبہ ۸۵ | The printed wording («ان یعذبہم بہا فی الدنیا») is that of 9:85, not the similar 9:55 («لیعذبہم بہا فی الحیوۃ الدنیا») |
 | p319 (PDF 320) | Arabic text | «الاول الذکری لیس قبلہ شئی» | Written as «الاول الذی لیس قبلہ شیء» | Obvious misprint of الذی (from the hadith of Muslim «انت الاول فلیس قبلک شیء») |
+| p339 (PDF 340) | Arabic text | «والمعروض لیس بباق نضائه بالموت» | Written as «لفنائہ بالموت» | The printed word is a misprint; the Urdu gloss on the same page («فانی ہونے کی وجہ سے») confirms فناء |
