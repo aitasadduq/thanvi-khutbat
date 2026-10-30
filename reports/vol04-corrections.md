@@ -17,3 +17,4 @@
 | p153 (PDF 154) | Citation | (ص آیت نمبر ۲۳) | (ص آیت نمبر ۲۶) + editor's note | ولا تتبع الهوى فيضلك عن سبيل الله is Sad 38:26 |
 | p159 (PDF 160) | Hadith | «یتحولنا بالموعظۃ» | Kept as printed | A known variant of يتخولنا (reported by Abu Amr ibn al-Ala) |
 | p170 (PDF 171) | Hadith | «جریا مومن فان نورک اطفاء ناری» | «جز یا مومن …» | Hadith wording is جُزْ يا مؤمن; the ر is a print slip |
+| p181 (PDF 182) | Hadith | «ان الحق ما اخذتم علیہ کتاب اللہ» | «ان احق ما اخذتم علیہ اجرا کتاب اللہ» + editor's note | Bukhari (Ibn Abbas); الحق is a slip and اجرا was dropped |
