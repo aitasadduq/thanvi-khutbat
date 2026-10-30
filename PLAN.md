@@ -8,6 +8,11 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 ## 1. Status (2026-10-30)
 
+- **Volume 5 (خطبات میلاد النبی) — in progress.** Folder `Vol 05 milad un nabi/`. PDF page = printed page + 1;
+  text printed pp. 13–≈424 (9 sermons: الظہور 13, السرور 48, النور 98, نور النور 130, المورد الفرسخی 177,
+  راس الربیعین 261, المریع فی الربیع 294, الرفع والوضع 324, نقد اللبیب 371). `toc.tsv` done (226 rows). Reading images:
+  `<scratch>/v05/h/NNN{a,b}.png`. Corrections log: `reports/vol05-corrections.md`. Transcribed so far: p. 13 (file 0013).
+
 - **Volume 4 (حقوق و فرائض) — done, awaiting the owner's review.** Folder `Vol 04 huqooq o faraiz/`. PDF page =
   printed page + 1; text printed pp. 13–478 (13 sermons), all transcribed (files 0013–0455). mark_arabic: DIFFERS 0,
   CITE 0, DECIDED 1 (`quran-decisions.tsv`, p466 → 34:37). Hadith check: `reports/vol04-hadith-check.md`. All
@@ -132,8 +137,9 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Volume 5: extract images (`pdfimages`), split halves (`tools/halves.py`, background), build `toc.tsv`, then
-  transcribe from the first sermon; then the §3 sequence, then Volume 6 and onward — no stopping between volumes.
+- Volume 5: continue transcription from printed p. 14 (PDF 15, sermon 1 الظہور) in `page-notes/0013.txt`; new file at
+  each sermon start (0048, 0098, 0130, 0177, 0261, 0294, 0324, 0371); then the §3 sequence, then Volume 6 and onward —
+  no stopping between volumes.
 - Owner will review `reports/vol02-corrections.md` (and later logs) at leisure; revert anything he rejects.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
   `iatasadduq/thanvi-khutbat-site` and turning on GitHub Pages (only after the owner approves).
