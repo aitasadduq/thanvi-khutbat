@@ -18,3 +18,6 @@ owner at the end of the volume; the owner may ask for any correction to be rever
 | 394 | other (text, kept) | «صرف روح کو لے لیا» where context needs «صرف صورت کو لے لیا» | book wording kept; editor's note added | possible slip in the book; owner to decide |
 | 405 | other (text, kept) | «مجاہدہ کے لفظ کی سیر» where context suggests «مجاہدہ کے بعد کی سیر» | book wording kept; editor's note added | possible typo in the book; owner to decide |
 | 436 | other (text, kept) | «پہلے تعلماً اور تدریساً ہاتھ میں ہے» (sense: first in hand as a student, now as a teacher) | book wording kept; editor's note added | possible slip in the book; owner to decide |
+| 253 | hadith (wording slip) | «ارءیت لو مررت علی قبری اکنت تسجد له» | «… مررت بقبری …» (سنن ابی داؤد 2140) | auto (owner's rule 2026-10-30); scan checked: book has علی قبری |
+| 372 | hadith (wording slip) | «… یذکر اللہ فی کل احیانه» | «… یذکر اللہ علی کل احیانه» (سنن ترمذی 3384، صحیح مسلم) | auto; scan checked: book has فی |
+| 436 | hadith (wording slip) | «… ویده الذی یبطش به» | «… ویده التی یبطش بها» (صحیح بخاری؛ اربعین نووی 38) | auto; book's grammar slip (ید is feminine) |
