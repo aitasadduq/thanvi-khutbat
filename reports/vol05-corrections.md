@@ -53,3 +53,5 @@
 | p345 (PDF 346) | Wording, kept | "نہایت الحاح کے ساتھ وعدہ فرما رہے تھے" (Badr) | kept as printed | "دعا" is clearly meant; kept as printed for the owner. |
 | p350 (PDF 351) | Ayah, duplicated in print | "واذ اخذ اللہ میثاق النبیین لما اتیتکم من کتب وحکمۃ" printed twice in succession | given once | Printer's duplication of the same ayah fragment (3:81). |
 | p351 (PDF 352) | Ayah wording (DIFFERS) | "واتبع ملۃ ابراہیم حنیفا" | 16:123 "اتَّبِعْ مِلَّةَ اِبْرٰهِيْمَ حَنِيْفًا" + editor's note | The Qur'an has "ان اتبع" (16:123) or "فاتبعوا" (3:95); the address to the Prophet fits 16:123. |
+| p355 (PDF 356) | Footnote, kept | the long footnote (Thanvi's and Zafar Ahmad's notes on فقدان) contains a visibly garbled sentence ("اور موٹی بات ہے کہ اگر معراج جسد عنصری سمجھ کر ما فقد کا حکم کرایا ہو اور موٹی بات ہے کہ اگر معراج جسد عنصری سے دعویٰ نہیں کرتا…") | kept as printed | Printer's repetition; not reconstructed. |
+| p355 (PDF 356) | Persian verse, kept | "بمیر اے دوست پیش از مرگ اگر می زندگی میں خواہی" | "اگر می زندگی خواہی" (the stray "میں" dropped) | Printing slip; the metre and the translation have no "میں". |
