@@ -14,3 +14,4 @@
 | p129 (PDF 130) | Citation | (النمل آیت نمبر ۴) | (النمل آیت نمبر ۱۴) + editor's note | وجحدوا بها واستيقنتها is an-Naml 27:14 |
 | p144 (PDF 145) | Title | Sermon text names it «علو العباد من علوم الرشاد»; toc/heading «علوم العباد من علوم الرشاد» | Kept both as printed | The text explains the name as pointing to علو درجات, so «علو» looks deliberate; toc left unchanged |
 | p150 (PDF 151) | Reading | Footnote (۱) has a smudged word: «اگر کوئی … تو بہتر ہے» | Marked [ناخواندہ] | Unreadable in the scan, even zoomed |
+| p153 (PDF 154) | Citation | (ص آیت نمبر ۲۳) | (ص آیت نمبر ۲۶) + editor's note | ولا تتبع الهوى فيضلك عن سبيل الله is Sad 38:26 |
