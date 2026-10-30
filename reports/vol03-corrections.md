@@ -12,6 +12,6 @@ the work and names anything to revert.
 | p261 (PDF 262) | Ayah citation | «(الاعراف آیت نمبر ۵۵)» for the two recited verses | «(الاعراف آیت نمبر ۵۵-۵۶)» + editor's note | The recited text spans 7:55 and 7:56 (the author himself says "دو آیتیں"); the reference named only the first |
 | p291 (PDF 292) | Name | «مولانا احمد سعید صاحب تھانوی» (the scribe) | Kept as printed in the text; indexed under «مولانا سعید احمد تھانوی» | Every other sermon in this volume names the scribe «مولانا سعید احمد تھانوی»; the order here is almost certainly transposed, but the printed wording was left untouched |
 | p305 (PDF 306) | Text | «اس وقت تک عورتوں کو چندہ میں کچھ دینا چاہئے» | Kept as printed | The sense requires «نہ دینا چاہئے» (a negative dropped by the printer); the words were left untouched and the issue is logged here only |
-| 310 | اقوال کفار (المائدہ ۷۳، التوبہ ۳۰، البقرہ ۱۱۶، الانعام ۹۱، ۹۳) | کتاب میں حوالہ نہیں | حوالے متن میں نشان زد کئے گئے، متن جوں کا توں |
-| 316 | ﴿ولا تعجبک اموالہم…﴾ | کتاب میں حوالہ نہیں؛ مطبوعہ الفاظ «ان یعذبہم بہا فی الدنیا» التوبہ ۸۵ کے ہیں (۵۵ نہیں) | التوبہ ۸۵ نشان زد |
-| 319 | «الاول الذکری لیس قبلہ شئی» | طباعت کی غلطی | «الاول الذی لیس قبلہ شیء» کر دیا |
+| p310 (PDF 311) | Ayah reference | Unattributed quotations of unbelievers' sayings | Marked as المائدہ ۷۳، التوبہ ۳۰، البقرہ ۱۱۶، الانعام ۹۱ and ۹۳ | The book gives no references; the wording matches these verses |
+| p316 (PDF 317) | Ayah reference | «ولا تعجبک اموالہم واولادہم انما یرید اللہ ان یعذبہم بہا فی الدنیا…» (no reference) | Marked as التوبہ ۸۵ | The printed wording («ان یعذبہم بہا فی الدنیا») is that of 9:85, not the similar 9:55 («لیعذبہم بہا فی الحیوۃ الدنیا») |
+| p319 (PDF 320) | Arabic text | «الاول الذکری لیس قبلہ شئی» | Written as «الاول الذی لیس قبلہ شیء» | Obvious misprint of الذی (from the hadith of Muslim «انت الاول فلیس قبلک شیء») |
