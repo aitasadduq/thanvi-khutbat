@@ -19,3 +19,4 @@
 | p170 (PDF 171) | Hadith | «جریا مومن فان نورک اطفاء ناری» | «جز یا مومن …» | Hadith wording is جُزْ يا مؤمن; the ر is a print slip |
 | p181 (PDF 182) | Hadith | «ان الحق ما اخذتم علیہ کتاب اللہ» | «ان احق ما اخذتم علیہ اجرا کتاب اللہ» + editor's note | Bukhari (Ibn Abbas); الحق is a slip and اجرا was dropped |
 | p231 (PDF 232) | Reading | «سیف العارفین سیدنا رسول اللہ» | «سید العارفین» | Clear typo; the epithet is سید العارفین |
+| p238 (PDF 239) | Reading | Heading damaged in print (looks like «بھکرہ») | «بیگرہ» as in the فہرست | Heading letters broken; toc reading used |
