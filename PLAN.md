@@ -11,7 +11,7 @@ Update the **Status** and **Next steps** sections at the end of every working se
 - **Volume 5 (خطبات میلاد النبی) — in progress.** Folder `Vol 05 milad un nabi/`. PDF page = printed page + 1;
   text printed pp. 13–≈424 (9 sermons: الظہور 13, السرور 48, النور 98, نور النور 130, المورد الفرسخی 177,
   راس الربیعین 261, المریع فی الربیع 294, الرفع والوضع 324, نقد اللبیب 371). `toc.tsv` done (226 rows). Reading images:
-  `<scratch>/v05/h/NNN{a,b}.png`. Corrections log: `reports/vol05-corrections.md`. Transcribed so far: pp. 13–294 (sermons 1–6 complete, files 0013, 0048, 0098, 0130, 0177, 0261; sermon 7 المریع فی الربیع begun in 0294).
+  `<scratch>/v05/h/NNN{a,b}.png`. Corrections log: `reports/vol05-corrections.md`. Transcribed so far: pp. 13–324 (sermons 1–7 complete, files 0013, 0048, 0098, 0130, 0177, 0261, 0294; sermon 8 الرفع والوضع begun in 0324).
 
 - **Volume 4 (حقوق و فرائض) — done, awaiting the owner's review.** Folder `Vol 04 huqooq o faraiz/`. PDF page =
   printed page + 1; text printed pp. 13–478 (13 sermons), all transcribed (files 0013–0455). mark_arabic: DIFFERS 0,
@@ -137,7 +137,7 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Volume 5: continue transcription from printed p. 295 (PDF 296, sermon 7 المریع فی الربیع) in `page-notes/0294.txt`; new file at
+- Volume 5: continue transcription from printed p. 325 (PDF 326, sermon 8 الرفع والوضع) in `page-notes/0324.txt`; new file at
   each sermon start (0048, 0098, 0130, 0177, 0261, 0294, 0324, 0371); then the §3 sequence, then Volume 6 and onward —
   no stopping between volumes.
 - Owner will review `reports/vol02-corrections.md` (and later logs) at leisure; revert anything he rejects.
