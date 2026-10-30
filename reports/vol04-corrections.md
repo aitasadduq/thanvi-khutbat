@@ -12,3 +12,4 @@
 | p117 (PDF 118) | Hadith | «فلیمطط عنہ اذی» | «فلیمط عنہا الاذی» + editor's note | Sahih Muslim (Jabir), dropped-food hadith; doubled ط is a print slip |
 | p120 (PDF 121) | Hadith | «کحرمتہ یومکم فی شہر کما ہذا وفی بلدکم ہذا» | «کحرمۃ یومکم ہذا فی شہرکم ہذا وفی بلدکم ہذا» + editor's note | Bukhari (Hajjat al-Wada sermon); garbled print |
 | p129 (PDF 130) | Citation | (النمل آیت نمبر ۴) | (النمل آیت نمبر ۱۴) + editor's note | وجحدوا بها واستيقنتها is an-Naml 27:14 |
+| p144 (PDF 145) | Title | Sermon text names it «علو العباد من علوم الرشاد»; toc/heading «علوم العباد من علوم الرشاد» | Kept both as printed | The text explains the name as pointing to علو درجات, so «علو» looks deliberate; toc left unchanged |
