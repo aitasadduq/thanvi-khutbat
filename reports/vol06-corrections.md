@@ -21,3 +21,4 @@ Every place where the book's wording was changed, or kept although doubtful. The
 | p176 (PDF 177) | Text gap (kept) | "اس کی تین وجہ ہوا کرتی ہیں کا بھی خود اقتضا یہ ہے…" — the three reasons are not listed; words seem dropped | Kept as printed | A typesetting omission; the three reasons (perfection, beneficence, love) are explained on the next pages |
 | p223–224 (PDF 224–225) | Citation (kept) | The same hadith «ان رحمتی سبقت غضبی» is cited to "الاسماء والصفات للبیہقی" as ۳۶۹ on p223 and ۳۱۹ on p224 | Kept as printed | One of the two page numbers is a misprint; not checked against that edition, so both left |
 | p224 (PDF 225) | Text slip (kept) | "اسی طرح استوی علی استوی میں" | Kept as printed | Evidently "استویٰ علی العرش" was meant; left as printed |
+| p225 (PDF 226) | Ayah fragment | «بل هو القاهر فوق عباده» | ﴿6:18﴾ «وَهُوَ الْقَاهِرُ فَوْقَ عِبَادِهٖ» with "بل" outside the ayah | The ayah (6:18, 6:61) reads "وهو"; "بل" is the author's own connective |
