@@ -16,3 +16,4 @@
 | p150 (PDF 151) | Reading | Footnote (۱) has a smudged word: «اگر کوئی … تو بہتر ہے» | Marked [ناخواندہ] | Unreadable in the scan, even zoomed |
 | p153 (PDF 154) | Citation | (ص آیت نمبر ۲۳) | (ص آیت نمبر ۲۶) + editor's note | ولا تتبع الهوى فيضلك عن سبيل الله is Sad 38:26 |
 | p159 (PDF 160) | Hadith | «یتحولنا بالموعظۃ» | Kept as printed | A known variant of يتخولنا (reported by Abu Amr ibn al-Ala) |
+| p170 (PDF 171) | Hadith | «جریا مومن فان نورک اطفاء ناری» | «جز یا مومن …» | Hadith wording is جُزْ يا مؤمن; the ر is a print slip |
