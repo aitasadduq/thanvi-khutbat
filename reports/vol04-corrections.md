@@ -27,3 +27,4 @@
 | p344 (PDF 345) | Hadith | «من عادلی ولیا» | «من عادی لی ولیا» | Bukhari (hadith qudsi); the two words are run together in print |
 | p348 (PDF 349) | Hadith | «تصدق رجل من دینار، من درہم من ثوبہ من برہ من صاع من تمر» | Kept as printed | An abridgement of Muslim's wording (من ديناره من درهمه … من صاع تمره); not a reading error |
 | p349 (PDF 350) | Hadith | «کالصائم یفطر … او کمال قال» | «کالصائم لا یفطر … او کما قال» + editor's note | Bukhari/Muslim; لا dropped and کمال is a slip |
+| p353 (PDF 354) | Hadith | «فی ہؤلاء الثنی» | «فی ہؤلاء النتنی» + editor's note | Bukhari (Jubayr b. Mut'im); a dot slip, and the book's own translation reads "گندہ کفار" |
