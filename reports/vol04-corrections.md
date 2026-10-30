@@ -40,3 +40,4 @@
 | p442 (PDF 443) | Ayah | «ولو شاء ربک لآمن من فی الارض کلہم جمیعا» printed twice; the second copy is glossed "کیا آپ لوگوں کو ایمان لانے پر مجبور کر سکتے ہیں" | Second line replaced with «افانت تکرہ الناس حتی یکونوا مؤمنین» (10:99), with editor's note | The translation belongs to the second half of 10:99; the repeat is a typesetting duplication |
 | p446 (PDF 447) | Hadith | «یتحمل من البلاء مالا یطیقہ» | «یتعرض من البلاء لما لا یطیق» with editor's note | Tirmidhi 2254 «يتعرض من البلاء لما لا يطيق» |
 | p454 (PDF 455) | Hadith | «اعقل ثم توکل» (cited to Mawarid al-Zam'an 2549, Hilya 8:390) | Kept as printed | The collections have «اعقلها وتوكل» (Tirmidhi 2517; Ibn Hibban); the author's short form keeps the meaning |
+| p457 (PDF 458) | Athar | «کل ما شئت والبس ماشئت ما اخطاک الثنتان الاسراف والمخیلت» | «… ما اخطاتک اثنتان سرف ومخیلۃ» with editor's note | Bukhari, Kitab al-Libas (mu'allaq from Ibn Abbas) «كل ما شئت والبس ما شئت ما أخطأتك اثنتان سرف أو مخيلة» |
