@@ -11,7 +11,7 @@ Update the **Status** and **Next steps** sections at the end of every working se
 - **Volume 2 (علم و عمل) — in progress.** Folder `Vol 02 ilm o amal/`. PDF page = printed page + 1; text runs
   printed pp. 14–440 (8 sermons). `toc.tsv` done (253 rows, from the فہرست on PDF pp. 9–14; the book's in-text
   sub-headings sometimes differ from it and are kept as `##`). Reading images: `tools/halves.py` (see §3 step 2).
-  Transcribed so far: printed pp. 14–237 (sermons 1–2 complete; sermon 3 کوثر العلوم started p. 199).
+  Transcribed so far: printed pp. 14–245 (sermons 1–3 complete; sermon 4 العلم والخشیۃ started p. 240).
 
 - **Volume 1 (دنیا و آخرت)**: full text of printed pp. 13–456 done; index built (2241 entries); site built.
   All owner corrections to ayat and citations are applied (see `reports/vol01-quran-check.md`, last section).
@@ -104,6 +104,6 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Volume 2: continue transcription from printed p. 238 (PDF 239), file `page-notes/0239.txt` (to p. 245), then `0247.txt`, batches of 8 pages.
+- Volume 2: continue transcription from printed p. 246 (PDF 247), file `page-notes/0247.txt` (to p. 253), then `0255.txt`, batches of 8 pages.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
   `iatasadduq/thanvi-khutbat-site` and turning on GitHub Pages (only after the owner approves).
