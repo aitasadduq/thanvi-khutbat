@@ -8,10 +8,15 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 ## 1. Status (2026-10-30)
 
-- **Volume 5 (خطبات میلاد النبی) — in progress.** Folder `Vol 05 milad un nabi/`. PDF page = printed page + 1;
-  text printed pp. 13–≈424 (9 sermons: الظہور 13, السرور 48, النور 98, نور النور 130, المورد الفرسخی 177,
-  راس الربیعین 261, المریع فی الربیع 294, الرفع والوضع 324, نقد اللبیب 371). `toc.tsv` done (226 rows). Reading images:
-  `<scratch>/v05/h/NNN{a,b}.png`. Corrections log: `reports/vol05-corrections.md`. Transcribed so far: pp. 13–370 (sermons 1–8 complete, files 0013, 0048, 0098, 0130, 0177, 0261, 0294, 0324; sermon 9 نقد اللبیب next, file 0371).
+- **Volume 6 — in progress (starting).** PDF `scanned_version/Khutbaat-i-Hakeem-ul-Ummat-Vol-06.pdf` (497 pages).
+  Reading images being extracted to `<scratch>/v06/h/NNN{a,b}.png`. Next: folder, toc.tsv, transcription.
+
+- **Volume 5 (خطبات میلاد النبی) — done, awaiting the owner's review.** Folder `Vol 05 milad un nabi/`. PDF page =
+  printed page + 1; text printed pp. 13–424 (9 sermons), all transcribed (files 0013, 0048, 0098, 0130, 0177, 0261,
+  0294, 0324, 0371). mark_arabic: DIFFERS 0, CITE 0. Hadith check: `reports/vol05-hadith-check.md`. All corrections
+  applied under the owner's rule are in `reports/vol05-corrections.md`. Index built (2851 entries); site built
+  (`site/v05.html`). Preview (private artifact, republish to the same URL):
+  https://claude.ai/artifact/EdbtzMHmPrHbWS1QdFoLcp
 
 - **Volume 4 (حقوق و فرائض) — done, awaiting the owner's review.** Folder `Vol 04 huqooq o faraiz/`. PDF page =
   printed page + 1; text printed pp. 13–478 (13 sermons), all transcribed (files 0013–0455). mark_arabic: DIFFERS 0,
@@ -137,9 +142,7 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Volume 5: continue transcription from printed p. 371 (PDF 372, sermon 9 نقد اللبیب) in `page-notes/0371.txt`; new file at
-  each sermon start (0048, 0098, 0130, 0177, 0261, 0294, 0324, 0371); then the §3 sequence, then Volume 6 and onward —
-  no stopping between volumes.
+- Volume 6: make folder `Vol 06 <name>/`, build `toc.tsv` from the contents pages, then transcribe from the first sermon (new file at each sermon start), logging corrections in `reports/vol06-corrections.md`; at the end run the §3 pipeline and add Vol 6 to VOLUMES.
 - Owner will review `reports/vol02-corrections.md` (and later logs) at leisure; revert anything he rejects.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
   `iatasadduq/thanvi-khutbat-site` and turning on GitHub Pages (only after the owner approves).
