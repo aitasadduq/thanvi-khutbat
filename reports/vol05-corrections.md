@@ -25,3 +25,4 @@
 | p167 (PDF 168) | Ayah, plain text marked | "قدجاء کم الحق من ربکم" (unmarked in prose) | marked as 10:108 fragment | Exact wording of Yunus 108. |
 | p168 (PDF 169) | Arabic verse (attributed to Hazrat Ali) | "و فیک الضوی العالم الاکبر" | "و فیک انطوی العالم الاکبر" + editor's note | "الضوی" is a misprint for the well-known "انطوی". "و انت تزعم" (well-known reading "و تزعم") kept as printed. |
 | p172 (PDF 173) | Translation of Persian couplet, kept | the Urdu under "در منزلیکہ جاں تا روزے رسیدہ باشد / باخاک آستانش داریم مرحبائے" repeats the translation of the previous couplet | kept as printed | Printer's repetition; no correct translation is given in the book, so nothing was invented. |
+| p173 (PDF 174) | Hadith wording, kept | Abu Talib's last words "ھو علی دین عبد المطلب" | kept as printed | Bukhari has "ھو علی ملۃ عبد المطلب"; same meaning, so the book's wording is kept. Owner may prefer the Bukhari wording. |
