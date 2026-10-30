@@ -25,3 +25,4 @@
 | p318 (PDF 319) | Order | Last paragraph («تفسیر داں نہیں بلکہ تقریر داں…») continues the واعظ theme from the verse at the top of the page | Kept in printed position | Looks misplaced in print, but the text is unchanged |
 | p339 (PDF 340) | Hadith | «فکان خیر اللہ وان اصابۃ ضراء» | «فکان خیرا لہ وان اصابتہ ضراء» + editor's note | Sahih Muslim (Suhayb); spacing/ta slips in print |
 | p344 (PDF 345) | Hadith | «من عادلی ولیا» | «من عادی لی ولیا» | Bukhari (hadith qudsi); the two words are run together in print |
+| p348 (PDF 349) | Hadith | «تصدق رجل من دینار، من درہم من ثوبہ من برہ من صاع من تمر» | Kept as printed | An abridgement of Muslim's wording (من ديناره من درهمه … من صاع تمره); not a reading error |
