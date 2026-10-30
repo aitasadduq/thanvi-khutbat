@@ -1,0 +1,3 @@
+# Owner's decisions on ayat where the book's wording differs from the Qur'an (read by tools/mark_arabic.py).
+# page<TAB>book's words<TAB>keep | <surah:ayah><TAB>Qur'an words to put in their place
+40	وَلَسْتَ عَلَيْهِمْ بِوَكِيْلٍ	6:107	وَمَا اَنْتَ عَلَيْهِمْ بِوَكِيْلٍ

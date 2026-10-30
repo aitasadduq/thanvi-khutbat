@@ -44,8 +44,8 @@ Update the **Status** and **Next steps** sections at the end of every working se
    (use plain quotes "…" inside notes, not «»).
    Hand-marked ayat are re-checked by `mark_arabic.py` (fixed 2026-10-29: it used to skip any line already
    marked): matching ayat get the verified text; a differing wording becomes «…» and is listed under DIFFERS.
-   Open DIFFERS so far in Vol 2: p40 «ولست علیہم بوکیل» (Qur'an: وما انت علیہم بوکیل, 6:107) — confirmed on the scan.
-   Open CITE so far in Vol 2: p95 book cites "الفلق آیت نمبر ۳" for ومن شر النفاثات فی العقد (= 113:4).
+   Vol 2 decisions applied (owner, 2026-10-30): p40 → 6:107 «وما انت علیہم بوکیل» (quran-decisions.tsv);
+   p95 citation الفلق ۳ → ۴ with editor's note. Open CITE: p150 book cites البقرة ۱۰۱ for 2:102 (show at step 6).
 
 **Ayat (Qur'an) — owner's rule**
 10. Ayat on the site use the verified Qur'an text (Indo-Pak script, `reference/`). Spelling-level differences
