@@ -35,3 +35,4 @@
 | p416 (PDF 417) | Hadith | «اذا غلب احدکم النعاس وہو یذکر اللہ فلیرقدا وکما قال علیہ السلام» | «… فلیرقد» او کما قال علیہ السلام | "فلیرقدا وکما" read as "فلیرقد او کما" (typesetting). Wording kept as the author's paraphrase (he says "او کما قال"); the Bukhari/Muslim text is «إذا نعس أحدكم وهو يصلي فليرقد … لعله يستغفر فيسب نفسه» |
 | p417 (PDF 418) | Hadith | «یذکر اللہ فی کل احیانہ» (repeat) | «علیٰ کل احیانہ» with editor's note | Same correction as p412 |
 | p422 (PDF 423) | Hadith | «یا عبد اللہ لا تکن مثل فلان کان یصلی من اللیل ثم ترکہا» | Kept as printed | Paraphrase of Bukhari 1152/Muslim 1159 «يا عبد الله لا تكن مثل فلان كان يقوم الليل فترك قيام الليل»; meaning intact, so the author's wording kept |
+| p431 (PDF 432) | Hadith | «الدنیا ملعون وملعون ما فیہا الا ذکر اللہ وما والاہ او عالم او متعلم» | «الدنیا ملعونۃ ملعون ما فیہا الا ذکر اللہ وما والاہ او عالما او متعلما» with editor's note | Ibn Majah 4112; the book's cite "۲: ۴۱۲" read as no. ۴۱۱۲ |
