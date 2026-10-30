@@ -6,18 +6,23 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 ---
 
-## 1. Status (2026-10-29)
+## 1. Status (2026-10-30)
 
-- **Volume 2 (علم و عمل) — in progress.** Folder `Vol 02 ilm o amal/`. PDF page = printed page + 1; text runs
-  printed pp. 14–440 (8 sermons). `toc.tsv` done (253 rows, from the فہرست on PDF pp. 9–14; the book's in-text
-  sub-headings sometimes differ from it and are kept as `##`). Reading images: `tools/halves.py` (see §3 step 2).
-  Transcribed so far: printed pp. 14–437 (sermons 1–7 complete; sermon 8 آخر الاعمال started p. 381).
+- **Volume 2 (علم و عمل) — done, awaiting the owner's review.** Folder `Vol 02 ilm o amal/`. PDF page = printed
+  page + 1; text printed pp. 14–440 (8 sermons), all transcribed. `toc.tsv` 253 rows. mark_arabic: DIFFERS 0,
+  CITE 0 (citations corrected by hand during transcription). Hadith check: `reports/vol02-hadith-check.md`.
+  Every correction applied under the owner's 2026-10-30 rule is in `reports/vol02-corrections.md` (sent to the owner
+  for review; revert what the owner rejects). Index built (2308 entries); site built (`site/v02.html`).
+  Preview (private artifact, republish to the same URL): https://claude.ai/artifact/UtFxdNVPTdhCQ4YXpunQMu
+  (rebuild as for Vol 1, publish `<scratch>/art/v02.html`).
+  2026-10-30: `mark_arabic.py` now accepts one-to-three-word ayah fragments that lie inside the ayah marked while
+  transcribing (tafsir of single words), and treats نبود/باش as Persian; Vol 1 output verified unchanged.
 
 - **Volume 1 (دنیا و آخرت)**: full text of printed pp. 13–456 done; index built (2241 entries); site built.
   All owner corrections to ayat and citations are applied (see `reports/vol01-quran-check.md`, last section).
   2026-10-29: index → page highlighting and return-to-index-position added to the site (owner's request).
   **Approved by the owner on 2026-10-29.**
-- Preview (private artifact, always republish to the same URL): https://claude.ai/artifact/BJf9yjkgpMPxrtyiVvyq5r
+- Vol 1 preview (private artifact, always republish to the same URL): https://claude.ai/artifact/BJf9yjkgpMPxrtyiVvyq5r
   Rebuild: `python3 -I tools/build_site.py <scratch>/art --artifact`, then publish `<scratch>/art/v01.html` to that URL.
 - Branch: `claude/intelligent-rubin-6nl3vu` (push with `git push -u origin claude/intelligent-rubin-6nl3vu`).
 
@@ -104,6 +109,7 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Volume 2: continue transcription from printed p. 438 (PDF 439), file `page-notes/0439.txt` (to p. 440, end of volume), batches of 8 pages.
+- Volume 2: owner reviews the preview and `reports/vol02-corrections.md`; revert any rejected correction, rerun
+  mark_arabic/build_index/build_site, republish. After explicit approval, start Volume 3.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
   `iatasadduq/thanvi-khutbat-site` and turning on GitHub Pages (only after the owner approves).
