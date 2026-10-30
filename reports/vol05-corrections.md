@@ -60,3 +60,4 @@
 | p390 (PDF 391) | Hadith wording, kept | "او فی الوضوء سرف … ولو کنت علی شط نھر" | kept as printed | Ibn Majah has "وإن كنت على نهر جار"; meaning the same. |
 | p392 (PDF 393) | Persian verse | "سخن شناس نشہ دلبر اخطا انجاست" | "سخن شناس نئی دلبرا خطا اینجاست" | Printing slip; restored to Hafiz's line as the book itself gives it on p363. |
 | p406 (PDF 407) | Hadith wording | "انی لاعرف حجرا کان یصلی علی" | "انی لاعرف حجرا کان یسلم علی" + editor's note | Corrected to Muslim (the book's own translation says "سلام کیا کرتا تھا"). |
+| p412 (PDF 413) | Hadith, kept | "کنت کنزا مخفیا فاحببت ان اعرف فخلقت الخلق" | kept as printed | Popular among Sufis; hadith scholars (Ibn Taymiyya, al-Zarkashi, Ibn Hajar, al-Suyuti) say it has no known isnad. The author quotes it without calling it hadith; flagged for the owner. |
