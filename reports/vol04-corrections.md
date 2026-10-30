@@ -29,3 +29,4 @@
 | p349 (PDF 350) | Hadith | «کالصائم یفطر … او کمال قال» | «کالصائم لا یفطر … او کما قال» + editor's note | Bukhari/Muslim; لا dropped and کمال is a slip |
 | p353 (PDF 354) | Hadith | «فی ہؤلاء الثنی» | «فی ہؤلاء النتنی» + editor's note | Bukhari (Jubayr b. Mut'im); a dot slip, and the book's own translation reads "گندہ کفار" |
 | p389, p391 (PDF 390, 392) | Wording | "اسلام" used for the right of greeting (سلام) | Kept as printed | Used twice the same way (p389 list, p391 "ایک اسلام ہے کہ یہ کفایہ کے طور پر سنت ہے"), so likely the author's/scribe's usage, not a one-off slip; owner may change to "سلام" |
+| p394 (PDF 395) | Hadith | «کلہن یزورفن الیہ» | «کلہن یزدلفن الیہ» with editor's note | Abu Dawud (Manasik), the sacrificial camels «يزدلفن إليه»; "یزورفن" is a misprint |
