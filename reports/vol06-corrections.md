@@ -8,3 +8,4 @@ Every place where the book's wording was changed, or kept although doubtful. The
 | p19 (PDF 20) | Hadith | «شباب نشاء فی طاعة الله» | «شاب نشأ فی طاعۃ اللہ»; editor's note | "شباب" for "شاب" is a reading slip (the hadith of the seven under the Throne, Bukhari, Muslim); "طاعۃ اللہ" kept as printed |
 | p26 (PDF 27) | Persian verse (Rumi) | «ہیچ کنجے بے درد بے دام نیست» | «ہیچ کنجے بے دد و بے دام نیست» | Masnavi wording ("دد و دام", beasts and snares); "درد" is a reading slip |
 | p36 (PDF 37) | Persian verse | «چوں باز کنی مادر باشد» | «چوں باز کنی مادر مادر باشد» | The well-known line reads "مادر مادر" (grandmother), which is also what the book's own gloss says ("نانی اماں"); one word dropped in printing |
+| p39 (PDF 40) | Arabic verse | «کذلک یفصل الرجل البصیر» | «کذلک یفعل الرجل البصیر»; editor's note | The verse of Zayd ibn Amr reads "یفعل"; "یفصل" is a typesetting slip |
