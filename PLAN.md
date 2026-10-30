@@ -8,10 +8,14 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 ## 1. Status (2026-10-30)
 
-- **Volume 4 (حقوق و فرائض) — in progress.** Folder `Vol 04 huqooq o faraiz/`. PDF page = printed page + 1; text
-  printed pp. 13–478 (11 sermons). `toc.tsv` done (268 rows). Reading images: `<scratch>/v04/h/NNN{a,b}.png`.
-  Corrections log: `reports/vol04-corrections.md`. Transcribed so far: printed pp. 13–455 (sermons 1–12 complete; files 0013,
-  0041, 0054, 0107, 0145, 0183, 0253, 0277, 0330, 0356, 0388, 0406; sermon 13 العشر begun in 0455).
+- **Volume 4 (حقوق و فرائض) — done, awaiting the owner's review.** Folder `Vol 04 huqooq o faraiz/`. PDF page =
+  printed page + 1; text printed pp. 13–478 (13 sermons), all transcribed (files 0013–0455). mark_arabic: DIFFERS 0,
+  CITE 0, DECIDED 1 (`quran-decisions.tsv`, p466 → 34:37). Hadith check: `reports/vol04-hadith-check.md`. All
+  corrections applied under the owner's rule are in `reports/vol04-corrections.md`. Index built (3094 entries); site
+  built (`site/v04.html`). Preview (private artifact, republish to the same URL):
+  https://claude.ai/artifact/SfvJPWAzGEEn5YzpRY3Pay
+  Note: stray letters ڏ ڵ ڮ ڛ (pause marks from a copied Qur'an text) inside ﴿…﴾ break the word-count match in
+  mark_arabic; remove them before running it.
 
 - **Volume 3 (دین و دنیا) — done, awaiting the owner's review.** Folder `Vol 03 deen o dunya/`. PDF page = printed
   page + 1; text printed pp. 14–440 (10 sermons), all transcribed (files 0015–0401). mark_arabic: DIFFERS 0, CITE 0,
@@ -128,8 +132,8 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Volume 4: continue transcription from printed p. 456 (PDF 457, sermon 13 العشر, last) in `page-notes/0455.txt`; text ends p. 478;
-  sermon 11 حقوق المعاشرت starts p. 388 (0388), الصلاح والاصلاح p. 406 (0406), العشر p. 455 (0455); then the §3 sequence, then Volume 5 and onward — no stopping between volumes.
+- Volume 5: extract images (`pdfimages`), split halves (`tools/halves.py`, background), build `toc.tsv`, then
+  transcribe from the first sermon; then the §3 sequence, then Volume 6 and onward — no stopping between volumes.
 - Owner will review `reports/vol02-corrections.md` (and later logs) at leisure; revert anything he rejects.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
   `iatasadduq/thanvi-khutbat-site` and turning on GitHub Pages (only after the owner approves).
