@@ -9,3 +9,4 @@
 | p39 (PDF 40) | Hadith | «ولو کان موسیٰ حیا لما وسعہ الا اتباعی» | Kept as printed | Ahmad 3/338 «والذي نفسي بيده لو أن موسى كان حيا ما وسعه إلا أن يتبعني»; the book's form is the well-known paraphrase, cited to al-Asrar al-Marfu'a |
 | p57 (PDF 58) | Ayah | «بل ران علی قلوبہم ما کانوا یکسبون» | Marked 83:14 as printed (without کلا) | The book quotes from بل |
 | p63 (PDF 64) | Hadith | «اللہم افتح لنا ابواب فضلک» (dua on leaving the mosque) | Kept as printed, with editor's note | Muslim 713 has «اللهم إني أسألك من فضلك» on leaving; the book parallels the entering dua. Not changed because the author builds his point (فضل = رزق) on the word, which is the same in both |
+| p72 (PDF 73) | Name | The Nile letter story: "حضرت عبد اللہ بن عمرو بن العاص … جو امیر لشکر تھے" | Kept as printed | In the sources the governor of Egypt was his father Amr ibn al-As; flagged for the owner, not changed (a narrative detail, not a quotation) |
