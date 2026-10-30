@@ -15,3 +15,4 @@
 | p144 (PDF 145) | Title | Sermon text names it «علو العباد من علوم الرشاد»; toc/heading «علوم العباد من علوم الرشاد» | Kept both as printed | The text explains the name as pointing to علو درجات, so «علو» looks deliberate; toc left unchanged |
 | p150 (PDF 151) | Reading | Footnote (۱) has a smudged word: «اگر کوئی … تو بہتر ہے» | Marked [ناخواندہ] | Unreadable in the scan, even zoomed |
 | p153 (PDF 154) | Citation | (ص آیت نمبر ۲۳) | (ص آیت نمبر ۲۶) + editor's note | ولا تتبع الهوى فيضلك عن سبيل الله is Sad 38:26 |
+| p159 (PDF 160) | Hadith | «یتحولنا بالموعظۃ» | Kept as printed | A known variant of يتخولنا (reported by Abu Amr ibn al-Ala) |
