@@ -44,8 +44,7 @@ Update the **Status** and **Next steps** sections at the end of every working se
    (use plain quotes "…" inside notes, not «»).
    Hand-marked ayat are re-checked by `mark_arabic.py` (fixed 2026-10-29: it used to skip any line already
    marked): matching ayat get the verified text; a differing wording becomes «…» and is listed under DIFFERS.
-   Vol 2 decisions applied (owner, 2026-10-30): p40 → 6:107 «وما انت علیہم بوکیل» (quran-decisions.tsv);
-   p95 citation الفلق ۳ → ۴ with editor's note. Open CITE: p150 book cites البقرة ۱۰۱ for 2:102 (show at step 6).
+   Vol 2 corrections so far: see `reports/vol02-corrections.md` (p40, p95, p150 applied).
 
 **Ayat (Qur'an) — owner's rule**
 10. Ayat on the site use the verified Qur'an text (Indo-Pak script, `reference/`). Spelling-level differences
@@ -59,6 +58,13 @@ Update the **Status** and **Next steps** sections at the end of every working se
     Ask before applying it in a new volume only if a case is different in kind.
 13. When the same words occur in several ayat, the reference follows the book's citation, else the ayah under
     discussion nearby. Never split one quotation into separate ayah pieces.
+
+**Owner's rule from 2026-10-30 (overrides "wait for the owner" in rules 11–12 and 14):** do not stop for
+decisions. Apply the correction yourself — DIFFERS: put in the ayah the book means (its citation, else the
+closest ayah, alt 1); CITE: correct the citation and add the editor's note; ahadith: correct reading errors and
+clear wording slips to the collection's text — and log every change in `reports/volNN-corrections.md`
+(page, kind, book had, applied, why). At the end of the volume send the owner that log; revert whatever the
+owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive reruns).
 
 **Ahadith**
 14. At the end of each volume run the hadith check; check every `differs` item against the scan (zoomed);
