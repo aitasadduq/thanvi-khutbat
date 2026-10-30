@@ -50,3 +50,4 @@
 | p335 (PDF 336) | Footnote, kept | the footnote begins "اور ایسا معلوم ہوتا ہے کہ مولانا کو تحذیر الناس میں مضمون خاتمیت یعنی وہ مہریں…" — the sentence is incomplete in print | kept as printed | Printing omission in the footnote; nothing added. |
 | p338 (PDF 339) | Hadith, kept | "لو لا محمد ما خلقتک" (Hakim, Bayhaqi, Tabarani; cited via Nashr al-Tib and Rahat al-Qulub) | kept as printed | Hakim graded it sahih; al-Dhahabi and others consider it fabricated. The author cites it via his own Nashr al-Tib. Flagged for the owner. |
 | p343 (PDF 344) | Name, kept | "عبد اللہ بن عمر سعد بن ابی سرح" | kept as printed | Printing slip for "عبد اللہ بن سعد بن ابی سرح" (correctly named on p341); kept in the text, term entry uses the correct name. |
+| p345 (PDF 346) | Wording, kept | "نہایت الحاح کے ساتھ وعدہ فرما رہے تھے" (Badr) | kept as printed | "دعا" is clearly meant; kept as printed for the owner. |
