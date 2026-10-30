@@ -15,3 +15,4 @@ owner at the end of the volume; the owner may ask for any correction to be rever
 | 368 | other (scan) | right edge of the page cut off in the scan; last word or two of several lines missing | restored from context, with editor's note | scan damage, not a book error |
 | 371 | citation | سورہ البقرہ آیت نمبر ۱۵۸ (for لتکبروا اللہ علیٰ ما ہداکم) | البقرہ آیت نمبر ۱۸۵ + editor's note | auto (owner's rule 2026-10-30) |
 | 382 | citation | البقرہ: ۲۰۶ (for ومن الناس من یشری نفسہ) | البقرہ: ۲۰۷ + editor's note | auto (owner's rule 2026-10-30) |
+| 394 | other (text, kept) | «صرف روح کو لے لیا» where context needs «صرف صورت کو لے لیا» | book wording kept; editor's note added | possible slip in the book; owner to decide |
