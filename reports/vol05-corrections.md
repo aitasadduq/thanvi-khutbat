@@ -59,3 +59,4 @@
 | p390 (PDF 391) | Ayah wording (DIFFERS) | "ان اللہ لا یحب المسرفین" | 7:31 "اِنَّهٗ لَا يُحِبُّ الْمُسْرِفِيْنَ" + editor's note | No ayah reads "ان اللہ لا یحب المسرفین"; 7:31 and 6:141 have "انہ". 7:31 chosen because it is about excess in general. |
 | p390 (PDF 391) | Hadith wording, kept | "او فی الوضوء سرف … ولو کنت علی شط نھر" | kept as printed | Ibn Majah has "وإن كنت على نهر جار"; meaning the same. |
 | p392 (PDF 393) | Persian verse | "سخن شناس نشہ دلبر اخطا انجاست" | "سخن شناس نئی دلبرا خطا اینجاست" | Printing slip; restored to Hafiz's line as the book itself gives it on p363. |
+| p406 (PDF 407) | Hadith wording | "انی لاعرف حجرا کان یصلی علی" | "انی لاعرف حجرا کان یسلم علی" + editor's note | Corrected to Muslim (the book's own translation says "سلام کیا کرتا تھا"). |
