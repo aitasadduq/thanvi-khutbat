@@ -12,3 +12,6 @@ the work and names anything to revert.
 | p261 (PDF 262) | Ayah citation | «(الاعراف آیت نمبر ۵۵)» for the two recited verses | «(الاعراف آیت نمبر ۵۵-۵۶)» + editor's note | The recited text spans 7:55 and 7:56 (the author himself says "دو آیتیں"); the reference named only the first |
 | p291 (PDF 292) | Name | «مولانا احمد سعید صاحب تھانوی» (the scribe) | Kept as printed in the text; indexed under «مولانا سعید احمد تھانوی» | Every other sermon in this volume names the scribe «مولانا سعید احمد تھانوی»; the order here is almost certainly transposed, but the printed wording was left untouched |
 | p305 (PDF 306) | Text | «اس وقت تک عورتوں کو چندہ میں کچھ دینا چاہئے» | Kept as printed | The sense requires «نہ دینا چاہئے» (a negative dropped by the printer); the words were left untouched and the issue is logged here only |
+| 310 | اقوال کفار (المائدہ ۷۳، التوبہ ۳۰، البقرہ ۱۱۶، الانعام ۹۱، ۹۳) | کتاب میں حوالہ نہیں | حوالے متن میں نشان زد کئے گئے، متن جوں کا توں |
+| 316 | ﴿ولا تعجبک اموالہم…﴾ | کتاب میں حوالہ نہیں؛ مطبوعہ الفاظ «ان یعذبہم بہا فی الدنیا» التوبہ ۸۵ کے ہیں (۵۵ نہیں) | التوبہ ۸۵ نشان زد |
+| 319 | «الاول الذکری لیس قبلہ شئی» | طباعت کی غلطی | «الاول الذی لیس قبلہ شیء» کر دیا |
