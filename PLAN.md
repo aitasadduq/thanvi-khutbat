@@ -10,7 +10,7 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 - **Volume 4 (حقوق و فرائض) — in progress.** Folder `Vol 04 huqooq o faraiz/`. PDF page = printed page + 1; text
   printed pp. 13–478 (11 sermons). `toc.tsv` done (268 rows). Reading images: `<scratch>/v04/h/NNN{a,b}.png`.
-  Corrections log: `reports/vol04-corrections.md`. Transcribed so far: printed pp. 13–356 (sermons 1–9 complete; files 0013,
+  Corrections log: `reports/vol04-corrections.md`. Transcribed so far: printed pp. 13–388 (sermons 1–9 complete; files 0013,
   0041, 0054, 0107, 0145, 0183, 0253, 0277, 0330; sermon 10 الوقت begun in 0356).
 
 - **Volume 3 (دین و دنیا) — done, awaiting the owner's review.** Folder `Vol 03 deen o dunya/`. PDF page = printed
@@ -128,7 +128,7 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Volume 4: continue transcription from printed p. 357 (PDF 358, sermon 10 الوقت) in `page-notes/0356.txt`;
+- Volume 4: continue transcription from printed p. 390 (PDF 391, sermon 11 حقوق المعاشرت) in `page-notes/0388.txt`;
   sermon 11 حقوق المعاشرت starts p. 388 (0388), الصلاح والاصلاح p. 406 (0406), العشر p. 455 (0455); then the §3 sequence, then Volume 5 and onward — no stopping between volumes.
 - Owner will review `reports/vol02-corrections.md` (and later logs) at leisure; revert anything he rejects.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo

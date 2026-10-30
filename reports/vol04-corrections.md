@@ -28,3 +28,4 @@
 | p348 (PDF 349) | Hadith | «تصدق رجل من دینار، من درہم من ثوبہ من برہ من صاع من تمر» | Kept as printed | An abridgement of Muslim's wording (من ديناره من درهمه … من صاع تمره); not a reading error |
 | p349 (PDF 350) | Hadith | «کالصائم یفطر … او کمال قال» | «کالصائم لا یفطر … او کما قال» + editor's note | Bukhari/Muslim; لا dropped and کمال is a slip |
 | p353 (PDF 354) | Hadith | «فی ہؤلاء الثنی» | «فی ہؤلاء النتنی» + editor's note | Bukhari (Jubayr b. Mut'im); a dot slip, and the book's own translation reads "گندہ کفار" |
+| p389 (PDF 390) | Wording | "ا۔اسلام ۲۔اجابت الداعی" (list of a Muslim's rights) | "۱۔ سلام" with editor's note | Context is the rights of one Muslim over another (returning salam etc.); "اسلام" is a typesetting slip |
