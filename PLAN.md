@@ -8,9 +8,14 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 ## 1. Status (2026-10-30)
 
-- **Volume 3 (دین و دنیا) — in progress.** Folder `Vol 03 deen o dunya/`. PDF page = printed page + 1; text
-  printed pp. 14–440 (10 sermons). `toc.tsv` done (275 rows). Reading images: `<scratch>/v03/h/NNN{a,b}.png`.
-  Corrections log: `reports/vol03-corrections.md`. Transcribed so far: printed pp. 14–401 (sermons 1–9 complete; sermon 10 طریق النجاۃ begun in 0401.txt). Text is 10 sermons (طریق النجاۃ starts p. 401).
+- **Volume 4 — next.** Start with §3 step 1 (page offset, فہرست into `toc.tsv`).
+
+- **Volume 3 (دین و دنیا) — done, awaiting the owner's review.** Folder `Vol 03 deen o dunya/`. PDF page = printed
+  page + 1; text printed pp. 14–440 (10 sermons), all transcribed (files 0015–0401). mark_arabic: DIFFERS 0, CITE 0,
+  KEPT 1 (`quran-decisions.tsv`). Hadith check: `reports/vol03-hadith-check.md`. All corrections applied under the
+  owner's rule are in `reports/vol03-corrections.md`. Index built (2642 entries); site built (`site/v03.html`).
+  Preview (private artifact, republish to the same URL): https://claude.ai/artifact/Fch8oGW9Fm6G3mUsvEddjG
+  2026-10-30: `mark_arabic.py` fragment search now tries every occurrence inside the ayah (Vols 1–2 unchanged).
 
 - **Volume 2 (علم و عمل) — done, awaiting the owner's review.** Folder `Vol 02 ilm o amal/`. PDF page = printed
   page + 1; text printed pp. 14–440 (8 sermons), all transcribed. `toc.tsv` 253 rows. mark_arabic: DIFFERS 0,
@@ -120,8 +125,8 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Volume 3: continue transcription from printed p. 402 (PDF 403, sermon 10 طریق النجاۃ) in `page-notes/0401.txt`, to p. 440; batches
-  of ≈8 pages. Then the §3 sequence, then Volume 4 — no stopping between volumes.
+- Volume 4: §3 sequence from step 1 (find its PDF in `scanned_version/`, page offset, toc), batches of ≈8 pages;
+  then Volume 5 and onward — no stopping between volumes.
 - Owner will review `reports/vol02-corrections.md` (and later logs) at leisure; revert anything he rejects.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
   `iatasadduq/thanvi-khutbat-site` and turning on GitHub Pages (only after the owner approves).

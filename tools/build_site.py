@@ -17,6 +17,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 VOLUMES = [
     {'no': 1, 'title': 'دنیا و آخرت', 'dir': 'Index pilot - 01 dunya o akhiret'},
     {'no': 2, 'title': 'علم و عمل', 'dir': 'Vol 02 ilm o amal'},
+    {'no': 3, 'title': 'دین و دنیا', 'dir': 'Vol 03 deen o dunya'},
 ]
 TOTAL_VOLUMES = 32
 # Where readers report mistakes: "new issue" page of the public site repository (prefilled with volume and page).
