@@ -6,3 +6,4 @@ Every place where the book's wording was changed, or kept although doubtful. The
 |---|---|---|---|---|
 | p18 (PDF 19) | Dua (hadith) | «وفی لحمی نورا» for "میرے کانوں میں" and again for "میرے گودے میں" | «وفی سمعی نورا», «وفی مخی نورا»; editor's note on the page | The book's own Urdu translation (ears, marrow) and the dua as narrated (Nasai, Abu Dawud); the repeated "لحمی" is a typesetting slip (it appears correctly later for گوشت) |
 | p19 (PDF 20) | Hadith | «شباب نشاء فی طاعة الله» | «شاب نشأ فی طاعۃ اللہ»; editor's note | "شباب" for "شاب" is a reading slip (the hadith of the seven under the Throne, Bukhari, Muslim); "طاعۃ اللہ" kept as printed |
+| p26 (PDF 27) | Persian verse (Rumi) | «ہیچ کنجے بے درد بے دام نیست» | «ہیچ کنجے بے دد و بے دام نیست» | Masnavi wording ("دد و دام", beasts and snares); "درد" is a reading slip |
