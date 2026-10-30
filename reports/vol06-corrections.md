@@ -25,3 +25,4 @@ Every place where the book's wording was changed, or kept although doubtful. The
 | p236 (PDF 237) | Verse gloss (kept) | Under «تا توانی دور شو از یار بد» the bracketed gloss adds "ایک لمحہ اولیاء اللہ کی صحبت سو سولہ بے ریا عبادت سے افضل ہے", which belongs to the next line (and "سو سولہ" is a slip for "سو سالہ") | Kept as printed | Typesetting slip in the book |
 | p236 (PDF 237) | Verse gloss (kept) | The gloss of «جہد کن…» ends "بلکہ یاد خدا میں یہ دونوں میسر بلکہ (یاد خدا میں تنہائی اختیار کر)" — repeated words | Kept as printed | Typesetting slip |
 | p244 (PDF 245) | Text slip (kept) | "مگر یہ جو میں نے کہا ہے کہ اپنے کو متہم نہ سمجھو" — the preceding argument says "اپنے کو متہم سمجھو" | Kept as printed | The "نہ" contradicts the context (probably a slip); left as printed |
+| p249 (PDF 250) | Hadith word | «مالک حشیا رائتہ» | «مالک حشیا رابیۃ» | Muslim 974 (Aisha): "ما لك يا عائش حشيا رابية"; "رائتہ" is a reading slip |
