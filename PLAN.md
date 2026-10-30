@@ -10,8 +10,8 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 - **Volume 4 (حقوق و فرائض) — in progress.** Folder `Vol 04 huqooq o faraiz/`. PDF page = printed page + 1; text
   printed pp. 13–478 (11 sermons). `toc.tsv` done (268 rows). Reading images: `<scratch>/v04/h/NNN{a,b}.png`.
-  Corrections log: `reports/vol04-corrections.md`. Transcribed so far: printed pp. 13–106 (sermons 1–3; files 0013,
-  0041, 0054).
+  Corrections log: `reports/vol04-corrections.md`. Transcribed so far: printed pp. 13–146 (sermons 1–4 complete; files 0013,
+  0041, 0054, 0107; sermon 5 التہذیب begun in 0145).
 
 - **Volume 3 (دین و دنیا) — done, awaiting the owner's review.** Folder `Vol 03 deen o dunya/`. PDF page = printed
   page + 1; text printed pp. 14–440 (10 sermons), all transcribed (files 0015–0401). mark_arabic: DIFFERS 0, CITE 0,
@@ -128,8 +128,8 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Volume 4: continue transcription from printed p. 107 (PDF 108, sermon 4 علوم العباد من علوم الرشاد), new file
-  `page-notes/0107.txt`; then the §3 sequence, then Volume 5 and onward — no stopping between volumes.
+- Volume 4: continue transcription from printed p. 147 (PDF 148, sermon 5 التہذیب) in `page-notes/0145.txt`;
+  sermon 6 starts p. 183 (new file 0183); then the §3 sequence, then Volume 5 and onward — no stopping between volumes.
 - Owner will review `reports/vol02-corrections.md` (and later logs) at leisure; revert anything he rejects.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
   `iatasadduq/thanvi-khutbat-site` and turning on GitHub Pages (only after the owner approves).
