@@ -31,3 +31,4 @@ file after the work and names anything to revert.
 | p188 (PDF 189) | Ayah wording | «انّ مع العسر یسرا ان مع العسر یسرا» | ﴿94:5﴾ «فان مع العسر یسرا» ﴿94:6﴾ «ان مع العسر یسرا» | The first ayah begins «فان»; the book drops the «ف» in the quotation |
 | p194 (PDF 195) | Ayah citation | «وقودہا الناس والحجارۃ» (no citation) | Marked as 2:24 | The words occur in 2:24 and 66:6; 2:24 chosen, as for the same story in Vol 3 (p317) |
 | p195 (PDF 196) | Footnote (Arabic) | «فیکن ان یعفو عنہ»، «نجلطۃ المجرم»، «نجطابہ» | «فیمکن»، «مخالطۃ»، «مخاطبتہ» | Print slips in the editor's Arabic footnote; read by sense |
+| p199 (PDF 200) | Hadith in editor's footnote | «… ذکر او انثی فلم او لم یسلم رضی او لم یرض او لم یصبر لم یکن لہ ثواب الا لا بنہ» | «… ذکر او انثی سلم او لم یسلم رضی او لم یرض صبر او لم یصبر لم یکن لہ ثواب الا الجنۃ» | Print slips; wording of the hadith as cited from Tabarani in Jam' al-Fawa'id |
