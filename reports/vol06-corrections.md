@@ -54,3 +54,4 @@ Every place where the book's wording was changed, or kept although doubtful. The
 | p411 (PDF 412) | Hadith | «ان اللہ تجاوز عن امتی عما وسوست صدورہا ما لم تعمد او تتکلم» | «… ما لم تعمل او تتکلم» | «تعمد» is a typesetting slip for «تعمل» (Bukhari 2528, Muslim 127) |
 | p420 (PDF 421) | Verse | «وما ارا الم رضوانی العیش بالدون» | «وما اراہم رضوا فی العیش بالدون» | Broken typesetting of the well-known couplet (attributed to Ibn al-Mubarak, quoted by al-Ghazali); restored the standard wording |
 | p426 (PDF 427) | Saying | «صدقوا فی الوصول ولکن الی سفر» | «صدقوا فی الوصول ولکن الی سقر» | «سفر» is a dot slip for «سقر»; the book's own gloss is «دوزخ میں» |
+| p439 (PDF 440) | Ayah | «ان نظن لا یغنی من الحق شیئا» | ﴿53:28 وَاِنَّ الظَّنَّ لَا يُغۡنِيۡ مِنَ الۡحَقِّ شَيۡـًٔا﴾ | No verse reads «ان نظن لا یغنی…»; the book itself quotes the verse correctly on p440 and ties it to an-Najm 27, so 53:28 was used |
