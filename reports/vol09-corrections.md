@@ -29,3 +29,5 @@ file after the work and names anything to revert.
 | p181 (PDF 182) | Ayah citation | «وکانوا ینحتون من الجبال بیوتا آمنین» (no citation) | Marked as 15:82 | The exact wording is 15:82 (Thamud; the book names عاد و ثمود) |
 | p187 (PDF 188) | Text kept, doubtful | «غرض جب یہ بات ثابت ہو گئی کہ حق تعالیٰ کی یاد ہی انبیاء کے نزدیک مقصود بالذات نہ بناؤ» | Kept as printed | A line seems to have dropped out between «مقصود بالذات» and «نہ بناؤ» (the sense: … so do not make the remembrance of sins your aim in itself) |
 | p188 (PDF 189) | Ayah wording | «انّ مع العسر یسرا ان مع العسر یسرا» | ﴿94:5﴾ «فان مع العسر یسرا» ﴿94:6﴾ «ان مع العسر یسرا» | The first ayah begins «فان»; the book drops the «ف» in the quotation |
+| p194 (PDF 195) | Ayah citation | «وقودہا الناس والحجارۃ» (no citation) | Marked as 2:24 | The words occur in 2:24 and 66:6; 2:24 chosen, as for the same story in Vol 3 (p317) |
+| p195 (PDF 196) | Footnote (Arabic) | «فیکن ان یعفو عنہ»، «نجلطۃ المجرم»، «نجطابہ» | «فیمکن»، «مخالطۃ»، «مخاطبتہ» | Print slips in the editor's Arabic footnote; read by sense |
