@@ -13,3 +13,4 @@ file after the work and names anything to revert.
 | p95 (PDF 96) | Misprint | «عامی تھو خیر امدبر نہیں ہو سکتا» | Kept as printed | The words are garbled in the print (probably «عامی تو خیر مدبر نہیں ہو سکتا»); the meaning is clear from the next sentence |
 | p107 (PDF 108) | Misprint | «اب میں اول اس جزو کی یقین کئے دیتا ہوں» | Kept as printed | Probably «تعیین» (the paragraph is about specifying the missing part; next page: «اب سمجھئے کہ ماعلیہ الصبر کیا ہے», «تعیین اجمالی») |
 | p121 (PDF 122) | Misprint | «مباح کا نافع یا فضول ہونا اکثر کے تابع ہے» | Kept as printed | Probably «اثر کے تابع» (the paragraph above speaks of «اپنے اثر کے لحاظ سے») |
+| 129 | Persian verse (Masnavi) | «جاں ہمہ دم زیں لگ کوب خیال / مے شود مجروح و خستہ پائما» | «… لگد کوب خیال / … خستہ پائمال» | print slips (letters dropped); "ہمہ دم زیں" kept as printed (Masnavi: ہمہ روز از) |
