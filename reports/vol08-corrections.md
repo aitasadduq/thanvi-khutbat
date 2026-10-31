@@ -14,3 +14,4 @@ file after the work and names anything to revert.
 | p158 (PDF 159) | Historical name | خلیفہ «جعفر بن منظور» | خلیفہ ابو جعفر منصور, with editor's note | Imam Abu Hanifa was offered the post of qadi by the Abbasid caliph Abu Ja'far al-Mansur |
 | p176 (PDF 177) | Ayah identification | «فمن ثقلت موازینہ فاولئک ہم المفلحون» quoted with no reference | Marked as 23:102 | The same words are also in 7:8 (after «والوزن یومئذ الحق»); 23:102 starts exactly with the quoted words |
 | p201 (PDF 202) | Misprint | «اس لئے دینا پڑتا ہے» | «اس لئے دبنا پڑتا ہے» | The context is about not being able to stop an amir from playing chess because one goes to him for one's own need, i.e. having to be submissive (دبنا) |
+| p241 (PDF 242) | Ayah identification | «خلقتنی من نار وخلقتہ من طین» quoted with no reference | Marked as 38:76 (ص) | The same words also end 7:12 |
