@@ -27,4 +27,7 @@ Every place where the book's wording was changed, or kept although doubtful. The
 | p244 (PDF 245) | Text slip (kept) | "مگر یہ جو میں نے کہا ہے کہ اپنے کو متہم نہ سمجھو" — the preceding argument says "اپنے کو متہم سمجھو" | Kept as printed | The "نہ" contradicts the context (probably a slip); left as printed |
 | p249 (PDF 250) | Hadith word | «مالک حشیا رائتہ» | «مالک حشیا رابیۃ» | Muslim 974 (Aisha): "ما لك يا عائش حشيا رابية"; "رائتہ" is a reading slip |
 | p252 (PDF 253) | Hadith wording (kept) | «ایتہا النفس المطمئنۃ ارجعی الی روح وریحان ورب غیر غضبان» | Kept as printed | Close to Nasai/Ibn Majah ("اخرجي ... إلى روح وريحان ورب غير غضبان"); the book's "ارجعی" echoes 89:28; meaning unchanged, so left |
-| p257 (PDF 258) | Repeated text (kept) | "جس آیت کی میں نے تلاوت کی ہے اس کا مضمون تبدیل رائے سے مضمون بھی متبدل ہوا۔" printed twice | Kept as printed | Typesetting repetition |
+| p256 (PDF 257) | Repeated text (kept) | "جس آیت کی میں نے تلاوت کی ہے اس کا مضمون تبدیل رائے سے مضمون بھی متبدل ہوا۔" printed twice | Kept as printed | Typesetting repetition |
+| p272 (PDF 273) | Ayah wording | «حتی اذا رکبوا فی الفلک دعوا اللہ مخلصین لہ الدین» | ﴿29:65﴾ «فَاِذَا رَكِبُوْا فِي الْفُلْكِ دَعَوُا اللّٰهَ مُخْلِصِيْنَ لَهُ الدِّيْنَ» | The words are 29:65 (the book's "حتی اذا" echoes 10:22); verified text applied |
+| p272 (PDF 273) | Ayah wording | «لئن انجیتنا من ہذہ لنکونن من الشاکرین» given with the 29:65 story | ﴿10:22﴾ | The exact words are in 10:22 (6:63 has "انجانا") |
+| p254–272 (labels) | Page labels | Note on the title page of الاعتصام بحبل اللہ had been given its own page, shifting labels one ahead | Merged into p254; later labels corrected | Bookkeeping fix, no text change |
