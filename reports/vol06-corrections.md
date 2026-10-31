@@ -52,3 +52,4 @@ Every place where the book's wording was changed, or kept although doubtful. The
 | p400 (PDF 401) | Ayah | «ویتذکر اولوا الالباب» | ﴿38:29 وَلِيَتَذَكَّرَ اُولُوا الۡاَلۡبَابِ﴾ | No verse reads «ویتذکر»; the wording matches Sad 29 (missing «ل»), so it was marked as that verse with the Quran's text |
 | p400 (PDF 401) | Khutba | Full khutba printed, ending «فقد قال اللہ تبارک وتعالیٰ» | Abbreviated khutba marker; «فقد قال اللہ تبارک وتعالیٰ» kept before the ayah | House style for the masnoon khutba |
 | p411 (PDF 412) | Hadith | «ان اللہ تجاوز عن امتی عما وسوست صدورہا ما لم تعمد او تتکلم» | «… ما لم تعمل او تتکلم» | «تعمد» is a typesetting slip for «تعمل» (Bukhari 2528, Muslim 127) |
+| p420 (PDF 421) | Verse | «وما ارا الم رضوانی العیش بالدون» | «وما اراہم رضوا فی العیش بالدون» | Broken typesetting of the well-known couplet (attributed to Ibn al-Mubarak, quoted by al-Ghazali); restored the standard wording |
