@@ -11,3 +11,4 @@ file after the work and names anything to revert.
 | p90 (PDF 91) | Ayah | «لعنۃ اللہ علی الکاذبین» | ﴿3:61 لَّعۡنَتَ اللّٰهِ عَلَي الۡكٰذِبِيۡنَ﴾ | The book cites it as a saying; the words are the end of Al Imran 61 (the mubahala verse); marked as ayah with the Quran text |
 | p110 (PDF 111) | Hadith reference | Footnote «جمہرۃ انساب العرب: ۱۶۷» for «ما اتاک من غیر اشراف نفس فخذہ وما لا فلا تتبعہ نفسک» | (صحیح البخاری ۱۴۷۳) | A genealogy book is not a source for this hadith; it is in Bukhari 1473 and Muslim 1045 («ما جاءک من ہذا المال وانت غیر مشرف ولا سائل فخذہ…»). Wording kept as printed |
 | p111 (PDF 112) | Hadith reference | Same footnote «جمہرۃ انساب العرب: ۱۶۷» repeated | (صحیح البخاری ۱۴۷۳) | As at p110 |
+| p144 (PDF 145) | Hadith wording | «نفست نفسی» as the word the Prophet ﷺ taught in place of «خبثت نفسی» | «لقست نفسی» | Bukhari 6179 / Muslim 2250: «لا یقولن احدکم خبثت نفسی ولکن لیقل لقست نفسی»; «نفست» is a misprint |
