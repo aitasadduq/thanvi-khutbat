@@ -60,3 +60,4 @@ file after the work and names anything to revert.
 | p375 (PDF 376) | Persian verse (Hafiz) | «نہ ہر کہ آئینہ دارو سکندری داند» / «ہرنکتہ باریک تر زمو اینجاست» | «نہ ہر کہ آئینہ دارد …» / «ہزار نکتہ باریک تر ز مو اینجاست» | Print slips; standard Hafiz text |
 | p375 (PDF 376) | Persian verse | «نذر کردم کہ گرایں غم بسر آید روزے» | Kept as printed | Elsewhere quoted «گر آید بسر ایں غم روزے»; the index term uses that form |
 | p387 (PDF 388) | Print slip | «بلکہ افضاء الی الخلال الدین کی وجہ سے مضر ہے» | «افضاء الی اختلال الدین» | «الخلال» is a typesetting slip; the sense requires «اختلال» |
+| p390 (PDF 391) | Print slip | «اللہ تعالیٰ کا شامل ہونا بغیر و ملایفت کے» | «بغیر کیفیت کے» | Garbled typesetting; translates «بے تکیف» |
