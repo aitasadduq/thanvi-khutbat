@@ -20,3 +20,4 @@ file after the work and names anything to revert.
 | p150 (PDF 151) | Contents page number | The contents give «صبر کے معنی» and «اعمال میں اولیت» (الصبر والصلوٰۃ) at p148 | toc.tsv set to p150 | Both headings are printed on p150 |
 | p153 (PDF 154) | Faded scan | The upper half of the page is badly faded (many letters missing) | Text restored from the legible strokes and the sense (e.g. «تمام عبادات میں»، «طبیب کامل کی تشخیص»، «آج کل دین کے بارہ میں»، «اگر مخزن دیکھ کر انہی ادویہ کے مزاج کے موافق») | For the owner to check against the printed book if possible |
 | p155 (PDF 156) | Athar (Arabic) | «ھا کنا نری ترک شی ء کفرا سوی الصلوٰۃ» | «ما کنا نری …» | Print slip (ھا for ما); the saying of the Companions reported by Abdullah bin Shaqiq (Tirmidhi 2622) |
+| p164 (PDF 165) | Arabic verse | «اصبر نکن بک صابرین فانما / صبر الرعیة بعد صبر الراس» | Kept; written «الرعیۃ» as in the same couplet in earlier volumes | Spelling only |
