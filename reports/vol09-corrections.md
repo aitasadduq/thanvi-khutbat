@@ -32,3 +32,4 @@ file after the work and names anything to revert.
 | p194 (PDF 195) | Ayah citation | «وقودہا الناس والحجارۃ» (no citation) | Marked as 2:24 | The words occur in 2:24 and 66:6; 2:24 chosen, as for the same story in Vol 3 (p317) |
 | p195 (PDF 196) | Footnote (Arabic) | «فیکن ان یعفو عنہ»، «نجلطۃ المجرم»، «نجطابہ» | «فیمکن»، «مخالطۃ»، «مخاطبتہ» | Print slips in the editor's Arabic footnote; read by sense |
 | p199 (PDF 200) | Hadith in editor's footnote | «… ذکر او انثی فلم او لم یسلم رضی او لم یرض او لم یصبر لم یکن لہ ثواب الا لا بنہ» | «… ذکر او انثی سلم او لم یسلم رضی او لم یرض صبر او لم یصبر لم یکن لہ ثواب الا الجنۃ» | Print slips; wording of the hadith as cited from Tabarani in Jam' al-Fawa'id |
+| p218 (PDF 219) | Hadith | «ان للہ ما اخذ وللہ ما اعطی وکل عندہ باجل مسمی فلتصبر ولتحتسب» | Kept | Bukhari's wording; the book's reference «۲: ۱۰۰» kept |
