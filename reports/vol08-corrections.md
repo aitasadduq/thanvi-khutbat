@@ -30,3 +30,7 @@ file after the work and names anything to revert.
 | p439 (PDF 440) | Ayah references | «یقوم لا اسئلکم علیہ اجرا» and «یقوم لا اسئلکم علیہ مالا», no references | Marked as 11:51 and 11:29 | Both are in سورۂ ہود (Hud and Nuh respectively) |
 | p461 (PDF 462) | Name | «حضرت مولانا سلمہ علیہ الرحمۃ» | Kept as printed, no term made for the name | The name appears to be garbled in the print (سلمہ is normally a prayer for a living person, not a name followed by علیہ الرحمۃ); the intended person is not clear from the page |
 | p463 (PDF 464) | Text order | A stray line «ہیں کہ کس شخص کی کیا نیت ہے اور وہ حکیم بھی ہیں کہ قوانین حکمت سے مقرر کرتے ہیں اور عامل وتارک کو مناسب جزا وسزا دیتے ہیں۔» is printed between the two kinds of قلب | Transcribed where printed, with an editor's note | It appears to belong to an explanation of «واللہ علیم حکیم» (p463 top) and is out of place |
+
+## Hadith check (end of volume)
+
+`reports/vol08-hadith-check.md`: 13 "differs" items, all reviewed. Every one is the book's own wording or a known variant reading (missing و at the start, «لجہلا» for «جہلا», «من این… واین» for «وفیم», «تحول بہ» for «یحول», «ولا تخرجہ من الایمان» for «ولا تخرجہ من الاسلام», shortened quotations). None is a reading error, so all are **kept as printed** (rule 14).
