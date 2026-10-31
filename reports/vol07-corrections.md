@@ -19,3 +19,4 @@ file after the work and names anything to revert.
 | p322 (PDF 323) | Wording | «مثنوی میں ایک یہودی بادشاہ کی حکایت ہے» | Kept as printed | At p149 the same Masnavi story is told of «ایک بادشاہ کافر بت پرست»; Rumi's tale is of a Jewish king who set up an idol. Both forms kept as printed; indexed under one story |
 | p327 (PDF 328) | Hadith reference | Footnote «جمہرۃ انساب العرب: ۱۶۷» for «من غیر اشراف نفس» | Footnote not carried | As at pp110–111; the phrase is from Bukhari 1473 |
 | p367 (PDF 368) | Hadith wording | «افلا اکون عبد الشکور» (twice) | «افلا اکون عبدا شکورا» | The sermon's own heading (p344) and Bukhari 1130 / Muslim 2819 have «عبدا شکورا» |
+| p370 (PDF 371) | Persian verse | «ز دریا موج گونا گوں برآمد / زبیرنگی برنگ چوں درآمد» | Kept as printed | At p155 the same couplet is printed «ز دریا موج گونا گوں بر آید / ز بیچونی برنگ چوں بر آید»; both forms circulate. Indexed under the p155 form |
