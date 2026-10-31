@@ -55,3 +55,4 @@ file after the work and names anything to revert.
 | p348 (PDF 349) | Word | «لیجئے جس کو قہمت کہتے ہیں کہ وہ سبب رحمت کا ہوا» | Kept as printed | Unclear word, probably «زحمت» |
 | p354 (PDF 355) | Print slip | «اسی طرح لازمیں بھی یہی حکمت ہے» | «اسی طرح اس میں بھی یہی حکمت ہے» | «لازمیں» is a typesetting slip for «اس میں» |
 | p358 (PDF 359) | Verse kept | «بحیرتم کہ عجب تیر بے گماں زدہ» | Kept as printed | The usual reading is «تیر بے کماں زدہ‌ای»; the Urdu translation also follows «بے گماں». The index term uses «بے کماں», as printed in Vol 7 |
+| p366 (PDF 367) | Print slip | «قرینہ سیاق بالموحدہ» … «اور سیق بالتحتیہ یہ ہے» | «قرینہ سباق بالموحدہ» … «اور سیاق بالتحتیہ یہ ہے» | «بالموحدہ» (spelled with ب) means سباق, the preceding verse 13:27; «بالتحتیہ» (spelled with ی) means سیاق, the following verse 13:29 |
