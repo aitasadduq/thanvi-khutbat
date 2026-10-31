@@ -38,3 +38,4 @@ Every place where the book's wording was changed, or kept although doubtful. The
 | p286 (PDF 287) | Verse gloss (kept) | Gloss under «دلا تا بزرگی نیاری بدست / بجائے بزرگاں نباید نشست» reads "بیٹھنا چاہئے" | Kept as printed | The line means one should NOT sit; "نہ" seems dropped in the gloss |
 | p288 (PDF 289) | Verse glosses (kept) | The gloss "(بغیر مکھی کے ہرگز مکڑی نہیں رہتی…)" is printed under «ہیں توکل کن…», but belongs to the next line «بے مگس ہرگز نماند عنکبوت» | Kept as printed | Typesetting slip |
 | p296 (PDF 297) | Arabic note (spelling) | «وابوعنته» … «والدنیوری فی المحاسبته» | «وابو عوانۃ» … «والدینوری فی المجالسۃ» | Sakhawi's al-Maqasid al-Hasana cites Abu Awana and al-Dinawari's al-Mujalasa; typesetting slips |
+| p299 (PDF 300) | Arabic quote spelling | «وکذا الاسخلته» | «وکذا السخلۃ» | Shamiya's wording; typesetting slip |
