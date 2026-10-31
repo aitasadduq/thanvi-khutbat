@@ -39,3 +39,5 @@ Every place where the book's wording was changed, or kept although doubtful. The
 | p288 (PDF 289) | Verse glosses (kept) | The gloss "(بغیر مکھی کے ہرگز مکڑی نہیں رہتی…)" is printed under «ہیں توکل کن…», but belongs to the next line «بے مگس ہرگز نماند عنکبوت» | Kept as printed | Typesetting slip |
 | p296 (PDF 297) | Arabic note (spelling) | «وابوعنته» … «والدنیوری فی المحاسبته» | «وابو عوانۃ» … «والدینوری فی المجالسۃ» | Sakhawi's al-Maqasid al-Hasana cites Abu Awana and al-Dinawari's al-Mujalasa; typesetting slips |
 | p299 (PDF 300) | Arabic quote spelling | «وکذا الاسخلته» | «وکذا السخلۃ» | Shamiya's wording; typesetting slip |
+| p301 (PDF 302) | Ayah fragment | «یارب لا تذر علی الارض من الکفرین دیارا» | ﴿71:26﴾ from «رَبِّ» | The ayah has "رب" without "یا"; "یا" left out of the marked ayah |
+| p301 (PDF 302) | Arabic note spelling | «بلفظها ما اوزی احدما اوذیت» | «بلفظ ما اوذی احد ما اوذیت» | Typesetting slips in the editor's note |
