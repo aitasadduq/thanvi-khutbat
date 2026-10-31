@@ -11,8 +11,8 @@ owner at the end of the volume; the owner may ask for any correction to be rever
 | 288 | other (printing) | paragraph «چنانچہ میں اس وقت بعض نوجوان عربی طلباء…» printed twice | kept once, with editor's note | duplicate typesetting |
 | 304 | citation | المجادلہ: ۱۰ | المجادلہ: ۱۱ + editor's note | auto (owner's rule 2026-10-30) |
 | 341 | citation | العنکبوت: ۴۴ | العنکبوت: ۴۵ + editor's note | auto (owner's rule 2026-10-30) |
-| 367 | other (scan) | right edge of the page is cut off in the scan; first word or two of several lines under "ذکر لسانی کے درجات" missing | restored from context, with editor's note | scan damage, not a book error |
-| 368 | other (scan) | right edge of the page cut off in the scan; last word or two of several lines missing | restored from context, with editor's note | scan damage, not a book error |
+| 367 (PDF 368) | other (scan) | Right edge of the page is cut off in the scan (the page was scanned at a slant). Under "ذکر لسانی کے درجات" only the first letters of two lines are lost: "[ح]ق پر توجہ ہے" and "[ک]ی تعلیم کرتے ہیں" | Restored as "حق" (in "محض ذات حق پر توجہ ہے") and "کی" (in "ذکر «ھو ھو» کی تعلیم کرتے ہیں"); editor's note added in the text | Scan damage, not a book error. Both words follow from the visible half-letters and the sentence; please check against the printed book |
+| 368 (PDF 369) | other (scan) | Left edge cut off in the scan; only the last line is affected: "اور بہت سی باتوں کو چھپا[ئے]" (the line continues on p369 with "رکھا") | Joined as "چھپا رکھا"; editor's note added | Scan damage. Also on this page the line "اور ہدایت تھی لوگوں کے واسطے جس کو تم نے ورق ورق کر کے لوگوں کو دکھلایا" is printed twice; kept once |
 | 371 | citation | سورہ البقرہ آیت نمبر ۱۵۸ (for لتکبروا اللہ علیٰ ما ہداکم) | البقرہ آیت نمبر ۱۸۵ + editor's note | auto (owner's rule 2026-10-30) |
 | 382 | citation | البقرہ: ۲۰۶ (for ومن الناس من یشری نفسہ) | البقرہ: ۲۰۷ + editor's note | auto (owner's rule 2026-10-30) |
 | 394 | other (text, kept) | «صرف روح کو لے لیا» where context needs «صرف صورت کو لے لیا» | book wording kept; editor's note added | possible slip in the book; owner to decide |
