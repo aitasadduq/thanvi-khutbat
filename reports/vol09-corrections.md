@@ -17,3 +17,4 @@ file after the work and names anything to revert.
 | p133 (PDF 134) | Persian verse | «… ونددر آں ظلمت شب آب حیاتم داوند» | «دوش وقت سحر از غصہ نجاتم دادند / واندراں ظلمت شب آب حیاتم دادند» | Print slips (داوند for دادند, twice); same couplet as in earlier volumes |
 | p134 (PDF 135) | Persian verse | «ورنہ شاید بدست رہ برن / شرط عشق ست در طلب مردن» | «ور نشاید بدوست رہ بردن / شرط عشق است در طلب مردن» | Print slips; the translation («اگر دوست تک راہ نہ پا سکے») confirms the reading |
 | p135 (PDF 136) | Persian verse (Masnavi) | «توانی ازاں دل بہ داختن» ; «بے عنایات خداھیچم و ہیچ» | «بپرداختن» ; «بے عنایات خدا ہیچیم ہیچ» | Print slips; the couplets as elsewhere in the series |
+| p150 (PDF 151) | Contents page number | The contents give «صبر کے معنی» and «اعمال میں اولیت» (الصبر والصلوٰۃ) at p148 | toc.tsv set to p150 | Both headings are printed on p150 |
