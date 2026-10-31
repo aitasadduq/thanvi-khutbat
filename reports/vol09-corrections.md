@@ -34,3 +34,4 @@ file after the work and names anything to revert.
 | p199 (PDF 200) | Hadith in editor's footnote | «… ذکر او انثی فلم او لم یسلم رضی او لم یرض او لم یصبر لم یکن لہ ثواب الا لا بنہ» | «… ذکر او انثی سلم او لم یسلم رضی او لم یرض صبر او لم یصبر لم یکن لہ ثواب الا الجنۃ» | Print slips; wording of the hadith as cited from Tabarani in Jam' al-Fawa'id |
 | p223 (PDF 224) | Arabic verse | «فلو ان رب الناس بقی محمدا» ; «نفدیک بابا ء ناوامہاتنا» | «… ابقی محمدا» ; «نفدیک بآبائنا وامہاتنا» | Metre and sense need «ابقی» (the elegy of Safiyya bint Abd al-Muttalib); the second is a split word |
 | p243 (PDF 244) | Place name | «فتوح میں ایک صاحب نے» | «قنوج میں» | No town «فتوح» is known; «قنوج» (Kannauj), where the author preached, fits the dotting with one letter misprinted |
+| p247 (PDF 248) | Word | «جو کفارت کے احکام» | Kept as printed | Probably «کفاءت» (marriage equality), which the argument about lineage needs |
