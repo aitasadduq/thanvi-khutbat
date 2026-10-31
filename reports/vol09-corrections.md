@@ -62,3 +62,4 @@ file after the work and names anything to revert.
 | p387 (PDF 388) | Print slip | «بلکہ افضاء الی الخلال الدین کی وجہ سے مضر ہے» | «افضاء الی اختلال الدین» | «الخلال» is a typesetting slip; the sense requires «اختلال» |
 | p390 (PDF 391) | Print slip | «اللہ تعالیٰ کا شامل ہونا بغیر و ملایفت کے» | «بغیر کیفیت کے» | Garbled typesetting; translates «بے تکیف» |
 | p400 (PDF 401) | Arabic footnote | «یو لدلہ» / «تز وجو» / «ابا ھی بکم» / «جانت ذالک» | «یولد لہ» / «تزوجوا» / «اباہی بکم» / «جانب ذلک» | Typesetting splits and slips in the Arabic footnote |
+| p417 (PDF 418) | Repeated phrase | «صحابہؓ نے کہا پھر حضرات انبیاء علیہم السلام کا ایمان عجیب ہے فرمایا تمہیں کیا ہوا…» | Kept as printed | The third answer should be «پھر ہمارا (صحابہ کا) ایمان عجیب ہے»; the line repeats the previous answer. Kept, since the intended wording is not certain |
