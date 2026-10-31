@@ -6,13 +6,20 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 ---
 
-## 1. Status (2026-10-30)
+## 1. Status (2026-10-31)
 
-- **Volume 6 (نظام شریعت) — in progress.** PDF `scanned_version/Khutbaat-i-Hakeem-ul-Ummat-Vol-06.pdf` (497 pages);
-  PDF page = printed page + 1. Folder `Vol 06 nizam e shariat/`; `toc.tsv` from the contents (13 sermons, text printed
-  pp. 10–493). Reading images in `<scratch>/v06/h/NNN{a,b}.png` (NNN = PDF page). Done so far: pp. 10–296 (sermons 1–8 and
-  start of 9; files 0010, 0051, 0087, 0122, 0174, 0194, 0221, 0254, 0295). Next: continue 0295 from p. 297. Corrections log:
-  `reports/vol06-corrections.md`.
+- **Volume 7 — next.** Set up as for earlier volumes: find the PDF in `scanned_version/`, extract images
+  (`pdfimages -png`), split halves (`tools/halves.py`), build `toc.tsv` from the contents, then transcribe.
+
+- **Volume 6 (نظام شریعت) — done, awaiting the owner's review.** Folder `Vol 06 nizam e shariat/`. PDF page =
+  printed page + 1; text printed pp. 10–496 (13 sermons), all transcribed (files 0010, 0051, 0087, 0122, 0174, 0194,
+  0221, 0254, 0295, 0341, 0364, 0399, 0436). `toc.tsv` start pages corrected to the scans (e.g. تکمیل الاسلام 341).
+  mark_arabic: DIFFERS 0, CITE 0. Hadith check: `reports/vol06-hadith-check.md` (20 differs reviewed). All
+  corrections applied under the owner's rule are in `reports/vol06-corrections.md`. Index built (3142 entries); site
+  built (`site/v06.html`). Preview (private artifact, republish to the same URL):
+  https://claude.ai/artifact/GRaqubimEqhWwoXJptsMbB
+  Name forms of people were unified across all volumes during Vol 6 (e.g. حضرت شاہ ولی اللہ محدث دہلویؒ،
+  مولانا سعید احمد تھانویؒ، حضرت ابو بکر صدیقؓ، حضرت عائشہ صدیقہؓ، امام ابو حنیفہؒ، ابلیس).
 
 - **Volume 5 (خطبات میلاد النبی) — done, awaiting the owner's review.** Folder `Vol 05 milad un nabi/`. PDF page =
   printed page + 1; text printed pp. 13–424 (9 sermons), all transcribed (files 0013, 0048, 0098, 0130, 0177, 0261,
@@ -145,7 +152,7 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Volume 6: make folder `Vol 06 <name>/`, build `toc.tsv` from the contents pages, then transcribe from the first sermon (new file at each sermon start), logging corrections in `reports/vol06-corrections.md`; at the end run the §3 pipeline and add Vol 6 to VOLUMES.
-- Owner will review `reports/vol02-corrections.md` (and later logs) at leisure; revert anything he rejects.
+- Volume 7: make folder `Vol 07 <name>/`, build `toc.tsv` from the contents pages, then transcribe from the first sermon (new file at each sermon start), logging corrections in `reports/vol07-corrections.md`; at the end run the §3 pipeline and add Vol 7 to VOLUMES.
+- The owner will review `reports/vol02-corrections.md` … `reports/vol06-corrections.md` at leisure; revert anything the owner rejects.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
   `iatasadduq/thanvi-khutbat-site` and turning on GitHub Pages (only after the owner approves).
