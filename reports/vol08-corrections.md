@@ -19,3 +19,4 @@ file after the work and names anything to revert.
 | p254 (PDF 255) | Ayah identification | «وان تعدوا نعمۃ اللہ لا تحصوہا» quoted with no reference | Marked as 16:18 (النحل) | The book prints «نعمۃ» (16:18 spelling); 14:34 has the same words with «نعمت» |
 | p255 (PDF 256) | Ayah identification | «قاصرات الطرف» quoted with no reference | Marked as 55:56 (الرحمٰن) | Also in 37:48 and 38:52 |
 | p331 (PDF 332) | Misprint | «اس کے قبل نکاح کا طریقہ ارشاد فرمایا ہے» | «فلاح کا طریقہ», with editor's note | The heading on the same page is «فلاح کا طریقہ» and the verses before 87:16 (قد افلح من تزکیٰ…) are about فلاح |
+| p337 (PDF 338) | Misprint | «مسلمان تو اہل دنیا ہی ہو گا» | «اہل دین ہی ہو گا», with editor's note | The whole argument (and the next paragraph «پس جتنے اہل اسلام ہیں سب اہل دین ہیں») says a Muslim is never اہل دنیا |
