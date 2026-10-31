@@ -40,3 +40,4 @@ file after the work and names anything to revert.
 | p273 (PDF 274) | Persian line | «تمی تسدازاں کایز وتعالی / اگر دیر گیرد سخت گیرد» | «بترس ازاں کہ ایزد تعالیٰ / اگر دیر گیرد سخت گیرد» | The first half is garbled in print; read from the letter shapes (تمی تس → بترس، کایز و → کہ ایزد) and the sense: fear God, who if He seizes late seizes hard |
 | p294 (PDF 295) | Name | «حضرت سعد بن جبیر» | «حضرت سعید بن جبیرؒ» | The Tabi'i killed by al-Hajjaj is Sa'id ibn Jubayr |
 | p294 (PDF 295) | Arabic verse (Khubayb) | «وذلک فی ذات الا لہ وان یشاء / یبارک وعلی اوصال ضلو مسزع» | «… یبارک علی اوصال شلو ممزع» | Print slips; the couplet as in Bukhari (Kitab al-Maghazi) |
+| p297 (PDF 298) | Ayah citation | «(البقرہ آیت نمبر ۱۵۵ تا ۱۵۶)» for a quotation that runs to «المہتدون» | «۱۵۵ تا ۱۵۷» | The quoted text ends with 2:157 |
