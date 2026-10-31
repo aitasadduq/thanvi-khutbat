@@ -10,3 +10,4 @@ file after the work and names anything to revert.
 | p48 (PDF 49) | Scan damage | Page scanned at a slant; the left edge of a few lower lines is cut | Restored from context: "ورنہ"، "کہئے"، "رہ گیا ہے"; editor's note added on the page | Scan damage; guesses from the sentence, please check |
 | p53 (PDF 54) | Ayah citation | (البقرہ آیت: ۸۸) | (البقرۃ آیت: ۱۸۸) with editor's note | The words «ولا تاکلوا اموالکم بینکم بالباطل وتدلوا بہا الی الحکام» are 2:188 |
 | p135 (PDF 136) | Ayah identification | «جزاء بما کانوا یعملون» quoted twice with no reference | Marked as 56:24 (الواقعة) and 32:17 (السجدة) | The same words also end 46:14; no fix to the text |
+| p142 (PDF 143) | Ayah wording | «جزاء بما کانوا یعملون» quoted as the end of «فلیضحکوا قلیلا ولیبکوا کثیرا» | «جَزَآءًۭ بِمَا كَانُوۡا يَكۡسِبُوۡنَ» (9:82) with editor's note | The verse 9:82 ends يكسبون; يعملون is the ending of 32:17/46:14/56:24. The misprint «فلیضحکزا» was also set as فلیضحکوا |
