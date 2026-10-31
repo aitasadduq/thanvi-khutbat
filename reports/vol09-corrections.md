@@ -54,3 +54,4 @@ file after the work and names anything to revert.
 | p343 (PDF 344) | Text kept, doubtful | «انسان کب یہ چاہتا ہے کہ عزیز گم ہو جاویں مگر کم ہو جاتے ہیں» | Kept as printed | Probably «کم ہو جاویں» in the first half (dots) |
 | p348 (PDF 349) | Word | «لیجئے جس کو قہمت کہتے ہیں کہ وہ سبب رحمت کا ہوا» | Kept as printed | Unclear word, probably «زحمت» |
 | p354 (PDF 355) | Print slip | «اسی طرح لازمیں بھی یہی حکمت ہے» | «اسی طرح اس میں بھی یہی حکمت ہے» | «لازمیں» is a typesetting slip for «اس میں» |
+| p358 (PDF 359) | Verse kept | «بحیرتم کہ عجب تیر بے گماں زدہ» | Kept as printed | The usual reading is «تیر بے کماں زدہ‌ای»; the Urdu translation also follows «بے گماں» |
