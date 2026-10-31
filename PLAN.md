@@ -10,8 +10,8 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 - **Volume 6 (نظام شریعت) — in progress.** PDF `scanned_version/Khutbaat-i-Hakeem-ul-Ummat-Vol-06.pdf` (497 pages);
   PDF page = printed page + 1. Folder `Vol 06 nizam e shariat/`; `toc.tsv` from the contents (13 sermons, text printed
-  pp. 10–493). Reading images in `<scratch>/v06/h/NNN{a,b}.png` (NNN = PDF page). Done so far: pp. 10–220 (sermons 1–6,
-  files 0010, 0051, 0087, 0122, 0174, 0194). Next: الغالب للطالب from p. 221 (new file 0221). Corrections log:
+  pp. 10–493). Reading images in `<scratch>/v06/h/NNN{a,b}.png` (NNN = PDF page). Done so far: pp. 10–296 (sermons 1–8 and
+  start of 9; files 0010, 0051, 0087, 0122, 0174, 0194, 0221, 0254, 0295). Next: continue 0295 from p. 297. Corrections log:
   `reports/vol06-corrections.md`.
 
 - **Volume 5 (خطبات میلاد النبی) — done, awaiting the owner's review.** Folder `Vol 05 milad un nabi/`. PDF page =
