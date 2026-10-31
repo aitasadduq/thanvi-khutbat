@@ -27,3 +27,4 @@ file after the work and names anything to revert.
 | p175 (PDF 176) | Persian verse | «زانکہ مردہ سوئے پا آئندہ نیست» | «سوئے ما» | Print slip; as in the Masnavi and in earlier volumes |
 | p181 (PDF 182) | Hadith | «لئنکم لو لم تفعلو کان خیرا» | «لعلکم لو لم تفعلوا کان خیرا» | Reading slip; Muslim (Kitab al-Fada'il, ta'bir al-nakhl) has «لعلکم لو لم تفعلوا کان خیرا» |
 | p181 (PDF 182) | Ayah citation | «وکانوا ینحتون من الجبال بیوتا آمنین» (no citation) | Marked as 15:82 | The exact wording is 15:82 (Thamud; the book names عاد و ثمود) |
+| p187 (PDF 188) | Text kept, doubtful | «غرض جب یہ بات ثابت ہو گئی کہ حق تعالیٰ کی یاد ہی انبیاء کے نزدیک مقصود بالذات نہ بناؤ» | Kept as printed | A line seems to have dropped out between «مقصود بالذات» and «نہ بناؤ» (the sense: … so do not make the remembrance of sins your aim in itself) |
