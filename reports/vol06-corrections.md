@@ -51,3 +51,4 @@ Every place where the book's wording was changed, or kept although doubtful. The
 | p396 (PDF 397) | Hadith | «الدنیا ملعون وما فیہا ملعون الا ذکر اللہ وما والاہ وعالم او متعلم» | «الدنیا ملعونۃ ملعون ما فیہا الا ذکر اللہ وما والاہ او عالم او متعلم» | Restored the wording of Ibn Majah 4112 / Tirmidhi 2322 (gender agreement «ملعونۃ», «او عالم») |
 | p400 (PDF 401) | Ayah | «ویتذکر اولوا الالباب» | ﴿38:29 وَلِيَتَذَكَّرَ اُولُوا الۡاَلۡبَابِ﴾ | No verse reads «ویتذکر»; the wording matches Sad 29 (missing «ل»), so it was marked as that verse with the Quran's text |
 | p400 (PDF 401) | Khutba | Full khutba printed, ending «فقد قال اللہ تبارک وتعالیٰ» | Abbreviated khutba marker; «فقد قال اللہ تبارک وتعالیٰ» kept before the ayah | House style for the masnoon khutba |
+| p411 (PDF 412) | Hadith | «ان اللہ تجاوز عن امتی عما وسوست صدورہا ما لم تعمد او تتکلم» | «… ما لم تعمل او تتکلم» | «تعمد» is a typesetting slip for «تعمل» (Bukhari 2528, Muslim 127) |
