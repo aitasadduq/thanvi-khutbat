@@ -66,3 +66,4 @@ file after the work and names anything to revert.
 | p428–429 (PDF 429–430) | Name kept | «حضرت طلحہ» / «عبد اللہ بن طلحہؓ» (Umm Sulaym’s husband and son) | Kept as printed; index terms use حضرت ابو طلحہ انصاریؓ and حضرت عبد اللہ بن ابی طلحہؓ | Historically Abu Talha al-Ansari and his son Abdullah ibn Abi Talha |
 | p458 (PDF 459) | Word kept | «کسی سے پوچھنا منقول ہے» | Kept as printed | The context («بلا دریافت کئے سفر کرنا» on the same page) requires «منقول نہیں»; probably a dropped نہیں |
 | p462–463 (PDF 463–464) | Citation kept | «رب بما اغویتنی (پ ۸)» | Marked as 15:39 (الحجر), whose wording matches; the پ ۸ reference was kept | الاعراف 16 (پ ۸) reads «فبما اغویتنی» without «رب»; the wording quoted is الحجر 39 (پ ۱۴) |
+| p466 (PDF 467) | Print slip | «جو شان خداوندی یعنی محبت کے جوان میں حق تعالیٰ نے رکھی تھی» | Kept as printed | Probably «… محبت کے جو ان میں …» (word split); meaning clear |
