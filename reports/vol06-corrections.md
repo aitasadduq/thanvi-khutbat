@@ -44,3 +44,4 @@ Every place where the book's wording was changed, or kept although doubtful. The
 | p306 (PDF 307) | Ayah | «وبیضت عیناہ» (alif missing) | ﴿12:84 وَابۡيَضَّتۡ عَيۡنٰهُ﴾ | Typesetting slip; verse text from the Quran (Yusuf 84) |
 | p312 (PDF 313) | Hadith | «ان اللہ قد سمع قول قومک وما ردوا علیک» | «ان اللہ قد سمع قول قومک لک وما ردوا علیک» | Added the dropped «لک» per Bukhari 3231 / Muslim 1795 |
 | p318 (PDF 319) | Ayah | «فقد نعلم انہ لیحزنک…» | ﴿6:33 قَدۡ نَعۡلَمُ…﴾ | Extra «ف» is a typesetting slip; verse text from the Quran (al-An'am 33) |
+| p320 (PDF 321) | Ayah | «ان معو العسر یسرا» | ﴿94:5 فَاِنَّ مَعَ الۡعُسۡرِ يُسۡرًا﴾ | Typesetting slip «معو»; verse text from the Quran |
