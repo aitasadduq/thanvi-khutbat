@@ -12,3 +12,4 @@ file after the work and names anything to revert.
 | p135 (PDF 136) | Ayah identification | «جزاء بما کانوا یعملون» quoted twice with no reference | Marked as 56:24 (الواقعة) and 32:17 (السجدة) | The same words also end 46:14; no fix to the text |
 | p142 (PDF 143) | Ayah wording | «جزاء بما کانوا یعملون» quoted as the end of «فلیضحکوا قلیلا ولیبکوا کثیرا» | «جَزَآءًۭ بِمَا كَانُوۡا يَكۡسِبُوۡنَ» (9:82) with editor's note | The verse 9:82 ends يكسبون; يعملون is the ending of 32:17/46:14/56:24. The misprint «فلیضحکزا» was also set as فلیضحکوا |
 | p158 (PDF 159) | Historical name | خلیفہ «جعفر بن منظور» | خلیفہ ابو جعفر منصور, with editor's note | Imam Abu Hanifa was offered the post of qadi by the Abbasid caliph Abu Ja'far al-Mansur |
+| p176 (PDF 177) | Ayah identification | «فمن ثقلت موازینہ فاولئک ہم المفلحون» quoted with no reference | Marked as 23:102 | The same words are also in 7:8 (after «والوزن یومئذ الحق»); 23:102 starts exactly with the quoted words |
