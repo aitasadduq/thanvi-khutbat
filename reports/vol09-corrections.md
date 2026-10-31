@@ -35,3 +35,4 @@ file after the work and names anything to revert.
 | p223 (PDF 224) | Arabic verse | «فلو ان رب الناس بقی محمدا» ; «نفدیک بابا ء ناوامہاتنا» | «… ابقی محمدا» ; «نفدیک بآبائنا وامہاتنا» | Metre and sense need «ابقی» (the elegy of Safiyya bint Abd al-Muttalib); the second is a split word |
 | p243 (PDF 244) | Place name | «فتوح میں ایک صاحب نے» | «قنوج میں» | No town «فتوح» is known; «قنوج» (Kannauj), where the author preached, fits the dotting with one letter misprinted |
 | p247 (PDF 248) | Word | «جو کفارت کے احکام» | Kept as printed | Probably «کفاءت» (marriage equality), which the argument about lineage needs |
+| p253 (PDF 254) | Persian verse | «چو دل با خدا ایست خلوت نشینی» | «… با خدا است …» | Spelling; Vol 8 p363 prints the same line with «نیست» and a matching translation, so the two are left as printed in each volume |
