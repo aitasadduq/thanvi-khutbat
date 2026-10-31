@@ -43,3 +43,4 @@ file after the work and names anything to revert.
 | p297 (PDF 298) | Ayah citation | «(البقرہ آیت نمبر ۱۵۵ تا ۱۵۶)» for a quotation that runs to «المہتدون» | «۱۵۵ تا ۱۵۷» | The quoted text ends with 2:157 |
 | p299–300 (PDF 300–301) | Translation order | 2:116 is followed by the translation of 2:117, and 2:117 (top of p300) by the translation of 2:116 | Kept as printed | The two translations are swapped in print |
 | p306 (PDF 307) | Editor's Arabic footnote | «علی یدا حد»، «ینج فی ہذہ الدار من المصائب والآ لام فقد»، «والعلیۃ فی عنفو ان شبابہ»، «موت الاجتہ فی کہو لتہ»، «او ذی»، «فلیتغر» | «علی ید احد»، «لم ینج … من المصائب والآلام فقد»، «والعیلۃ فی عنفوان شبابہ»، «موت الاحبۃ فی کہولتہ»، «اوذی»، «فلیتعز» | Print slips, read from a zoomed crop and the sense |
+| p309 (PDF 310) | Word | «تجرد صفات خاصہ موصب ہے» | Kept as printed | Probably «واجب» (as at the start of the same paragraph: «تجرد صفات خاصہ واجب سے ہے») |
