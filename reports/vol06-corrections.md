@@ -32,3 +32,6 @@ Every place where the book's wording was changed, or kept although doubtful. The
 | p272 (PDF 273) | Ayah wording | «لئن انجیتنا من ہذہ لنکونن من الشاکرین» given with the 29:65 story | ﴿10:22﴾ | The exact words are in 10:22 (6:63 has "انجانا") |
 | p254–272 (labels) | Page labels | Note on the title page of الاعتصام بحبل اللہ had been given its own page, shifting labels one ahead | Merged into p254; later labels corrected | Bookkeeping fix, no text change |
 | p274 (PDF 275) | Historical claims (kept) | "تین سال تک متواتر وحی کا سلسلہ منقطع رہا" and "خودکشی کا قصد" | Kept as printed | The length of the فترة is disputed (reports vary); the suicide-attempt report comes from a balaghat of al-Zuhri in Bukhari and is weak by many critics; the author's words left as printed |
+| p279 (PDF 280) | Ayah fragment | «قل جاء الحق…» | ﴿17:81﴾ from «قُلْ», verified text | The ayah opens "وقل"; the book drops "و" in quoting; fragment marked from "قل" |
+| p279 (PDF 280) | Hadith spelling | «اذا قتلتم فاحسنو القتلة» | «فاحسنوا» | Missing alif in "فاحسنوا" (Muslim 1955) |
+| p279 (PDF 280) | Ayah fragment | «لا یخافون لومة لائم» | ﴿5:54﴾ «وَلَا يَخَافُوْنَ لَوْمَةَ لَآئِمٍ» | Verified text with "و" |
