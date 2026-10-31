@@ -8,8 +8,18 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 ## 1. Status (2026-10-31)
 
-- **Volume 9 — next.** Set up as for earlier volumes: find the PDF in `scanned_version/`, extract images
-  (`pdfimages -png`), split halves (`tools/halves.py`), build `toc.tsv` from the contents, then transcribe.
+- **Volume 10 — next (in progress).** Page images extracted to the scratchpad (`v10/h`, 449 PDF pages). Next: find the
+  page offset, build `Vol 10 <name>/toc.tsv` from the contents, then transcribe.
+
+- **Volume 9 (فضائل صبر و شکر) — done, awaiting the owner's review.** Folder `Vol 09 fazail e sabr o shukr/`. PDF page =
+  printed page + 1; text printed pp. 13–488 (12 sermons), all transcribed (files 0013, 0042, 0105, 0136, 0177, 0204,
+  0254, 0296, 0341, 0383, 0436, 0485). mark_arabic: DIFFERS 0, CITE 0 (2026-10-31: the colophon «بحمد اللہ تمام» is now
+  skipped like «بحمد اللہ تمت»). Hadith check: `reports/vol09-hadith-check.md` (30 differs reviewed; p75 «اتفعل» →
+  «ابفعل» corrected, the rest the book's wording, kept). All corrections applied under the owner's rule are in
+  `reports/vol09-corrections.md`. Ayat terms use the canonical surah names (الاسراء → بنی اسرائیل، فصلت → حم السجدة).
+  Many Persian/Arabic couplet terms in all volumes were completed to both halves. Index built (3053 entries); site
+  built (`site/v09.html`). Preview (private artifact, republish to the same URL):
+  https://claude.ai/artifact/MrrAbN4mJS6Vrq8JPSNFsz
 
 - **Volume 8 (حقیقت مال و جاہ) — done, awaiting the owner's review.** Folder `Vol 08 haqiqat e mal o jah/`. PDF page =
   printed page + 1; text printed pp. 13–464 (10 sermons), all transcribed (files 0013, 0052, 0121, 0167, 0222, 0252,
@@ -177,7 +187,7 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Volume 9: make folder `Vol 09 <name>/`, build `toc.tsv` from the contents pages, then transcribe from the first sermon (new file at each sermon start, named by its printed start page), logging corrections in `reports/vol09-corrections.md`; at the end run the §3 pipeline and add Vol 9 to VOLUMES.
-- The owner will review `reports/vol02-corrections.md` … `reports/vol08-corrections.md` at leisure; revert anything the owner rejects.
+- Volume 10: check the page offset, make folder `Vol 10 <name>/`, build `toc.tsv` from the contents pages, then transcribe from the first sermon (new file at each sermon start, named by its printed start page), logging corrections in `reports/vol10-corrections.md`; at the end run the §3 pipeline and add Vol 10 to VOLUMES.
+- The owner will review `reports/vol02-corrections.md` … `reports/vol09-corrections.md` at leisure; revert anything the owner rejects.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
   `iatasadduq/thanvi-khutbat-site` and turning on GitHub Pages (only after the owner approves).
