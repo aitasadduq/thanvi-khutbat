@@ -15,3 +15,5 @@ file after the work and names anything to revert.
 | p121 (PDF 122) | Misprint | «مباح کا نافع یا فضول ہونا اکثر کے تابع ہے» | Kept as printed | Probably «اثر کے تابع» (the paragraph above speaks of «اپنے اثر کے لحاظ سے») |
 | p129 (PDF 130) | Persian verse (Masnavi) | «جاں ہمہ دم زیں لگ کوب خیال / مے شود مجروح و خستہ پائما» | «… لگد کوب خیال / … خستہ پائمال» | Print slips (letters dropped); «ہمہ دم زیں» kept as printed (the Masnavi has «ہمہ روز از») |
 | p133 (PDF 134) | Persian verse | «… ونددر آں ظلمت شب آب حیاتم داوند» | «دوش وقت سحر از غصہ نجاتم دادند / واندراں ظلمت شب آب حیاتم دادند» | Print slips (داوند for دادند, twice); same couplet as in earlier volumes |
+| p134 (PDF 135) | Persian verse | «ورنہ شاید بدست رہ برن / شرط عشق ست در طلب مردن» | «ور نشاید بدوست رہ بردن / شرط عشق است در طلب مردن» | Print slips; the translation («اگر دوست تک راہ نہ پا سکے») confirms the reading |
+| p135 (PDF 136) | Persian verse (Masnavi) | «توانی ازاں دل بہ داختن» ; «بے عنایات خداھیچم و ہیچ» | «بپرداختن» ; «بے عنایات خدا ہیچیم ہیچ» | Print slips; the couplets as elsewhere in the series |
