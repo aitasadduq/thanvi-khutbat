@@ -23,3 +23,5 @@ file after the work and names anything to revert.
 | p164 (PDF 165) | Arabic verse | «اصبر نکن بک صابرین فانما / صبر الرعیة بعد صبر الراس» | Kept; written «الرعیۃ» as in the same couplet in earlier volumes | Spelling only |
 | p170 (PDF 171) | Persian verse (Hafiz) | «دریں دنیا رفیقے کہ خالی از خلل است / صراحی ے ناب و سفینہ غزل است» | «دریں زمانہ رفیقے … / صراحی مے ناب …» | Hafiz's line has «زمانہ»; the book's own translation «ان دنوں» supports it; «ے» is a dropped «م» |
 | p173 (PDF 174) | Faded scan | A few words at the end of the page are faded («کہ تمام ۔۔۔ سے زیادہ قلب کو یکسو کرنے والا ہے») | Left as «۔۔۔» where unreadable | For the owner to check against the printed book |
+| p174 (PDF 175) | Ayah citation | «لقد کفر الذین قالوا ان اللہ ہو المسیح ابن مریم» (no citation) | Marked as 5:72 | The words occur in 5:17 and 5:72; 5:72 chosen (the same opening; either fits) |
+| p175 (PDF 176) | Persian verse | «زانکہ مردہ سوئے پا آئندہ نیست» | «سوئے ما» | Print slip; as in the Masnavi and in earlier volumes |
