@@ -17,3 +17,4 @@ file after the work and names anything to revert.
 | p223 (PDF 224) | Hadith wording | «ما جعل اللہ داء الا جعل لہ دواء» | Kept as printed; indexed under «ما انزل اللہ داء الا انزل لہ شفاء» | As at p78 |
 | p227 (PDF 228) | Hadith reference | «لا یدخل الجنۃ احد بعملہ… ولا انا الا ان یتغمدنی اللہ برحمۃ» with footnote (تاریخ بغداد ۷: ۷۵) | Kept as printed; indexed under the Bukhari wording «لن یدخل احدا عملہ الجنۃ» | The hadith is in Bukhari 5673, 6463 and Muslim 2816; the Khatib reference is not wrong but is a secondary source |
 | p322 (PDF 323) | Wording | «مثنوی میں ایک یہودی بادشاہ کی حکایت ہے» | Kept as printed | At p149 the same Masnavi story is told of «ایک بادشاہ کافر بت پرست»; Rumi's tale is of a Jewish king who set up an idol. Both forms kept as printed; indexed under one story |
+| p327 (PDF 328) | Hadith reference | Footnote «جمہرۃ انساب العرب: ۱۶۷» for «من غیر اشراف نفس» | Footnote not carried | As at pp110–111; the phrase is from Bukhari 1473 |
