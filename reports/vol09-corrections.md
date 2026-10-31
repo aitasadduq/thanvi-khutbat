@@ -52,3 +52,4 @@ file after the work and names anything to revert.
 | p337 (PDF 338) | Ayah quotation | «یا ایہا الذین آمنوا کتب علیکم الصیام وان تصوموا خیر لکم ان کنتم تعلمون» printed as one line | Marked as 2:183 (opening) «…» 2:184 (close) | The book abbreviates the two ayat (opening of 2:183 and close of 2:184) whose translation follows; marked as two pieces with an ellipsis |
 | p341 (PDF 342) | Date | «۱۲ محرم ۳۴ھ» with «۱۳» small above | «۱۲ محرم ۱۳۳۴ھ» | Year read as 1334 AH |
 | p343 (PDF 344) | Text kept, doubtful | «انسان کب یہ چاہتا ہے کہ عزیز گم ہو جاویں مگر کم ہو جاتے ہیں» | Kept as printed | Probably «کم ہو جاویں» in the first half (dots) |
+| p348 (PDF 349) | Word | «لیجئے جس کو قہمت کہتے ہیں کہ وہ سبب رحمت کا ہوا» | Kept as printed | Unclear word, probably «زحمت» |
