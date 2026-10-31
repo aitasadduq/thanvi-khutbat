@@ -41,3 +41,4 @@ file after the work and names anything to revert.
 | p294 (PDF 295) | Name | «حضرت سعد بن جبیر» | «حضرت سعید بن جبیرؒ» | The Tabi'i killed by al-Hajjaj is Sa'id ibn Jubayr |
 | p294 (PDF 295) | Arabic verse (Khubayb) | «وذلک فی ذات الا لہ وان یشاء / یبارک وعلی اوصال ضلو مسزع» | «… یبارک علی اوصال شلو ممزع» | Print slips; the couplet as in Bukhari (Kitab al-Maghazi) |
 | p297 (PDF 298) | Ayah citation | «(البقرہ آیت نمبر ۱۵۵ تا ۱۵۶)» for a quotation that runs to «المہتدون» | «۱۵۵ تا ۱۵۷» | The quoted text ends with 2:157 |
+| p299 (PDF 300) | Translation | The translation printed after 2:116 («حق تعالیٰ موجود ہیں آسمان اور زمین کے … ہو جا بس وہ اسی طرح ہو جاتا ہے») | Kept as printed | It translates 2:117 («بدیع السماوات والارض … کن فیکون»), not the quoted 2:116 |
