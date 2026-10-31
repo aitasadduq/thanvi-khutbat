@@ -46,3 +46,4 @@ Every place where the book's wording was changed, or kept although doubtful. The
 | p318 (PDF 319) | Ayah | «فقد نعلم انہ لیحزنک…» | ﴿6:33 قَدۡ نَعۡلَمُ…﴾ | Extra «ف» is a typesetting slip; verse text from the Quran (al-An'am 33) |
 | p320 (PDF 321) | Ayah | «ان معو العسر یسرا» | ﴿94:5 فَاِنَّ مَعَ الۡعُسۡرِ يُسۡرًا﴾ | Typesetting slip «معو»; verse text from the Quran |
 | p328 (PDF 329) | Hadith | «لا تفضلو بن علی یونس بن متی» (broken word) | «لا تفضلونی علی یونس بن متی» | Typesetting split of «تفضلونی»; standard wording |
+| p385 (PDF 386) | Hadith citation | «ما اتاک من غیر اشراف نفس فخذہ…» cited to «جمہرۃ انساب العرب ۱۶۷» | Kept text and citation as printed | The wording is the book's paraphrase of Bukhari 1473 / Muslim 1045 («ما جاءک من ہذا المال وانت غیر مشرف ولا سائل فخذہ وما لا فلا تتبعہ نفسک»); the cited source looks wrong but no clear replacement was given in the book, so nothing was changed |
