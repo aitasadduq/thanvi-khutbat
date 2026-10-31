@@ -14,3 +14,4 @@ file after the work and names anything to revert.
 | p107 (PDF 108) | Misprint | «اب میں اول اس جزو کی یقین کئے دیتا ہوں» | Kept as printed | Probably «تعیین» (the paragraph is about specifying the missing part; next page: «اب سمجھئے کہ ماعلیہ الصبر کیا ہے», «تعیین اجمالی») |
 | p121 (PDF 122) | Misprint | «مباح کا نافع یا فضول ہونا اکثر کے تابع ہے» | Kept as printed | Probably «اثر کے تابع» (the paragraph above speaks of «اپنے اثر کے لحاظ سے») |
 | p129 (PDF 130) | Persian verse (Masnavi) | «جاں ہمہ دم زیں لگ کوب خیال / مے شود مجروح و خستہ پائما» | «… لگد کوب خیال / … خستہ پائمال» | Print slips (letters dropped); «ہمہ دم زیں» kept as printed (the Masnavi has «ہمہ روز از») |
+| p133 (PDF 134) | Persian verse | «… ونددر آں ظلمت شب آب حیاتم داوند» | «دوش وقت سحر از غصہ نجاتم دادند / واندراں ظلمت شب آب حیاتم دادند» | Print slips (داوند for دادند, twice); same couplet as in earlier volumes |
