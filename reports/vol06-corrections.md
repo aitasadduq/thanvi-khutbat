@@ -41,3 +41,4 @@ Every place where the book's wording was changed, or kept although doubtful. The
 | p299 (PDF 300) | Arabic quote spelling | «وکذا الاسخلته» | «وکذا السخلۃ» | Shamiya's wording; typesetting slip |
 | p301 (PDF 302) | Ayah fragment | «یارب لا تذر علی الارض من الکفرین دیارا» | ﴿71:26﴾ from «رَبِّ» | The ayah has "رب" without "یا"; "یا" left out of the marked ayah |
 | p301 (PDF 302) | Arabic note spelling | «بلفظها ما اوزی احدما اوذیت» | «بلفظ ما اوذی احد ما اوذیت» | Typesetting slips in the editor's note |
+| p306 (PDF 307) | Ayah | «وبیضت عیناہ» (alif missing) | ﴿12:84 وَابۡيَضَّتۡ عَيۡنٰهُ﴾ | Typesetting slip; verse text from the Quran (Yusuf 84) |
