@@ -25,3 +25,5 @@ file after the work and names anything to revert.
 | p173 (PDF 174) | Faded scan | A few words at the end of the page are faded («کہ تمام ۔۔۔ سے زیادہ قلب کو یکسو کرنے والا ہے») | Left as «۔۔۔» where unreadable | For the owner to check against the printed book |
 | p174 (PDF 175) | Ayah citation | «لقد کفر الذین قالوا ان اللہ ہو المسیح ابن مریم» (no citation) | Marked as 5:72 | The words occur in 5:17 and 5:72; 5:72 chosen (the same opening; either fits) |
 | p175 (PDF 176) | Persian verse | «زانکہ مردہ سوئے پا آئندہ نیست» | «سوئے ما» | Print slip; as in the Masnavi and in earlier volumes |
+| p181 (PDF 182) | Hadith | «لئنکم لو لم تفعلو کان خیرا» | «لعلکم لو لم تفعلوا کان خیرا» | Reading slip; Muslim (Kitab al-Fada'il, ta'bir al-nakhl) has «لعلکم لو لم تفعلوا کان خیرا» |
+| p181 (PDF 182) | Ayah citation | «وکانوا ینحتون من الجبال بیوتا آمنین» (no citation) | Marked as 15:82 | The exact wording is 15:82 (Thamud; the book names عاد و ثمود) |
