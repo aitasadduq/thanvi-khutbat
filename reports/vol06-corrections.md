@@ -61,3 +61,4 @@ Every place where the book's wording was changed, or kept although doubtful. The
 | p448 (PDF 449) | Wording | «اس لئے محبت طبعی عقلی انفع ہے» | Kept as printed | Context shows the intended sense is «محبت عقلی (طبعی سے) انفع ہے»; the word order is the book's and the meaning is clear, so nothing was changed |
 | p449 (PDF 450) | Ayah | «ومامن دابۃ فی الارض الا علی اللہ رزقہا» (one word) | ﴿11:6 وَمَا مِنۡ دَآبَّةٍ…﴾ | Word-spacing slip; verse text from the Quran (Hud 6) |
 | p454 (PDF 455) | Verse (Burda) | «النفس کالطفل ان تحملہ شب علی / حب الرضا وان تفطمہ ینفطم» | «… ان تہملہ شب علی / حب الرضاع وان تفطمہ ینفطم» | Two typesetting slips in the well-known Burda line («تحملہ»→«تہملہ», «الرضا»→«الرضاع») |
+| p458 (PDF 459) | Ayah | «لیطمئن قلبی» (spelled «لیطمئن» without the second nun) | ﴿2:260 لِّيَطۡمَئِنَّ قَلۡبِيۡ﴾ | Verse text from the Quran (al-Baqara 260) |
