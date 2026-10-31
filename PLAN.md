@@ -11,6 +11,12 @@ Update the **Status** and **Next steps** sections at the end of every working se
 - **Volume 8 — next.** Set up as for earlier volumes: find the PDF in `scanned_version/`, extract images
   (`pdfimages -png`), split halves (`tools/halves.py`), build `toc.tsv` from the contents, then transcribe.
 
+- **2026-10-31 tool fix (all volumes):** `build_index.py` did not know surahs 88–114 or some name spellings
+  (طٰہٰ، الاسراء، صٓ، المؤمن …), so their ayat sorted to the end of the ayat index. The surah list is now complete,
+  names are matched without harakat, and every `آیت:` term in all volumes was rewritten to one canonical surah name
+  (e.g. البقرۃ/البقرہ → البقرة، الاسراء → بنی اسرائیل، فصلت → حم السجدة). Indexes of Vols 1–7 and the site rebuilt;
+  only the order and merging of ayat index heads changed. Republish the previews when convenient.
+
 - **Volume 7 (حقیقت عبادت) — done, awaiting the owner's review.** Folder `Vol 07 haqiqat e ibadat/`. PDF page =
   printed page + 1; text printed pp. 17–520 (15 sermons), all transcribed (files 0017, 0042, 0105, 0129, 0207, 0248,
   0278, 0307, 0318, 0343, 0374, 0401, 0436, 0469, 0491). mark_arabic: DIFFERS 0, CITE 0 (one "keep" decision in

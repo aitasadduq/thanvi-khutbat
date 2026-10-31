@@ -109,16 +109,22 @@ SURAHS = ('الفاتحة البقرة آل_عمران النساء المائد
           'لقمان السجدة الاحزاب سبا فاطر یٰس الصافات ص الزمر غافر حم_السجدة الشوریٰ الزخرف الدخان الجاثیة الاحقاف '
           'محمد الفتح الحجرات ق الذاریات الطور النجم القمر الرحمٰن الواقعة الحدید المجادلة الحشر الممتحنة الصف '
           'الجمعة المنافقون التغابن الطلاق التحریم الملک القلم الحاقة المعارج نوح الجن المزمل المدثر القیامة الدہر '
-          'المرسلات النبا النازعات عبس التکویر الانفطار المطففین الانشقاق البروج الطارق الاعلیٰ').split()
-SURAH_NO = {s.replace('_', ' ').translate(FOLD): i + 1 for i, s in enumerate(SURAHS)}
-SURAH_NO.update({'فصلت': 41, 'الزلزال': 99, 'الاخلاص': 112, 'یس': 36, 'الشوری': 42, 'الاعلی': 87})
+          'المرسلات النبا النازعات عبس التکویر الانفطار المطففین الانشقاق البروج الطارق الاعلیٰ '
+          'الغاشیة الفجر البلد الشمس اللیل الضحیٰ الانشراح التین العلق القدر البینة الزلزال العادیات القارعة '
+          'التکاثر العصر الہمزة الفیل قریش الماعون الکوثر الکافرون النصر اللہب الاخلاص الفلق الناس').split()
+def surah_key(name):
+    # fold letter forms, drop harakat/superscript alif/maddah, _ = space
+    return re.sub(r'[\u064B-\u065F\u0670\u06D6-\u06ED]', '', name.replace('_', ' ').translate(FOLD))
+SURAH_NO = {surah_key(s): i + 1 for i, s in enumerate(SURAHS)}
+SURAH_NO.update({surah_key(k): v for k, v in {'فصلت': 41, 'یس': 36, 'یٰسین': 36, 'الشوری': 42, 'الاعلی': 87,
+                 'الاسراء': 17, 'المؤمن': 40, 'المومن': 40, 'الشرح': 94, 'لہب': 111, 'حم السجدة': 41}.items()})
 
 def parse_ayah(head):
     m = re.match(r'(.+?)\s+([۰-۹0-9][۰-۹0-9–\-،, ]*)', head)
     name = (m.group(1) if m else head).split('/')[0].strip()
     nums = m.group(2).strip() if m else ''
     first = re.findall(r'\d+', nums.translate(ASCII_DIG))
-    no = SURAH_NO.get(name.translate(FOLD), 999)
+    no = SURAH_NO.get(surah_key(name), 999)
     return name, nums, no, int(first[0]) if first else 0
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
