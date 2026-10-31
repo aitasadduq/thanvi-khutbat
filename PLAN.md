@@ -8,8 +8,17 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 ## 1. Status (2026-10-31)
 
-- **Volume 7 — next.** Set up as for earlier volumes: find the PDF in `scanned_version/`, extract images
+- **Volume 8 — next.** Set up as for earlier volumes: find the PDF in `scanned_version/`, extract images
   (`pdfimages -png`), split halves (`tools/halves.py`), build `toc.tsv` from the contents, then transcribe.
+
+- **Volume 7 (حقیقت عبادت) — done, awaiting the owner's review.** Folder `Vol 07 haqiqat e ibadat/`. PDF page =
+  printed page + 1; text printed pp. 17–520 (15 sermons), all transcribed (files 0017, 0042, 0105, 0129, 0207, 0248,
+  0278, 0307, 0318, 0343, 0374, 0401, 0436, 0469, 0491). mark_arabic: DIFFERS 0, CITE 0 (one "keep" decision in
+  `quran-decisions.tsv`, p316 → 21:83 kept as the book's prayer form). Hadith check: `reports/vol07-hadith-check.md`
+  (27 differs reviewed; p236 corrected). All corrections applied under the owner's rule are in
+  `reports/vol07-corrections.md`, including one faded-scan restoration (p417) for the owner to check. Index built
+  (3144 entries); site built (`site/v07.html`). Preview (private artifact, republish to the same URL):
+  https://claude.ai/artifact/DAtJBuTqXcdcAjgTNNRmRQ
 
 - **Volume 6 (نظام شریعت) — done, awaiting the owner's review.** Folder `Vol 06 nizam e shariat/`. PDF page =
   printed page + 1; text printed pp. 10–496 (13 sermons), all transcribed (files 0010, 0051, 0087, 0122, 0174, 0194,
@@ -152,7 +161,7 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Volume 7: make folder `Vol 07 <name>/`, build `toc.tsv` from the contents pages, then transcribe from the first sermon (new file at each sermon start), logging corrections in `reports/vol07-corrections.md`; at the end run the §3 pipeline and add Vol 7 to VOLUMES.
-- The owner will review `reports/vol02-corrections.md` … `reports/vol06-corrections.md` at leisure; revert anything the owner rejects.
+- Volume 8: make folder `Vol 08 <name>/`, build `toc.tsv` from the contents pages, then transcribe from the first sermon (new file at each sermon start, named by its printed start page), logging corrections in `reports/vol08-corrections.md`; at the end run the §3 pipeline and add Vol 8 to VOLUMES.
+- The owner will review `reports/vol02-corrections.md` … `reports/vol07-corrections.md` at leisure; revert anything the owner rejects.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
   `iatasadduq/thanvi-khutbat-site` and turning on GitHub Pages (only after the owner approves).
