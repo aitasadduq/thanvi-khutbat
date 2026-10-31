@@ -22,3 +22,4 @@ file after the work and names anything to revert.
 | p155 (PDF 156) | Athar (Arabic) | «ھا کنا نری ترک شی ء کفرا سوی الصلوٰۃ» | «ما کنا نری …» | Print slip (ھا for ما); the saying of the Companions reported by Abdullah bin Shaqiq (Tirmidhi 2622) |
 | p164 (PDF 165) | Arabic verse | «اصبر نکن بک صابرین فانما / صبر الرعیة بعد صبر الراس» | Kept; written «الرعیۃ» as in the same couplet in earlier volumes | Spelling only |
 | p170 (PDF 171) | Persian verse (Hafiz) | «دریں دنیا رفیقے کہ خالی از خلل است / صراحی ے ناب و سفینہ غزل است» | «دریں زمانہ رفیقے … / صراحی مے ناب …» | Hafiz's line has «زمانہ»; the book's own translation «ان دنوں» supports it; «ے» is a dropped «م» |
+| p173 (PDF 174) | Faded scan | A few words at the end of the page are faded («کہ تمام ۔۔۔ سے زیادہ قلب کو یکسو کرنے والا ہے») | Left as «۔۔۔» where unreadable | For the owner to check against the printed book |
