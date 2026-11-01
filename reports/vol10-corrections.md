@@ -13,3 +13,4 @@ The owner reviews these and names anything to revert.
 | p88 (PDF 89) | Place name | «برمکان تحصیلدار صاحب نکڑ ضلع سہارنپور» | Text kept; index term: مقام: نکوڑ ضلع سہارنپور | The town in Saharanpur district is Nakur (نکوڑ); the print spells it «نکڑ» |
 | 93 (pr. 92) | «خود یابد ایں چنیں بازار را» | «خود کہ یابد…» | کہ dropped in print; restored to the metre and the form used in other volumes |
 | 111 (pr. 110) | footnote «مشکوٰۃ المصابیح: ۲۹۵۸» | «۱۹۵۸» | the hadith من صام رمضان is no. 1958 in Mishkat (Kitab al-Sawm); 2958 is in another chapter |
+| 120 (pr. 119) | «پر تجھ کو چاہیے کہ تک لو لگی رہے» | «… کہ تگ و دو لگی رہے» | misprint; the line is quoted with تگ و دو in other volumes |
