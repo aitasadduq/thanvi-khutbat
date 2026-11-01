@@ -33,3 +33,4 @@ The owner reviews these and names anything to revert.
 | 257 (pr. 256) | footnote to «من حسن اسلام المرء ترکہ ما لا یعنیہ» cites Bukhari 1:16, 3:33, Muslim صلوٰۃ المسافرین 175, Abu Dawud باب 29 | kept as printed | these are the references for «من صام رمضان»; this hadith is in Tirmidhi 2317, Ibn Majah 3976, Muwatta |
 | Contents (رمضان فی رمضان) | «کتاب اور صحبت اثر کا فرق» (p260) | «کتاب اور صحبت کا اثر اور فرق» | follows the page heading |
 | 275 (pr. 274) | «(جو لوگ غیبت پر ایمان لاتے ہیں)» | «غیب» | misprint in the translation of بالغیب |
+| 295 (pr. 294) | translation «سوائے اس شخص کے جو قوم کی محبت میں مست ہے … کوئی بھی نابالغ کہلانے کا مستحق نہیں» | kept as printed | «قوم» probably for «قیوم/خدا», and «نابالغ» for «بالغ»; translation left as printed |
