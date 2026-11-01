@@ -34,3 +34,4 @@ The owner reviews these and names anything to revert.
 | Contents (رمضان فی رمضان) | «کتاب اور صحبت اثر کا فرق» (p260) | «کتاب اور صحبت کا اثر اور فرق» | follows the page heading |
 | 275 (pr. 274) | «(جو لوگ غیبت پر ایمان لاتے ہیں)» | «غیب» | misprint in the translation of بالغیب |
 | 295 (pr. 294) | translation «سوائے اس شخص کے جو قوم کی محبت میں مست ہے … کوئی بھی نابالغ کہلانے کا مستحق نہیں» | kept as printed | «قوم» probably for «قیوم/خدا», and «نابالغ» for «بالغ»; translation left as printed |
+| 320 (pr. 319) | «بماں اے آنکہ جز تو پاک نیست» | «تو بماں اے آنکہ چوں تو پاک نیست» | second half of Rumi's couplet as quoted elsewhere in the series |
