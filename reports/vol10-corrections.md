@@ -16,3 +16,4 @@ The owner reviews these and names anything to revert.
 | 120 (pr. 119) | «پر تجھ کو چاہیے کہ تک لو لگی رہے» | «… کہ تگ و دو لگی رہے» | misprint; the line is quoted with تگ و دو in other volumes |
 | 128 (pr. 127) | «مدبر الامو» | ﴿10:3 يُدَبِّرُ الۡاَمۡرَ﴾ | misprint; the text says the words follow استویٰ علی العرش in another place, which is Yunus 10:3 |
 | 128 (pr. 127) | «وسعت رحمتی کل شیء» | ﴿7:156 وَرَحۡمَتِيۡ وَسِعَتۡ كُلَّ شَيۡءٍ﴾ | words transposed in print; Quran order restored |
+| Contents (الصیام) | «روزہ اور تقلیل» (p142) | «روزہ اور تقلیل طعام» | follows the page heading |
