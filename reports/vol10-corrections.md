@@ -29,4 +29,4 @@ The owner reviews these and names anything to revert.
 | 206 (pr. 205) | «ہل تستوی الظلمۃ والنور» | ﴿13:16 هَلۡ تَسۡتَوِي الظُّلُمٰتُ وَالنُّوۡرُ﴾ | Quranic phrase; Quran wording (plural الظلمات) used |
 | Contents (رمضان فی رمضان) | «انسانوں کی فرشتوں پر فضیلت» (p234) | «انسان کی فرشتوں پر فضیلت» | follows the page heading |
 | 241 (pr. 240) | «اہل اصطلاح کی صحبت سے صلاح کا مادہ» | «اہل صلاح کی صحبت …» | misprint; paired with اہل فسق |
-| 245 (pr. 244) | «غرض یہ روزہ رکھنا تو پورا اتلاف حق ہے» | kept as printed | the sense requires «روزہ نہ رکھنا»; the نہ may have dropped in print |
+| 245 (pr. 244) | «غرض یہ روزہ رکھنا تو پورا اتلاف حق ہے» | «… روزہ نہ رکھنا …» | the نہ dropped in print; the passage is about not fasting |
