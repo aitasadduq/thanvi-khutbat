@@ -28,3 +28,4 @@ The owner reviews these and names anything to revert.
 | 203 (pr. 202) | «عبادت کے متعلق ہوں یا عبادت کے متعلق ہوں» | «… یا عادات کے متعلق ہوں» | the second عبادت repeats the first; عادات (habits) fits the list عبادات، عادات، معاملات |
 | 206 (pr. 205) | «ہل تستوی الظلمۃ والنور» | ﴿13:16 هَلۡ تَسۡتَوِي الظُّلُمٰتُ وَالنُّوۡرُ﴾ | Quranic phrase; Quran wording (plural الظلمات) used |
 | Contents (رمضان فی رمضان) | «انسانوں کی فرشتوں پر فضیلت» (p234) | «انسان کی فرشتوں پر فضیلت» | follows the page heading |
+| 241 (pr. 240) | «اہل اصطلاح کی صحبت سے صلاح کا مادہ» | «اہل صلاح کی صحبت …» | misprint; paired with اہل فسق |
