@@ -9,3 +9,4 @@ The owner reviews these and names anything to revert.
 | Contents p14 (PDF 15) | Contents page number | «خرابیوں کی جڑ ۴۱» | toc.tsv: 411 | Digit dropped (between 410 and 412) |
 | p24 (PDF 25) | Word kept | «وہ یہ کہ تدبیر نہیں کرتے» | Kept as printed | Context requires «تدبر»; common spelling in the book |
 | p29 (PDF 30) | Text kept | «حق تعالیٰ کا یہ مقصود نہیں کہ تزکیہ ظاہر ضروری ہیں» | Kept as printed | The argument requires «ضروری نہیں»; probably a dropped نہیں |
+| Contents vs text, نداء رمضان | Heading names | Contents: «تلاوت قرآن ۸۵»، «ہماری غفلت ۸۶» | toc.tsv follows the page headings: «روزہ کی سفارش»، «ہماری حالت» | The page headings differ from the contents list |
