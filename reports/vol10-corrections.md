@@ -24,3 +24,4 @@ The owner reviews these and names anything to revert.
 | 159 (pr. 158) | «ربنا اغفرلنا ولاخواننا الذین امنوا» | ﴿59:10 رَبَّنَا اغۡفِرۡ لَنَا وَلِاِخۡوَانِنَا الَّذِيۡنَ سَبَقُوۡنَا بِالۡاِيۡمَانِ﴾ | quoted from memory in print; Quran wording restored, translation kept |
 | 169 (pr. 168) | «(اور قباء سے محفوظ نہیں ہوں)» | «رقباء» | misprint; the sense is rivals (رقیب) in love |
 | 184 (pr. 183) | «محافظین فروجہم و محافظات» | ﴿33:35 وَالۡحٰفِظِيۡنَ فُرُوۡجَهُمۡ وَالۡحٰفِظٰتِ﴾ | quoted loosely in the author's note; Quran wording used |
+| Contents (رمضان فی رمضان) | heading «تقریر قبل وعظ» (p197) missing | added to toc | heading is printed on the page |
