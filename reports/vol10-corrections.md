@@ -25,3 +25,4 @@ The owner reviews these and names anything to revert.
 | 169 (pr. 168) | «(اور قباء سے محفوظ نہیں ہوں)» | «رقباء» | misprint; the sense is rivals (رقیب) in love |
 | 184 (pr. 183) | «محافظین فروجہم و محافظات» | ﴿33:35 وَالۡحٰفِظِيۡنَ فُرُوۡجَهُمۡ وَالۡحٰفِظٰتِ﴾ | quoted loosely in the author's note; Quran wording used |
 | Contents (رمضان فی رمضان) | heading «تقریر قبل وعظ» (p197) missing | added to toc | heading is printed on the page |
+| 203 (pr. 202) | «عبادت کے متعلق ہوں یا عبادت کے متعلق ہوں» | «… یا عادات کے متعلق ہوں» | the second عبادت repeats the first; عادات (habits) fits the list عبادات، عادات، معاملات |
