@@ -21,3 +21,4 @@ The owner reviews these and names anything to revert.
 | Contents (الصیام) | «معصیت اور طاعت» (p135) | «معصیت اور اطاعت» | follows the page heading |
 | 149 (pr. 148) | «والصبرین فی السراء والضراء» | ﴿2:177 وَالصّٰبِرِيۡنَ فِي الۡبَاۡسَآءِ وَالضَّرَّآءِ﴾ | السراء is from Al Imran 3:134; the صابرین verse is Baqara 2:177. Translation «خوش حالی اور سختی میں» kept as printed |
 | Contents (الفطر) | «بغیر حساب کے معنی» (p153) | «بغیر حساب» | follows the page heading |
+| 159 (pr. 158) | «ربنا اغفرلنا ولاخواننا الذین امنوا» | ﴿59:10 رَبَّنَا اغۡفِرۡ لَنَا وَلِاِخۡوَانِنَا الَّذِيۡنَ سَبَقُوۡنَا بِالۡاِيۡمَانِ﴾ | quoted from memory in print; Quran wording restored, translation kept |
