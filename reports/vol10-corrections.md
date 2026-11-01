@@ -30,3 +30,4 @@ The owner reviews these and names anything to revert.
 | Contents (رمضان فی رمضان) | «انسانوں کی فرشتوں پر فضیلت» (p234) | «انسان کی فرشتوں پر فضیلت» | follows the page heading |
 | 241 (pr. 240) | «اہل اصطلاح کی صحبت سے صلاح کا مادہ» | «اہل صلاح کی صحبت …» | misprint; paired with اہل فسق |
 | 245 (pr. 244) | «غرض یہ روزہ رکھنا تو پورا اتلاف حق ہے» | «… روزہ نہ رکھنا …» | the نہ dropped in print; the passage is about not fasting |
+| 257 (pr. 256) | footnote to «من حسن اسلام المرء ترکہ ما لا یعنیہ» cites Bukhari 1:16, 3:33, Muslim صلوٰۃ المسافرین 175, Abu Dawud باب 29 | kept as printed | these are the references for «من صام رمضان»; this hadith is in Tirmidhi 2317, Ibn Majah 3976, Muwatta |
