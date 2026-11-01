@@ -18,3 +18,4 @@ The owner reviews these and names anything to revert.
 | 128 (pr. 127) | «وسعت رحمتی کل شیء» | ﴿7:156 وَرَحۡمَتِيۡ وَسِعَتۡ كُلَّ شَيۡءٍ﴾ | words transposed in print; Quran order restored |
 | Contents (الصیام) | «روزہ اور تقلیل» (p142) | «روزہ اور تقلیل طعام» | follows the page heading |
 | Contents (الصیام) | heading «روزہ کی حکمت» (p144) missing | added to toc | heading is printed on the page |
+| Contents (الصیام) | «معصیت اور طاعت» (p135) | «معصیت اور اطاعت» | follows the page heading |
