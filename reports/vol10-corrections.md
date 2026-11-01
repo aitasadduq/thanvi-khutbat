@@ -12,4 +12,4 @@ The owner reviews these and names anything to revert.
 | Contents vs text, نداء رمضان | Heading names | Contents: «تلاوت قرآن ۸۵»، «ہماری غفلت ۸۶» | toc.tsv follows the page headings: «روزہ کی سفارش»، «ہماری حالت» | The page headings differ from the contents list |
 | p88 (PDF 89) | Place name | «برمکان تحصیلدار صاحب نکڑ ضلع سہارنپور» | Text kept; index term: مقام: نکوڑ ضلع سہارنپور | The town in Saharanpur district is Nakur (نکوڑ); the print spells it «نکڑ» |
 | 93 (pr. 92) | «خود یابد ایں چنیں بازار را» | «خود کہ یابد…» | کہ dropped in print; restored to the metre and the form used in other volumes |
-| 111 (pr. 110) | footnote «مشکوٰۃ المصابیح: ۲۹۵۸» (as it reads) | kept as printed reading uncertain; given ۱۹۵۸ | the hadith is no. 1958 in Mishkat; the print looks like ۲۹۵۸ or ۱۹۵۸ |
+| 111 (pr. 110) | footnote «مشکوٰۃ المصابیح: ۲۹۵۸» | «۱۹۵۸» | the hadith من صام رمضان is no. 1958 in Mishkat (Kitab al-Sawm); 2958 is in another chapter |
