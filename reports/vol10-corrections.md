@@ -14,3 +14,5 @@ The owner reviews these and names anything to revert.
 | 93 (pr. 92) | «خود یابد ایں چنیں بازار را» | «خود کہ یابد…» | کہ dropped in print; restored to the metre and the form used in other volumes |
 | 111 (pr. 110) | footnote «مشکوٰۃ المصابیح: ۲۹۵۸» | «۱۹۵۸» | the hadith من صام رمضان is no. 1958 in Mishkat (Kitab al-Sawm); 2958 is in another chapter |
 | 120 (pr. 119) | «پر تجھ کو چاہیے کہ تک لو لگی رہے» | «… کہ تگ و دو لگی رہے» | misprint; the line is quoted with تگ و دو in other volumes |
+| 128 (pr. 127) | «مدبر الامو» | ﴿10:3 يُدَبِّرُ الۡاَمۡرَ﴾ | misprint; the text says the words follow استویٰ علی العرش in another place, which is Yunus 10:3 |
+| 128 (pr. 127) | «وسعت رحمتی کل شیء» | ﴿7:156 وَرَحۡمَتِيۡ وَسِعَتۡ كُلَّ شَيۡءٍ﴾ | words transposed in print; Quran order restored |
