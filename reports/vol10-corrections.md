@@ -20,3 +20,4 @@ The owner reviews these and names anything to revert.
 | Contents (الصیام) | heading «روزہ کی حکمت» (p144) missing | added to toc | heading is printed on the page |
 | Contents (الصیام) | «معصیت اور طاعت» (p135) | «معصیت اور اطاعت» | follows the page heading |
 | 149 (pr. 148) | «والصبرین فی السراء والضراء» | ﴿2:177 وَالصّٰبِرِيۡنَ فِي الۡبَاۡسَآءِ وَالضَّرَّآءِ﴾ | السراء is from Al Imran 3:134; the صابرین verse is Baqara 2:177. Translation «خوش حالی اور سختی میں» kept as printed |
+| Contents (الفطر) | «بغیر حساب کے معنی» (p153) | «بغیر حساب» | follows the page heading |
