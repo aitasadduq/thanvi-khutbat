@@ -6,7 +6,14 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 ---
 
-## 1. Status (2026-11-01)
+## 1. Status (2026-11-01; backward-pass addition 2026-11-04)
+
+- **Backward pass — Volume 32 (فہرست خطبات حکیم الامت) in progress on `kimi/volume-32-backwards`.** This branch is
+  independent of the other AI's forward Volume 10 flow. Volume 32 is a 456-page master contents volume, not a sermon
+  volume; PDF page = printed page + 1. Folder `Vol 32 fihrist/`. `toc.tsv` records its major sections. Transcribed
+  printed pp. 1–8 (PDF pp. 2–9) in `page-notes/0002.txt`, including the preface and aggregate contents for Vols 1–6.
+  Contents tables get high-level terms only, so their page references are not confused with sermon locations. Next:
+  printed p. 9 (PDF p. 10), new file `0010.txt`; after Volume 32, continue backward with Volume 31.
 
 - **Volume 10 (فضائل صوم و صلوٰۃ) — in progress.** Folder `Vol 10 fazail e saum o salat/`. PDF page = printed page + 1;
   page images in the scratchpad (`v10/h`). `toc.tsv` built (12 sermons, headings follow the page where the contents
@@ -190,6 +197,9 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
+- Backward pass (separate branch `kimi/volume-32-backwards`): continue Volume 32 from printed p. 9 (PDF p. 10,
+  new file `0010.txt`) through p. 456, then proceed to Volume 31 and downward. Do not change or wait on the other
+  AI's Volume 10 flow.
 - Volume 10: continue from تطہیر رمضان (printed p. 313, new file `0313.txt`) to the end of the volume, logging corrections in `reports/vol10-corrections.md`; at the end run the §3 pipeline and add Vol 10 (`فضائل صوم و صلوٰۃ`, `Vol 10 fazail e saum o salat`) to VOLUMES.
 - The owner will review `reports/vol02-corrections.md` … `reports/vol09-corrections.md` at leisure; revert anything the owner rejects.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
