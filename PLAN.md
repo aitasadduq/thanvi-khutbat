@@ -6,7 +6,18 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 ---
 
-## 1. Status (2026-11-01)
+## 1. Status (2026-11-01; backward-pass update 2026-11-05)
+
+- **Backward pass — Volume 32 (فہرست خطبات حکیم الامت) in progress on `kimi/volume-32-backwards`.** This branch is
+  independent of the other AI's forward Volume 10 flow. Volume 32 is a 456-page master contents volume, not a sermon
+  volume; PDF page = printed page + 1. Folder `Vol 32 fihrist/`. `toc.tsv` records its major sections. Transcribed
+  printed pp. 1–230 (PDF pp. 2–231), with eight-page notes files through `page-notes/0224.txt`; continuous coverage,
+  unique page markers, page mapping and `## terms` were validated through p. 230. Latest batch commit: `9629af0`.
+  Contents tables get high-level terms only, so their page references are not confused with sermon locations. Arabic/hadith
+  checks, correction logs, index/site build and browser check remain for after transcription. Next: printed p. 231
+  (PDF p. 232), new file `0232.txt`. Half-page images for the following batch (printed pp. 231–238, PDF pp. 232–239)
+  were generated and read, but no notes file was written; recheck those scans while transcribing. After Volume 32,
+  continue backward with Volume 31.
 
 - **Volume 10 (فضائل صوم و صلوٰۃ) — in progress.** Folder `Vol 10 fazail e saum o salat/`. PDF page = printed page + 1;
   page images in the scratchpad (`v10/h`). `toc.tsv` built (12 sermons, headings follow the page where the contents
@@ -190,6 +201,13 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
+- Backward pass (separate branch `kimi/volume-32-backwards`): continue Volume 32 from printed p. 231 (PDF p. 232,
+  new file `0232.txt`) through p. 456 in approximately eight-page batches, validating unique continuous blocks, PDF =
+  printed + 1 and `## terms`, then committing and pushing each batch. After transcription, follow §3 steps 3–7: run the
+  Arabic/hadith checks, review every flagged item against the scans, apply and log corrections in
+  `reports/vol32-corrections.md`, build the index, add Volume 32 to `VOLUMES`, build and browser-check the site, and
+  commit and push all outputs. Update this plan to point to Volume 31 only after Volume 32 is complete. Do not change
+  or wait on the other AI's Volume 10 flow.
 - Volume 10: continue from تطہیر رمضان (printed p. 313, new file `0313.txt`) to the end of the volume, logging corrections in `reports/vol10-corrections.md`; at the end run the §3 pipeline and add Vol 10 (`فضائل صوم و صلوٰۃ`, `Vol 10 fazail e saum o salat`) to VOLUMES.
 - The owner will review `reports/vol02-corrections.md` … `reports/vol09-corrections.md` at leisure; revert anything the owner rejects.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
