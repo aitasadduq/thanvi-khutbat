@@ -1,4 +1,4 @@
-# Volume 32 (فہرست خطبات حکیم الامت، pp. 1–230) — corrections applied under the owner's rule (2026-10-30)
+# Volume 32 (فہرست خطبات حکیم الامت، pp. 1–456) — corrections applied under the owner's rule (2026-10-30)
 
 Each row: page (printed, with PDF page), kind, what the book/transcription had, what was applied, and why. The owner reviews this
 file after the work and names anything to revert.
@@ -21,3 +21,4 @@ file after the work and names anything to revert.
 | p194 (PDF 195) | Heading & Hadith fragments | Book prints «کم من صائم و قائم» and «تشفعان» (draft had «تظہیر رمضان»، «پیت»، «جٹلا»، «بکھو») | Corrected heading to «تطہیر رمضان» and prose from scan; marked ««کم من صائم و قائم»» (kept as printed) and corrected «تشفعان» to ««یشفعان»» | «تشفعان» is a print slip for «یشفعان» («الصيام والقرآن يشفعان للعبد يوم القيامة», followed by «یعنی روزہ نماز دونوں شفاعت کریں گے») |
 | p216 (PDF 217) | Arabic dua & prose | Draft had «اسماک باراں»، «تعلق الٰہیت»، «تعلق عبودیت»، «(«زاد ہما اللہ شر فا وکرامہ»)» | Corrected from scan (`217a.png`) to «امساک باراں»، «تجلی الوہیت»، «تجلی عبودیت»، «(«زادہما اللہ شرفاً وکرامۃً»)» | Verified on `217a.png` |
 | p219 (PDF 220) | Persian verse (Masnavi) | Book prints «حج زیارت کردہ خانہ بود / حج رب البیت مردانہ بود» | Kept as printed in text; indexed under `شعر: حج زیارت کردن خانہ بود > حج رب البیت مردانہ بود` | Verified on `220a.png` |
+| p402 (PDF 403) | Persian verse | Book prints «برنگ اصحاب صورت بوارباب معنی را» without space between «بو» and «ارباب» | Separated as «برنگ اصحاب صورت بو ارباب معنی را» and indexed under `شعر: بہار عالم حسنش دل و جاں تازہ میدارد > برنگ اصحاب صورت بو ارباب معنی را` | Verified on `p-402.png` (followed by parenthetical translation «کبھی رنگ سے اور ... بو سے تازہ رکھتی ہے») |
