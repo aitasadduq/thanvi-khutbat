@@ -11,15 +11,14 @@ Update the **Status** and **Next steps** sections at the end of every working se
 - **Backward pass — Volume 32 (فہرست خطبات حکیم الامت) in progress (`agy/vol32-checks-and-site` / `kimi/volume-32-backwards`).** This branch is
   independent of the other AI's forward Volume 10 flow. Volume 32 is a 456-page master contents volume, not a sermon
   volume; PDF page = printed page + 1. Folder `Vol 32 fihrist/`. `toc.tsv` records its major sections. Transcribed
-  printed pp. 1–230 (PDF pp. 2–231), with eight-page notes files through `page-notes/0224.txt`; continuous coverage,
-  unique page markers, page mapping and `## terms` were validated through p. 230.
+  printed pp. 1–238 (PDF pp. 2–239), with eight-page notes files through `page-notes/0232.txt`; continuous coverage,
+  unique page markers, page mapping and `## terms` were validated through p. 238.
   Contents tables get high-level terms only, so their page references are not confused with sermon locations.
-  For the transcribed pages so far (pp. 1–230): `mark_arabic.py` (updated to skip tab-separated table rows) ran with
+  For the transcribed pages through p. 230: `mark_arabic.py` (updated to skip tab-separated table rows) ran with
   DIFFERS 0, CITE 0 (`reports/vol32-quran-check.md`); hadith check ran with differs 0 (`reports/vol32-hadith-check.md`);
   all corrections applied from zoomed scans are logged in `reports/vol32-corrections.md`; index built (251 entries,
-  477 locators); Volume 32 added to `VOLUMES` and site built (`site/v32.html`, `site/index.html`). Next: printed p. 231
-  (PDF p. 232), new file `0232.txt`. Half-page images for the following batch (printed pp. 231–238, PDF pp. 232–239)
-  were generated and read, but no notes file was written; recheck those scans while transcribing. After Volume 32,
+  477 locators); Volume 32 added to `VOLUMES` and site built (`site/v32.html`, `site/index.html`). Next: printed p. 239
+  (PDF p. 240), new file `0240.txt`. After Volume 32,
   continue backward with Volume 31.
 
 - **Volume 10 (فضائل صوم و صلوٰۃ) — in progress.** Folder `Vol 10 fazail e saum o salat/`. PDF page = printed page + 1;
@@ -204,8 +203,8 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Backward pass (separate branch `kimi/volume-32-backwards`): continue Volume 32 from printed p. 231 (PDF p. 232,
-  new file `0232.txt`) through p. 456 in approximately eight-page batches, validating unique continuous blocks, PDF =
+- Backward pass (separate branch `agy/vol32-checks-and-site` / `kimi/volume-32-backwards`): continue Volume 32 from printed p. 239 (PDF p. 240,
+  new file `0240.txt`) through p. 456 in approximately eight-page batches, validating unique continuous blocks, PDF =
   printed + 1 and `## terms`, then committing and pushing each batch. After transcription, follow §3 steps 3–7: run the
   Arabic/hadith checks, review every flagged item against the scans, apply and log corrections in
   `reports/vol32-corrections.md`, build the index, add Volume 32 to `VOLUMES`, build and browser-check the site, and
