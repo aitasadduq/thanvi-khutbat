@@ -24,6 +24,7 @@ VOLUMES = [
     {'no': 7, 'title': 'حقیقت عبادت', 'dir': 'Vol 07 haqiqat e ibadat'},
     {'no': 8, 'title': 'حقیقت مال و جاہ', 'dir': 'Vol 08 haqiqat e mal o jah'},
     {'no': 9, 'title': 'فضائل صبر و شکر', 'dir': 'Vol 09 fazail e sabr o shukr'},
+    {'no': 32, 'title': 'فہرست خطبات حکیم الامت', 'dir': 'Vol 32 fihrist'},
 ]
 TOTAL_VOLUMES = 32
 # Where readers report mistakes: "new issue" page of the public site repository (prefilled with volume and page).
@@ -113,6 +114,10 @@ def khutbas_of(toc):
     return out
 
 
+def is_full(pg):
+    return any(kind == 't' for kind, _, _ in pg['lines']) or (bool(pg['lines']) and pg['summary'] is None)
+
+
 def render_page(no, pg, toc_here, khutba, first_title):
     """HTML for one printed page."""
     unmatched = {r['n']: r for r in toc_here}
@@ -125,7 +130,7 @@ def render_page(no, pg, toc_here, khutba, first_title):
         return None
 
     body, notes = [], []
-    full = any(kind == 't' for kind, _, _ in pg['lines'])
+    full = is_full(pg)
     for kind, level, text in pg['lines']:
         if kind == 'h':
             n = take(text)
@@ -141,6 +146,9 @@ def render_page(no, pg, toc_here, khutba, first_title):
         if m:
             body.append(f'<p class="masura"><span class="lbl">{esc(m.group(1))}</span>'
                         f'<span class="ar">{esc(m.group(2))}</span></p>'); continue
+        if '\t' in text:
+            cells = ''.join(f'<span>{inline(x.strip())[0]}</span>' for x in text.split('\t'))
+            body.append(f'<p class="trow">{cells}</p>'); continue
         if ' / ' in text and len(text) < 160:
             parts = text.split(' / ')
             if len(parts) == 2 and parts[0].startswith('«') and parts[1].endswith('»') and '»' not in parts[0]:
@@ -427,6 +435,8 @@ border:1px solid var(--rule);border-radius:3px;box-shadow:0 1px 0 var(--rule),0 
 .report{display:block;text-align:center;font-size:12px;color:var(--muted);margin-top:4px}
 .page .sher{display:grid;grid-template-columns:1fr 1fr;gap:0 2em;text-align:center;max-width:36rem;margin:.3em auto .5em}
 @media (max-width:560px){.page .sher{grid-template-columns:1fr}}
+.page .trow{display:grid;grid-template-columns:1fr auto 1fr auto;gap:0 12px;border-bottom:1px dotted var(--rule);padding:1px 0;margin:0;font-size:.92em}
+.page .trow span:nth-child(2n){color:var(--muted);font-variant-numeric:tabular-nums;padding-inline-end:10px}
 .page .masura{text-align:center;background:var(--wash);border-radius:6px;padding:4px 10px}
 .page .masura .lbl{display:block;font-size:.75em;color:var(--muted)}
 .page .notes{border-top:1px solid var(--rule);margin-top:10px;padding-top:4px;font-size:13px;line-height:2.1;color:var(--muted)}
@@ -608,8 +618,8 @@ def build_volume(v, artifact=False):
         here = [r for r in toc if r['page'] == no]
         k = next((x['name'] for x in reversed(ks) if x['page'] <= no), '')
         arts.append(render_page(no, pages[no], here, k, first_titles))
-    n_full = sum(1 for p in pages.values() if any(t == 't' for t, _, _ in p['lines']))
-    full_nums = [n for n in sorted(pages) if any(t == 't' for t, _, _ in pages[n]['lines'])]
+    n_full = sum(1 for p in pages.values() if is_full(p))
+    full_nums = [n for n in sorted(pages) if is_full(pages[n])]
 
     side, cl = [], []
     for i, k in enumerate(ks):

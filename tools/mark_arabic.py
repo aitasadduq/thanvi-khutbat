@@ -19,6 +19,7 @@ from arabic import Quran, norm, ratio, cited_surah, SURAHS
 
 URDU_CHARS = re.compile('[ٹڈڑںےگچپژ]')
 URDU_WORDS = set(('ہے ہیں کہ میں کی کا کے سے نے کو اور یہ وہ تو بھی نہ تھا تھے تھی پر جو اس جس کس ایک یعنی '
+              'خلاصہ وعظ تاریخ اشاعت بمطابق '
               # Persian (couplets are not Arabic)
               'اند است ست را می بر از چہ چو چوں نیست باشد شد شود کند کرد در ایں آں تا باید خود ہمہ گر اگر بود نبود باش').split())
 HARAKAT = re.compile(r'[ً-ْٰ]')
@@ -223,7 +224,7 @@ def recheck(m, Q, report, page, decisions):
 
 
 # the author's signature and the colophon at the end of a sermon are Urdu, not quotations
-SIGNATURE = re.compile(r'^\(?(اشرف علی|حکیم الامت حضرت مولانا اشرف علی|بحمد اللہ تمت|بحمد اللہ تمام)')
+SIGNATURE = re.compile(r'^\(?(اشرف علی|حکیم الامت (مجدد الملت )?حضرت مولانا اشرف علی|بحمد اللہ تمت|بحمد اللہ تمام)')
 
 
 def process(lines, Q, report, page, decisions=None):
@@ -240,7 +241,7 @@ def process(lines, Q, report, page, decisions=None):
             line = re.sub(r'«([^»]*)»', apply, line)
         # ayat marked while transcribing (﴿ref|text﴾) are checked like unmarked ones; the ref is the citation
         line = AYAH_MARK.sub(lambda m: recheck(m, Q, report, page, decisions), line)
-        if not line.strip() or line.startswith(('#', '[', '===')) or ANY_MARK.search(line) or SIGNATURE.match(line):
+        if not line.strip() or line.startswith(('#', '[', '===')) or '\t' in line or ANY_MARK.search(line) or SIGNATURE.match(line):
             out.append(line); continue
         words = line.split(' ')
         spans = arabic_runs(words)

@@ -8,13 +8,16 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 ## 1. Status (2026-11-01; backward-pass update 2026-11-05)
 
-- **Backward pass — Volume 32 (فہرست خطبات حکیم الامت) in progress on `kimi/volume-32-backwards`.** This branch is
+- **Backward pass — Volume 32 (فہرست خطبات حکیم الامت) in progress (`agy/vol32-checks-and-site` / `kimi/volume-32-backwards`).** This branch is
   independent of the other AI's forward Volume 10 flow. Volume 32 is a 456-page master contents volume, not a sermon
   volume; PDF page = printed page + 1. Folder `Vol 32 fihrist/`. `toc.tsv` records its major sections. Transcribed
   printed pp. 1–230 (PDF pp. 2–231), with eight-page notes files through `page-notes/0224.txt`; continuous coverage,
-  unique page markers, page mapping and `## terms` were validated through p. 230. Latest batch commit: `9629af0`.
-  Contents tables get high-level terms only, so their page references are not confused with sermon locations. Arabic/hadith
-  checks, correction logs, index/site build and browser check remain for after transcription. Next: printed p. 231
+  unique page markers, page mapping and `## terms` were validated through p. 230.
+  Contents tables get high-level terms only, so their page references are not confused with sermon locations.
+  For the transcribed pages so far (pp. 1–230): `mark_arabic.py` (updated to skip tab-separated table rows) ran with
+  DIFFERS 0, CITE 0 (`reports/vol32-quran-check.md`); hadith check ran with differs 0 (`reports/vol32-hadith-check.md`);
+  all corrections applied from zoomed scans are logged in `reports/vol32-corrections.md`; index built (251 entries,
+  477 locators); Volume 32 added to `VOLUMES` and site built (`site/v32.html`, `site/index.html`). Next: printed p. 231
   (PDF p. 232), new file `0232.txt`. Half-page images for the following batch (printed pp. 231–238, PDF pp. 232–239)
   were generated and read, but no notes file was written; recheck those scans while transcribing. After Volume 32,
   continue backward with Volume 31.
