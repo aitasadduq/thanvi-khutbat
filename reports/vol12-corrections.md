@@ -74,3 +74,4 @@
 | 346 (pr. 345) | «بر تو من مشفق ترم از صد پدید» | text kept as printed; index uses «از صد پدر» | «پدید» for «پدر»; a printer's slip (the translation says «سیکڑوں باپوں»). |
 | 346 (pr. 345) | «(سوائے اسلام کے اور کسی حالت میں جان دو)» | kept as printed | A «مت» has dropped from the translation. |
 | 348 (pr. 347) | «دلارا میکہ داری دل دروبند» | text kept as printed; index uses the standard «دل آرامے کہ داری دل درو بند» | Spacing run-on of the Jami couplet. |
+| 370 (pr. 369) | «چوں ندانند حقیقت رہ افسانہ زدند» | text kept as printed; index uses the existing «چوں ندیدند» | Variant wording of the Hafiz half-verse. |
