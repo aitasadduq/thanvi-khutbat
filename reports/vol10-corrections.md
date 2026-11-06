@@ -82,3 +82,4 @@ The owner reviews these and names anything to revert.
 | all vols | half couplets «گفت آں اللہ تو لبیک ماست», «تو بندگی چو گدایاں بشرط مزد مکن», «آنکس کہ تو نگرت نمی گرداند»; «دردل»/«دردت» | full couplets, «دردت» | index consistency |
 | 91 (pr. 90) | 2:261 «اَنۭۡ بَتَتۡ», «سُنۭۡ بُلَةٍ» | joined | the reference text has a space after the small meem; joined as in the other volumes |
 | — | Hadith check summary | `reports/vol10-hadith-check.md`: 23 differs, 39 loose, 52 match | 0 corrected; 23 kept | The differs are the book's wording or short forms (a dropped «و», «الفطر»/«فطرہ», «ویحب»/«یحب», «علیک»/«علی», an added «تعالیٰ»), checked against the transcription; p. 268 «ثم بحمد اللہ الذی بنعمتہ تتم الصالحات» checked on the scan and kept as printed («تم» may be meant) |
+| toc | Vol 10 `toc.tsv` had no header row | header added | the site and index skip the first row, so «الصلوٰۃ» was missing from the Vol 10 contents; fixed and rebuilt |
