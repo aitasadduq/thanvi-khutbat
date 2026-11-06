@@ -12,3 +12,6 @@
 | 28 (pr. 27) | «حضرت پر اس واقعہ کا … کہ ان کی برائی پر عمل ہونے لگا»; «لوگوں نے ناحق سے ماسٹر صاحب کی» | kept as printed | probably «حضرات پر» / «ان کی رائے پر»; «ناحق سے» unclear |
 | 29 (pr. 28) | «میرا تو انہوں نے کورٹ کروا دیا» | kept as printed | colloquial; meaning unclear (perhaps «کوٹ» or «کورا»)|
 | 31 (pr. 30) | «ولا یصخب» printed «ولا یصنحب» | «یصخب» | printer's slip in the hadith word |
+| 38 (pr. 37) | «یختفی الریح وغبراہ جہاں» | kept as printed; index uses the couplet as printed in Vol 7 («وغبراء جہار») | the Vol 7 half-couplet term was completed with its printed second half |
+| 38 (pr. 37) | «گو محرم میں نفس تحریک»; «وہ ذہن میں آ سکتے ہیں اور نہ ذہن میں» | kept as printed | «محرک»? and «نہ ذہن میں آ سکتے ہیں» intended |
+| 39 (pr. 38) | «کل من خطر ببالک فہو ہالک … من ذالک» | kept as printed; indexed with the saying «ما خطر ببالک …» | same saying as in earlier volumes |
