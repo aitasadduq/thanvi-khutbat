@@ -157,3 +157,6 @@ The owner reviews these and names anything to revert.
 | 486 (pr. 485) | «ما هذه التماثیل التی انتم لها عاکفون» | marked as al-Anbiya 21:52 | |
 | 488 (pr. 487) | companion's wife crying «ہائے میرے سردار», angels asking «کیا تو ایسا تھا» | indexed as the Abdullah ibn Rawaha hadith | Bukhari 4267 (his sister, «واجبلاه»); the sermon tells it as «بیوی» |
 | 488 (pr. 487) | «جلال الدین سیوطی نے شرح الصدور میں» | indexed with امام سیوطیؒ and شرح الصدور | |
+| 489 (pr. 488) | «والقلب یزنی وزناه ان یشتهی» | indexed under العینان تزنیان … والقلب یہوی ویتمنی | the sermon's wording is a paraphrase (Bukhari 6243, Muslim 2657) |
+| 489 (pr. 488) | «انا منزلون علی اهل هذه القریة رجزا من السماء بما کانوا یفسقون» | marked as al-Ankabut 29:34 | |
+| 489 (pr. 488) | «مر دلیں تو فوراً لوگوں کو بدگمانی ہوتی ہے» | kept as printed | words seem dropped at the page turn |
