@@ -62,3 +62,5 @@ The owner reviews these and names anything to revert.
 | toc | (missing) | added «ضمیمہ» 390 under عصم الصنوف | heading present on the page |
 | toc | «التہذیب نمبر ۱», «التہذیب نمبر ۲» | kept | both sermons are titled «التہذیب» on the page; the toc numbers keep them apart |
 | toc | «حضور ﷺ کی بددعا», «حضور ﷺ کی غایت رحمت» | spelled out as on the page | toc follows the page headings |
+| 397 (pr. 396) | «چوں ز باغ دل خلالے کم بود» | kept as printed | elsewhere «گر ز باغ دل»; the شعر term uses the unified form |
+| all vols | «ایں قبول ذکر تو از رحمت است» (half), «بردل سالک … (رومی)» | full couplets | index consistency |
