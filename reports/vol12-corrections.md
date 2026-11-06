@@ -2,3 +2,4 @@
 
 | page (pdf/printed) | book had | applied | why |
 |---|---|---|---|
+| 16 (pr. 15) | «ایک صحابہ رضوان اللہ … تھے» | kept as printed | probably «ایک تو صحابہ…» |
