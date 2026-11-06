@@ -50,3 +50,4 @@
 | 271 (pr. 270) | «کوئی صورت کچی ہو … اس کچی صورت سنانے» | kept as printed | «صورت» for «سورت»; the same page also prints «سورت». |
 | 271 (pr. 270) | «برتن دینے والا اقرضدار ہو گیا» | kept as printed | Stray «ا» before «قرضدار». |
 | 275 (pr. 274) | «بگذارند وہمہ طرۂ یارے گیرند» | text kept as printed; index uses the standard «و خم طرہ» already in the index | «وہمہ» for «و خم» is a printer's slip. |
+| 278 (pr. 277) | «خدا کا قرب بندہ کی طرف باعتبار توجہ کے بندہ کا قرب … التوجہ کو مستلزم نہیں» | kept as printed | The Arabic phrase begun at the foot of p. 276 («قرب عبد الی اللہ من حیث») breaks off; the Urdu gloss and «التوجہ» are run together. |
