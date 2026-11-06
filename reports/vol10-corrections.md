@@ -50,3 +50,4 @@ The owner reviews these and names anything to revert.
 | 357 (pr. 356) | «نذر کردم کہ گر آید بسر ایں روزے» | kept as printed | other volumes have «ایں غم روزے»; the شعر term uses the unified form |
 | 360 (pr. 359) | «ایک مردار پر عاشق کر دیا تھا» | kept as printed | the woman is later called «بازاری عورت»; «مردار» may be deliberate contempt or a misprint |
 | Vol 1 p. 303 | «القاہ فی الیم متکوفا» | «مکتوفا» | misprint; the شعر term now carries both halves, unified with Vol 10 |
+| 362 (pr. 361) | «تو نیز بر سر بام آ عجب تماشائیست» | kept as printed | other volumes have «کہ خوش تماشائیست»; the شعر term uses the unified form |
