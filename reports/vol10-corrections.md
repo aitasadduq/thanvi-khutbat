@@ -48,3 +48,5 @@ The owner reviews these and names anything to revert.
 | Vols 2, 7, 10 | combined term «ذالک صریح الایمان، فلیستعذ باللہ ولینتہ» | split into «ذاک صریح الایمان» and «یاتی الشیطان احدکم … فلیستعذ باللہ ولینتہ» | two different hadiths; both appear on each page |
 | 357 (pr. 356) | «شیئاً للہ اجمال روئے تو» | «شیئاً للہ از جمال روئے تو» | misprint (از جمال), as the couplet reads in Vol 1; the Vol 1 term now carries both halves |
 | 357 (pr. 356) | «نذر کردم کہ گر آید بسر ایں روزے» | kept as printed | other volumes have «ایں غم روزے»; the شعر term uses the unified form |
+| 360 (pr. 359) | «ایک مردار پر عاشق کر دیا تھا» | kept as printed | the woman is later called «بازاری عورت»; «مردار» may be deliberate contempt or a misprint |
+| Vol 1 p. 303 | «القاہ فی الیم متکوفا» | «مکتوفا» | misprint; the شعر term now carries both halves, unified with Vol 10 |
