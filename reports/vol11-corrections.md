@@ -134,3 +134,6 @@ The owner reviews these and names anything to revert.
 | 468 (pr. 467) | «قل لهم قولا بلیغا» | marked as al-Nisa 4:63 (وقل لهم فی انفسهم قولا بلیغا) | print omits «فی انفسهم»; the slices skip it too |
 | 468 (pr. 467) | «ولهم قلوب لا یفقهون بها» | marked as al-A`raf 7:179 (لهم قلوب لا یفقهون بها) | |
 | 468 (pr. 467) | verse «ان الکلام لفی الفؤاد وانما / جعل اللسان علی الکلام دلیلا» | kept as printed; indexed under the usual علی الفؤاد form | |
+| 471 (pr. 470) | «خدا سے دوسروں کے سامنے روؤ» | kept as printed | sense unclear in print (perhaps «خدا کے سامنے روؤ، دوسروں کے سامنے نہیں») |
+| 472 (pr. 471) | «دیوانے ہو گیا» | kept as printed | probably «دیوانے ہو گئے ہو» |
+| 472 (pr. 471) | companions not letting the Prophet's spittle fall | indexed with a sub-entry naming the Hudaybiya narration (Bukhari 2731) | the sermon does not name the source |
