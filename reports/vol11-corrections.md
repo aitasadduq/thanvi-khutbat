@@ -198,3 +198,8 @@ The owner reviews these and names anything to revert.
 | 518 (pr. 517) | Ghalib half-line «ہم توبہ جب کریں گے شراب و کباب سے» | indexed under the full couplet term (order «کباب و شراب» there) | |
 | 518 (pr. 517) | «وما انت اعلم به منی» | indexed under اللہم اغفر لی خطیئتی… | Bukhari 6398 |
 | 519 (pr. 518) | «ورتل القرآن ترتیلا» | marked as al-Muzzammil 73:4 | |
+| 520 (pr. 519) | «وما امروا الا لیعبدوا اللہ مخلصین له الدین وامرت ان اعبد الخ» | marked as al-Bayyina 98:5 and al-Zumar 39:11 | two verses joined in print |
+| 520 (pr. 519) | «انا سنلقی علیک قولا ثقیلا» | marked as al-Muzzammil 73:5 | |
+| 521 (pr. 520) | «الم نشرح لک صدرک ووضعنا عنک وزرک الذی انقض ظهرک» | marked as al-Sharh 94:1–3 | |
+| 521 (pr. 520) | «لو انزلنا هذا القرآن علی جبل» | marked as al-Hashr 59:21 | |
+| 521 (pr. 520) | Rumi half-line «چونکہ قبض آمد تو در وے بسط بیں / تازہ باش چیں میفگن برجبیں» | indexed under the full couplet | |
