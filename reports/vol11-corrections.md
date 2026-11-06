@@ -14,3 +14,4 @@ The owner reviews these and names anything to revert.
 | 72 (pr. 71) | «ور شود پر خود شہیدا و را مشو» | «ور شود پر خوں شہید آں را مشو» | misprint (خود → خوں); couplet as in Vol 1 |
 | 73 (pr. 72) | «بدم گفتی و خور سندم خاک اللہ نکو گفتی» | «و خرسندم عفاک اللہ» | misprint; couplet as in other volumes |
 | toc | «عقیدہ صحیح» (p. 105) | «عقیدہ صحیحہ» | toc follows the page heading |
+| 110 (pr. 109) | «انہی چیزوں سے صراحۃً منع کیا گیا ہے جن سے تقاضا طبیعت انسانیہ کو خود نفرت ہے اس سے صراحۃً منع نہیں کیا گیا» | kept as printed | a line seems dropped in print; sense: explicit prohibition only where the nature desires it, not where it is naturally repelled |
