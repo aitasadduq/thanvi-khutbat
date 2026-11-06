@@ -83,3 +83,4 @@
 | 403 (pr. 402) | «حق تعالیٰ کے تمام افعال کے متعلق جیسے نشست برخاست…» and «خوب رل کو سمجھایا» | kept as printed | Probably «حق تعالیٰ نے تمام افعال…» and «خوب دل کو سمجھایا»; printer's slips. |
 | 410 (pr. 409) | «زبان تازہ کردن باقرار تو / نہ انگیختن علت از کار تو» and «جاں شدہ مبتلائے تو» | text kept as printed; index uses the established wordings «نینگیختن» and «دل شدہ» | Variant spellings of known couplets. |
 | 416 (pr. 415) | «یہ بات عقل کے خلاف ہے اور ایسا ہونا ممکن ہے» | kept as printed | A «نا» has dropped («ناممکن»). Similarly p. 414 «طبیعت نوعیہ بھی ذی شعور» lacks «غیر». |
+| 45 (pr. 44) | 2:261 «اَنۭۡ بَتَتۡ», «سُنۭۡ بُلَةٍ» | joined | the reference text has a space after the small meem; joined as in the other volumes |
