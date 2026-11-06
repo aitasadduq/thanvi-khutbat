@@ -64,3 +64,5 @@ The owner reviews these and names anything to revert.
 | toc | «حضور ﷺ کی بددعا», «حضور ﷺ کی غایت رحمت» | spelled out as on the page | toc follows the page headings |
 | 397 (pr. 396) | «چوں ز باغ دل خلالے کم بود» | kept as printed | elsewhere «گر ز باغ دل»; the شعر term uses the unified form |
 | all vols | «ایں قبول ذکر تو از رحمت است» (half), «بردل سالک … (رومی)» | full couplets | index consistency |
+| 399 (pr. 398) | «کہ اصلے ندارد دمی بے قدم» | kept as printed | the شعر term uses the unified «دم بے قدم» |
+| all vols | «اے برتر از قیاس و خیال …», «نہ گردد قطع …» (half) | unified to the common full couplets | index consistency |
