@@ -37,3 +37,4 @@ The owner reviews these and names anything to revert.
 | 320 (pr. 319) | «بماں اے آنکہ جز تو پاک نیست» | «تو بماں اے آنکہ چوں تو پاک نیست» | second half of Rumi's couplet as quoted elsewhere in the series |
 | 322 (pr. 321) | «وکان سعیکم مشکورا» | ﴿76:22 وَّكَانَ سَعۡيُكُمۡ مَّشۡكُوۡرًا﴾ | ayah marked; it is from al-Dahr 76:22 |
 | 329 (pr. 328) | «معصیت کو معصیت سمجھ کر کرنا اہل ہے» | «اہون» | misprint; the comparison (اس سے کہ …) needs اہون (lighter) |
+| 331 (pr. 330) | «حدیث شریف میں تو افطر الرؤیۃ ہے» | «افطروا لرؤیتہ» | garbled hadith wording restored to the known text (صوموا لرؤیتہ وافطروا لرؤیتہ) |
