@@ -89,3 +89,4 @@ The owner reviews these and names anything to revert.
 | 408 (pr. 407) | «ووجدک ضالا فهدی» | marked as al-Duha 93:7 | |
 | 408 (pr. 407) | «وما کان لبشر ان یکلمه اللہ … صراط مستقیم» | marked as al-Shura 42:51–52 | |
 | 408 (pr. 407) | «جس کے معنی مقصود الخبر کے ہیں» | kept as printed | probably «مفقود الخبر» |
+| 411 (pr. 410) | «ولو یؤاخذ اللہ الناس بما کسبوا ما ترک علیها من دابة» | marked as Fatir 35:45 (علی ظهرها) | 16:61 has بظلمهم … علیها; print mixes the two |
