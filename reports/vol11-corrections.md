@@ -152,3 +152,6 @@ The owner reviews these and names anything to revert.
 | 483 (pr. 482) | «ومن الناس من یتخذ من دون اللہ اندادا یحبونهم کحب اللہ» | marked as al-Baqara 2:165 | |
 | 483 (pr. 482) | «ولا تعجبک اموالهم ولا اولادهم انما یرید اللہ لیعذبهم بها فی الحیوة الدنیا» | marked as al-Tawba 9:55 (فلا تعجبک) | print mixes 9:55 and 9:85 |
 | 484 (pr. 483) | Rumi line «ہر چہ جز معشوق باشد جملہ سوخت» | kept as printed; indexed under the usual «باقی» form | |
+| 485 (pr. 484) | Ibrahim ibn Adham's son called «سلطان محمود» | kept as printed | named محمود elsewhere too |
+| 486 (pr. 485) | «مفضی کے المضرب ہو کر» | kept as printed | probably «مفضی الی المضرة» |
+| 486 (pr. 485) | «ما هذه التماثیل التی انتم لها عاکفون» | marked as al-Anbiya 21:52 | |
