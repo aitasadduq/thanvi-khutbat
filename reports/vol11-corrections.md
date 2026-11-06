@@ -76,3 +76,5 @@ The owner reviews these and names anything to revert.
 | 391 (pr. 390) | «مقتداؤں کی یہ حالت ہے تو مقتداؤں کی حالت سے کیا تعجب» | second «مقتدیوں» | misprint (repeated word) |
 | 393 (pr. 392) | «ایک ہندو تحصیلدار صاحب اور ایک مسلمان سب انسپکٹر صاحب آئے مگر تھانیدار صاحب ڈاڑھی منڈائے» | kept as printed | sub-inspector and thanedar are the same person |
 | 392 (pr. 391) | «بل الانسان علی نفسه بصیرة ولو القی معاذیره» | marked as al-Qiyama 75:14–15 | |
+| 394 (pr. 393) | «شاید الٹ ہی بہی بھی ہو» | «الٹی ہی بہی» | misprint |
+| 395 (pr. 394) | «وہ پڑھنے والا الو تو نہیں کا یوں سمجھے» | kept as printed | sense unclear in print |
