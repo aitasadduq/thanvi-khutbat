@@ -74,3 +74,4 @@ The owner reviews these and names anything to revert.
 | toc | «تذلل للخالق» | «تذلل للخلائق» | toc follows the page heading (p. 416), though the text that follows argues for تذلل للخالق |
 | 421 (pr. 420) | year of التہذیب نمبر ۲ | read as ۱۳۳۴ھ | the digits are blurred in the scan (could be ۱۳۳۲ or ۱۳۳۴); ۱۳۳۴ matches التہذیب نمبر ۱ (۲۹ شعبان ۱۳۳۴ھ) |
 | 425 (pr. 424) | «آرزو میخواہ لیک اندازہ خواہ / برنتابد کوہ رایک برگ کاہ» | «آرزو می خواہ لیک بر اندازہ خواہ / بر نتابد کوہ را یک برگ کاہ» | «بر» restored (metre), as elsewhere; the printed translation is kept |
+| toc | (missing) | added «ہمارے توہمات» 425 under التہذیب نمبر ۲ | heading present on the page |
