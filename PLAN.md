@@ -8,12 +8,17 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 ## 1. Status (2026-11-06)
 
-- **Volume 11 (حقیقت تصوف و تقویٰ) — in progress.** Folder `Vol 11 haqiqat e tasawwuf o taqwa/`. PDF page = printed
-  page + 1; page images in the scratchpad (`v11/h`). `toc.tsv` built from the فہرست (11 sermons, printed pp. 11–526):
-  التقویٰ 11, المرابطہ 42, المجاہدہ 99, التحصیل والتسہیل مع التکمیل والتعدیل 133, تکمیل الاعمال بتبدیل الاحوال 181,
-  طریق القلندر 221, اوج قنوج 291, دستور سہارنپور 349, ترک مالا یعنی 396, رفع الموانع 448, سیرت صوفی 496.
-  Transcribed: التقویٰ (0011), المرابطہ (0042), المجاہدہ (0099), التحصیل والتسہیل (0133), تکمیل الاعمال (0181), طریق القلندر (0221), اوج قنوج (0291), دستور سہارنپور (0349), ترک مالا یعنی (0396), رفع الموانع (0448), printed pp. 11–494. Next: سیرت صوفی (p. 496, `0496.txt`).
-  Corrections in `reports/vol11-corrections.md`.
+- **Volume 11 (حقیقت تصوف و تقویٰ) — done, awaiting the owner's review.** Folder `Vol 11 haqiqat e tasawwuf o taqwa/`.
+  PDF page = printed page + 1; text printed pp. 11–528 (11 sermons; the فہرست says 526, the last sermon runs to 528),
+  all transcribed (files 0011, 0042, 0099, 0133, 0181, 0221, 0291, 0349, 0396, 0448, 0496). `toc.tsv` headings follow
+  the page where the contents differ, and missing «تمہید» rows were added (each change logged). The note that pp. 104–314
+  might have been typed without the scan in view was checked: pp. 169, 240 and 300 match the scans word for word.
+  mark_arabic: DIFFERS 0, CITE 0 (p. 222 citation corrected to المائدہ ۵۴ تا ۵۶; p. 467 «قل لهم قولا بلیغا» completed
+  to 4:63; two leftover placeholders filled). Hadith check: `reports/vol11-hadith-check.md` (25 differs reviewed;
+  p. 20 «وغیر مستغنی» → «ولا مستغنی», the rest the book's wording, kept). All corrections applied under the owner's
+  rule are in `reports/vol11-corrections.md`. More couplet, hikayat and hadith terms in all volumes were unified.
+  Index built (2778 entries); site built (`site/v11.html`). Preview (private artifact, republish to the same URL):
+  https://claude.ai/artifact/48SobrXHcLF1UnWJQzPZVV
 
 - **Volume 10 (فضائل صوم و صلوٰۃ) — done, awaiting the owner's review.** Folder `Vol 10 fazail e saum o salat/`. PDF page =
   printed page + 1; text printed pp. 15–448 (12 sermons), all transcribed (files 0015, 0074, 0088, 0109, 0146, 0163,
@@ -201,7 +206,7 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Volume 11: start سیرت صوفی (printed p. 496, file `0496.txt`), logging corrections in `reports/vol11-corrections.md`.
-- The owner will review `reports/vol02-corrections.md` … `reports/vol10-corrections.md` at leisure; revert anything the owner rejects.
+- Volume 12: start from §3 step 1 (page offset, فہرست into `toc.tsv`, page images), logging corrections in `reports/vol12-corrections.md`.
+- The owner will review `reports/vol02-corrections.md` … `reports/vol11-corrections.md` at leisure; revert anything the owner rejects.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
   `iatasadduq/thanvi-khutbat-site` and turning on GitHub Pages (only after the owner approves).
