@@ -207,3 +207,7 @@ The owner reviews these and names anything to revert.
 | 522 (pr. 521) | «کیونکہ اس وقت اہل کا اثر زیادہ ہو گا» | kept as printed | probably «اس کا اثر» |
 | 523 (pr. 522) | «دوام سے عبادت ہو جائے گی» | kept as printed | «عادت» intended |
 | 523 (pr. 522) | «حالت علیہ میں» | kept as printed | «حالت عالیہ» intended |
+| 524 (pr. 523) | «مستعدی نفع ہے» | kept as printed | «متعدی نفع» intended |
+| 524 (pr. 523) | «فاذا فرغت فانصب والیٰ ربک فارغب» | marked as al-Sharh 94:7–8 | |
+| 524 (pr. 523) | «اشغال بالحق اس کو یاد حق سے مانع ہو گا» | kept as printed | «اشتغال بالخلق» intended |
+| 525 (pr. 524) | «زیادہ اہم قول کا تو موافق حالت منتہی کے ہے» | kept as printed | «زیادت اسم» intended |
