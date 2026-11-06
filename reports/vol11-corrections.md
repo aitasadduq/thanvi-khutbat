@@ -7,3 +7,4 @@ The owner reviews these and names anything to revert.
 | 19 (pr. 18) | «اولک نطفۃ مذرۃ واخرک جیفۃ قذرۃ» | kept as printed | elsewhere «نطفۃ قذرۃ … جیفۃ مذرۃ» (the two adjectives swapped); the قول term uses the unified form |
 | 30 (pr. 29) | «کہ در شریعت ما غیر ازیں گناہے نیست» | kept as printed | the couplet is elsewhere «در طریقت ما غیر ازیں گناہ نیست»; the شعر term uses that form |
 | 31 (pr. 30) | «آنچہ اوکار داریم اکثرے درکار نیست» | kept as printed | elsewhere «آنچہ ما در کار داریم»; the شعر term uses that form |
+| 36 (pr. 35) | «کہ علم و عمل می فروشد بہ ناں» | kept as printed | elsewhere «علم و ادب»; the شعر term uses that form |
