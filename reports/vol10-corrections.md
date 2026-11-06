@@ -56,3 +56,4 @@ The owner reviews these and names anything to revert.
 | 368 (pr. 367) | «یہی وسوسہ دفع صوم ہو جاتا ہے» | kept as printed | possibly «مانع صوم»; meaning (the fear that keeps people from fasting) is clear |
 | toc | «حضرت موسیٰؑ کے افسوس کی حکمت» | «حضرت موسیٰ کے افسوس کی حقیقت» | toc follows the page heading (p. 371) |
 | all vols | «گر بعلم آئیم/آییم … (رومی)», «گر بخواب آئیم مستان اوئیم / … بستان اوئیم», «در تردد ہر کہ او آشفتہ است» (half) | unified to the full couplets as printed in Vol 10 (مستان وئیم / بدستان وئیم) | index consistency |
+| toc | «مرزا مظہر جانجاںؒ کی لطیف المزاجی», «مقام مرزا مظہر جانجاںؒ» | «مرزا مظہر جانجاں رحمہ اللہ کی لطیف المزاجی», «مقام مرزا مظہر جان جاناں» | toc follows the page headings (pp. 378–379) |
