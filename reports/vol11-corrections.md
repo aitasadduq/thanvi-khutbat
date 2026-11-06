@@ -149,3 +149,6 @@ The owner reviews these and names anything to revert.
 | 481 (pr. 480) | «مدلول فصی نہیں» | kept as printed | «مدلول نصی» intended |
 | 481 (pr. 480) | «شیطان یتبع شیطانة» | indexed as a hadith term | Abu Dawud 4940, Ibn Majah 3765 |
 | 482 (pr. 481) | «قل بئسما یأمرکم به ایمانکم» | marked as al-Baqara 2:93 | |
+| 483 (pr. 482) | «ومن الناس من یتخذ من دون اللہ اندادا یحبونهم کحب اللہ» | marked as al-Baqara 2:165 | |
+| 483 (pr. 482) | «ولا تعجبک اموالهم ولا اولادهم انما یرید اللہ لیعذبهم بها فی الحیوة الدنیا» | marked as al-Tawba 9:55 (فلا تعجبک) | print mixes 9:55 and 9:85 |
+| 484 (pr. 483) | Rumi line «ہر چہ جز معشوق باشد جملہ سوخت» | kept as printed; indexed under the usual «باقی» form | |
