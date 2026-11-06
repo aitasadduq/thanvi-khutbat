@@ -1,5 +1,5 @@
 
-# DIFFERS: 0, CITE: 0, DECIDED: 0, KEPT: 0, QURAN: 0, ARABIC: 2
+# DIFFERS: 0, CITE: 0, DECIDED: 0, KEPT: 0, QURAN: 0, ARABIC: 0
 
 ## Book's ayah differs from the Qur'an: owner to decide (closest ayat given) (0)
 
@@ -16,7 +16,5 @@
 ## Spelling corrected to the Qur'an text (0)
 
 
-## Other Arabic (hadith, dua, verse) (2)
+## Other Arabic (hadith, dua, verse) (0)
 
-ARABIC p131  وصلی اللہ تعالیٰ علی سیدنا ومولانا محمد وعلی آلہ واصحابہ وبارک وسلم وآخر دعوانا ان الحمد للہ رب العالمین
-ARABIC p180  وصلی اللہ تعالیٰ علی سیدنا ومولانا محمد وعلی آلہ واصحابہ وبارک وسلم وآخر دعوانا ان الحمد للہ رب العالمین

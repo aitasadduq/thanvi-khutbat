@@ -222,3 +222,6 @@ The owner reviews these and names anything to revert.
 | 222 (pr. 221) | citation «(المائدہ آیت نمبر ۵۴، ۵۵)» for 5:54–56 | «(المائدہ آیت نمبر ۵۴ تا ۵۶)» + editor's note | auto (owner's rule 2026-10-30) |
 | 468 (pr. 467) | «قل لهم قولا بلیغا» (al-Nisa 4:63) | Qur'an words «وقل لهم فی انفسهم قولا بلیغا» + editor's note | auto (owner's rule 2026-10-30) |
 | 88, 177 | leftover unfilled ayah placeholders (3:200, 2:265) | filled from the mushaf | found by mark_arabic |
+| 21 (pr. 20) | dua «غیر مودع وغیر مستغنی عنہ ربنا» | «ولا مستغنی» + editor's note | hadith slip (Bukhari 5458) |
+| hadith check | other `differs` items (p. 46, 71, 104, 118, 137, 166, 169, 364, 369, 370, 375, 419, 423, 446, 453, 457, 462, 474, 493, 502, 508, 522) | kept as printed | spelling or known variant wordings; p. 169 «لم یر» checked on the scan |
+| scan check | pp. 104–314 had been noted as possibly typed without the scan in view | spot-checked pp. 169, 240, 300 against the scans: verbatim | no re-transcription needed |
