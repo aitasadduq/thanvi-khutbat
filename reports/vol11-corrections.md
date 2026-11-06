@@ -219,3 +219,6 @@ The owner reviews these and names anything to revert.
 | toc | volume ends at p. 528 (not 526) | toc unchanged; the sermon text runs to p. 528 | last toc heading «معمول اہل تصوف» is on p. 526 |
 | toc | «توسط کے ضرورت», «توکل کل ضرورت» (سیرت صوفی) | «توسط کی ضرورت», «توکل کی ضرورت» | toc misprints; the page headings read «کی» |
 | toc | سیرت صوفی had no «تمہید» row | added «تمہید» p. 498 | matches the page heading |
+| 222 (pr. 221) | citation «(المائدہ آیت نمبر ۵۴، ۵۵)» for 5:54–56 | «(المائدہ آیت نمبر ۵۴ تا ۵۶)» + editor's note | auto (owner's rule 2026-10-30) |
+| 468 (pr. 467) | «قل لهم قولا بلیغا» (al-Nisa 4:63) | Qur'an words «وقل لهم فی انفسهم قولا بلیغا» + editor's note | auto (owner's rule 2026-10-30) |
+| 88, 177 | leftover unfilled ayah placeholders (3:200, 2:265) | filled from the mushaf | found by mark_arabic |
