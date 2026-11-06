@@ -67,3 +67,5 @@ The owner reviews these and names anything to revert.
 | 399 (pr. 398) | «کہ اصلے ندارد دمی بے قدم» | kept as printed | the شعر term uses the unified «دم بے قدم» |
 | all vols | «اے برتر از قیاس و خیال …», «نہ گردد قطع …» (half) | unified to the common full couplets | index consistency |
 | 403 (pr. 402) | «نشو و نصیب دشمن …» | «نشود نصیب دشمن کہ شود ہلاک تیغت» | misprint; couplet as elsewhere |
+| 405 (pr. 404) | «اے ترا خارے بپا نشکستہ کے دانی کہ چیست / حال شیرانے کہ شمشیر بلا برسر خورند» | «اے ترا خارے بپا نشکستہ …» | the page prints «اے تراخارے پانشکستہ»; normalised to the couplet as elsewhere |
+| 405 (pr. 404) | «بہ بیں کاتشیں کرمک خاک زاد» | kept as printed | Vol 4 has «نہ بینی کہ آں کرمک پاک زاد»; the شعر term uses that form; Vol 4 also given terms for the other three couplets of the قطعہ |
