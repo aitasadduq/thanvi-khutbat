@@ -67,3 +67,5 @@
 | 320 (pr. 319) | «اور پان پانی کا نر؟» | kept as printed | Unclear phrase; probably a play on «پان پانی کا»; not emended. |
 | 322 (pr. 321) | «ان کو جواب مت دو دو ہی کا دو خشک جواب دے دو» | kept as printed | The words appear garbled (perhaps «یا دو ہی کلمہ کا خشک جواب»); not emended. |
 | 328 (pr. 327) | «دوسری قافیہ دار عبادت تجویز کر لیتا ہوں» | kept as printed | «عبادت» for «عبارت»; a printer's slip. |
+| 331 (pr. 330) | Persian verse after «اور ایک عاشق کہتا ہے» | not supplied | Only the Urdu translation is printed; the verse itself is missing from the page. |
+| 331 (pr. 330) | The bracketed Arabic note «قلت ویحتمل … بل لیکن ان یکون … بل منشاء والاولال …» | kept as printed | Several printer's slips («لیکن» for «یمکن», «والاولال» for «الادلال», «لا ادب» uncertain); not emended. |
