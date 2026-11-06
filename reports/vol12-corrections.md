@@ -24,3 +24,4 @@
 | 122 (pr. 121) | «حضرت شیرازیؒ فرماتے ہیں» before «گر گزندت رسد…» | kept; indexed under شیخ سعدیؒ | The couplets are from Saadi's Gulistan. |
 | 124 (pr. 123) | «خود چہ جائے جنگ وجدل نیک وبد / کیں الم از صلح ہاہم می رسد» | «خود چہ جائے جنگ و جدل نیک و بد / کیں دلم از صلحہا ہم مے رمد» | Second half misprinted; restored to the Masnavi wording, as in Vol 8. |
 | 131 (pr. 130) | «بر ہوا تاویل قرآن میکنی / پست وکژ شداز تو معنی سنی» | «بر ہوا تاویل قرآں می کنی / پست و کژ شد از تو معنی سنی» | Spacing normalised (Masnavi). |
+| 135 (pr. 134) | «لایزال طائفة من امتی ظاہرین علی الحق منصورین لا یضرہم من خذلہم» | kept; indexed with the series' existing term «لا یزال طائفۃ من امتی منصورین علی الحق…» | Wording combines two narrations. |
