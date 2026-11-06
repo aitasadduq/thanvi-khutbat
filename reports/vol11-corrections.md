@@ -62,3 +62,4 @@ The owner reviews these and names anything to revert.
 | 371 (pr. 370) | «ولا تقتلوا انفسکم» | marked as al-Nisa 4:29 | |
 | 371 (pr. 370) | «لا تلقوا بایدیکم الی التهلکة» | marked as al-Baqara 2:195 | |
 | 373 (pr. 372) | «وبشر الصابرین الذین اذا اصابتهم مصیبة…راجعون» | marked as al-Baqara 2:155–156 | |
+| 374 (pr. 373) | «احمد نقلت یا رب ارید ان لا ارید» | «فقلت» | misprint |
