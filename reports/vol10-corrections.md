@@ -75,3 +75,5 @@ The owner reviews these and names anything to revert.
 | 421 (pr. 420) | year of التہذیب نمبر ۲ | read as ۱۳۳۴ھ | the digits are blurred in the scan (could be ۱۳۳۲ or ۱۳۳۴); ۱۳۳۴ matches التہذیب نمبر ۱ (۲۹ شعبان ۱۳۳۴ھ) |
 | 425 (pr. 424) | «آرزو میخواہ لیک اندازہ خواہ / برنتابد کوہ رایک برگ کاہ» | «آرزو می خواہ لیک بر اندازہ خواہ / بر نتابد کوہ را یک برگ کاہ» | «بر» restored (metre), as elsewhere; the printed translation is kept |
 | toc | (missing) | added «ہمارے توہمات» 425 under التہذیب نمبر ۲ | heading present on the page |
+| 429 (pr. 428) | «ہر کجا پستی ست آب آنجا رود / ہر کجا مشکل جواب آنجا رود» | kept as printed | the common form (other volumes) is «ہر کجا دردے دوا آنجا رود»; the شعر term uses that form |
+| Vol 1, Vol 4 | combined «حم السجدة ۳۰-۳۲», «الاسرار المرفوعة، کشف الخفاء»; half couplet «دشمن راچہ دوستانہ گویدت» | split / unified | index consistency |
