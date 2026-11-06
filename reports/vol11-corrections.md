@@ -82,3 +82,7 @@ The owner reviews these and names anything to revert.
 | 402 (pr. 401) | «کسی نہ ملو چاہے اس کم بخت کی تمام ضروریات کا پڑا ہو جائے» | kept as printed | «کسی سے نہ ملو» and «بیڑا (غرق)» seem intended |
 | 404 (pr. 403) | «یا ایها الذین آمنوا کلوا من طیبات ما رزقناکم واشکروا للہ ان کنتم ایاہ تعبدون» | marked as al-Baqara 2:172 | printed «واشکروا اللہ»; corrected to the mushaf «للہ» |
 | 405 (pr. 404) | «سلطنت کا خاتمہ ہو جاتا ہے کہ ایک ذرہ ان کی مشیت کے بغیر نہیں مل سکتا» | kept as printed | words about Allah seem dropped before «کہ ایک ذرہ» |
+| 406 (pr. 405) | «ما یفعل اللہ بعذابکم ان شکرتم وآمنتم وکان اللہ شاکرا علیما» | marked as al-Nisa 4:147 | |
+| 406 (pr. 405) | «ان اللہ غنی عن العالمین» | marked as al-Ankabut 29:6 (ان اللہ لغنی عن العالمین) | 3:97 has فان اللہ غنی عن العالمین; neither matches the print exactly |
+| 406 (pr. 405) | «وتولوا واستغنی اللہ» | marked as al-Taghabun 64:6 | |
+| 407 (pr. 406) | «ومکروا ومکر اللہ واللہ خیر الماکرین» | marked as Al Imran 3:54 | |
