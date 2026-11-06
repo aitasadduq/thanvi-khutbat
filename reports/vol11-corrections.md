@@ -26,3 +26,4 @@ The owner reviews these and names anything to revert.
 | 190 (pr. 189) | «ماقدروا اللہ حق قدرہ» | marked as Hajj 22:74 | the phrase without و matches 22:74 exactly (also in 6:91 and 39:67 with و) |
 | 194 (pr. 193) | «سبحان اللہ سبحہ بر کف توبہ بر لب دل پر از ذوق» | kept as printed | the شعر term uses the full couplet «توبہ برلب سبحہ در کف دل پر از ذوق گناہ / معصیت را خندہ می آید بر استغفار ما» |
 | 201 (pr. 200) | «اجر غیر ممنون» | marked as al-Tin 95:6 | the phrase occurs in 41:8, 84:25, 95:6; context (ایمان و عمل صالح) fits all; 95:6 chosen |
+| 207 (pr. 206) | «لاتمدن عینیک الی ما متعنا بہ ازواجا منہم» | marked as al-Hijr 15:88 | the printed form lacks و, matching 15:88 (Taha 20:131 begins ولا) |
