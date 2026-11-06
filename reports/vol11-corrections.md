@@ -160,3 +160,6 @@ The owner reviews these and names anything to revert.
 | 489 (pr. 488) | «والقلب یزنی وزناه ان یشتهی» | indexed under العینان تزنیان … والقلب یہوی ویتمنی | the sermon's wording is a paraphrase (Bukhari 6243, Muslim 2657) |
 | 489 (pr. 488) | «انا منزلون علی اهل هذه القریة رجزا من السماء بما کانوا یفسقون» | marked as al-Ankabut 29:34 | |
 | 489 (pr. 488) | «مر دلیں تو فوراً لوگوں کو بدگمانی ہوتی ہے» | kept as printed | words seem dropped at the page turn |
+| 493 (pr. 492) | «ومن یوق نفسه (جو شخص اپنے بچے کی حرص سے)» | kept as printed | the gloss «بچے» seems a misprint for «نفس»; «یوق شح نفسه» intended |
+| 494 (pr. 493) | «اضعافا کثیرة» on «دوسرے مقام» | indexed as al-Baqara 2:245 | |
+| 494 (pr. 493) | «جب مفرط کو چھوڑ دو گے» | kept as printed | «حب مفرط» intended |
