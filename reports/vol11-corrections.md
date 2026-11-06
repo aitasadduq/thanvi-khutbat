@@ -49,3 +49,6 @@ The owner reviews these and names anything to revert.
 | 355 (pr. 354) | «واخفض جناحک لمن اتبعک من المؤمنین» | marked as al-Shu'ara 26:215 | |
 | 356 (pr. 355) | «تفنن سے معلوم واستاد کی شفقت» | «معلم و استاد» | misprint |
 | 357 (pr. 356) | «حقیقت میں باعث ہے» | kept as printed | probably «باعث عزت» with a word dropped |
+| 360 (pr. 359) | «صل قائما…» (taught in Urdu: قیام، قعود، اضطجاع، اشارہ) | indexed as صل قائما فان لم تستطع فقاعدا فان لم تستطع فعلی جنب | Bukhari 1117; the اشارہ step is from other narrations |
+| 361 (pr. 360) | dua «اسئلک من خشیتک ما تحول بہ بیننا وبین معاصیک»; footnote says it was not found | kept as printed; indexed under اللہم اقسم لنا من خشیتک… | Tirmidhi 3502 (اللهم اقسم لنا من خشيتك ما تحول به بيننا وبين معاصيك) |
+| 361 (pr. 360) | «انہ لا ییئس من روح اللہ الا القوم الکافرون» | marked as Yusuf 12:87 | |
