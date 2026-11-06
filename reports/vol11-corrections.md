@@ -217,3 +217,5 @@ The owner reviews these and names anything to revert.
 | 529 (pr. 528) | «ذالک ادنیٰ ان یعرفن فلا یؤذین» | marked as al-Ahzab 33:59 | |
 | 529 (pr. 528) | «مبتلائے ہمال ہو جاتے تھے» | kept as printed | probably «ہلاک» |
 | toc | volume ends at p. 528 (not 526) | toc unchanged; the sermon text runs to p. 528 | last toc heading «معمول اہل تصوف» is on p. 526 |
+| toc | «توسط کے ضرورت», «توکل کل ضرورت» (سیرت صوفی) | «توسط کی ضرورت», «توکل کی ضرورت» | toc misprints; the page headings read «کی» |
+| toc | سیرت صوفی had no «تمہید» row | added «تمہید» p. 498 | matches the page heading |
