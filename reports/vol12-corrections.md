@@ -47,3 +47,5 @@
 | 258 (pr. 257) | Bulbul couplet «واندراں برگ و نوا صد نالہائے زار داشت» | text kept as printed («صد», which the translation follows); index uses the Vol 04 wording «خوش نالہائے» | The Vol 04 half-couplet term was completed with its second half, which is printed there too. |
 | 260 (pr. 259) | «…ان کے باپ بھی ان کے ساتھ ویسا نہیں کر سکتے تھے۔ مسئلہ غلامی سے وہ برتاؤ کیا ہے…» | kept as printed | The clause is printed twice (dittography). |
 | 265 (pr. 264) | «وہ اس کے خلاف (… شائع بھی) کیونکر کر سکتے تھے» | kept as printed | The editor's bracketed note interrupts the sentence. |
+| 271 (pr. 270) | «کوئی صورت کچی ہو … اس کچی صورت سنانے» | kept as printed | «صورت» for «سورت»; the same page also prints «سورت». |
+| 271 (pr. 270) | «برتن دینے والا اقرضدار ہو گیا» | kept as printed | Stray «ا» before «قرضدار». |
