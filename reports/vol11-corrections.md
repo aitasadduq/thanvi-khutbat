@@ -169,3 +169,4 @@ The owner reviews these and names anything to revert.
 | 498 (pr. 497) | Arabic of al-Muzzammil printed through «ومهلهم قلیلا» (73:11), label says «آیت ۱ تا نمبر ۸» | marked as 73:1–11 | the label is wrong; the Urdu translation runs further, to 73:14 |
 | 499 (pr. 498) | «یرید اللہ بکم الیسر ولا یرید بکم العسر ولا یکلف اللہ نفسا الا وسعها» | marked as al-Baqara 2:185 and 2:286 | two verses joined in print |
 | 499 (pr. 498) | «یہ امر اور اغلال کہلاتے ہیں» | kept as printed | «اصر و اغلال» intended |
+| 500 (pr. 499) | «اگر ایک بچنا چاہے تو ضرور کسی قدر دقت پیش نہیں آتی ہے» | kept as printed | «نہیں» seems misplaced («دقت پیش آتی ہے») |
