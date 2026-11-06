@@ -71,3 +71,4 @@ The owner reviews these and names anything to revert.
 | 405 (pr. 404) | «بہ بیں کاتشیں کرمک خاک زاد» | kept as printed | Vol 4 has «نہ بینی کہ آں کرمک پاک زاد»; the شعر term uses that form; Vol 4 also given terms for the other three couplets of the قطعہ |
 | toc | «کلائی تقویٰ», «تفریق و تنفید» | «کلابی تقویٰ», «تفریق و تنفیر» | toc follows the page headings (pp. 406–407); the text explains «تقویٰ کلابی» from کتا |
 | 416 (pr. 415) | «والنفس کالعقل ان تہملہ سب علی» | «والنفس کالطفل ان تہملہ شب علی» | misprints (the Urdu gloss says بچہ); as in Vols 6 and 8 |
+| toc | «تذلل للخالق» | «تذلل للخلائق» | toc follows the page heading (p. 416), though the text that follows argues for تذلل للخالق |
