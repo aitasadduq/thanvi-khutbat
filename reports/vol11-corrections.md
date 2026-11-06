@@ -119,3 +119,6 @@ The owner reviews these and names anything to revert.
 | 457 (pr. 456) | «فرحوا بما عندهم من العلم» | marked as Ghafir 40:83 | |
 | 458 (pr. 457) | «ولقد ارسلنا رسلا من قبلک وجعلنا لهم ازواجا وذریة» | marked as al-Ra`d 13:38 | |
 | 458 (pr. 457) | «مصیبت اور ان کو خدائے تعالیٰ سے مشغول کر دے» | kept as printed | probably «مصیبت ان کو…» |
+| 459 (pr. 458) | «انما اموالکم واولادکم فتنة» | marked as al-Taghabun 64:15 | |
+| 459 (pr. 458) | «ایک رئیس نجد کے» with ten sons | indexed under من لا یرحم لا یرحم | al-Aqra` ibn Habis (Bukhari 5997); the sermon's wording differs |
+| 460 (pr. 459) | «لیوث النهار ورهبان اللیل» | indexed under رہبان اللیل لیوث النہار | same saying, order reversed |
