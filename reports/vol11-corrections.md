@@ -103,3 +103,5 @@ The owner reviews these and names anything to revert.
 | 428 (pr. 427) | Rumi half-line «بس ستارہ آتش از آہن چکید» | kept as printed (one half only) | |
 | 437 (pr. 436) | «اب مناظرہ میں پڑنا …رہے» | marked [—] | a word is cut off in the scan (probably «چھوڑ دو» or «ٹھیک نہیں»); not guessed |
 | 438 (pr. 437) | «یہ ضروری ہے کہ جواب نہ دینے سے بعض لوگ اس کو ناواقف کہیں گے» | kept as printed | probably «یہ ضرور ہے» |
+| 440 (pr. 439) | «بعض لوگوں کو اپنی اصلاح کا اہتمام ہوتا ہے دوسروں کے کاموں میں لگے رہتے ہیں» | kept as printed | «نہیں» seems dropped |
+| 441 (pr. 440) | «سب ہی اس مرض میں مبتلا ہیں کہ لایعنی امور سے احتراز کرتے» | kept as printed | «نہیں» seems dropped |
