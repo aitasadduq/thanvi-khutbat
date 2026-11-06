@@ -211,3 +211,9 @@ The owner reviews these and names anything to revert.
 | 524 (pr. 523) | «فاذا فرغت فانصب والیٰ ربک فارغب» | marked as al-Sharh 94:7–8 | |
 | 524 (pr. 523) | «اشغال بالحق اس کو یاد حق سے مانع ہو گا» | kept as printed | «اشتغال بالخلق» intended |
 | 525 (pr. 524) | «زیادہ اہم قول کا تو موافق حالت منتہی کے ہے» | kept as printed | «زیادت اسم» intended |
+| 526 (pr. 525) | «رب المشرق والمغرب لا الٰه الا هو فاتخذه وکیلا» | marked as al-Muzzammil 73:9; 73:7, 73:10, 73:11 also marked on pp. 526–527 | |
+| 527 (pr. 526) | «اسی اپنے انتقام لینے کی خبر» | kept as printed | sense unclear in print |
+| 528 (pr. 527) | «ہیچ قومے … تادلے صاحبدلے نامد بدرد» | indexed under the usual «تا دل صاحب دلے» term | |
+| 529 (pr. 528) | «ذالک ادنیٰ ان یعرفن فلا یؤذین» | marked as al-Ahzab 33:59 | |
+| 529 (pr. 528) | «مبتلائے ہمال ہو جاتے تھے» | kept as printed | probably «ہلاک» |
+| toc | volume ends at p. 528 (not 526) | toc unchanged; the sermon text runs to p. 528 | last toc heading «معمول اہل تصوف» is on p. 526 |
