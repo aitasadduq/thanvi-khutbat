@@ -68,3 +68,5 @@ The owner reviews these and names anything to revert.
 | 380 (pr. 379) | «ان اللہ لا یحب کل مختال فخور» | marked as Luqman 31:18 | also 57:23 without ان اللہ |
 | 380 (pr. 379) | «لا یسئلون الناس الحافا» | marked as al-Baqara 2:273 | |
 | 381 (pr. 380) | «خصوصاً ان لوگوں سے کے مقابلے کو لے لیجئے» | kept as printed | words seem dropped in print |
+| 384 (pr. 383) | «وفی ذلک فلیتنافس المتنافسون» | marked as al-Mutaffifin 83:26 | |
+| 385 (pr. 384) | «انظروا الی امیرنا هذا یلبس لباس الفساق» | kept as printed | Abu Bakra about Ibn Amir on the minbar (Tirmidhi 2224); the sermon says «کوئی خلیفہ» |
