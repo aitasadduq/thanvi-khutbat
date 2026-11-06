@@ -78,3 +78,4 @@ The owner reviews these and names anything to revert.
 | 392 (pr. 391) | «بل الانسان علی نفسه بصیرة ولو القی معاذیره» | marked as al-Qiyama 75:14–15 | |
 | 394 (pr. 393) | «شاید الٹ ہی بہی بھی ہو» | «الٹی ہی بہی» | misprint |
 | 395 (pr. 394) | «وہ پڑھنے والا الو تو نہیں کا یوں سمجھے» | kept as printed | sense unclear in print |
+| toc | دستور سہارنپور had no «تمہید» row | added «تمہید» p. 350 | matches the page heading, as for اوج قنوج |
