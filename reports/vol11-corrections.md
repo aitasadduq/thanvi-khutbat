@@ -74,3 +74,5 @@ The owner reviews these and names anything to revert.
 | 389 (pr. 388) | «لا یکمل ورع المؤمن حتی یدع ما لا باس بہ حذرا مما بہ باس» «کما قال» | kept as printed; indexed under لا یبلغ العبد ان یکون من المتقین… | Tirmidhi 2451, Ibn Majah 4215; quoted from memory |
 | 389 (pr. 388) | «امور مشکوکہ مشتبہ سے احترام کر کے» | kept as printed | probably «احتراز» |
 | 391 (pr. 390) | «مقتداؤں کی یہ حالت ہے تو مقتداؤں کی حالت سے کیا تعجب» | second «مقتدیوں» | misprint (repeated word) |
+| 393 (pr. 392) | «ایک ہندو تحصیلدار صاحب اور ایک مسلمان سب انسپکٹر صاحب آئے مگر تھانیدار صاحب ڈاڑھی منڈائے» | kept as printed | sub-inspector and thanedar are the same person |
+| 392 (pr. 391) | «بل الانسان علی نفسه بصیرة ولو القی معاذیره» | marked as al-Qiyama 75:14–15 | |
