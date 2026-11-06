@@ -46,4 +46,4 @@
 | 258 (pr. 257) | «نقد صوفی نہ ہمہ صافی و بے عشق باشد» | text kept as printed; index uses the standard «بے غش» | «عشق» for «غش» is a printer's slip (the next couplet ends «درو غش باشد»). |
 | 258 (pr. 257) | Bulbul couplet «واندراں برگ و نوا صد نالہائے زار داشت» | text kept as printed («صد», which the translation follows); index uses the Vol 04 wording «خوش نالہائے» | The Vol 04 half-couplet term was completed with its second half, which is printed there too. |
 | 260 (pr. 259) | «…ان کے باپ بھی ان کے ساتھ ویسا نہیں کر سکتے تھے۔ مسئلہ غلامی سے وہ برتاؤ کیا ہے…» | kept as printed | The clause is printed twice (dittography). |
-| 265 (pr. 264) | «وہ اس کے خلاف (… شائع بھی) کیونکر کر سکتے تھے» | kept as printed | The editor's bracketed note interrupts the sentence; |
+| 265 (pr. 264) | «وہ اس کے خلاف (… شائع بھی) کیونکر کر سکتے تھے» | kept as printed | The editor's bracketed note interrupts the sentence. |
