@@ -53,3 +53,4 @@ The owner reviews these and names anything to revert.
 | 362 (pr. 361) | «تو نیز بر سر بام آ عجب تماشائیست» | kept as printed | other volumes have «کہ خوش تماشائیست»; the شعر term uses the unified form |
 | 366 (pr. 365) | «حدیث کے اشارہ نے تو یہ معلوم ہوتا ہے» | «اشارہ سے» | misprint |
 | all vols | «ما نبودیم و تقاضا ما نبود» (half or with «(رومی)»); «کان رسول اللہ … یاکل اکلا ذریعا» | unified to the full couplet and «کان یاکل اکلا ذریعا» | index consistency |
+| 368 (pr. 367) | «یہی وسوسہ دفع صوم ہو جاتا ہے» | kept as printed | possibly «مانع صوم»; meaning (the fear that keeps people from fasting) is clear |
