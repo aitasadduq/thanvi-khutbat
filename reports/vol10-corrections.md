@@ -59,3 +59,5 @@ The owner reviews these and names anything to revert.
 | toc | «مرزا مظہر جانجاںؒ کی لطیف المزاجی», «مقام مرزا مظہر جانجاںؒ» | «مرزا مظہر جانجاں رحمہ اللہ کی لطیف المزاجی», «مقام مرزا مظہر جان جاناں» | toc follows the page headings (pp. 378–379) |
 | 385 (pr. 384) | «مناجاتے اگر خواہی بیاں کرد / بہ بیتے اکتفا خواہی تواں کرد» | kept as printed | the couplet is elsewhere «بہ بیتے ہم قناعت می تواں کرد»; the شعر term uses that form |
 | all vols | خدا در انتظار, خدا مدح آفرین, محمد از تو می خواہم couplets (spelling variants, ؐ) | unified | index consistency |
+| toc | (missing) | added «ضمیمہ» 390 under عصم الصنوف | heading present on the page |
+| toc | «التہذیب نمبر ۱», «التہذیب نمبر ۲» | kept | both sermons are titled «التہذیب» on the page; the toc numbers keep them apart |
