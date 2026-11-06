@@ -77,3 +77,4 @@ The owner reviews these and names anything to revert.
 | toc | (missing) | added «ہمارے توہمات» 425 under التہذیب نمبر ۲ | heading present on the page |
 | 429 (pr. 428) | «ہر کجا پستی ست آب آنجا رود / ہر کجا مشکل جواب آنجا رود» | kept as printed | the common form (other volumes) is «ہر کجا دردے دوا آنجا رود»; the شعر term uses that form |
 | Vol 1, Vol 4 | combined «حم السجدة ۳۰-۳۲», «الاسرار المرفوعة، کشف الخفاء»; half couplet «دشمن راچہ دوستانہ گویدت» | split / unified | index consistency |
+| toc | (missing) | added «توبہ کی اہمیت» 429 under التہذیب نمبر ۲ | heading present on the page |
