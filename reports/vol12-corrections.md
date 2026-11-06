@@ -40,3 +40,5 @@
 | 244 (pr. 243) | «اور ان کانوں کو اس کی باتیں سننے دوں» | kept as printed | The Persian «شنیدن ندہم» needs «نہ سننے دوں»; a «نہ» has dropped out of the translation. |
 | 246 (pr. 245) | «جب حقیقت نظر نہ آئی اسے افسانہ نہ بنا لیا» | kept as printed | The second «نہ» contradicts the Persian «رہ افسانہ زدند»; probably a printer's slip. |
 | 251 (pr. 250) | «اس اختلاف جہات و تباعین ہیئات سے» | kept as printed | «تباعین» is probably «تباین»; a printer's slip. |
+| 253 (pr. 252) | Hazrat Umar's saying printed «انی لا علم انک لحجر لا تضرو لا تنفع دلولا … قبلک ماقبلتک» | text: spacing normalised to «لا تضر و لا تنفع ولو لا», otherwise as printed; index: standard wording «انی لاعلم انک حجر … یقبلک ما قبلتک» | Printer's run-ons; the narration is in Bukhari and Muslim. |
+| 254 (pr. 253) | Hazrat Ali's reply printed «بلی اند ینفع … یشهد لمن قبل یوم القیامة» | text: «انہ ینفع» and «لمن قبلہ»; index uses the same | «اند» is a slip for «انہ»; «قبل» lacks its pronoun. The speaker himself adds «او کما قال» and «اگر بسند صحیح ثابت ہو» (the report is in al-Hakim and is weak). |
