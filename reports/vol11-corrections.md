@@ -42,6 +42,6 @@ The owner reviews these and names anything to revert.
 | 317 (pr. 316) | «ان اللہ لا یحب المستکبرین» | marked as al-Nahl 16:23 «انہ لا یحب المستکبرین» | the book has ان اللہ; the Quranic words are انہ |
 | 318 (pr. 317) | «الیس فی جہنم مثوی للمتکبرین» | marked as al-Zumar 39:60 | the phrase also ends 39:72 and 40:76 in other forms; 39:60 has the exact wording |
 | 325 (pr. 324) | couplet «آزمودم عقل دور اندیش را…» printed twice | kept as printed | duplicated in print with two different translations |
-| 331 (pr. 330) | «ہمارے ایک بزرگ استاد» (املیا story) | identified as مولانا محمد یعقوب نانوتویؒ | raised in Delhi, Deoband madrasa teacher; not named on the page |
+| 331 (pr. 330) | «ہمارے ایک بزرگ استاد» (املیا story) | identified as مولانا محمد یعقوب نانوتویؒ | named in the sermon summary on p. 346 |
 | 334 (pr. 333) | «نہ حضرت عبیدہ رضی اللہ تعالیٰ عنہ» | kept as printed | refers to Abu Ubaida (named so on p. 334) |
 | toc | «تفریح پراگندہ ذہنی» p. 344 | «تفریع بر گندہ دہنی» | toc follows the page heading (on گندہ دہنی) |
