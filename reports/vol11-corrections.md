@@ -141,3 +141,4 @@ The owner reviews these and names anything to revert.
 | 473 (pr. 472) | «وما محمد الا رسول … فلن یضر اللہ شیئا» | marked as Al Imran 3:144 | |
 | 474 (pr. 473) | «وما کان لنفس ان تموت الا باذن اللہ کتابا مؤجلا», «انک میت وانهم میتون» | marked as 3:145 and al-Zumar 39:30 | |
 | 474 (pr. 473) | «لم یکن الذین کفروا … فیها کتب قیمة» | marked as al-Bayyina 98:1–3 | |
+| 475 (pr. 474) | «اصیب بمصیبة فلیتعز بمصیبتی» | indexed under من اصیب بمصیبة فلیتعز بمصیبتی | footnote says «بلفظ آخر» (Ibn Majah 1599 has a different wording) |
