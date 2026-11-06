@@ -55,3 +55,4 @@ The owner reviews these and names anything to revert.
 | all vols | «ما نبودیم و تقاضا ما نبود» (half or with «(رومی)»); «کان رسول اللہ … یاکل اکلا ذریعا» | unified to the full couplet and «کان یاکل اکلا ذریعا» | index consistency |
 | 368 (pr. 367) | «یہی وسوسہ دفع صوم ہو جاتا ہے» | kept as printed | possibly «مانع صوم»; meaning (the fear that keeps people from fasting) is clear |
 | toc | «حضرت موسیٰؑ کے افسوس کی حکمت» | «حضرت موسیٰ کے افسوس کی حقیقت» | toc follows the page heading (p. 371) |
+| all vols | «گر بعلم آئیم/آییم … (رومی)», «گر بخواب آئیم مستان اوئیم / … بستان اوئیم», «در تردد ہر کہ او آشفتہ است» (half) | unified to the full couplets as printed in Vol 10 (مستان وئیم / بدستان وئیم) | index consistency |
