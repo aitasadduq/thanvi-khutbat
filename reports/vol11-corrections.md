@@ -94,3 +94,4 @@ The owner reviews these and names anything to revert.
 | 415 (pr. 414) | «وذروا ظاهر الاثم وباطنه» | marked as al-An`am 6:120 | |
 | 416 (pr. 415) | «ہمارا ظاہر ناپاک معلوم ہو رہا ہے اسی طرح ہمارا باطن بھی ناپاک ہے مگر … پاک معلوم ہو رہا ہے اسی طرح ہمارا باطن بھی ناپاک ہے» | kept as printed | clause repeated in print |
 | 416 (pr. 415) | «کسی صحیح الدماغ ہے کو اپنا حال دکھلاؤ» | kept as printed | stray «ہے» |
+| 419 (pr. 418) | «بس لعاب دہن کے لگانے سے روزہ بھی نہیں ٹوٹتا» | kept as printed | probably «نگلنے» |
