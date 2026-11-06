@@ -80,3 +80,5 @@ The owner reviews these and names anything to revert.
 | 395 (pr. 394) | «وہ پڑھنے والا الو تو نہیں کا یوں سمجھے» | kept as printed | sense unclear in print |
 | toc | دستور سہارنپور had no «تمہید» row | added «تمہید» p. 350 | matches the page heading, as for اوج قنوج |
 | 402 (pr. 401) | «کسی نہ ملو چاہے اس کم بخت کی تمام ضروریات کا پڑا ہو جائے» | kept as printed | «کسی سے نہ ملو» and «بیڑا (غرق)» seem intended |
+| 404 (pr. 403) | «یا ایها الذین آمنوا کلوا من طیبات ما رزقناکم واشکروا للہ ان کنتم ایاہ تعبدون» | marked as al-Baqara 2:172 | printed «واشکروا اللہ»; corrected to the mushaf «للہ» |
+| 405 (pr. 404) | «سلطنت کا خاتمہ ہو جاتا ہے کہ ایک ذرہ ان کی مشیت کے بغیر نہیں مل سکتا» | kept as printed | words about Allah seem dropped before «کہ ایک ذرہ» |
