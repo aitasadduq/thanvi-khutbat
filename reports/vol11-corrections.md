@@ -19,3 +19,4 @@ The owner reviews these and names anything to revert.
 | 112 (pr. 111) | «سخن شناس نہ دلبر اخطا انجاست» | «سخن شناس نئی دلبرا خطا اینجاست» | misprint; form as in other volumes |
 | 112 (pr. 111) | Saadi couplets «درختے کہ اکنوں گرفت ست پائے / بہ تیروی شخصے بر آیدز جائے», «دگر ہمچناں…», «سر چشمہ باید گرفتن بہ میل / جو پرشد نہ شاید گزشتن بہ پیل» | text: obvious letter slips fixed (نیروئے، وگر، چو، نشاید); میل kept | the شعر terms use the Gulistan form (شاید … بہ بیل / … گذشتن); same terms unified in Pilot, Vols 3 and 5 |
 | toc | «مرد کون ہے؟» p. 109 | p. 111 | the heading is on printed p. 111 |
+| 129 (pr. 128) | «جو لوگ نفاق و اتحاد کا لکچر دیتے ہیں» | «اتفاق و اتحاد» | misprint; the passage is about lectures on اتفاق و اتحاد |
