@@ -33,3 +33,4 @@ The owner reviews these and names anything to revert.
 | 262 (pr. 261) | «باز آمد یار من در کوئے من» | kept as printed | the شعر term (from other volumes) reads «شاہ من» |
 | 265 (pr. 264) | «میں نے اپنے استاد علیہ رحمۃ سے خود سنا» | identified as مولانا محمد یعقوب نانوتویؒ | the usual referent of «استاد علیہ الرحمۃ» in these sermons; not named on the page |
 | 277 (pr. 276) | «اس کے کوچہ سے جب اٹھ اہل وفا جاتے ہیں / وہ ہوسناک ہیں جو ر و لقضا جاتے ہیں» | kept as printed | second half unclear in print |
+| 278 (pr. 277) | «لاتفاقون فی اللہ لومۃ لائم» (p. 278) | marked as 5:54 «ولا یخافون لومۃ لائم» | the printed «فی اللہ» is not in the verse; the Quranic words are used |
