@@ -130,3 +130,7 @@ The owner reviews these and names anything to revert.
 | 466 (pr. 465) | «انا ربکم الاعلیٰ» | marked as al-Nazi`at 79:24 | |
 | 466 (pr. 465) | «جن پر حال غالب تھا ان کو مصیبت میں کلفت محسوس ہوئی بلکہ لذت اور مزہ آیا» | kept as printed | «نہیں» seems dropped («کلفت محسوس نہیں ہوئی») |
 | 466 (pr. 465) | Rumi couplet: «رحمة اللہ ایں انا را در وفا / لعنة اللہ آں انا را در قفا» | kept as printed | elsewhere indexed with آں/ایں swapped; same couplet term used |
+| 467 (pr. 466) | «حق تعالیٰ کی صفت زیادت علوم کو مستحضر کیا جائے» | kept as printed | «زیادت علو» (exaltedness) intended |
+| 468 (pr. 467) | «قل لهم قولا بلیغا» | marked as al-Nisa 4:63 (وقل لهم فی انفسهم قولا بلیغا) | print omits «فی انفسهم»; the slices skip it too |
+| 468 (pr. 467) | «ولهم قلوب لا یفقهون بها» | marked as al-A`raf 7:179 (لهم قلوب لا یفقهون بها) | |
+| 468 (pr. 467) | verse «ان الکلام لفی الفؤاد وانما / جعل اللسان علی الکلام دلیلا» | kept as printed; indexed under the usual علی الفؤاد form | |
