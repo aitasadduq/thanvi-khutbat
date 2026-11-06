@@ -39,3 +39,4 @@
 | 243 (pr. 242) | «بعض جہلاء و کفر کا حضور پر یہ اعتراض» | kept as printed | Probably «کفار»; a printer's slip. |
 | 244 (pr. 243) | «اور ان کانوں کو اس کی باتیں سننے دوں» | kept as printed | The Persian «شنیدن ندہم» needs «نہ سننے دوں»; a «نہ» has dropped out of the translation. |
 | 246 (pr. 245) | «جب حقیقت نظر نہ آئی اسے افسانہ نہ بنا لیا» | kept as printed | The second «نہ» contradicts the Persian «رہ افسانہ زدند»; probably a printer's slip. |
+| 251 (pr. 250) | «اس اختلاف جہات و تباعین ہیئات سے» | kept as printed | «تباعین» is probably «تباین»; a printer's slip. |
