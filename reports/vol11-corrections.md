@@ -45,3 +45,7 @@ The owner reviews these and names anything to revert.
 | 331 (pr. 330) | «ہمارے ایک بزرگ استاد» (املیا story) | identified as مولانا محمد یعقوب نانوتویؒ | named in the sermon summary on p. 346 |
 | 334 (pr. 333) | «نہ حضرت عبیدہ رضی اللہ تعالیٰ عنہ» | kept as printed | refers to Abu Ubaida (named so on p. 334) |
 | toc | «تفریح پراگندہ ذہنی» p. 344 | «تفریع بر گندہ دہنی» | toc follows the page heading (on گندہ دہنی) |
+| 352 (pr. 351) | «ولقد صرفنا فی هذا القرآن لیذکروا» | marked as Bani Isra'il 17:41 | same opening in 17:89 and 18:54 without لیذکروا |
+| 355 (pr. 354) | «واخفض جناحک لمن اتبعک من المؤمنین» | marked as al-Shu'ara 26:215 | |
+| 356 (pr. 355) | «تفنن سے معلوم واستاد کی شفقت» | «معلم و استاد» | misprint |
+| 357 (pr. 356) | «حقیقت میں باعث ہے» | kept as printed | probably «باعث عزت» with a word dropped |
