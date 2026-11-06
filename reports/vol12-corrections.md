@@ -80,3 +80,4 @@
 | 376 (pr. 375) | «پھر وہ خلاف ادب اور قابل علامت کیسے ہو سکتے ہیں» | kept as printed | «علامت» for «ملامت»; a printer's slip. |
 | 379 (pr. 378) | «کاش ان پر حق تعالیٰ کی عظمت منکشف ہوتی تو نظر آتا کہ ہم کیا کر رہے ہیں یہ بالکل اندھے ہیں…» | kept as printed | The clause is printed twice (dittography). |
 | 395 (pr. 394) | «حق تعالیٰ کو جن تصرف صرف موت و حیات ہی میں ہے» | kept as printed | «جن» appears to be a stray word (perhaps «حق تصرف»). |
+| 403 (pr. 402) | «حق تعالیٰ کے تمام افعال کے متعلق جیسے نشست برخاست…» and «خوب رل کو سمجھایا» | kept as printed | Probably «حق تعالیٰ نے تمام افعال…» and «خوب دل کو سمجھایا»; printer's slips. |
