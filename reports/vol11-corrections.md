@@ -176,3 +176,6 @@ The owner reviews these and names anything to revert.
 | 503 (pr. 502) | «لا تنابزوا بالالقاب بئس الاسم الفسوق بعد الایمان» | marked as al-Hujurat 49:11 | |
 | 503 (pr. 502) | «لیس لنا مثل السوء» | indexed as a hadith term | Bukhari 2622 (on taking back a gift) |
 | 505 (pr. 504) | «معیب کو واپس کر سکتے ہی» | kept as printed | «ہیں» |
+| 506 (pr. 505) | «اور پہلے معنی کر دنیادار کوئی مسلمان نہیں» | kept as printed | «پہلے معنی پر» intended |
+| 507 (pr. 506) | «اے کپڑوں… یا نصف سے کچھ بڑھا دو» glossing «قم اللیل الا قلیلا نصفه او انقص منه قلیلا او زد علیه» | marked as al-Muzzammil 73:1–4 (to او زد علیه) | |
+| 507 (pr. 506) | «آیات الٰہی سے مسخر اور مقابلہ کیا کرتے» | kept as printed | «تمسخر» intended |
