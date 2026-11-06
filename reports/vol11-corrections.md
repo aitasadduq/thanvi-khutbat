@@ -114,3 +114,5 @@ The owner reviews these and names anything to revert.
 | 453 (pr. 452) | «افلا ینظرون الی الابل کیف خلقت» | marked as al-Ghashiya 88:17 | |
 | 453 (pr. 452) | «غیر هذا او بدله», «قل ما یکون لی ان ابدله من تلقاء نفسی» | marked as Yunus 10:15 | |
 | 454 (pr. 453) | two short gaps in the scan («غفرت … الحت یا احللت», «اس پر پہنچ کر … سے ساقط») | marked [—]; «الحت» read as «ابحت» | scan damaged mid-page |
+| 455 (pr. 454) | «خدا کے مشغول ہو» | kept as printed | «خدا کے ساتھ» intended |
+| 455 (pr. 454) | «جن پر توحید اور تمیہ کی شان غالب ہے» | kept as printed | sense unclear (perhaps «تنزیہ») |
