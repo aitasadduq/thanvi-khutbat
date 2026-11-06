@@ -55,3 +55,5 @@ The owner reviews these and names anything to revert.
 | 362 (pr. 361) | «اس کے شہادت کا رفع» | «شبہات» | misprint |
 | 362 (pr. 361) | «اپنے وجود کرم کو اسراف» | «جود و کرم» | misprint |
 | 363 (pr. 362) | «لاغوینهم اجمعین الا عبادک منهم المخلصین» | marked as Sad 38:82–83 | same wording in al-Hijr 15:39–40 with ولاغوینهم |
+| 365 (pr. 364) | «تو تم بھائی کس طرح ترک کرتے ہو» | «بھلائی» | misprint |
+| 365 (pr. 364) | «کلمة الحکمة ضالة المؤمن» | indexed under الحکمة ضالة المؤمن فحیث وجدہا فہو احق بہا | Tirmidhi 2687, Ibn Majah 4169 |
