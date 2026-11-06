@@ -122,3 +122,5 @@ The owner reviews these and names anything to revert.
 | 459 (pr. 458) | «انما اموالکم واولادکم فتنة» | marked as al-Taghabun 64:15 | |
 | 459 (pr. 458) | «ایک رئیس نجد کے» with ten sons | indexed under من لا یرحم لا یرحم | al-Aqra` ibn Habis (Bukhari 5997); the sermon's wording differs |
 | 460 (pr. 459) | «لیوث النهار ورهبان اللیل» | indexed under رہبان اللیل لیوث النہار | same saying, order reversed |
+| 461 (pr. 460) | Shah Ismail Shahid «انگوٹھا دکھا دیا» to an Awadh notable | indexed under the existing انگوٹھا story | other volumes tell it of a prince |
+| 462 (pr. 461) | «جناب رسول اللہ صلی اللہ علیہ وسلم کے پس اولاد کے ساتھ» | kept as printed | words seem dropped («کے قدم بقدم۔ پس…») |
