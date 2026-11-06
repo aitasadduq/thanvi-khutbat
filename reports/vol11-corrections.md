@@ -29,3 +29,4 @@ The owner reviews these and names anything to revert.
 | 207 (pr. 206) | «لاتمدن عینیک الی ما متعنا بہ ازواجا منہم» | marked as al-Hijr 15:88 | the printed form lacks و, matching 15:88 (Taha 20:131 begins ولا) |
 | 223 (pr. 222) | «(المائدہ آیت نمبر ۵۴، ۵۵)» | kept; text quotes 5:54–56 | the khutba ayat run to حزب اللہ ہم الغالبون (5:56) |
 | 247 (pr. 246) | unnamed Arabic risala on تصوف from the Quran | identified as مسائل السلوک | Thanvi's Arabic work with Urdu translation (مسائل السلوک من کلام ملک الملوک) fits the description; kept unnamed in the text |
+| 256 (pr. 255) | «ام یقولون بہ جنۃ ویقولون انہ لمجنون» | split into al-Muminun 23:70 + al-Qalam 68:51 | the book joins two separate Quranic phrases |
