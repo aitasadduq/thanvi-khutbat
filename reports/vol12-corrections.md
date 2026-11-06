@@ -62,3 +62,4 @@
 | 299 (pr. 298) | «انی وجہت وجہی للذی فطرنی» | kept as printed, without ayah markup; indexed under الانعام ۷۹ | The quotation merges al-An'am 6:79 («للذی فطر السموات والارض») with Ya-Sin 36:22 («الذی فطرنی»). |
 | 308 (pr. 307) | «من اذی لی ولیا فقد اذنتہ بالحرب» | text kept as printed; indexed under the existing hadith term «من عادی لی ولیا» | The Bukhari wording is «من عادی»; «من آذی» is the Bayhaqi variant the footnote cites. |
 | 311 (pr. 310) | «ابوالفضل میں اکبر نے ایک مکتوب میں … اپنا تبریہ بھی کیا ہے» | kept as printed | Probably «مکتوبات ابوالفضل میں» (Akbar's letters drafted by Abul Fazl); a word appears to have dropped. |
+| 316 (pr. 315) | «سوی ان جمعنا فیہ قیل یقال» | text kept as printed; index uses «قیل وقال», as on p. 125 and in the next line of explanation | Printer's slip. |
