@@ -82,3 +82,4 @@
 | 395 (pr. 394) | «حق تعالیٰ کو جن تصرف صرف موت و حیات ہی میں ہے» | kept as printed | «جن» appears to be a stray word (perhaps «حق تصرف»). |
 | 403 (pr. 402) | «حق تعالیٰ کے تمام افعال کے متعلق جیسے نشست برخاست…» and «خوب رل کو سمجھایا» | kept as printed | Probably «حق تعالیٰ نے تمام افعال…» and «خوب دل کو سمجھایا»; printer's slips. |
 | 410 (pr. 409) | «زبان تازہ کردن باقرار تو / نہ انگیختن علت از کار تو» and «جاں شدہ مبتلائے تو» | text kept as printed; index uses the established wordings «نینگیختن» and «دل شدہ» | Variant spellings of known couplets. |
+| 416 (pr. 415) | «یہ بات عقل کے خلاف ہے اور ایسا ہونا ممکن ہے» | kept as printed | A «نا» has dropped («ناممکن»). Similarly p. 414 «طبیعت نوعیہ بھی ذی شعور» lacks «غیر». |
