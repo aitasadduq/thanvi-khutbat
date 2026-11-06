@@ -37,3 +37,4 @@ The owner reviews these and names anything to revert.
 | 286 (pr. 285) | «گر ہوائے ایں سفر داری دلا / دامن رہبر بگیر و بس بیا» | kept as printed | the شعر term uses the form in other volumes («و پس برآ») |
 | 291 (pr. 290) | summary paragraph «تواضع کی حقیقت اور ضرورت…» at the foot of p. 290 | moved to the start of اوج قنوج (0291.txt) | it is the next sermon's synopsis, printed below the end of طریق القلندر |
 | toc | — | row «تمہید» p. 292 added under اوج قنوج | heading is on the page (p. 292) but missing from the فہرست |
+| 296 (pr. 295) | «وعد اللہ لا یخلف اللہ المیعاد» | marked as al-Rum 30:6 «وعد اللہ لا یخلف اللہ وعدہ» | the printed ending المیعاد mixes 30:6 with 39:20 (لا یخلف اللہ المیعاد); 30:6 wording used |
