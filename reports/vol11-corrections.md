@@ -163,3 +163,6 @@ The owner reviews these and names anything to revert.
 | 493 (pr. 492) | «ومن یوق نفسه (جو شخص اپنے بچے کی حرص سے)» | kept as printed | the gloss «بچے» seems a misprint for «نفس»; «یوق شح نفسه» intended |
 | 494 (pr. 493) | «اضعافا کثیرة» on «دوسرے مقام» | indexed as al-Baqara 2:245 | |
 | 494 (pr. 493) | «جب مفرط کو چھوڑ دو گے» | kept as printed | «حب مفرط» intended |
+| 495 (pr. 494) | «اس میں نہ کہیں وضع ہو جائیں» | kept as printed | «وضع» = deducted |
+| toc | رفع الموانع had no «تمہید» row | added «تمہید» p. 449 | matches the page heading |
+| 495 (pr. 494) | summary «طرز زندگی کا دستور العمل…» printed at the foot of p. 494 | moved to the سیرت صوفی title page (0496.txt) | it belongs to the next sermon |
