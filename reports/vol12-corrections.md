@@ -64,3 +64,4 @@
 | 311 (pr. 310) | «ابوالفضل میں اکبر نے ایک مکتوب میں … اپنا تبریہ بھی کیا ہے» | kept as printed | Probably «مکتوبات ابوالفضل میں» (Akbar's letters drafted by Abul Fazl); a word appears to have dropped. |
 | 316 (pr. 315) | «سوی ان جمعنا فیہ قیل یقال» | text kept as printed; index uses «قیل وقال», as on p. 125 and in the next line of explanation | Printer's slip. |
 | 318 (pr. 317) | «دل فدائے اوشد و جان تیز ہم» | text kept as printed; index uses the standard «و جاں نیز ہم» | «تیز» is a dot slip for «نیز». |
+| 320 (pr. 319) | «اور پان پانی کا نر؟» | kept as printed | Unclear phrase; probably a play on «پان پانی کا»; not emended. |
