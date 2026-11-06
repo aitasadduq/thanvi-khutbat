@@ -182,3 +182,5 @@ The owner reviews these and names anything to revert.
 | 508 (pr. 507) | «فاصبر علی ما یقولون وسبح بحمد ربک» | marked as Qaf 50:39 | same words in Taha 20:130 |
 | 508 (pr. 507) | «لعلک باخع نفسک» | marked as al-Shu`ara 26:3 | also al-Kahf 18:6 with فلعلک |
 | 508 (pr. 507) | couplet «کار پاکاں را قیاس از خود مگیر…» printed «کارپاکاں راقیاس از خودمگیر / گرچہ ماندر نوشتن» | indexed under the usual form | spacing misprints |
+| 510 (pr. 509) | «اس میں الہام ہوتا ہے انکار نعمت کا» | kept as printed | «ایہام» intended |
+| 511 (pr. 510) | «اعمال مقصود بالغرض» | kept as printed | «بالعرض» intended |
