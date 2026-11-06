@@ -78,3 +78,5 @@ The owner reviews these and names anything to revert.
 | 429 (pr. 428) | «ہر کجا پستی ست آب آنجا رود / ہر کجا مشکل جواب آنجا رود» | kept as printed | the common form (other volumes) is «ہر کجا دردے دوا آنجا رود»; the شعر term uses that form |
 | Vol 1, Vol 4 | combined «حم السجدة ۳۰-۳۲», «الاسرار المرفوعة، کشف الخفاء»; half couplet «دشمن راچہ دوستانہ گویدت» | split / unified | index consistency |
 | toc | «توجہ کی اہمیت» | «توبہ کی اہمیت» | toc follows the page heading (p. 429) |
+| 446 (pr. 445) | «ایک بزرگ سے منقول ہے» (بے زاد نوجوان) | indexed under the same حکایت as p. 167 (عمرو بن دینار) | the same story; the narrator is named in النسوان فی رمضان |
+| all vols | half couplets «گفت آں اللہ تو لبیک ماست», «تو بندگی چو گدایاں بشرط مزد مکن», «آنکس کہ تو نگرت نمی گرداند»; «دردل»/«دردت» | full couplets, «دردت» | index consistency |
