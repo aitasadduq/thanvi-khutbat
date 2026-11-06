@@ -203,3 +203,7 @@ The owner reviews these and names anything to revert.
 | 521 (pr. 520) | «الم نشرح لک صدرک ووضعنا عنک وزرک الذی انقض ظهرک» | marked as al-Sharh 94:1–3 | |
 | 521 (pr. 520) | «لو انزلنا هذا القرآن علی جبل» | marked as al-Hashr 59:21 | |
 | 521 (pr. 520) | Rumi half-line «چونکہ قبض آمد تو در وے بسط بیں / تازہ باش چیں میفگن برجبیں» | indexed under the full couplet | |
+| 522 (pr. 521) | «اقبل قم اللیل او رتل القرآن» | kept as printed | «قبل» (i.e. the preceding verses) intended |
+| 522 (pr. 521) | «کیونکہ اس وقت اہل کا اثر زیادہ ہو گا» | kept as printed | probably «اس کا اثر» |
+| 523 (pr. 522) | «دوام سے عبادت ہو جائے گی» | kept as printed | «عادت» intended |
+| 523 (pr. 522) | «حالت علیہ میں» | kept as printed | «حالت عالیہ» intended |
