@@ -6,13 +6,19 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 ---
 
-## 1. Status (2026-11-01)
+## 1. Status (2026-11-06)
 
-- **Volume 10 (فضائل صوم و صلوٰۃ) — in progress.** Folder `Vol 10 fazail e saum o salat/`. PDF page = printed page + 1;
-  page images in the scratchpad (`v10/h`). `toc.tsv` built (12 sermons, headings follow the page where the contents
-  differ; each change logged). Transcribed: الصلوٰۃ (0015), نداء رمضان (0074), الصوم (0088), الصیام (0109), الفطر (0146),
-  النسوان فی رمضان (0163), رمضان فی رمضان (0196), احکام العشر الاخیرہ (0269), تطہیر رمضان (0313), عصم الصنوف (0334), التہذیب نمبر ۱ (0391), التہذیب نمبر ۲ (0419), printed pp. 15–448: the whole
-  volume is transcribed. Next: the §3 pipeline. Corrections in `reports/vol10-corrections.md`.
+- **Volume 11 — next.** Not started: check the offset, extract images (step 2 of §3), build `toc.tsv`.
+
+- **Volume 10 (فضائل صوم و صلوٰۃ) — done, awaiting the owner's review.** Folder `Vol 10 fazail e saum o salat/`. PDF page =
+  printed page + 1; text printed pp. 15–448 (12 sermons), all transcribed (files 0015, 0074, 0088, 0109, 0146, 0163,
+  0196, 0269, 0313, 0334, 0391, 0419). `toc.tsv` headings follow the page where the contents differ (each change logged).
+  mark_arabic: DIFFERS 0, CITE 0 (2:261 words split by a space in the reference were joined). Hadith check:
+  `reports/vol10-hadith-check.md` (23 differs reviewed, all the book's wording, kept). All corrections applied under the
+  owner's rule are in `reports/vol10-corrections.md`. More couplet, hadith, book and place terms in all volumes were
+  unified (both halves; e.g. رامپور → رام پور). Index built (2584 entries); all volume indexes and the site rebuilt
+  (`site/v10.html`). Preview (private artifact, republish to the same URL):
+  https://claude.ai/artifact/T5c9XYPbqtkxx3jY52CXeP
 
 - **Volume 9 (فضائل صبر و شکر) — done, awaiting the owner's review.** Folder `Vol 09 fazail e sabr o shukr/`. PDF page =
   printed page + 1; text printed pp. 13–488 (12 sermons), all transcribed (files 0013, 0042, 0105, 0136, 0177, 0204,
@@ -190,7 +196,7 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Volume 10: transcription complete (printed pp. 15–448); run the §3 pipeline and add Vol 10 (`فضائل صوم و صلوٰۃ`, `Vol 10 fazail e saum o salat`) to VOLUMES.
-- The owner will review `reports/vol02-corrections.md` … `reports/vol09-corrections.md` at leisure; revert anything the owner rejects.
+- Volume 11: start (`scanned_version/Khutbaat-i-Hakeem-ul-Ummat-Vol-11.pdf`): §3 steps 1–2, folder `Vol 11 …` named after its title.
+- The owner will review `reports/vol02-corrections.md` … `reports/vol10-corrections.md` at leisure; revert anything the owner rejects.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
   `iatasadduq/thanvi-khutbat-site` and turning on GitHub Pages (only after the owner approves).
