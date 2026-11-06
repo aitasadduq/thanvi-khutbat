@@ -97,3 +97,4 @@ The owner reviews these and names anything to revert.
 | 419 (pr. 418) | «بس لعاب دہن کے لگانے سے روزہ بھی نہیں ٹوٹتا» | kept as printed | probably «نگلنے» |
 | 420 (pr. 419) | «حضرت مولانا رفیع الدین صاحب رحمۃ اللہ علیہ کے والد» | identity not given | Maulana Rafi`-ud-Din of Deoband (indexed with him); the father is unnamed |
 | 421 (pr. 420) | «بالکل وہ دردہ ہی ہو جاؤ» | kept as printed | sense unclear in print |
+| 425 (pr. 424) | «رہا یہ کہ اس کا ضرر کیا ہے تو جس طرح ترک لایعنی نہ ہو سکے تو اس کی کثرت تو ترک کرنی چاہیے» | kept as printed | line repeated in print |
