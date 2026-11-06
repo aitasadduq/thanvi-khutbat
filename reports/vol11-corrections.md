@@ -70,3 +70,6 @@ The owner reviews these and names anything to revert.
 | 381 (pr. 380) | «خصوصاً ان لوگوں سے کے مقابلے کو لے لیجئے» | kept as printed | words seem dropped in print |
 | 384 (pr. 383) | «وفی ذلک فلیتنافس المتنافسون» | marked as al-Mutaffifin 83:26 | |
 | 385 (pr. 384) | «انظروا الی امیرنا هذا یلبس لباس الفساق» | kept as printed | Abu Bakra about Ibn Amir on the minbar (Tirmidhi 2224); the sermon says «کوئی خلیفہ» |
+| 389 (pr. 388) | couplet «درمیان قعر دریا…» printed twice | kept as printed | duplicated in print |
+| 389 (pr. 388) | «لا یکمل ورع المؤمن حتی یدع ما لا باس بہ حذرا مما بہ باس» «کما قال» | kept as printed; indexed under لا یبلغ العبد ان یکون من المتقین… | Tirmidhi 2451, Ibn Majah 4215; quoted from memory |
+| 389 (pr. 388) | «امور مشکوکہ مشتبہ سے احترام کر کے» | kept as printed | probably «احتراز» |
