@@ -72,11 +72,11 @@ The owner reviews these and names anything to revert.
 | toc | «کلائی تقویٰ», «تفریق و تنفید» | «کلابی تقویٰ», «تفریق و تنفیر» | toc follows the page headings (pp. 406–407); the text explains «تقویٰ کلابی» from کتا |
 | 416 (pr. 415) | «والنفس کالعقل ان تہملہ سب علی» | «والنفس کالطفل ان تہملہ شب علی» | misprints (the Urdu gloss says بچہ); as in Vols 6 and 8 |
 | toc | «تذلل للخالق» | «تذلل للخلائق» | toc follows the page heading (p. 416), though the text that follows argues for تذلل للخالق |
-| 421 (pr. 420) | year of التہذیب نمبر ۲ | read as ۱۳۳۴ھ | the digits are blurred in the scan (could be ۱۳۳۲ or ۱۳۳۴); ۱۳۳۴ matches التہذیب نمبر ۱ (۲۹ شعبان ۱۳۳۴ھ) |
-| 425 (pr. 424) | «آرزو میخواہ لیک اندازہ خواہ / برنتابد کوہ رایک برگ کاہ» | «آرزو می خواہ لیک بر اندازہ خواہ / بر نتابد کوہ را یک برگ کاہ» | «بر» restored (metre), as elsewhere; the printed translation is kept |
+| 420 (pr. 419) | year of التہذیب نمبر ۲ | read as ۱۳۳۴ھ | the digits are blurred in the scan (could be ۱۳۳۲ or ۱۳۳۴); ۱۳۳۴ matches التہذیب نمبر ۱ (۲۹ شعبان ۱۳۳۴ھ) |
+| 424 (pr. 423) | «آرزو میخواہ لیک اندازہ خواہ / برنتابد کوہ رایک برگ کاہ» | «آرزو می خواہ لیک بر اندازہ خواہ / بر نتابد کوہ را یک برگ کاہ» | «بر» restored (metre), as elsewhere; the printed translation is kept |
 | toc | (missing) | added «ہمارے توہمات» 425 under التہذیب نمبر ۲ | heading present on the page |
-| 429 (pr. 428) | «ہر کجا پستی ست آب آنجا رود / ہر کجا مشکل جواب آنجا رود» | kept as printed | the common form (other volumes) is «ہر کجا دردے دوا آنجا رود»; the شعر term uses that form |
+| 428 (pr. 427) | «ہر کجا پستی ست آب آنجا رود / ہر کجا مشکل جواب آنجا رود» | kept as printed | the common form (other volumes) is «ہر کجا دردے دوا آنجا رود»; the شعر term uses that form |
 | Vol 1, Vol 4 | combined «حم السجدة ۳۰-۳۲», «الاسرار المرفوعة، کشف الخفاء»; half couplet «دشمن راچہ دوستانہ گویدت» | split / unified | index consistency |
 | toc | «توجہ کی اہمیت» | «توبہ کی اہمیت» | toc follows the page heading (p. 429) |
-| 446 (pr. 445) | «ایک بزرگ سے منقول ہے» (بے زاد نوجوان) | indexed under the same حکایت as p. 167 (عمرو بن دینار) | the same story; the narrator is named in النسوان فی رمضان |
+| 445 (pr. 444) | «ایک بزرگ سے منقول ہے» (بے زاد نوجوان) | indexed under the same حکایت as p. 167 (عمرو بن دینار) | the same story; the narrator is named in النسوان فی رمضان |
 | all vols | half couplets «گفت آں اللہ تو لبیک ماست», «تو بندگی چو گدایاں بشرط مزد مکن», «آنکس کہ تو نگرت نمی گرداند»; «دردل»/«دردت» | full couplets, «دردت» | index consistency |
