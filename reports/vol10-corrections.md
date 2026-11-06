@@ -46,3 +46,5 @@ The owner reviews these and names anything to revert.
 | toc | «روزہ اور مشغولیت» | «روزہ دار اور مشغولیت» | toc follows the page heading (p. 348) |
 | 352 (pr. 351) | «اور التفات امر غیر اختیاری ہے» | «امر اختیاری» | misprint; the argument is that وسوسہ is غیر اختیاری but التفات is اختیاری, so «ولینتہ» commands leaving التفات |
 | Vols 2, 7, 10 | combined term «ذالک صریح الایمان، فلیستعذ باللہ ولینتہ» | split into «ذاک صریح الایمان» and «یاتی الشیطان احدکم … فلیستعذ باللہ ولینتہ» | two different hadiths; both appear on each page |
+| 357 (pr. 356) | «شیئاً للہ اجمال روئے تو» | «شیئاً للہ از جمال روئے تو» | misprint (از جمال), as the couplet reads in Vol 1; the Vol 1 term now carries both halves |
+| 357 (pr. 356) | «نذر کردم کہ گر آید بسر ایں روزے» | kept as printed | other volumes have «ایں غم روزے»; the شعر term uses the unified form |
