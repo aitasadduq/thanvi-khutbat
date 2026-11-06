@@ -44,3 +44,4 @@ The owner reviews these and names anything to revert.
 | 325 (pr. 324) | couplet «آزمودم عقل دور اندیش را…» printed twice | kept as printed | duplicated in print with two different translations |
 | 331 (pr. 330) | «ہمارے ایک بزرگ استاد» (املیا story) | identified as مولانا محمد یعقوب نانوتویؒ | raised in Delhi, Deoband madrasa teacher; not named on the page |
 | 334 (pr. 333) | «نہ حضرت عبیدہ رضی اللہ تعالیٰ عنہ» | kept as printed | refers to Abu Ubaida (named so on p. 334) |
+| toc | «تفریح پراگندہ ذہنی» p. 344 | «تفریع بر گندہ دہنی» | toc follows the page heading (on گندہ دہنی) |
