@@ -71,3 +71,5 @@
 | 331 (pr. 330) | The bracketed Arabic note «قلت ویحتمل … بل لیکن ان یکون … بل منشاء والاولال …» | kept as printed | Several printer's slips («لیکن» for «یمکن», «والاولال» for «الادلال», «لا ادب» uncertain); not emended. |
 | 334 (pr. 333) | «میری رگ تار ہو گئی ہے اتار کی ضرورت نہیں» | kept as printed | «اتار» for «زنار»; a printer's slip in the translation. |
 | 344 (pr. 343) | «باغباں گر چند روزے صحبت گل بایدش» | text kept as printed; index uses the existing «پنج روزے» | Variant wording of the same Hafiz couplet. |
+| 346 (pr. 345) | «بر تو من مشفق ترم از صد پدید» | text kept as printed; index uses «از صد پدر» | «پدید» for «پدر»; a printer's slip (the translation says «سیکڑوں باپوں»). |
+| 346 (pr. 345) | «(سوائے اسلام کے اور کسی حالت میں جان دو)» | kept as printed | A «مت» has dropped from the translation. |
