@@ -179,3 +179,6 @@ The owner reviews these and names anything to revert.
 | 506 (pr. 505) | «اور پہلے معنی کر دنیادار کوئی مسلمان نہیں» | kept as printed | «پہلے معنی پر» intended |
 | 507 (pr. 506) | «اے کپڑوں… یا نصف سے کچھ بڑھا دو» glossing «قم اللیل الا قلیلا نصفه او انقص منه قلیلا او زد علیه» | marked as al-Muzzammil 73:1–4 (to او زد علیه) | |
 | 507 (pr. 506) | «آیات الٰہی سے مسخر اور مقابلہ کیا کرتے» | kept as printed | «تمسخر» intended |
+| 508 (pr. 507) | «فاصبر علی ما یقولون وسبح بحمد ربک» | marked as Qaf 50:39 | same words in Taha 20:130 |
+| 508 (pr. 507) | «لعلک باخع نفسک» | marked as al-Shu`ara 26:3 | also al-Kahf 18:6 with فلعلک |
+| 508 (pr. 507) | couplet «کار پاکاں را قیاس از خود مگیر…» printed «کارپاکاں راقیاس از خودمگیر / گرچہ ماندر نوشتن» | indexed under the usual form | spacing misprints |
