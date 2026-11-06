@@ -65,3 +65,4 @@
 | 316 (pr. 315) | «سوی ان جمعنا فیہ قیل یقال» | text kept as printed; index uses «قیل وقال», as on p. 125 and in the next line of explanation | Printer's slip. |
 | 318 (pr. 317) | «دل فدائے اوشد و جان تیز ہم» | text kept as printed; index uses the standard «و جاں نیز ہم» | «تیز» is a dot slip for «نیز». |
 | 320 (pr. 319) | «اور پان پانی کا نر؟» | kept as printed | Unclear phrase; probably a play on «پان پانی کا»; not emended. |
+| 322 (pr. 321) | «ان کو جواب مت دو دو ہی کا دو خشک جواب دے دو» | kept as printed | The words appear garbled (perhaps «یا دو ہی کلمہ کا خشک جواب»); not emended. |
