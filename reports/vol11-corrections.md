@@ -116,3 +116,6 @@ The owner reviews these and names anything to revert.
 | 454 (pr. 453) | two short gaps in the scan («غفرت … الحت یا احللت», «اس پر پہنچ کر … سے ساقط») | marked [—]; «الحت» read as «ابحت» | scan damaged mid-page |
 | 455 (pr. 454) | «خدا کے مشغول ہو» | kept as printed | «خدا کے ساتھ» intended |
 | 455 (pr. 454) | «جن پر توحید اور تمیہ کی شان غالب ہے» | kept as printed | sense unclear (perhaps «تنزیہ») |
+| 457 (pr. 456) | «فرحوا بما عندهم من العلم» | marked as Ghafir 40:83 | |
+| 458 (pr. 457) | «ولقد ارسلنا رسلا من قبلک وجعلنا لهم ازواجا وذریة» | marked as al-Ra`d 13:38 | |
+| 458 (pr. 457) | «مصیبت اور ان کو خدائے تعالیٰ سے مشغول کر دے» | kept as printed | probably «مصیبت ان کو…» |
