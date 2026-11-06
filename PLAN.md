@@ -208,5 +208,7 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 - Volume 12: start from §3 step 1 (page offset, فہرست into `toc.tsv`, page images), logging corrections in `reports/vol12-corrections.md`.
 - The owner will review `reports/vol02-corrections.md` … `reports/vol11-corrections.md` at leisure; revert anything the owner rejects.
+- Question answering (RAG) over the books: revised plan in `RAG_PLAN.md` (2026-11-06), awaiting the owner's go-ahead;
+  transcription stays the priority.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
   `iatasadduq/thanvi-khutbat-site` and turning on GitHub Pages (only after the owner approves).
