@@ -80,3 +80,4 @@ The owner reviews these and names anything to revert.
 | toc | «توجہ کی اہمیت» | «توبہ کی اہمیت» | toc follows the page heading (p. 429) |
 | 445 (pr. 444) | «ایک بزرگ سے منقول ہے» (بے زاد نوجوان) | indexed under the same حکایت as p. 167 (عمرو بن دینار) | the same story; the narrator is named in النسوان فی رمضان |
 | all vols | half couplets «گفت آں اللہ تو لبیک ماست», «تو بندگی چو گدایاں بشرط مزد مکن», «آنکس کہ تو نگرت نمی گرداند»; «دردل»/«دردت» | full couplets, «دردت» | index consistency |
+| 91 (pr. 90) | 2:261 «اَنۭۡ بَتَتۡ», «سُنۭۡ بُلَةٍ» | joined | the reference text has a space after the small meem; joined as in the other volumes |
