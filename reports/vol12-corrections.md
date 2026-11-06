@@ -84,3 +84,7 @@
 | 410 (pr. 409) | «زبان تازہ کردن باقرار تو / نہ انگیختن علت از کار تو» and «جاں شدہ مبتلائے تو» | text kept as printed; index uses the established wordings «نینگیختن» and «دل شدہ» | Variant spellings of known couplets. |
 | 416 (pr. 415) | «یہ بات عقل کے خلاف ہے اور ایسا ہونا ممکن ہے» | kept as printed | A «نا» has dropped («ناممکن»). Similarly p. 414 «طبیعت نوعیہ بھی ذی شعور» lacks «غیر». |
 | 45 (pr. 44) | 2:261 «اَنۭۡ بَتَتۡ», «سُنۭۡ بُلَةٍ» | joined | the reference text has a space after the small meem; joined as in the other volumes |
+| — | Hadith check (`reports/vol12-hadith-check.md`): 17 differs reviewed | kept | All are the book's own wording or known variant narrations (e.g. «لا یضرہم من خذلہم», «من آذی لی ولیا»); p. 298 is the Quranic quotation already noted above. No change. |
+| toc | فہرست headings «شادی و غمی میں اسوہ رسول اکرم ﷺ» (179), «خود بینی و خود رائی» (296), «معمولات اور مجہولات» (312), «حکم اظہار شرب» (348) | toc.tsv follows the page: «…اسوۂ رسول اکرم صلی اللہ علیہ وسلم», «خود بینی و خودرائی», «معلومات اور مجہولات», «حکم اظہار مشرب» | «معمولات» and «شرب» are slips in the فہرست; the page headings and the text («بزرجمہر … معلومات کی تنخواہ», «اپنا مشرب ظاہر کر دیجئے») confirm the page wording. |
+| toc | Missing «تمہید» row for احسان الاسلام (p. 267) | added | As in earlier volumes. |
+| 440 (pr. 439) | «پرہیز:» printed as a bold run-in heading | made a `##` heading | Matches the فہرست entry «پرہیز» (439). |

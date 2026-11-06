@@ -8,6 +8,21 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 ## 1. Status (2026-11-06)
 
+- **Volume 12 (محاسن اسلام) — done, awaiting the owner's review.** Folder `Vol 12 mahasin e islam/`. PDF page = printed
+  page + 1; text printed pp. 11–440 (7 sermons), all transcribed (files 0011, 0075, 0124, 0184, 0266, 0300, 0347).
+  `toc.tsv` headings follow the page where the فہرست differs (4 headings; a missing «تمہید» row added; each change
+  logged). mark_arabic: DIFFERS 0, CITE 0 (three unfilled ayah placeholders filled; 2:261 words split by a space in the
+  reference were joined). Hadith check: `reports/vol12-hadith-check.md` (17 differs reviewed, all the book's wording,
+  kept). All corrections applied under the owner's rule are in `reports/vol12-corrections.md`. Many couplet, story,
+  hadith and person terms in all volumes were unified (e.g. half-couplets completed where the other half is printed,
+  «وحدت الوجود» → «وحدۃ الوجود», duplicate names for the same story merged). Index built (2048 entries); all volume
+  indexes and the site rebuilt (`site/v12.html`). Preview (private artifact, republish to the same URL):
+  https://claude.ai/artifact/BVo1Hr4sb48E3wPhTN3Wfx
+- **Volume 13 (دعوت و تبلیغ) — in progress.** Folder `Vol 13 dawat o tabligh/`. PDF page = printed page + 1; text
+  printed pp. 11–~375 (8 sermons: الدعوت الی اللہ 11, آداب التبلیغ 63, التواصی بالحق 120, التواصی بالصبر 174, ضرورت تبلیغ
+  215, اتباع علماء 272, التبشیر 296, الاستقامت 340). `toc.tsv` transcribed from the فہرست; transcription under way
+  (file 0011).
+
 - **Volume 11 (حقیقت تصوف و تقویٰ) — done, awaiting the owner's review.** Folder `Vol 11 haqiqat e tasawwuf o taqwa/`.
   PDF page = printed page + 1; text printed pp. 11–528 (11 sermons; the فہرست says 526, the last sermon runs to 528),
   all transcribed (files 0011, 0042, 0099, 0133, 0181, 0221, 0291, 0349, 0396, 0448, 0496). `toc.tsv` headings follow
@@ -206,8 +221,9 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Volume 12: start from §3 step 1 (page offset, فہرست into `toc.tsv`, page images), logging corrections in `reports/vol12-corrections.md`.
-- The owner will review `reports/vol02-corrections.md` … `reports/vol11-corrections.md` at leisure; revert anything the owner rejects.
+- Volume 13: continue transcribing (§3 step 3) from where the last page in `Vol 13 dawat o tabligh/page-notes/` ends,
+  logging corrections in `reports/vol13-corrections.md`; then §3 steps 4–8.
+- The owner will review `reports/vol02-corrections.md` … `reports/vol12-corrections.md` at leisure; revert anything the owner rejects.
 - Question answering (RAG) over the books: revised plan in `RAG_PLAN.md` (2026-11-06), awaiting the owner's go-ahead;
   transcription stays the priority.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
