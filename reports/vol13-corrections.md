@@ -17,3 +17,4 @@
 | 39 (pr. 38) | «کل من خطر ببالک فہو ہالک … من ذالک» | kept as printed; indexed with the saying «ما خطر ببالک …» | same saying as in earlier volumes |
 | 47 (pr. 46) | «توکل کو اب ایک وقت گزارا» | kept as printed | probably «توکل کر کے» |
 | 50 (pr. 49) | «یہاں مسائل کے نام صفر ہوگا» | kept as printed | «کے نام پر» intended |
+| 55 (pr. 54) | «واہ بے اوت کے اوت مکا مکانہ» | kept as printed | colloquial; wording unclear |
