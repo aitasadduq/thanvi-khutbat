@@ -187,3 +187,7 @@ The owner reviews these and names anything to revert.
 | 512 (pr. 511) | «وما امروا الا لیعبدوا اللہ مخلصین له الدین» | marked as al-Bayyina 98:5 | |
 | 513 (pr. 512) | «اذا مسهم طائف من الشیطان تذکروا فاذا هم مبصرون», «واما ینزغنک من الشیطان نزغ فاستعذ باللہ» | marked as al-A`raf 7:201 and 7:200 | |
 | 513 (pr. 512) | «بسبیل لاتقف عند حد» | kept as printed | «بسبیل لا تقف عند حد» |
+| 514 (pr. 513) | couplet «بر دل سالک ہزاراں غم بود / گر خلالے از بہارش کم شود» | kept as printed; indexed under the common «گر ز باغ دل خلالے کم بود» term | second half differs from other volumes |
+| 514 (pr. 513) | bathing to cure fever | indexed under الحمی من فیح جہنم فابردوہا بالماء | Bukhari 3261 |
+| 515 (pr. 514) | «باوجود میلان کے ان کو میلان معصیت کا ہوا» | kept as printed | «باوجود کمال کے» intended |
+| 515 (pr. 514) | «منشاء اس کا نام واقعی ہے» | kept as printed | «ناواقفی» intended |
