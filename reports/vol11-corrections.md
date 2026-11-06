@@ -86,3 +86,6 @@ The owner reviews these and names anything to revert.
 | 406 (pr. 405) | «ان اللہ غنی عن العالمین» | marked as al-Ankabut 29:6 (ان اللہ لغنی عن العالمین) | 3:97 has فان اللہ غنی عن العالمین; neither matches the print exactly |
 | 406 (pr. 405) | «وتولوا واستغنی اللہ» | marked as al-Taghabun 64:6 | |
 | 407 (pr. 406) | «ومکروا ومکر اللہ واللہ خیر الماکرین» | marked as Al Imran 3:54 | |
+| 408 (pr. 407) | «ووجدک ضالا فهدی» | marked as al-Duha 93:7 | |
+| 408 (pr. 407) | «وما کان لبشر ان یکلمه اللہ … صراط مستقیم» | marked as al-Shura 42:51–52 | |
+| 408 (pr. 407) | «جس کے معنی مقصود الخبر کے ہیں» | kept as printed | probably «مفقود الخبر» |
