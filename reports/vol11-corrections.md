@@ -92,3 +92,5 @@ The owner reviews these and names anything to revert.
 | 411 (pr. 410) | «ولو یؤاخذ اللہ الناس بما کسبوا ما ترک علیها من دابة» | marked as Fatir 35:45 (علی ظهرها) | 16:61 has بظلمهم … علیها; print mixes the two |
 | 412 (pr. 411) | «حضور صلی اللہ علیہ وسلم کی بہت بڑی شان ہے آپ نہ جلاہیں نہ دھنے ہیں» | kept as printed | «حضور» here means the king being addressed; the honorific formula seems added in print |
 | 415 (pr. 414) | «وذروا ظاهر الاثم وباطنه» | marked as al-An`am 6:120 | |
+| 416 (pr. 415) | «ہمارا ظاہر ناپاک معلوم ہو رہا ہے اسی طرح ہمارا باطن بھی ناپاک ہے مگر … پاک معلوم ہو رہا ہے اسی طرح ہمارا باطن بھی ناپاک ہے» | kept as printed | clause repeated in print |
+| 416 (pr. 415) | «کسی صحیح الدماغ ہے کو اپنا حال دکھلاؤ» | kept as printed | stray «ہے» |
