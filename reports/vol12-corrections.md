@@ -27,3 +27,4 @@
 | 135 (pr. 134) | «لایزال طائفة من امتی ظاہرین علی الحق منصورین لا یضرہم من خذلہم» | kept; indexed with the series' existing term «لا یزال طائفۃ من امتی منصورین علی الحق…» | Wording combines two narrations. |
 | 140 (pr. 139) | «ترمذی شریف کی حدیث میں … لا یقبل اللہ صلوة بغیر طہور (سنن النسائی ۱:۸۷)» | kept | The text names Tirmidhi and the printed reference cites Nasai; the hadith is in both (and in Muslim). |
 | 158 (pr. 157) | Arabic note «عشق قلت قد ورد لفظ العشق فی حدیث آخر… وکنت لہا عاشقا (المستدرک…» printed inline after «یہ کہا جا سکتا ہے کہ» | kept inline as printed | It is an editor's insertion (۱۲ ظ style) breaking the author's sentence; the sentence resumes on p. 159. |
+| 177 (pr. 176) | «علمنی ربی فاحسن تعلیمی وادبنی ربی فاحسن تادیبی (لم اجد الحدیث فی موسوعة اطراف الحدیث النبوی الشریف)» | kept with the printed note | The printed reference itself says the wording was not found; «ادبنی ربی فاحسن تادیبی» is known (weak). |
