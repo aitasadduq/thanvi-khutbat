@@ -35,3 +35,4 @@ The owner reviews these and names anything to revert.
 | 277 (pr. 276) | «اس کے کوچہ سے جب اٹھ اہل وفا جاتے ہیں / وہ ہوسناک ہیں جو ر و لقضا جاتے ہیں» | kept as printed | second half unclear in print |
 | 278 (pr. 277) | «لاتفاقون فی اللہ لومۃ لائم» (p. 278) | marked as 5:54 «ولا یخافون لومۃ لائم» | the printed «فی اللہ» is not in the verse; the Quranic words are used |
 | 286 (pr. 285) | «گر ہوائے ایں سفر داری دلا / دامن رہبر بگیر و بس بیا» | kept as printed | the شعر term uses the form in other volumes («و پس برآ») |
+| 291 (pr. 290) | summary paragraph «تواضع کی حقیقت اور ضرورت…» at the foot of p. 290 | moved to the start of اوج قنوج (0291.txt) | it is the next sermon's synopsis, printed below the end of طریق القلندر |
