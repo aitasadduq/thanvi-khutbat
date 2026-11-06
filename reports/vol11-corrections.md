@@ -195,3 +195,6 @@ The owner reviews these and names anything to revert.
 | 517 (pr. 516) | «فرضیت منسوخ ہو کر منسوخیت باقی رہ گئی» | kept as printed | «مسنونیت» intended |
 | 517 (pr. 516) | «تہجد کی قضاؤں میں کر لے» | kept as printed | probably «دن میں» or «قضا دن میں» |
 | 517 (pr. 516) | «وهو الذی جعل اللیل والنهار خلفة لمن اراد ان یذکر» | marked as al-Furqan 25:62 | |
+| 518 (pr. 517) | Ghalib half-line «ہم توبہ جب کریں گے شراب و کباب سے» | indexed under the full couplet term (order «کباب و شراب» there) | |
+| 518 (pr. 517) | «وما انت اعلم به منی» | indexed under اللہم اغفر لی خطیئتی… | Bukhari 6398 |
+| 519 (pr. 518) | «ورتل القرآن ترتیلا» | marked as al-Muzzammil 73:4 | |
