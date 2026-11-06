@@ -95,3 +95,5 @@ The owner reviews these and names anything to revert.
 | 416 (pr. 415) | «ہمارا ظاہر ناپاک معلوم ہو رہا ہے اسی طرح ہمارا باطن بھی ناپاک ہے مگر … پاک معلوم ہو رہا ہے اسی طرح ہمارا باطن بھی ناپاک ہے» | kept as printed | clause repeated in print |
 | 416 (pr. 415) | «کسی صحیح الدماغ ہے کو اپنا حال دکھلاؤ» | kept as printed | stray «ہے» |
 | 419 (pr. 418) | «بس لعاب دہن کے لگانے سے روزہ بھی نہیں ٹوٹتا» | kept as printed | probably «نگلنے» |
+| 420 (pr. 419) | «حضرت مولانا رفیع الدین صاحب رحمۃ اللہ علیہ کے والد» | identity not given | Maulana Rafi`-ud-Din of Deoband (indexed with him); the father is unnamed |
+| 421 (pr. 420) | «بالکل وہ دردہ ہی ہو جاؤ» | kept as printed | sense unclear in print |
