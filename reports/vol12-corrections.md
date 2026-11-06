@@ -53,3 +53,4 @@
 | 278 (pr. 277) | «خدا کا قرب بندہ کی طرف باعتبار توجہ کے بندہ کا قرب … التوجہ کو مستلزم نہیں» | kept as printed | The Arabic phrase begun at the foot of p. 276 («قرب عبد الی اللہ من حیث») breaks off; the Urdu gloss and «التوجہ» are run together. |
 | 280 (pr. 279) | «کہ زیدم بیازرد وعمروم نخست» | text kept as printed; index uses «بخست» | «نخست» is a dot slip for «بخست» ("wounded"), which the translation «زخمی کیا» follows. |
 | 280 (pr. 279) | The story of «اما تذکر لیلۃ اللبن» | indexed under the existing story term (pilot volume, where the saint is unnamed), with Bayazid Bistami named here | Same story. |
+| 281 (pr. 280) | «حلم حلق باتو مواسا کند» | text kept as printed; index uses the standard «حلم حق باتو مواسا ہا کند» already used on p. 234 | «حلق» for «حق» is a printer's slip. |
