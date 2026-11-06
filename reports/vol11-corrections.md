@@ -40,3 +40,4 @@ The owner reviews these and names anything to revert.
 | 296 (pr. 295) | «وعد اللہ لا یخلف اللہ المیعاد» | marked as al-Rum 30:6 «وعد اللہ لا یخلف اللہ وعدہ» | the printed ending المیعاد mixes 30:6 with 39:20 (لا یخلف اللہ المیعاد); 30:6 wording used |
 | 315 (pr. 314) | «اور یہ آیت ذمیم خلق ہے» | kept as printed | probably «یہ ایک ذمیم خلق ہے»; left unchanged |
 | 317 (pr. 316) | «ان اللہ لا یحب المستکبرین» | marked as al-Nahl 16:23 «انہ لا یحب المستکبرین» | the book has ان اللہ; the Quranic words are انہ |
+| 318 (pr. 317) | «الیس فی جہنم مثوی للمتکبرین» | marked as al-Zumar 39:60 | the phrase also ends 39:72 and 40:76 in other forms; 39:60 has the exact wording |
