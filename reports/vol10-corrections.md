@@ -44,3 +44,5 @@ The owner reviews these and names anything to revert.
 | 340 (pr. 339) | «ابر و باد و مہ و خورشید و فلک در کار اند» | both halves in the شعر term | unified with Vol 7 (term now carries both halves) |
 | 344 (pr. 343) | «مجموعہ احسن کے تابع ہوتا ہے» | «اخس» | misprint; the rule is that a compound follows its lower part (اخس), which is why وجودی + عدمی is عدمی |
 | toc | «روزہ اور مشغولیت» | «روزہ دار اور مشغولیت» | toc follows the page heading (p. 348) |
+| 352 (pr. 351) | «اور التفات امر غیر اختیاری ہے» | «امر اختیاری» | misprint; the argument is that وسوسہ is غیر اختیاری but التفات is اختیاری, so «ولینتہ» commands leaving التفات |
+| Vols 2, 7, 10 | combined term «ذالک صریح الایمان، فلیستعذ باللہ ولینتہ» | split into «ذاک صریح الایمان» and «یاتی الشیطان احدکم … فلیستعذ باللہ ولینتہ» | two different hadiths; both appear on each page |
