@@ -38,3 +38,5 @@ The owner reviews these and names anything to revert.
 | 322 (pr. 321) | «وکان سعیکم مشکورا» | ﴿76:22 وَّكَانَ سَعۡيُكُمۡ مَّشۡكُوۡرًا﴾ | ayah marked; it is from al-Dahr 76:22 |
 | 329 (pr. 328) | «معصیت کو معصیت سمجھ کر کرنا اہل ہے» | «اہون» | misprint; the comparison (اس سے کہ …) needs اہون (lighter) |
 | 331–332 (pr. 330–331) | «افطر الرؤیۃ» (twice) | kept as printed | the author's short form of «صوموا لرؤیتہ وافطروا لرؤیتہ», repeated the same way on the next page; indexed under the full hadith |
+| toc | «سیویوں کی تخصیص» | «سویوں کی تخصیص» | toc follows the page heading (p. 332) |
+| 334 (pr. 333) | «تشفعان» glossed as روزہ و نماز | kept as printed | the known hadith is «الصیام والقرآن یشفعان للعبد» (روزہ و قرآن); the author's gloss is kept and the page is indexed under that hadith |
