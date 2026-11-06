@@ -36,3 +36,5 @@
 | 229 (pr. 228) | «تو وہ یوں کہے گا۔ فانہم لا یعلمون (الٰہی میری قوم کی آنکھیں کھول دے…)» | kept as printed | The quotation lacks «اللہم اہد قومی»; the translation shows the full dua was meant. Also the sentence before it (lover asking the beloved to press the rival) does not lead naturally to this dua; probably a line was lost in setting. |
 | 231 (pr. 230) | «مسلمان کا عقیدہ تو یہ ہے۔» followed directly by «تکمیل کی فکر نہیں کرتے…» | kept as printed | A line or more appears to have dropped out; the creed being introduced is not stated. |
 | 235 (pr. 234) | «تو تجھے ذلیل کرتے» | kept as printed | Probably «کرے»; a printer's slip in the translation of the couplet. |
+| 243 (pr. 242) | «بعض جہلاء و کفر کا حضور پر یہ اعتراض» | kept as printed | Probably «کفار»; a printer's slip. |
+| 244 (pr. 243) | «اور ان کانوں کو اس کی باتیں سننے دوں» | kept as printed | The Persian «شنیدن ندہم» needs «نہ سننے دوں»; a «نہ» has dropped out of the translation. |
