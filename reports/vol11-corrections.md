@@ -170,3 +170,8 @@ The owner reviews these and names anything to revert.
 | 499 (pr. 498) | «یرید اللہ بکم الیسر ولا یرید بکم العسر ولا یکلف اللہ نفسا الا وسعها» | marked as al-Baqara 2:185 and 2:286 | two verses joined in print |
 | 499 (pr. 498) | «یہ امر اور اغلال کہلاتے ہیں» | kept as printed | «اصر و اغلال» intended |
 | 500 (pr. 499) | «اگر ایک بچنا چاہے تو ضرور کسی قدر دقت پیش نہیں آتی ہے» | kept as printed | «نہیں» seems misplaced («دقت پیش آتی ہے») |
+| 502 (pr. 501) | «ثم اورثنا الکتاب الذین اصطفینا من عبادنا … باذن اللہ» | marked as Fatir 35:32 | |
+| 502 (pr. 501) | «ضروری اشتغال دنیا کیسے منافع دین ہو سکتا ہے» | kept as printed | «منافی دین» intended |
+| 503 (pr. 502) | «المرء یوخذ باقراره بالجهله» | indexed under المرء یؤخذ باقرارہ | «بالجهله» unclear in print |
+| 503 (pr. 502) | «لا تنابزوا بالالقاب بئس الاسم الفسوق بعد الایمان» | marked as al-Hujurat 49:11 | |
+| 503 (pr. 502) | «لیس لنا مثل السوء» | indexed as a hadith term | Bukhari 2622 (on taking back a gift) |
