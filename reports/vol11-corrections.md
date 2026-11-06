@@ -23,3 +23,4 @@ The owner reviews these and names anything to revert.
 | 139 (pr. 138) | «الانبیاء اخوۃ من علات واماتہم شتی» | «وامہاتہم» | misprint |
 | 148 (pr. 147) | «ثنی رسید» | kept as printed | probably «مثنی رسید» (counterfoil); left unchanged |
 | 165 (pr. 164) | «تحصیل مجوث عنہ کی رعایت نہیں کہ» | kept as printed | phrase unclear in print (perhaps «تسہیل مبحوث عنہ کی رعایت نہیں»); left as is |
+| 190 (pr. 189) | «ماقدروا اللہ حق قدرہ» | marked as Hajj 22:74 | the phrase without و matches 22:74 exactly (also in 6:91 and 39:67 with و) |
