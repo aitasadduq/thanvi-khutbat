@@ -13,3 +13,4 @@ The owner reviews these and names anything to revert.
 | 51 (pr. 50) | «ترا عشق ہمچو زآب و گل / زباید مہ صبر و آرام و دل» | kept as printed | the couplet elsewhere is «ترا عشق ہمچو خودے ز آب و گل / رباید ہمہ صبر و آرام دل»; the شعر term uses that form |
 | 72 (pr. 71) | «ور شود پر خود شہیدا و را مشو» | «ور شود پر خوں شہید آں را مشو» | misprint (خود → خوں); couplet as in Vol 1 |
 | 73 (pr. 72) | «بدم گفتی و خور سندم خاک اللہ نکو گفتی» | «و خرسندم عفاک اللہ» | misprint; couplet as in other volumes |
+| toc | «عقیدہ صحیح» (p. 105) | «عقیدہ صحیحہ» | toc follows the page heading |
