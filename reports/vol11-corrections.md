@@ -109,3 +109,4 @@ The owner reviews these and names anything to revert.
 | 446 (pr. 445) | «میرے ایک دوست» with شدید قبض, sent to Lucknow | indexed under the مولوی صادق الیقین story | same story told by name elsewhere |
 | 447 (pr. 446) | «ولن یمل اللہ حتی تملوا» | indexed under ان اللہ لا یمل حتی تملوا | Bukhari 43 «فان اللہ لا یمل حتی تملوا» |
 | 447 (pr. 446) | «ہمارے حضرت استاد» (rule on revising lessons) | indexed with مولانا محمد یعقوب نانوتویؒ | the author's usual «استاد»; not named on this page |
+| 448 (pr. 447) | summary line «موانع الطریق کی تفصیل…» printed at the foot of p. 447 | moved to the رفع الموانع title page (0448.txt) | it belongs to the next sermon |
