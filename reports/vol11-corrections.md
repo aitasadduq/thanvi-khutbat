@@ -52,3 +52,6 @@ The owner reviews these and names anything to revert.
 | 360 (pr. 359) | «صل قائما…» (taught in Urdu: قیام، قعود، اضطجاع، اشارہ) | indexed as صل قائما فان لم تستطع فقاعدا فان لم تستطع فعلی جنب | Bukhari 1117; the اشارہ step is from other narrations |
 | 361 (pr. 360) | dua «اسئلک من خشیتک ما تحول بہ بیننا وبین معاصیک»; footnote says it was not found | kept as printed; indexed under اللہم اقسم لنا من خشیتک… | Tirmidhi 3502 (اللهم اقسم لنا من خشيتك ما تحول به بيننا وبين معاصيك) |
 | 361 (pr. 360) | «انہ لا ییئس من روح اللہ الا القوم الکافرون» | marked as Yusuf 12:87 | |
+| 362 (pr. 361) | «اس کے شہادت کا رفع» | «شبہات» | misprint |
+| 362 (pr. 361) | «اپنے وجود کرم کو اسراف» | «جود و کرم» | misprint |
+| 363 (pr. 362) | «لاغوینهم اجمعین الا عبادک منهم المخلصین» | marked as Sad 38:82–83 | same wording in al-Hijr 15:39–40 with ولاغوینهم |
