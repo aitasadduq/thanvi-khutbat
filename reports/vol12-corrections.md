@@ -66,3 +66,4 @@
 | 318 (pr. 317) | «دل فدائے اوشد و جان تیز ہم» | text kept as printed; index uses the standard «و جاں نیز ہم» | «تیز» is a dot slip for «نیز». |
 | 320 (pr. 319) | «اور پان پانی کا نر؟» | kept as printed | Unclear phrase; probably a play on «پان پانی کا»; not emended. |
 | 322 (pr. 321) | «ان کو جواب مت دو دو ہی کا دو خشک جواب دے دو» | kept as printed | The words appear garbled (perhaps «یا دو ہی کلمہ کا خشک جواب»); not emended. |
+| 328 (pr. 327) | «دوسری قافیہ دار عبادت تجویز کر لیتا ہوں» | kept as printed | «عبادت» for «عبارت»; a printer's slip. |
