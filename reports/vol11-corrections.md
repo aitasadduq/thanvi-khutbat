@@ -59,3 +59,5 @@ The owner reviews these and names anything to revert.
 | 365 (pr. 364) | «کلمة الحکمة ضالة المؤمن» | indexed under الحکمة ضالة المؤمن فحیث وجدہا فہو احق بہا | Tirmidhi 2687, Ibn Majah 4169 |
 | 366 (pr. 365) | «مرج البحرین یلتقیان بینهما برزخ لا یبغیان» | marked as al-Rahman 55:19–20 | |
 | 366 (pr. 365) | «من قال برائہ الخ» | indexed under من قال فی القرآن برأیہ فلیتبوأ مقعدہ من النار | Tirmidhi 2950–2951 |
+| 371 (pr. 370) | «ولا تقتلوا انفسکم» | marked as al-Nisa 4:29 | |
+| 371 (pr. 370) | «لا تلقوا بایدیکم الی التهلکة» | marked as al-Baqara 2:195 | |
