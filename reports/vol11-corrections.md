@@ -100,3 +100,4 @@ The owner reviews these and names anything to revert.
 | 425 (pr. 424) | «رہا یہ کہ اس کا ضرر کیا ہے تو جس طرح ترک لایعنی نہ ہو سکے تو اس کی کثرت تو ترک کرنی چاہیے» | kept as printed | line repeated in print |
 | 426 (pr. 425) | «کثرة الکلام تقسو القلب» | indexed under لا تکثروا الکلام بغیر ذکر اللہ… | Tirmidhi 2411 |
 | 426 (pr. 425) | «کثرة الضحک تمیت القلب» | indexed under ایاکم وکثرة الضحک فانها تمیت القلب | Ibn Majah 4193 has «فان کثرة الضحک تمیت القلب» |
+| 428 (pr. 427) | Rumi half-line «بس ستارہ آتش از آہن چکید» | kept as printed (one half only) | |
