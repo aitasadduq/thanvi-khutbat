@@ -16,3 +16,4 @@
 | 56 (pr. 55) | «لا تحزن علیهم ان لم یؤمنوا» | kept in «» as a paraphrase, no ayah markup | Not a verse as worded: blends «ولا تحزن علیہم» (النحل ۱۲۷) with «ان لم یؤمنوا» (الکہف ۶); the author gives it as the meaning of the verse. |
 | 59 (pr. 58) | «صرفنا الآیات صرفنا فی هذا القرآن وامثالها» | ﴿ولقد صرفنا فی ہذا القرآن﴾ (بنی اسرائیل ۴۱) | Garbled quotation; restored to the Qur'anic wording. |
 | 59 (pr. 58) | translation of الاعراف ۱۶۴ with empty brackets «( )» | brackets removed | Typesetting gap. |
+| 72 (pr. 71) | «فانتظروا انا منتظرون» | kept in «», no ayah markup | Not verbatim: blends «فانتظروا» (یونس ۲۰) with «انتظروا انا منتظرون» (الانعام ۱۵۸، ہود ۱۲۲). |
