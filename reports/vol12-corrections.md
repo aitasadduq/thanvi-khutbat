@@ -13,3 +13,4 @@
 | 35 (pr. 34) | «واذاقال ابراهیم رب اجعل هذا بلداً امناً» | ﴿واذ قال ابراہیم …﴾ (البقرة ۱۲۶) | Misprint «واذا» for «واذ»; ayah filled from the Qur'an text. |
 | 45 (pr. 44) | «کارکن کاربگذار ازگفتار / کاندرین راه کار باید کار» | «کار کن کار بگذر از گفتار / اندریں راہ کار باید کار» | Normalised to the form used across the series. |
 | 45 (pr. 44) | «لا اسئلکم علیه اجرا» (no reference) | ﴿الانعام ۹۰﴾ | Identified; same wording also in الشوریٰ ۲۳. |
+| 56 (pr. 55) | «لا تحزن علیهم ان لم یؤمنوا» | kept in «» as a paraphrase, no ayah markup | Not a verse as worded: blends «ولا تحزن علیہم» (النحل ۱۲۷) with «ان لم یؤمنوا» (الکہف ۶); the author gives it as the meaning of the verse. |
