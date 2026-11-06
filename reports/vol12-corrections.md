@@ -78,3 +78,4 @@
 | 372 (pr. 371) | Saadi's glow-worm couplet printed «ببیں کآتشیں کرمک خاک زاد» | text kept as printed; index uses the existing Vol term «نہ بینی کہ آں کرمک پاک زاد» | Variant wording of the same Bustan line. |
 | 372 (pr. 371) | «اگر آفتاب است یک ذرہ نیست…» | kept as printed | The couplet is printed twice in succession (dittography). |
 | 376 (pr. 375) | «پھر وہ خلاف ادب اور قابل علامت کیسے ہو سکتے ہیں» | kept as printed | «علامت» for «ملامت»; a printer's slip. |
+| 379 (pr. 378) | «کاش ان پر حق تعالیٰ کی عظمت منکشف ہوتی تو نظر آتا کہ ہم کیا کر رہے ہیں یہ بالکل اندھے ہیں…» | kept as printed | The clause is printed twice (dittography). |
