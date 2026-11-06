@@ -12,7 +12,8 @@ Update the **Status** and **Next steps** sections at the end of every working se
   page + 1; page images in the scratchpad (`v11/h`). `toc.tsv` built from the فہرست (11 sermons, printed pp. 11–526):
   التقویٰ 11, المرابطہ 42, المجاہدہ 99, التحصیل والتسہیل مع التکمیل والتعدیل 133, تکمیل الاعمال بتبدیل الاحوال 181,
   طریق القلندر 221, اوج قنوج 291, دستور سہارنپور 349, ترک مالا یعنی 396, رفع الموانع 448, سیرت صوفی 496.
-  Next: transcribe التقویٰ from p. 11 (file `0011.txt`). Corrections in `reports/vol11-corrections.md`.
+  Transcribed: التقویٰ (0011), printed pp. 11–41. Next: المرابطہ (p. 42, new file `0042.txt`).
+  Corrections in `reports/vol11-corrections.md`.
 
 - **Volume 10 (فضائل صوم و صلوٰۃ) — done, awaiting the owner's review.** Folder `Vol 10 fazail e saum o salat/`. PDF page =
   printed page + 1; text printed pp. 15–448 (12 sermons), all transcribed (files 0015, 0074, 0088, 0109, 0146, 0163,
@@ -200,7 +201,7 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Volume 11: transcribe from التقویٰ (printed p. 11, file `0011.txt`), logging corrections in `reports/vol11-corrections.md`.
+- Volume 11: continue from المرابطہ (printed p. 42, new file `0042.txt`), logging corrections in `reports/vol11-corrections.md`.
 - The owner will review `reports/vol02-corrections.md` … `reports/vol10-corrections.md` at leisure; revert anything the owner rejects.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
   `iatasadduq/thanvi-khutbat-site` and turning on GitHub Pages (only after the owner approves).
