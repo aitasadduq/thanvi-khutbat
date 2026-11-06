@@ -137,3 +137,7 @@ The owner reviews these and names anything to revert.
 | 471 (pr. 470) | «خدا سے دوسروں کے سامنے روؤ» | kept as printed | sense unclear in print (perhaps «خدا کے سامنے روؤ، دوسروں کے سامنے نہیں») |
 | 472 (pr. 471) | «دیوانے ہو گیا» | kept as printed | probably «دیوانے ہو گئے ہو» |
 | 472 (pr. 471) | companions not letting the Prophet's spittle fall | indexed with a sub-entry naming the Hudaybiya narration (Bukhari 2731) | the sermon does not name the source |
+| 473 (pr. 472) | «فان محمدا قدمات» | «قد مات» | spacing misprint |
+| 473 (pr. 472) | «وما محمد الا رسول … فلن یضر اللہ شیئا» | marked as Al Imran 3:144 | |
+| 474 (pr. 473) | «وما کان لنفس ان تموت الا باذن اللہ کتابا مؤجلا», «انک میت وانهم میتون» | marked as 3:145 and al-Zumar 39:30 | |
+| 474 (pr. 473) | «لم یکن الذین کفروا … فیها کتب قیمة» | marked as al-Bayyina 98:1–3 | |
