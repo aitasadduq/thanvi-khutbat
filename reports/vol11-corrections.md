@@ -41,3 +41,4 @@ The owner reviews these and names anything to revert.
 | 315 (pr. 314) | «اور یہ آیت ذمیم خلق ہے» | kept as printed | probably «یہ ایک ذمیم خلق ہے»; left unchanged |
 | 317 (pr. 316) | «ان اللہ لا یحب المستکبرین» | marked as al-Nahl 16:23 «انہ لا یحب المستکبرین» | the book has ان اللہ; the Quranic words are انہ |
 | 318 (pr. 317) | «الیس فی جہنم مثوی للمتکبرین» | marked as al-Zumar 39:60 | the phrase also ends 39:72 and 40:76 in other forms; 39:60 has the exact wording |
+| 325 (pr. 324) | couplet «آزمودم عقل دور اندیش را…» printed twice | kept as printed | duplicated in print with two different translations |
