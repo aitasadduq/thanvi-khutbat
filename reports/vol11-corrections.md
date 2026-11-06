@@ -191,3 +191,7 @@ The owner reviews these and names anything to revert.
 | 514 (pr. 513) | bathing to cure fever | indexed under الحمی من فیح جہنم فابردوہا بالماء | Bukhari 3261 |
 | 515 (pr. 514) | «باوجود میلان کے ان کو میلان معصیت کا ہوا» | kept as printed | «باوجود کمال کے» intended |
 | 515 (pr. 514) | «منشاء اس کا نام واقعی ہے» | kept as printed | «ناواقفی» intended |
+| 516 (pr. 515) | «وشیء من الدلجة» | indexed under سددوا وقاربوا واغدوا وروحوا وشیء من الدلجة | Bukhari 39 |
+| 517 (pr. 516) | «فرضیت منسوخ ہو کر منسوخیت باقی رہ گئی» | kept as printed | «مسنونیت» intended |
+| 517 (pr. 516) | «تہجد کی قضاؤں میں کر لے» | kept as printed | probably «دن میں» or «قضا دن میں» |
+| 517 (pr. 516) | «وهو الذی جعل اللیل والنهار خلفة لمن اراد ان یذکر» | marked as al-Furqan 25:62 | |
