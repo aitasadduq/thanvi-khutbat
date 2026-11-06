@@ -42,3 +42,4 @@ The owner reviews these and names anything to revert.
 | 334 (pr. 333) | «تشفعان» glossed as روزہ و نماز | kept as printed | the known hadith is «الصیام والقرآن یشفعان للعبد» (روزہ و قرآن); the author's gloss is kept and the page is indexed under that hadith |
 | 340 (pr. 339) | translation of «ہر عیب کہ سلطان بپسندد ہنر است»: «وہ عیب ہے» | «وہ ہنر ہے» | misprint; the line says the fault becomes a virtue |
 | 340 (pr. 339) | «ابر و باد و مہ و خورشید و فلک در کار اند» | both halves in the شعر term | unified with Vol 7 (term now carries both halves) |
+| 344 (pr. 343) | «مجموعہ احسن کے تابع ہوتا ہے» | «اخس» | misprint; the rule is that a compound follows its lower part (اخس), which is why وجودی + عدمی is عدمی |
