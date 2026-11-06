@@ -51,3 +51,5 @@ The owner reviews these and names anything to revert.
 | 360 (pr. 359) | «ایک مردار پر عاشق کر دیا تھا» | kept as printed | the woman is later called «بازاری عورت»; «مردار» may be deliberate contempt or a misprint |
 | Vol 1 p. 303 | «القاہ فی الیم متکوفا» | «مکتوفا» | misprint; the شعر term now carries both halves, unified with Vol 10 |
 | 362 (pr. 361) | «تو نیز بر سر بام آ عجب تماشائیست» | kept as printed | other volumes have «کہ خوش تماشائیست»; the شعر term uses the unified form |
+| 366 (pr. 365) | «حدیث کے اشارہ نے تو یہ معلوم ہوتا ہے» | «اشارہ سے» | misprint |
+| all vols | «ما نبودیم و تقاضا ما نبود» (half or with «(رومی)»); «کان رسول اللہ … یاکل اکلا ذریعا» | unified to the full couplet and «کان یاکل اکلا ذریعا» | index consistency |
