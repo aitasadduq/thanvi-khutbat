@@ -102,3 +102,4 @@ The owner reviews these and names anything to revert.
 | 426 (pr. 425) | «کثرة الضحک تمیت القلب» | indexed under ایاکم وکثرة الضحک فانها تمیت القلب | Ibn Majah 4193 has «فان کثرة الضحک تمیت القلب» |
 | 428 (pr. 427) | Rumi half-line «بس ستارہ آتش از آہن چکید» | kept as printed (one half only) | |
 | 437 (pr. 436) | «اب مناظرہ میں پڑنا …رہے» | marked [—] | a word is cut off in the scan (probably «چھوڑ دو» or «ٹھیک نہیں»); not guessed |
+| 438 (pr. 437) | «یہ ضروری ہے کہ جواب نہ دینے سے بعض لوگ اس کو ناواقف کہیں گے» | kept as printed | probably «یہ ضرور ہے» |
