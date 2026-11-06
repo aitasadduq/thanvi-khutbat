@@ -106,3 +106,6 @@ The owner reviews these and names anything to revert.
 | 440 (pr. 439) | «بعض لوگوں کو اپنی اصلاح کا اہتمام ہوتا ہے دوسروں کے کاموں میں لگے رہتے ہیں» | kept as printed | «نہیں» seems dropped |
 | 441 (pr. 440) | «سب ہی اس مرض میں مبتلا ہیں کہ لایعنی امور سے احتراز کرتے» | kept as printed | «نہیں» seems dropped |
 | 445 (pr. 444) | couplet «اے قوم بحج رفتہ…» printed twice | kept as printed | repeated in the sermon |
+| 446 (pr. 445) | «میرے ایک دوست» with شدید قبض, sent to Lucknow | indexed under the مولوی صادق الیقین story | same story told by name elsewhere |
+| 447 (pr. 446) | «ولن یمل اللہ حتی تملوا» | indexed under ان اللہ لا یمل حتی تملوا | Bukhari 43 «فان اللہ لا یمل حتی تملوا» |
+| 447 (pr. 446) | «ہمارے حضرت استاد» (rule on revising lessons) | indexed with مولانا محمد یعقوب نانوتویؒ | the author's usual «استاد»; not named on this page |
