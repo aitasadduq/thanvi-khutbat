@@ -72,3 +72,4 @@ The owner reviews these and names anything to revert.
 | toc | «کلائی تقویٰ», «تفریق و تنفید» | «کلابی تقویٰ», «تفریق و تنفیر» | toc follows the page headings (pp. 406–407); the text explains «تقویٰ کلابی» from کتا |
 | 416 (pr. 415) | «والنفس کالعقل ان تہملہ سب علی» | «والنفس کالطفل ان تہملہ شب علی» | misprints (the Urdu gloss says بچہ); as in Vols 6 and 8 |
 | toc | «تذلل للخالق» | «تذلل للخلائق» | toc follows the page heading (p. 416), though the text that follows argues for تذلل للخالق |
+| 421 (pr. 420) | year of التہذیب نمبر ۲ | read as ۱۳۳۴ھ | the digits are blurred in the scan (could be ۱۳۳۲ or ۱۳۳۴); ۱۳۳۴ matches التہذیب نمبر ۱ (۲۹ شعبان ۱۳۳۴ھ) |
