@@ -54,3 +54,5 @@
 | 280 (pr. 279) | «کہ زیدم بیازرد وعمروم نخست» | text kept as printed; index uses «بخست» | «نخست» is a dot slip for «بخست» ("wounded"), which the translation «زخمی کیا» follows. |
 | 280 (pr. 279) | The story of «اما تذکر لیلۃ اللبن» | indexed under the existing story term (pilot volume, where the saint is unnamed), with Bayazid Bistami named here | Same story. |
 | 281 (pr. 280) | «حلم حلق باتو مواسا کند» | text kept as printed; index uses the standard «حلم حق باتو مواسا ہا کند» already used on p. 234 | «حلق» for «حق» is a printer's slip. |
+| 286 (pr. 285) | «یکے داں دیکے خواں دیکے بیں» | text kept as printed; index «یکے داں یکے خواں یکے بیں» | «دیکے» is «و یکے» run together. |
+| 286 (pr. 285) | «ایک بی بی کے شوہر اور بچے باپ سب کام آ گئے … رسول اللہ صلی اللہ علیہ وسلم) بھی سلامت ہیں» | kept as printed | The opening bracket is missing; the story is the Ansari woman at Uhud (Sirat Ibn Hisham). |
