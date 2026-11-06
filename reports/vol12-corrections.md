@@ -60,3 +60,4 @@
 | 292 (pr. 291) | «دوست آں باشد کہ گیرد دوست دست» | text kept as printed; index uses the standard «گیرد دست دوست», as the speaker himself repeats it | Printer's transposition. |
 | 295 (pr. 294) | «(وہ جگہ بہشت ہے جہاں کوئی تکلیف نہ ہو کسی کو کسی سے تنگی ہو۔)» | kept as printed | A «نہ» has dropped from the second clause («کسی کو کسی سے تنگی نہ ہو»). |
 | 299 (pr. 298) | «انی وجہت وجہی للذی فطرنی» | kept as printed, without ayah markup; indexed under الانعام ۷۹ | The quotation merges al-An'am 6:79 («للذی فطر السموات والارض») with Ya-Sin 36:22 («الذی فطرنی»). |
+| 308 (pr. 307) | «من اذی لی ولیا فقد اذنتہ بالحرب» | text kept as printed; indexed under the existing hadith term «من عادی لی ولیا» | The Bukhari wording is «من عادی»; «من آذی» is the Bayhaqi variant the footnote cites. |
