@@ -22,3 +22,4 @@ The owner reviews these and names anything to revert.
 | 129 (pr. 128) | «جو لوگ نفاق و اتحاد کا لکچر دیتے ہیں» | «اتفاق و اتحاد» | misprint; the passage is about lectures on اتفاق و اتحاد |
 | 139 (pr. 138) | «الانبیاء اخوۃ من علات واماتہم شتی» | «وامہاتہم» | misprint |
 | 148 (pr. 147) | «ثنی رسید» | kept as printed | probably «مثنی رسید» (counterfoil); left unchanged |
+| 165 (pr. 164) | «تحصیل مجوث عنہ کی رعایت نہیں کہ» | kept as printed | phrase unclear in print (perhaps «تسہیل مبحوث عنہ کی رعایت نہیں»); left as is |
