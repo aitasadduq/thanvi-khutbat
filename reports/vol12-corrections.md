@@ -42,3 +42,4 @@
 | 251 (pr. 250) | «اس اختلاف جہات و تباعین ہیئات سے» | kept as printed | «تباعین» is probably «تباین»; a printer's slip. |
 | 253 (pr. 252) | Hazrat Umar's saying printed «انی لا علم انک لحجر لا تضرو لا تنفع دلولا … قبلک ماقبلتک» | text: spacing normalised to «لا تضر و لا تنفع ولو لا», otherwise as printed; index: standard wording «انی لاعلم انک حجر … یقبلک ما قبلتک» | Printer's run-ons; the narration is in Bukhari and Muslim. |
 | 254 (pr. 253) | Hazrat Ali's reply printed «بلی اند ینفع … یشهد لمن قبل یوم القیامة» | text: «انہ ینفع» and «لمن قبلہ»; index uses the same | «اند» is a slip for «انہ»; «قبل» lacks its pronoun. The speaker himself adds «او کما قال» and «اگر بسند صحیح ثابت ہو» (the report is in al-Hakim and is weak). |
+| 255 (pr. 254) | «(حضرت معاویہؓ کو خلافت دیدی» | kept as printed | The opening bracket is never closed. |
