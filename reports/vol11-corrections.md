@@ -166,3 +166,6 @@ The owner reviews these and names anything to revert.
 | 495 (pr. 494) | «اس میں نہ کہیں وضع ہو جائیں» | kept as printed | «وضع» = deducted |
 | toc | رفع الموانع had no «تمہید» row | added «تمہید» p. 449 | matches the page heading |
 | 495 (pr. 494) | summary «طرز زندگی کا دستور العمل…» printed at the foot of p. 494 | moved to the سیرت صوفی title page (0496.txt) | it belongs to the next sermon |
+| 498 (pr. 497) | Arabic of al-Muzzammil printed through «ومهلهم قلیلا» (73:11), label says «آیت ۱ تا نمبر ۸» | marked as 73:1–11 | the label is wrong; the Urdu translation runs further, to 73:14 |
+| 499 (pr. 498) | «یرید اللہ بکم الیسر ولا یرید بکم العسر ولا یکلف اللہ نفسا الا وسعها» | marked as al-Baqara 2:185 and 2:286 | two verses joined in print |
+| 499 (pr. 498) | «یہ امر اور اغلال کہلاتے ہیں» | kept as printed | «اصر و اغلال» intended |
