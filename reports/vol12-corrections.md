@@ -35,3 +35,4 @@
 | 228 (pr. 227) | «چند روزے جہد کن باقی بخند» (only the second half printed) | kept as printed; index term gives the full couplet | First half as quoted on p. 105 of this volume. |
 | 229 (pr. 228) | «تو وہ یوں کہے گا۔ فانہم لا یعلمون (الٰہی میری قوم کی آنکھیں کھول دے…)» | kept as printed | The quotation lacks «اللہم اہد قومی»; the translation shows the full dua was meant. Also the sentence before it (lover asking the beloved to press the rival) does not lead naturally to this dua; probably a line was lost in setting. |
 | 231 (pr. 230) | «مسلمان کا عقیدہ تو یہ ہے۔» followed directly by «تکمیل کی فکر نہیں کرتے…» | kept as printed | A line or more appears to have dropped out; the creed being introduced is not stated. |
+| 234 | «تو تجھے ذلیل کرتے» | kept as printed (likely «کرے») | — |
