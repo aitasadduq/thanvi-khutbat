@@ -11,3 +11,5 @@
 | 30 (pr. 29) | «ومن اهل الکتاب … مادمت علیه قائما» with «(۱۲ ظ)» | marked as Al Imran 3:75; marker kept | |
 | 32 (pr. 31) | «سو اس معنی ہیں وہ کسی کو کافر نہیں بناتے» | kept as printed | «اس معنی میں» |
 | 35 (pr. 34) | «واذاقال ابراهیم رب اجعل هذا بلداً امناً» | ﴿واذ قال ابراہیم …﴾ (البقرة ۱۲۶) | Misprint «واذا» for «واذ»; ayah filled from the Qur'an text. |
+| 45 (pr. 44) | «کارکن کاربگذار ازگفتار / کاندرین راه کار باید کار» | «کار کن کار بگذر از گفتار / اندریں راہ کار باید کار» | Normalised to the form used across the series. |
+| 45 (pr. 44) | «لا اسئلکم علیه اجرا» (no reference) | ﴿الانعام ۹۰﴾ | Identified; same wording also in الشوریٰ ۲۳. |
