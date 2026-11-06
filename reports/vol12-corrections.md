@@ -49,3 +49,4 @@
 | 265 (pr. 264) | «وہ اس کے خلاف (… شائع بھی) کیونکر کر سکتے تھے» | kept as printed | The editor's bracketed note interrupts the sentence. |
 | 271 (pr. 270) | «کوئی صورت کچی ہو … اس کچی صورت سنانے» | kept as printed | «صورت» for «سورت»; the same page also prints «سورت». |
 | 271 (pr. 270) | «برتن دینے والا اقرضدار ہو گیا» | kept as printed | Stray «ا» before «قرضدار». |
+| 275 (pr. 274) | «بگذارند وہمہ طرۂ یارے گیرند» | text kept as printed; index uses the standard «و خم طرہ» already in the index | «وہمہ» for «و خم» is a printer's slip. |
