@@ -43,3 +43,4 @@ The owner reviews these and names anything to revert.
 | 340 (pr. 339) | translation of «ہر عیب کہ سلطان بپسندد ہنر است»: «وہ عیب ہے» | «وہ ہنر ہے» | misprint; the line says the fault becomes a virtue |
 | 340 (pr. 339) | «ابر و باد و مہ و خورشید و فلک در کار اند» | both halves in the شعر term | unified with Vol 7 (term now carries both halves) |
 | 344 (pr. 343) | «مجموعہ احسن کے تابع ہوتا ہے» | «اخس» | misprint; the rule is that a compound follows its lower part (اخس), which is why وجودی + عدمی is عدمی |
+| toc | «روزہ اور مشغولیت» | «روزہ دار اور مشغولیت» | toc follows the page heading (p. 348) |
