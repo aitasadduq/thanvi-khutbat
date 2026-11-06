@@ -57,3 +57,5 @@ The owner reviews these and names anything to revert.
 | toc | «حضرت موسیٰؑ کے افسوس کی حکمت» | «حضرت موسیٰ کے افسوس کی حقیقت» | toc follows the page heading (p. 371) |
 | all vols | «گر بعلم آئیم/آییم … (رومی)», «گر بخواب آئیم مستان اوئیم / … بستان اوئیم», «در تردد ہر کہ او آشفتہ است» (half) | unified to the full couplets as printed in Vol 10 (مستان وئیم / بدستان وئیم) | index consistency |
 | toc | «مرزا مظہر جانجاںؒ کی لطیف المزاجی», «مقام مرزا مظہر جانجاںؒ» | «مرزا مظہر جانجاں رحمہ اللہ کی لطیف المزاجی», «مقام مرزا مظہر جان جاناں» | toc follows the page headings (pp. 378–379) |
+| 385 (pr. 384) | «مناجاتے اگر خواہی بیاں کرد / بہ بیتے اکتفا خواہی تواں کرد» | kept as printed | the couplet is elsewhere «بہ بیتے ہم قناعت می تواں کرد»; the شعر term uses that form |
+| all vols | خدا در انتظار, خدا مدح آفرین, محمد از تو می خواہم couplets (spelling variants, ؐ) | unified | index consistency |
