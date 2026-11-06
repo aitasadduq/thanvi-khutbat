@@ -40,3 +40,5 @@ The owner reviews these and names anything to revert.
 | 331–332 (pr. 330–331) | «افطر الرؤیۃ» (twice) | kept as printed | the author's short form of «صوموا لرؤیتہ وافطروا لرؤیتہ», repeated the same way on the next page; indexed under the full hadith |
 | toc | «سیویوں کی تخصیص» | «سویوں کی تخصیص» | toc follows the page heading (p. 332) |
 | 334 (pr. 333) | «تشفعان» glossed as روزہ و نماز | kept as printed | the known hadith is «الصیام والقرآن یشفعان للعبد» (روزہ و قرآن); the author's gloss is kept and the page is indexed under that hadith |
+| 340 (pr. 339) | translation of «ہر عیب کہ سلطان بپسندد ہنر است»: «وہ عیب ہے» | «وہ ہنر ہے» | misprint; the line says the fault becomes a virtue |
+| 340 (pr. 339) | «ابر و باد و مہ و خورشید و فلک در کار اند» | both halves in the شعر term | unified with Vol 7 (term now carries both halves) |
