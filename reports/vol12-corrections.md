@@ -18,3 +18,4 @@
 | 59 (pr. 58) | translation of الاعراف ۱۶۴ with empty brackets «( )» | brackets removed | Typesetting gap. |
 | 72 (pr. 71) | «فانتظروا انا منتظرون» | kept in «», no ayah markup | Not verbatim: blends «فانتظروا» (یونس ۲۰) with «انتظروا انا منتظرون» (الانعام ۱۵۸، ہود ۱۲۲). |
 | 77 (pr. 76) | Sermon 2 opening verse printed without citation; khutba printed only from «اما بعد» | citation «(المائدہ آیت نمبر ۳)» added as in sermon 1; khutba recorded as printed | |
+| 100 (pr. 99) | «لا تحزن علیهم ولا تک فی ضیق مما یمکرون» | ﴿ولا تحزن علیہم ولا تکن فی ضیق مما یمکرون﴾ (النمل ۷۰) | «تک» is the wording of النحل ۱۲۷ (which begins «واصبر»); marked as النمل ۷۰, where «ولا تحزن علیہم» opens the verse. |
