@@ -75,3 +75,5 @@
 | 346 (pr. 345) | «(سوائے اسلام کے اور کسی حالت میں جان دو)» | kept as printed | A «مت» has dropped from the translation. |
 | 348 (pr. 347) | «دلارا میکہ داری دل دروبند» | text kept as printed; index uses the standard «دل آرامے کہ داری دل درو بند» | Spacing run-on of the Jami couplet. |
 | 370 (pr. 369) | «چوں ندانند حقیقت رہ افسانہ زدند» | text kept as printed; index uses the existing «چوں ندیدند» | Variant wording of the Hafiz half-verse. |
+| 372 (pr. 371) | Saadi's glow-worm couplet printed «ببیں کآتشیں کرمک خاک زاد» | text kept as printed; index uses the existing Vol term «نہ بینی کہ آں کرمک پاک زاد» | Variant wording of the same Bustan line. |
+| 372 (pr. 371) | «اگر آفتاب است یک ذرہ نیست…» | kept as printed | The couplet is printed twice in succession (dittography). |
