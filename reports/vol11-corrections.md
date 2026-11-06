@@ -146,3 +146,6 @@ The owner reviews these and names anything to revert.
 | 478 (pr. 477) | «اس سے اعتراض کرو» | kept as printed | «اعراض» intended (glossing فان تولیتم) |
 | 480 (pr. 479) | asbab al-nuzul of 64:14 (people kept by families from coming to the Prophet) | indexed as a hadith term | Tirmidhi 3317 (Ibn Abbas) |
 | 480 (pr. 479) | «جس پر غصہ متحمل ہونے کے بعد» | kept as printed | probably «محتمل» |
+| 481 (pr. 480) | «مدلول فصی نہیں» | kept as printed | «مدلول نصی» intended |
+| 481 (pr. 480) | «شیطان یتبع شیطانة» | indexed as a hadith term | Abu Dawud 4940, Ibn Majah 3765 |
+| 482 (pr. 481) | «قل بئسما یأمرکم به ایمانکم» | marked as al-Baqara 2:93 | |
