@@ -21,3 +21,4 @@ The owner reviews these and names anything to revert.
 | toc | «مرد کون ہے؟» p. 109 | p. 111 | the heading is on printed p. 111 |
 | 129 (pr. 128) | «جو لوگ نفاق و اتحاد کا لکچر دیتے ہیں» | «اتفاق و اتحاد» | misprint; the passage is about lectures on اتفاق و اتحاد |
 | 139 (pr. 138) | «الانبیاء اخوۃ من علات واماتہم شتی» | «وامہاتہم» | misprint |
+| 148 (pr. 147) | «ثنی رسید» | kept as printed | probably «مثنی رسید» (counterfoil); left unchanged |
