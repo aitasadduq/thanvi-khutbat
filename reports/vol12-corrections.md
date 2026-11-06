@@ -58,3 +58,4 @@
 | 286 (pr. 285) | «ایک بی بی کے شوہر اور بچے باپ سب کام آ گئے … رسول اللہ صلی اللہ علیہ وسلم) بھی سلامت ہیں» | kept as printed | The opening bracket is missing; the story is the Ansari woman at Uhud (Sirat Ibn Hisham). |
 | 287 (pr. 286) | «فان ابی ووالدی وعرضی» | text kept as printed; index uses the established «و والدتی» | The couplet is Hassan bin Thabit's, «فان ابی و والدہ و عرضی»; the printed «والدی» is an error the translation follows. |
 | 292 (pr. 291) | «دوست آں باشد کہ گیرد دوست دست» | text kept as printed; index uses the standard «گیرد دست دوست», as the speaker himself repeats it | Printer's transposition. |
+| 295 (pr. 294) | «(وہ جگہ بہشت ہے جہاں کوئی تکلیف نہ ہو کسی کو کسی سے تنگی ہو۔)» | kept as printed | A «نہ» has dropped from the second clause («کسی کو کسی سے تنگی نہ ہو»). |
