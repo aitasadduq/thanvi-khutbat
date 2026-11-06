@@ -175,3 +175,4 @@ The owner reviews these and names anything to revert.
 | 503 (pr. 502) | «المرء یوخذ باقراره بالجهله» | indexed under المرء یؤخذ باقرارہ | «بالجهله» unclear in print |
 | 503 (pr. 502) | «لا تنابزوا بالالقاب بئس الاسم الفسوق بعد الایمان» | marked as al-Hujurat 49:11 | |
 | 503 (pr. 502) | «لیس لنا مثل السوء» | indexed as a hadith term | Bukhari 2622 (on taking back a gift) |
+| 505 (pr. 504) | «معیب کو واپس کر سکتے ہی» | kept as printed | «ہیں» |
