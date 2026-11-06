@@ -65,3 +65,6 @@ The owner reviews these and names anything to revert.
 | 374 (pr. 373) | «احمد نقلت یا رب ارید ان لا ارید» | «فقلت» | misprint |
 | 377 (pr. 376) | «وجد تموه قالو انعم قال ذا الصريح الايمان» | «وجدتموہ قالوا نعم قال ذاک صریح الایمان» | spacing misprints and ذا الصریح for ذاک صریح (Muslim 132) |
 | 377 (pr. 376) | «ان اللہ تجاوز عن امتی ما وسوست بہ صدورہا» | kept as printed | Bukhari 2528; ends «ما لم تعمل او تتکلم» |
+| 380 (pr. 379) | «ان اللہ لا یحب کل مختال فخور» | marked as Luqman 31:18 | also 57:23 without ان اللہ |
+| 380 (pr. 379) | «لا یسئلون الناس الحافا» | marked as al-Baqara 2:273 | |
+| 381 (pr. 380) | «خصوصاً ان لوگوں سے کے مقابلے کو لے لیجئے» | kept as printed | words seem dropped in print |
