@@ -9,3 +9,4 @@
 | 28 (pr. 27) | «اور فرماتے ہیں۔» with no verse after it | kept as printed | the verse is missing in print |
 | 30 (pr. 29) | translation «اے نبی… آپ سے سوال اور جوئے کے بارے میں» | kept as printed | «شراب اور جوئے» intended |
 | 30 (pr. 29) | «ومن اهل الکتاب … مادمت علیه قائما» with «(۱۲ ظ)» | marked as Al Imran 3:75; marker kept | |
+| 32 (pr. 31) | «سو اس معنی ہیں وہ کسی کو کافر نہیں بناتے» | kept as printed | «اس معنی میں» |
