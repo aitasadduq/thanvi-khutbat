@@ -155,3 +155,5 @@ The owner reviews these and names anything to revert.
 | 485 (pr. 484) | Ibrahim ibn Adham's son called «سلطان محمود» | kept as printed | named محمود elsewhere too |
 | 486 (pr. 485) | «مفضی کے المضرب ہو کر» | kept as printed | probably «مفضی الی المضرة» |
 | 486 (pr. 485) | «ما هذه التماثیل التی انتم لها عاکفون» | marked as al-Anbiya 21:52 | |
+| 488 (pr. 487) | companion's wife crying «ہائے میرے سردار», angels asking «کیا تو ایسا تھا» | indexed as the Abdullah ibn Rawaha hadith | Bukhari 4267 (his sister, «واجبلاه»); the sermon tells it as «بیوی» |
+| 488 (pr. 487) | «جلال الدین سیوطی نے شرح الصدور میں» | indexed with امام سیوطیؒ and شرح الصدور | |
