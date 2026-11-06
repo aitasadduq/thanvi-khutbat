@@ -111,3 +111,6 @@ The owner reviews these and names anything to revert.
 | 447 (pr. 446) | «ہمارے حضرت استاد» (rule on revising lessons) | indexed with مولانا محمد یعقوب نانوتویؒ | the author's usual «استاد»; not named on this page |
 | 448 (pr. 447) | summary line «موانع الطریق کی تفصیل…» printed at the foot of p. 447 | moved to the رفع الموانع title page (0448.txt) | it belongs to the next sermon |
 | 452 (pr. 451) | «رایت ربی فی صورة شاب امرد» | indexed as a hadith term; the sermon itself calls it fabricated | kept as printed |
+| 453 (pr. 452) | «افلا ینظرون الی الابل کیف خلقت» | marked as al-Ghashiya 88:17 | |
+| 453 (pr. 452) | «غیر هذا او بدله», «قل ما یکون لی ان ابدله من تلقاء نفسی» | marked as Yunus 10:15 | |
+| 454 (pr. 453) | two short gaps in the scan («غفرت … الحت یا احللت», «اس پر پہنچ کر … سے ساقط») | marked [—]; «الحت» read as «ابحت» | scan damaged mid-page |
