@@ -184,3 +184,6 @@ The owner reviews these and names anything to revert.
 | 508 (pr. 507) | couplet «کار پاکاں را قیاس از خود مگیر…» printed «کارپاکاں راقیاس از خودمگیر / گرچہ ماندر نوشتن» | indexed under the usual form | spacing misprints |
 | 510 (pr. 509) | «اس میں الہام ہوتا ہے انکار نعمت کا» | kept as printed | «ایہام» intended |
 | 511 (pr. 510) | «اعمال مقصود بالغرض» | kept as printed | «بالعرض» intended |
+| 512 (pr. 511) | «وما امروا الا لیعبدوا اللہ مخلصین له الدین» | marked as al-Bayyina 98:5 | |
+| 513 (pr. 512) | «اذا مسهم طائف من الشیطان تذکروا فاذا هم مبصرون», «واما ینزغنک من الشیطان نزغ فاستعذ باللہ» | marked as al-A`raf 7:201 and 7:200 | |
+| 513 (pr. 512) | «بسبیل لاتقف عند حد» | kept as printed | «بسبیل لا تقف عند حد» |
