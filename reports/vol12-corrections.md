@@ -17,3 +17,4 @@
 | 59 (pr. 58) | «صرفنا الآیات صرفنا فی هذا القرآن وامثالها» | ﴿ولقد صرفنا فی ہذا القرآن﴾ (بنی اسرائیل ۴۱) | Garbled quotation; restored to the Qur'anic wording. |
 | 59 (pr. 58) | translation of الاعراف ۱۶۴ with empty brackets «( )» | brackets removed | Typesetting gap. |
 | 72 (pr. 71) | «فانتظروا انا منتظرون» | kept in «», no ayah markup | Not verbatim: blends «فانتظروا» (یونس ۲۰) with «انتظروا انا منتظرون» (الانعام ۱۵۸، ہود ۱۲۲). |
+| 77 (pr. 76) | Sermon 2 opening verse printed without citation; khutba printed only from «اما بعد» | citation «(المائدہ آیت نمبر ۳)» added as in sermon 1; khutba recorded as printed | |
