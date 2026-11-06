@@ -12,4 +12,4 @@ The owner reviews these and names anything to revert.
 | 48 (pr. 47) | «شیوخ چونکہ عربی ہیں» | «مربی» | misprint; the argument is about the شیخ as تربیت کرنے والا |
 | 51 (pr. 50) | «ترا عشق ہمچو زآب و گل / زباید مہ صبر و آرام و دل» | kept as printed | the couplet elsewhere is «ترا عشق ہمچو خودے ز آب و گل / رباید ہمہ صبر و آرام دل»; the شعر term uses that form |
 | 72 (pr. 71) | «ور شود پر خود شہیدا و را مشو» | «ور شود پر خوں شہید آں را مشو» | misprint (خود → خوں); couplet as in Vol 1 |
-| 73 (pr. 72) | «بدم گفتی و خور سندم خاک اللہ نکو گفتی» | kept as printed | the couplet elsewhere reads «و خرسندم عفاک اللہ»; the شعر term uses that form |
+| 73 (pr. 72) | «بدم گفتی و خور سندم خاک اللہ نکو گفتی» | «و خرسندم عفاک اللہ» | misprint; couplet as in other volumes |
