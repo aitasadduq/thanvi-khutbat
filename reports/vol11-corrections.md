@@ -39,3 +39,4 @@ The owner reviews these and names anything to revert.
 | toc | — | row «تمہید» p. 292 added under اوج قنوج | heading is on the page (p. 292) but missing from the فہرست |
 | 296 (pr. 295) | «وعد اللہ لا یخلف اللہ المیعاد» | marked as al-Rum 30:6 «وعد اللہ لا یخلف اللہ وعدہ» | the printed ending المیعاد mixes 30:6 with 39:20 (لا یخلف اللہ المیعاد); 30:6 wording used |
 | 315 (pr. 314) | «اور یہ آیت ذمیم خلق ہے» | kept as printed | probably «یہ ایک ذمیم خلق ہے»; left unchanged |
+| 317 (pr. 316) | «ان اللہ لا یحب المستکبرین» | marked as al-Nahl 16:23 «انہ لا یحب المستکبرین» | the book has ان اللہ; the Quranic words are انہ |
