@@ -69,3 +69,4 @@
 | 328 (pr. 327) | «دوسری قافیہ دار عبادت تجویز کر لیتا ہوں» | kept as printed | «عبادت» for «عبارت»; a printer's slip. |
 | 331 (pr. 330) | Persian verse after «اور ایک عاشق کہتا ہے» | not supplied | Only the Urdu translation is printed; the verse itself is missing from the page. |
 | 331 (pr. 330) | The bracketed Arabic note «قلت ویحتمل … بل لیکن ان یکون … بل منشاء والاولال …» | kept as printed | Several printer's slips («لیکن» for «یمکن», «والاولال» for «الادلال», «لا ادب» uncertain); not emended. |
+| 334 (pr. 333) | «میری رگ تار ہو گئی ہے اتار کی ضرورت نہیں» | kept as printed | «اتار» for «زنار»; a printer's slip in the translation. |
