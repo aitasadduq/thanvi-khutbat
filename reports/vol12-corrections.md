@@ -10,3 +10,5 @@
 | 30 (pr. 29) | translation «اے نبی… آپ سے سوال اور جوئے کے بارے میں» | kept as printed | «شراب اور جوئے» intended |
 | 30 (pr. 29) | «ومن اهل الکتاب … مادمت علیه قائما» with «(۱۲ ظ)» | marked as Al Imran 3:75; marker kept | |
 | 32 (pr. 31) | «سو اس معنی ہیں وہ کسی کو کافر نہیں بناتے» | kept as printed | «اس معنی میں» |
+| 34 | «واذاقال ابراهیم رب اجعل هذا بلداً امناً» | ﴿واذ قال ابراہیم …﴾ (البقرة ۱۲۶) | Misprint «واذا» for «واذ»; ayah filled from the Qur'an text. |
+| 34 | «ارشاد ہوا کہ امامت ظالم کافرکو نہیں مل سکتی» | unchanged | Ayah fragments of البقرة ۱۲۴–۱۲۶ quoted piecemeal; each filled from the Qur'an text. |
