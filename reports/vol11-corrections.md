@@ -15,3 +15,7 @@ The owner reviews these and names anything to revert.
 | 73 (pr. 72) | «بدم گفتی و خور سندم خاک اللہ نکو گفتی» | «و خرسندم عفاک اللہ» | misprint; couplet as in other volumes |
 | toc | «عقیدہ صحیح» (p. 105) | «عقیدہ صحیحہ» | toc follows the page heading |
 | 110 (pr. 109) | «انہی چیزوں سے صراحۃً منع کیا گیا ہے جن سے تقاضا طبیعت انسانیہ کو خود نفرت ہے اس سے صراحۃً منع نہیں کیا گیا» | kept as printed | a line seems dropped in print; sense: explicit prohibition only where the nature desires it, not where it is naturally repelled |
+| 111 (pr. 110) | «نفس کی اصلاح بدون مجاہدہ کے نہیں ہو سکتی توجہ اور وظیفہ سے اصلاح شدہ نفس کی اصلاح بدون مجاہدہ کے نہیں ہو سکتی توجہ اور وظیفہ سے اصلاح شدہ نفس کی نورانیت» | repeated clause removed | dittography (a line set twice) |
+| 112 (pr. 111) | «سخن شناس نہ دلبر اخطا انجاست» | «سخن شناس نئی دلبرا خطا اینجاست» | misprint; form as in other volumes |
+| 112 (pr. 111) | Saadi couplets «درختے کہ اکنوں گرفت ست پائے / بہ تیروی شخصے بر آیدز جائے», «دگر ہمچناں…», «سر چشمہ باید گرفتن بہ میل / جو پرشد نہ شاید گزشتن بہ پیل» | text: obvious letter slips fixed (نیروئے، وگر، چو، نشاید); میل kept | the شعر terms use the Gulistan form (شاید … بہ بیل / … گذشتن); same terms unified in Pilot, Vols 3 and 5 |
+| toc | «مرد کون ہے؟» p. 109 | p. 111 | the heading is on printed p. 111 |
