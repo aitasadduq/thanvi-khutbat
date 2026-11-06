@@ -11,8 +11,8 @@ Update the **Status** and **Next steps** sections at the end of every working se
 - **Volume 10 (فضائل صوم و صلوٰۃ) — in progress.** Folder `Vol 10 fazail e saum o salat/`. PDF page = printed page + 1;
   page images in the scratchpad (`v10/h`). `toc.tsv` built (12 sermons, headings follow the page where the contents
   differ; each change logged). Transcribed: الصلوٰۃ (0015), نداء رمضان (0074), الصوم (0088), الصیام (0109), الفطر (0146),
-  النسوان فی رمضان (0163), رمضان فی رمضان (0196), احکام العشر الاخیرہ (0269), تطہیر رمضان (0313), printed pp. 15–333. Next:
-  عصم الصنوف 334, التہذیب نمبر ۱ 391, التہذیب نمبر ۲ 419. Corrections in `reports/vol10-corrections.md`.
+  النسوان فی رمضان (0163), رمضان فی رمضان (0196), احکام العشر الاخیرہ (0269), تطہیر رمضان (0313), عصم الصنوف (0334), printed pp. 15–390. Next:
+  التہذیب نمبر ۱ 391 (begun, `0391.txt`), التہذیب نمبر ۲ 419. Corrections in `reports/vol10-corrections.md`.
 
 - **Volume 9 (فضائل صبر و شکر) — done, awaiting the owner's review.** Folder `Vol 09 fazail e sabr o shukr/`. PDF page =
   printed page + 1; text printed pp. 13–488 (12 sermons), all transcribed (files 0013, 0042, 0105, 0136, 0177, 0204,
@@ -190,7 +190,7 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Volume 10: continue from عصم الصنوف (printed p. 334, new file `0334.txt`) to the end of the volume, logging corrections in `reports/vol10-corrections.md`; at the end run the §3 pipeline and add Vol 10 (`فضائل صوم و صلوٰۃ`, `Vol 10 fazail e saum o salat`) to VOLUMES.
+- Volume 10: continue التہذیب نمبر ۱ (printed p. 392 onward, file `0391.txt`), then التہذیب نمبر ۲ (p. 419) to the end of the volume, logging corrections in `reports/vol10-corrections.md`; at the end run the §3 pipeline and add Vol 10 (`فضائل صوم و صلوٰۃ`, `Vol 10 fazail e saum o salat`) to VOLUMES.
 - The owner will review `reports/vol02-corrections.md` … `reports/vol09-corrections.md` at leisure; revert anything the owner rejects.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
   `iatasadduq/thanvi-khutbat-site` and turning on GitHub Pages (only after the owner approves).

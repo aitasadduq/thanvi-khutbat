@@ -61,3 +61,4 @@ The owner reviews these and names anything to revert.
 | all vols | خدا در انتظار, خدا مدح آفرین, محمد از تو می خواہم couplets (spelling variants, ؐ) | unified | index consistency |
 | toc | (missing) | added «ضمیمہ» 390 under عصم الصنوف | heading present on the page |
 | toc | «التہذیب نمبر ۱», «التہذیب نمبر ۲» | kept | both sermons are titled «التہذیب» on the page; the toc numbers keep them apart |
+| toc | «حضور ﷺ کی بددعا», «حضور ﷺ کی غایت رحمت» | spelled out as on the page | toc follows the page headings |
