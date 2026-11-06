@@ -144,3 +144,5 @@ The owner reviews these and names anything to revert.
 | 475 (pr. 474) | «اصیب بمصیبة فلیتعز بمصیبتی» | indexed under من اصیب بمصیبة فلیتعز بمصیبتی | footnote says «بلفظ آخر» (Ibn Majah 1599 has a different wording) |
 | 477 (pr. 476) | «والذین جاهدوا فینا لنهدینهم سبلنا» | marked as al-Ankabut 29:69 | |
 | 478 (pr. 477) | «اس سے اعتراض کرو» | kept as printed | «اعراض» intended (glossing فان تولیتم) |
+| 480 (pr. 479) | asbab al-nuzul of 64:14 (people kept by families from coming to the Prophet) | indexed as a hadith term | Tirmidhi 3317 (Ibn Abbas) |
+| 480 (pr. 479) | «جس پر غصہ متحمل ہونے کے بعد» | kept as printed | probably «محتمل» |
