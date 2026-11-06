@@ -31,3 +31,4 @@ The owner reviews these and names anything to revert.
 | 247 (pr. 246) | unnamed Arabic risala on تصوف from the Quran | identified as مسائل السلوک | Thanvi's Arabic work with Urdu translation (مسائل السلوک من کلام ملک الملوک) fits the description; kept unnamed in the text |
 | 256 (pr. 255) | «ام یقولون بہ جنۃ ویقولون انہ لمجنون» | split into al-Muminun 23:70 + al-Qalam 68:51 | the book joins two separate Quranic phrases |
 | 262 (pr. 261) | «باز آمد یار من در کوئے من» | kept as printed | the شعر term (from other volumes) reads «شاہ من» |
+| 265 (pr. 264) | «میں نے اپنے استاد علیہ رحمۃ سے خود سنا» | identified as مولانا محمد یعقوب نانوتویؒ | the usual referent of «استاد علیہ الرحمۃ» in these sermons; not named on the page |
