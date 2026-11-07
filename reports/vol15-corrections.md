@@ -44,3 +44,4 @@
 | 385 (pr. 384) | افنا المحبوب is dated ۲۸ شوال ۱۳۳۶ھ at its head (p. 351) but signed «اشرف علی ۳ ذیقعدہ ۱۳۴۷ھ» (the year is faint in the scan) | both kept as printed | the signature is probably the date of revision |
 | toc | the فہرست has no row for the heading «تمہید» on p. 386 (قطع التمنی) | added «تمہید» 386 | the heading is printed on the page |
 | 388 (pr. 387) | «ما قدروا اللہ حق قدرہ» occurs in 6:91, 22:74 and 39:67 with no surah named | marked as 22:74 | the shortest exact form |
+| 390 (pr. 389) | footnotes ۲ and ۳ print the same text («جن لوگوں کو مقتدایان اسلام پر اعتراض ہو…») | both kept as printed | duplicated footnote |
