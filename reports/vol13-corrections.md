@@ -47,3 +47,4 @@
 | 186 (pr. 185) | «جن مقدمہ اور آلہ تکمیل عقائد کو بنایا گیا ہے» | kept as printed | «جن کا مقدمہ اور آلہ عقائد کو» intended |
 | 190 (pr. 189) | «کیونکہ اس میں تقریر ہے۔ اس کی غلطی کی» | kept as printed | punctuation slip: «اس میں تقریر ہے اس کی غلطی کی» |
 | 195 (pr. 194) | «بعض تو خودکشی کر لیتے ہیں اور بعض خودکشی کر لیتے ہیں» | kept as printed | second probably «خود کشی» (کنارہ کشی); explained in the next sentence |
+| 228 (pr. 227) | «اذا اغلب احدکم النعاس وہو یذکر اللہ فلیرتد … (لم اجد الحدیث …)» | kept as printed; indexed under the existing term «اذا غلب احدکم النعاس … فلیرقد» | «اغلب» and «فلیرتد» are slips for «غلب»/«فلیرقد»; the known wording (Bukhari, Muslim) is «اذا نعس احدکم وہو یصلی فلیرقد … لعلہ یستغفر فیسب نفسہ»; the publisher's «not found» note is kept |
