@@ -67,3 +67,5 @@
 | 436 (pr. 435) | «بر آسماں چہارم مسیح بیمار است / تبسم تو برائے علاج درکار است» | text kept; indexed under the existing «بر آسمان چہارم مسیح بیمار ست / …» | variant spelling |
 | 442 (pr. 441) | «الٰہی تبت من کل المعاصی / ولکن حب لیلیٰ لا اتوب» | text kept; indexed under the existing four-part «الٰہی تبت من کل المعاصی / الیک فقد تکثرت الذنوب / …» | abridged variant |
 | 442 (pr. 441) | «ملنے نہ ملنے کا تو وہ مختار ہے آپ / پر تجھ کو چاہئے کہ تگ و دو لگی رہے» | text kept; indexed under «ملنے کا اور نہ ملنے کا مختار آپ ہے / …» (p. 427) | variant reading |
+| 447 (pr. 446) | only the second half «سحرگہ خروشاں کہ واماندہ اند» is printed | text kept; indexed under the full couplet «فرس کشتہ از بس کہ شب راندہ اند / …» (the earlier entry's «اشب» corrected to «کہ شب» in all volumes) | partial quotation |
+| 447 (pr. 446) | the existing entry «اختلاف خلق از نام اوفتاد» was the first half only | completed to «… / چوں بمعنی رفت آرام اوفتاد» in all volumes | completion from this page |
