@@ -39,3 +39,4 @@
 | 335 (pr. 334) | «وان اعمر انہ مومن» — the wording matches no hadith; the munafiq hadith reads «وان صام وصلی وزعم انہ مسلم» | text kept as printed; indexed by its sense | probable misprint of «زعم» |
 | 351 (pr. 350) | اعانۃ النافع is dated ۱۲ ذیقعدہ ۱۳۳۵ھ at its head (p. 319) but signed «اشرف علی محرم الحرام ۱۳۵۹ ہجری» | both kept as printed | the signature is probably the date of revision |
 | 351 (pr. 350) | «انبیاء در کار دنیا جبر یند / کافراں در کار عقبیٰ جبر یند» | text kept; indexed under the existing «…جبری اند» | variant reading |
+| 378 (pr. 377) | 7:201 printed with the reading «طیف»; the next sentence reads «فرمایا ہے ان الذین اتقوا اذا مسہم طائف من الشیطان نہیں فرمایا», which seems to have lost the contrasted word (e.g. «تذکروا فرمایا … خافوا نہیں فرمایا») | text kept as printed; ayah marked as 7:201 words 0-8 (Indo-Pak «طٰٓئِفٌ») | «طیف» is the qira'a of Ibn Kathir / Abu Amr; the sentence is probably a dropped word |
