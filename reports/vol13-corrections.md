@@ -20,3 +20,5 @@
 | 55 (pr. 54) | «واہ بے اوت کے اوت مکا مکانہ» | kept as printed | colloquial; wording unclear |
 | 65 (pr. 64) | «اس میں آج کل کی ہے» | kept as printed | «کمی ہے» |
 | 70 (pr. 69) | «(لم اجد الحدیث فی موسوعۃ اطراف الحدیث النبوی شریف)» | kept as printed | publisher's note inside the text |
+| 79 (pr. 78) | «سنار کی کھٹ کھٹ، لوہار کی ایک» | kept as printed | the proverb is «سنار کی سو، لوہار کی ایک»; indexed under the existing proverb term |
+| 80 (pr. 79) | «حضور صلی اللہ علیہ وسلم نے کے سامنے» | kept as printed | stray «نے» |
