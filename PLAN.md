@@ -18,11 +18,17 @@ Update the **Status** and **Next steps** sections at the end of every working se
   «وحدت الوجود» → «وحدۃ الوجود», duplicate names for the same story merged). Index built (2048 entries); all volume
   indexes and the site rebuilt (`site/v12.html`). Preview (private artifact, republish to the same URL):
   https://claude.ai/artifact/BVo1Hr4sb48E3wPhTN3Wfx
-- **Volume 15 (تسلیم و رضا) — in progress.** Folder `Vol 15 tasleem o raza/`. PDF page = printed page + 1; text
-  printed pp. 11–~448 (sermons: ارضاء الحق حصہ اول 11, حصہ دوم 48, طریق القرب 113, وحدۃ الحب 137, الوصل والفصل 173,
-  فناء النفوس 214, نشر الرحمۃ 262, التعرف بالتصرف 274, شکر السوانح 314, اعانۃ النافع 319, افنا المحبوب 351,
-  قطع التمنی 385, النفحات فی الاوقات 411). `toc.tsv` transcribed from the فہرست (358 rows). Files 0011, 0048, 0113
-  done (through printed p. 136). Half-page images in the session scratchpad `v15/h/`.
+- **Volume 15 (تسلیم و رضا) — done, awaiting the owner's review.** Folder `Vol 15 tasleem o raza/`. PDF page = printed
+  page + 1; text printed pp. 11–448 (13 sermons: ارضاء الحق حصہ اول 11, حصہ دوم 48, طریق القرب 113, وحدۃ الحب 137,
+  الوصل والفصل 173, فناء النفوس 214, نشر الرحمۃ 262, التعرف بالتصرف 274, شکر السوانح 314, اعانۃ النافع 319,
+  افنا المحبوب 351, قطع التمنی 385, النفحات فی الاوقات 411), all transcribed (files 0011, 0048, 0113, 0137, 0173,
+  0214, 0262, 0274, 0314, 0319, 0351, 0385, 0411). `toc.tsv`: missing «تمہید» rows added (6), five headings changed to
+  the page spelling and three page numbers corrected (all logged). mark_arabic: DIFFERS 0, CITE 0 (the 9:55/9:85 blend
+  on p. 150 kept as printed in `quran-decisions.tsv`; three ayah pairs split into per-verse marks). Hadith check:
+  `reports/vol15-hadith-check.md` (34 differs reviewed, all the book's wording, kept). All corrections applied under the
+  owner's rule are in `reports/vol15-corrections.md` (displaced translations, head/signature date mismatches, variant
+  couplets, probable misprints). More couplet, story and hadith terms in all volumes were unified. Index built (2248
+  entries); site rebuilt (`site/v15.html`). Preview (private artifact, republish to the same URL): PREVIEW_URL
 
 - **Volume 14 (جزا و سزا) — done, awaiting the owner's review.** Folder `Vol 14 jaza o saza/`. PDF page = printed
   page + 1; text printed pp. 11–388 (9 sermons: جمال الجلیل 11, حیوۃ طیبہ 62, an untitled short sermon «سلسلہ اشرف
@@ -244,14 +250,13 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 8. Update this file (Status, Next steps), commit, push, and continue with the next volume (no waiting).
    Preview watches (2026-11-07): a session can watch at most 10 artifacts for comments sent to Claude. Keep the 10
    newest volume previews watched: after publishing a new volume's preview, stop watching the oldest
-   (`ArtifactComments` watch `on: false`) and watch the new one. Now watched: Vols 5–14; Vols 1–4 are not.
+   (`ArtifactComments` watch `on: false`) and watch the new one. Now watched: Vols 6–15; Vols 1–5 are not.
 
 ## 4. Next steps
 
-- Volume 15: continue transcribing (§3 step 2) from where the last page in `Vol 15 tasleem o raza/page-notes/` ends
-  (next: وحدۃ الحب at printed p. 137, new file 0137), logging corrections in `reports/vol15-corrections.md`;
-  then §3 steps 4–8.
-- The owner will review `reports/vol02-corrections.md` … `reports/vol14-corrections.md` at leisure; revert anything the owner rejects.
+- Volume 16: start §3 step 1 (page offset, فہرست into `toc.tsv`), then transcribe; log corrections in
+  `reports/vol16-corrections.md`.
+- The owner will review `reports/vol02-corrections.md` … `reports/vol15-corrections.md` at leisure; revert anything the owner rejects.
 - Question answering (RAG) over the books: revised plan in `RAG_PLAN.md` (2026-11-06), awaiting the owner's go-ahead;
   transcription stays the priority.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
