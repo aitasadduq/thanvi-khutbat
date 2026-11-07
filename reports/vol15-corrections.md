@@ -36,3 +36,4 @@
 | 314 (pr. 314) | شکر السوانح has no header page with date, place or recorder | none added | nothing printed to transcribe |
 | toc | the فہرست has no row for the heading «تمہید» on p. 320 (اعانۃ النافع) | added «تمہید» 320 | the heading is printed on the page |
 | 329 (pr. 328) | after «انتم اقرب الیہ نہیں فرمایا» the book reprints «نحن اقرب الیہ» with the translation «(تم اس کی طرف زیادہ نزدیک ہو)», which renders انتم اقرب | text kept as printed; the ayah marked as 50:16 words 8-10 | translation slip |
+| 335 (pr. 334) | «وان اعمر انہ مومن» — the wording matches no hadith; the munafiq hadith reads «وان صام وصلی وزعم انہ مسلم» | text kept as printed; indexed by its sense | probable misprint of «زعم» |
