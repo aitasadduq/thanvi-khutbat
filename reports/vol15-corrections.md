@@ -15,3 +15,4 @@
 | toc | the فہرست has no row for the heading «تمہید» on p. 174 (الوصل والفصل) | added «تمہید» 174 | the heading is printed on the page |
 | 178 (pr. 177) | «دور بینان بارگاہ الست / جز ازیں پے نبردہ اند کہ ہست» | text kept; indexed under «…غیر ازیں پے نبردہ اند کہ ہست»; two older variant terms (Vol 4, Vol 6) unified to it | variant reading of the same couplet |
 | 178 (pr. 177) | «اندریں رہ انچہ می آید بدست / حیرت اندر حیرت اندر حیرت ست» | text kept; indexed under «آنچہ اندر راہ می آید بدست / حیرت اندر حیرت اندر حیرت است» | variant reading of the same couplet |
+| 200 (pr. 199) | the two couplets «اس کے کوچہ سے جب اٹھ اہل وفا جاتے ہیں / تا نظر کام کرے رو بقفا جاتے ہیں» and the reply «…کب اٹھ… / وہ ہوسناک ہیں جو رو بقفا جاتے ہیں» | each indexed separately; the Vol 11 (p. 277) term, whose printed text blends the two («…جو ر و لقضا…»), unified to the reply couplet | the Vol 11 line is the ہوسناک couplet with a misprint; text there kept as printed |
