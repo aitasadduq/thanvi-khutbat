@@ -72,3 +72,6 @@
 | 449 (pr. 448) | النفحات فی الاوقات is dated ۴ شوال ۱۳۴۴ھ at its head (p. 411) but signed «اشرف علی ۱۹ رمضان المبارک ۱۳۵۰ھ» | both kept as printed | the signature is probably the date of revision |
 | 229, 416, 426 | ayah pairs quoted with a verse mark between partial verses (56:10-11, 57:22-23, 24:30-31) were flagged DIFFERS as one passage | each half marked as its own ayah fragment (56:10 + 56:11, 57:22 + 57:23, 24:30 + 24:31) | the words are exact Qur'an text; only the joined passage was partial |
 | 150 | 9:55/9:85 blend (see above) | `quran-decisions.tsv`: keep as printed | blended wording |
+| toc | five فہرست headings are spelled differently from the page headings (کیلئے/کے لئے، معنے/معنی، کیساتھ/کے ساتھ، برزبان/بر زبان، مقتضی/مقتضیٰ) | toc rows changed to the page spelling | the index follows the page text |
+| toc | the فہرست gives مذاق طالب 342, شعراء کی بیباکی 433, نقص طاعات 442; the headings are printed on pp. 343, 434, 444 | toc pages corrected | page numbers checked on the scan |
+| hadith check | 34 «differs» items reviewed against the scan: all are the book's own wording (omitted «و/ف», «اسئلک» spelling, paraphrase) | kept as printed | no transcription slips found |
