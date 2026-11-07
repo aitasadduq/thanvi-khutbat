@@ -27,3 +27,4 @@
 | 262 (pr. 261) | فناء النفوس is dated ۸ محرم ۱۳۴۴ھ at its head (p. 214) but signed «اشرف علی ۳۰ شوال ۱۳۴۸ھ» at the end | both kept as printed | the signature is probably the date of revision |
 | toc | the فہرست has no row for the heading «تمہید» on p. 263 (نشر الرحمۃ) | added «تمہید» 263 | the heading is printed on the page |
 | 267 (pr. 266) | 89:15-17 printed from «اذا ما ابتلٰہ» (without «فاما الانسان») and ending «کلا» | marked as 89:15 words 2-11, 89:16, 89:17 first word | the quotation begins mid-verse |
+| 269 (pr. 268) | «من بعد ما ہاجروا» quoted as the parallel ayah | kept as plain quotation; indexed under آیت: 16:110 («للذین ہاجروا من بعد ما فتنوا… ان ربک من بعدہا لغفور رحیم») | no ayah has these exact words; 16:110 is the hijrah-then-forgiveness verse meant |
