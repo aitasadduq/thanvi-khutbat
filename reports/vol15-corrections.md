@@ -56,3 +56,4 @@
 | toc | the فہرست has no row for the heading «تمہید» on p. 412 (النفحات فی الاوقات) | added «تمہید» 412 | the heading is printed on the page |
 | 413 (pr. 412) | the hadith is translated «(تمہارے رب کیلئے ساعات دہر میں نغمات ہیں)» | kept as printed | «نغمات» probably a misprint of «نفحات» |
 | 413 (pr. 412) | «ان لربکم فی دہرکم نفحات الا فتعرضوا لہ» | text kept; indexed under the existing «ان لربکم فی ایام دہرکم نفحات الا فتعرضوا لہا» | variant reading |
+| 415 (pr. 414) | only the first half «اصطلاحاتیست مر ابدال را» is printed | text kept as printed; indexed under the full couplet «… / کہ نباشد زاں خبر اقوال را» | partial quotation |
