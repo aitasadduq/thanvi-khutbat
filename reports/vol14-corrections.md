@@ -23,3 +23,4 @@
 | 345 (pr. 344) | the second quotation of the line printed «علمے کہ رہ حق نماید جہالت ست» | «نہ» restored: «علمے کہ رہ حق نہ نماید جہالت ست» | a dropped word; the first quotation on the page and the gloss («رہنمائی نہ کرے») both have it |
 | 348 (pr. 347) | «ایں مرض در نفس ہر انسان ہست» | kept as printed; indexed under «… در نفس ہر مخلوق ہست» | a variant reading |
 | 353 (pr. 352) | «خوں شہید نرا ز آب اولیٰ ترست / ایں خطا از صد صواب اولیٰ ترست» | kept as printed; indexed under «خون شہیداں را ز آب اولیٰ ترست / ایں خطا از صد ثواب اولیٰ ترست» | a misprint or variant reading |
+| 358 (pr. 357) | «حقیقت میں ودسعی الآخرۃ کا مصداق ہیں» | read as «سعی الآخرۃ» | «ود» is a stray misprint; the phrase is not quoted as an ayah, so it is kept as plain text |
