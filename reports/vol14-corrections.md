@@ -24,3 +24,5 @@
 | 348 (pr. 347) | «ایں مرض در نفس ہر انسان ہست» | kept as printed; indexed under «… در نفس ہر مخلوق ہست» | a variant reading |
 | 353 (pr. 352) | «خوں شہید نرا ز آب اولیٰ ترست / ایں خطا از صد صواب اولیٰ ترست» | kept as printed; indexed under «خون شہیداں را ز آب اولیٰ ترست / ایں خطا از صد ثواب اولیٰ ترست» | a misprint or variant reading |
 | 358 (pr. 357) | «حقیقت میں ودسعی الآخرۃ کا مصداق ہیں» | read as «سعی الآخرۃ» | «ود» is a stray misprint; the phrase is not quoted as an ayah, so it is kept as plain text |
+| 370 (pr. 369) | «نیست از معراج یونس اجتبا» | kept as printed; indexed under «… نیست بر معراج یونس اجتبا» | a variant reading |
+| 371 (pr. 370) | «قرب از پستی بالا رفتن ست / قرب حق از قید ہستی رستن ست» (the gloss shows the sense «قرب نے بالا نہ پستی رفتن است») | kept as printed; indexed under the couplet as it reads elsewhere | a misprint or variant reading |
