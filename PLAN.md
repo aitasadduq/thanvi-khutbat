@@ -224,6 +224,9 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
    add the volume to `VOLUMES` in `tools/build_site.py`; `python3 -I tools/build_site.py site`; browser check;
    republish the preview.
 8. Update this file (Status, Next steps), commit, push, and continue with the next volume (no waiting).
+   Preview watches (2026-11-07): a session can watch at most 10 artifacts for comments sent to Claude. Keep the 10
+   newest volume previews watched: after publishing a new volume's preview, stop watching the oldest
+   (`ArtifactComments` watch `on: false`) and watch the new one. Now watched: Vols 4–13; Vols 1–3 are not.
 
 ## 4. Next steps
 
