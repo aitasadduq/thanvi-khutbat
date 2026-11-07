@@ -23,3 +23,5 @@
 | 79 (pr. 78) | «سنار کی کھٹ کھٹ، لوہار کی ایک» | kept as printed | the proverb is «سنار کی سو، لوہار کی ایک»; indexed under the existing proverb term |
 | 80 (pr. 79) | «حضور صلی اللہ علیہ وسلم نے کے سامنے» | kept as printed | stray «نے» |
 | 83 (pr. 82) | «جو لوگ علماء کی شان میں گستاخی کرتا ہے» | kept as printed | number agreement slip |
+| 99 (pr. 98) | «ترغیب ترغیب کی ضرورت» | kept as printed | «ترغیب و ترہیب» intended |
+| 100 (pr. 99) | «دوسرے کے دعوے کو رد کرنے میں بھی اسے کبھی انقباض ہوتا ہے» | kept as printed | the argument needs «رد کرنے میں اسے انقباض ہوتا ہے» |
