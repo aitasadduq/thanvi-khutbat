@@ -28,7 +28,8 @@ Update the **Status** and **Next steps** sections at the end of every working se
   `reports/vol15-hadith-check.md` (34 differs reviewed, all the book's wording, kept). All corrections applied under the
   owner's rule are in `reports/vol15-corrections.md` (displaced translations, head/signature date mismatches, variant
   couplets, probable misprints). More couplet, story and hadith terms in all volumes were unified. Index built (2248
-  entries); site rebuilt (`site/v15.html`). Preview (private artifact, republish to the same URL): PREVIEW_URL
+  entries); site rebuilt (`site/v15.html`). Preview (private artifact, republish to the same URL):
+  https://claude.ai/artifact/FHT1wWjKUabF45g4NAFTiB
 
 - **Volume 14 (جزا و سزا) — done, awaiting the owner's review.** Folder `Vol 14 jaza o saza/`. PDF page = printed
   page + 1; text printed pp. 11–388 (9 sermons: جمال الجلیل 11, حیوۃ طیبہ 62, an untitled short sermon «سلسلہ اشرف
