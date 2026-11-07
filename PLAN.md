@@ -21,8 +21,8 @@ Update the **Status** and **Next steps** sections at the end of every working se
 - **Volume 14 (جزا و سزا) — in progress.** Folder `Vol 14 jaza o saza/`. PDF page = printed page + 1; text printed
   pp. 11–~390 (sermons: جمال الجلیل 11, حیوۃ طیبہ 62, an untitled short sermon «سلسلہ اشرف المواعظ کا پہلا وعظ» 88,
   اجر الصیام من غیر انصرام 93, المعرق والرحیق 146, انوار السراج 215, طلب الجنۃ 240, آثار الربیع 281,
-  المودۃ الرحمانیہ 354). `toc.tsv` transcribed from the فہرست (290 rows); transcription under way (files 0011, 0062,
-  0088, 0093). Half-page images in the session scratchpad `v14/h/`.
+  المودۃ الرحمانیہ 354). `toc.tsv` transcribed from the فہرست (290 rows); transcription under way: files 0011, 0062,
+  0088, 0093, 0146, 0215 done (through printed p. 239); next 0240 (طلب الجنۃ). Half-page images in the session scratchpad `v14/h/`.
 
 - **Volume 13 (دعوت و تبلیغ) — done, awaiting the owner's review.** Folder `Vol 13 dawat o tabligh/`. PDF page = printed
   page + 1; text printed pp. 11–376 (8 sermons: الدعوت الی اللہ 11, آداب التبلیغ 63, التواصی بالحق 120, التواصی بالصبر 174,
