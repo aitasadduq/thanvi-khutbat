@@ -52,3 +52,4 @@
 | 403 (pr. 402) | «فبای حدیث بعدہ یؤمنون» occurs in 7:185 and 77:50 with no surah named | marked as 77:50 | the whole verse is the phrase |
 | 405 (pr. 404) | «آنکس کہ توانگرت نمی گرداند / او مصلحت تو بہتر داند» | text kept; indexed under the existing «آں کس کہ توانگرت… / او مصلحت تو از تو بہتر داند» | variant reading |
 | 406 (pr. 405) | «بدرد و صاف ترا حکم نیست دم درکش / کہ آنچہ ساقی ما ریخت عین الطافست» | text kept; indexed under the existing «…کہ ہرچہ ساقی ما ریخت عین الطاف است» | variant reading |
+| 409 (pr. 408) | after the hadith «ایاکم واللو فان لو یفتح عمل الشیطن» the book says «ہم نے ہزاروں مرتبہ یہ آیت شریف پڑھی ہوگی», which refers to 2:216 | text kept as printed | the remark refers back to the sermon's ayah |
