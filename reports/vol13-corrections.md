@@ -37,3 +37,5 @@
 | 132 (pr. 131) | «سیرف حداد» | «سیوف حداد» | printer's slip in the verse |
 | 150 (pr. 149) | «میں زمین کے اندر گڑھ گیا» | kept as printed | «گڑ گیا» |
 | 156 (pr. 155) | «آدمی اور بوتا وغیرہ کی تصویر» | kept as printed | «لوٹا» intended |
+| 163 (pr. 162) | sentence repeated: «کہ وہ علماء کے ساتھ خاص ہے تو اس میں بھی عام مسلمانوں کے ذمہ یہ کام ہے» | kept as printed | printer's duplication |
+| 163 (pr. 162) | «جیسے نٹل بہلوان کا امام ہوتا ہے» | kept as printed | probably «نٹ (یا بہلوان) کا»; meaning unclear |
