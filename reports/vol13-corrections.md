@@ -22,3 +22,4 @@
 | 70 (pr. 69) | «(لم اجد الحدیث فی موسوعۃ اطراف الحدیث النبوی شریف)» | kept as printed | publisher's note inside the text |
 | 79 (pr. 78) | «سنار کی کھٹ کھٹ، لوہار کی ایک» | kept as printed | the proverb is «سنار کی سو، لوہار کی ایک»; indexed under the existing proverb term |
 | 80 (pr. 79) | «حضور صلی اللہ علیہ وسلم نے کے سامنے» | kept as printed | stray «نے» |
+| 83 (pr. 82) | «جو لوگ علماء کی شان میں گستاخی کرتا ہے» | kept as printed | number agreement slip |
