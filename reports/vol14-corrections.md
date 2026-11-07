@@ -9,3 +9,4 @@
 | toc (p. 88) | a short sermon without a name of its own, headed «سلسلہ اشرف المواعظ کا پہلا وعظ» | that heading used as its name in toc.tsv and the index | not in the اجمالی فہرست |
 | 119 (pr. 118) | «وَاِنَّ مِنَ الۡحِجَارَةِ لَمَا یَهۡبِطُ مِنۡ خَشۡیَةِ اللّٰهِ» | the ayah written from the reference text of البقرة ۷۴ («وَاِنَّ مِنۡهَا لَمَا يَهۡبِطُ …») | the print joins the opening of an earlier clause of the same verse |
 | 129 (pr. 128) | «تبابد یکے کر کے چوں چراغ» and «کے گفتش اے کرمک شب فروز» | «بتابد بشب کرمکے چوں چراغ» and «یکے گفتش …», as the couplets of شیخ سعدی read elsewhere in the book | misprints |
+| 158 (pr. 157) | «خُلِقَ الۡاِنۡسَانُ عَجُوۡلًا» | marked as two Quran pieces, «خلق الانسان» (الانبیاء ۳۷) and «عجولا» (الاسراء ۱۱) | the print joins words of two verses; the reading is kept |
