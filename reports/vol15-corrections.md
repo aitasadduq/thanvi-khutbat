@@ -59,3 +59,4 @@
 | 415 (pr. 414) | only the first half «اصطلاحاتیست مر ابدال را» is printed | text kept as printed; indexed under the full couplet «… / کہ نباشد زاں خبر اقوال را» | partial quotation |
 | 417 (pr. 416) | «اعتقاد تقدیر کی ایک غایت تو عاجلہ یعنی اجر آخرت» — the next sentences contrast it with «ایک غایت عاجلہ بھی», so the first should read «آجلہ» | text kept as printed; indexed as غایت آجلہ | probable misprint |
 | 418 (pr. 417) | «ایاکم واللو فانہا مطیۃ الشیطان» | text kept; indexed under «ایاکم واللو فان لو یفتح عمل الشیطان» | variant wording of the same hadith |
+| 420 (pr. 419) | «درجہ تفصیل میں اس کے بیان کی ضرورت نہ تھی تو اس سے شارع نے تعرض فرمایا» — the sense requires «تعرض نہیں فرمایا» | text kept as printed | probable dropped «نہیں» |
