@@ -35,3 +35,4 @@
 | 314 (pr. 313) | التعرف بالتصرف is dated ۲۳ ذی الحجہ ۱۳۴۷ھ at its head (p. 274) but signed «اشرف علی ۱۳ ذیقعدہ ۴۷ھ» at the end, a month earlier | both kept as printed | one of the two dates is a misprint; the source does not say which |
 | 314 (pr. 314) | شکر السوانح has no header page with date, place or recorder | none added | nothing printed to transcribe |
 | toc | the فہرست has no row for the heading «تمہید» on p. 320 (اعانۃ النافع) | added «تمہید» 320 | the heading is printed on the page |
+| 329 (pr. 328) | after «انتم اقرب الیہ نہیں فرمایا» the book reprints «نحن اقرب الیہ» with the translation «(تم اس کی طرف زیادہ نزدیک ہو)», which renders انتم اقرب | text kept as printed; the ayah marked as 50:16 words 8-10 | translation slip |
