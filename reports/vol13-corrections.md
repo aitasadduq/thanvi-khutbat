@@ -29,3 +29,4 @@
 | 106 (pr. 105) | «جس کو حمد اللہ نہ آوے»; «مولانا محمد یعقوب صاحب سے کہا کیجئے» | kept as printed | wording as printed |
 | 108 (pr. 107) | «ایسے ہی یہ ناریہ بھی ہیں» | kept as printed | wordplay on «آریہ» (people of the fire) |
 | 112 (pr. 111) | «وضوع حق ہو چکا تھا» | kept as printed | «وضوح» |
+| 115 (pr. 114) | «اتقائے معصیت پر عمل نہ کرے»; «اس میں تاکید نفس ہے» | kept as printed | «اقتضائے معصیت» and «تائید نفس» intended |
