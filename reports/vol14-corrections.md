@@ -12,3 +12,4 @@
 | 158 (pr. 157) | «خُلِقَ الۡاِنۡسَانُ عَجُوۡلًا» | marked as two Quran pieces, «خلق الانسان» (الانبیاء ۳۷) and «عجولا» (الاسراء ۱۱) | the print joins words of two verses; the reading is kept |
 | 147, 214 (pr. 146, 213) | the title page reads «المعرق والرحیق للمحرق والغریق»; at the end of the sermon (p. 213) the speaker gives it as «المعرق والرحیق للمغرق والحریق» | both kept as printed; the title page and the فہرست form is used as the sermon's name | the speaker explains مغرق/غریق and رحیق/حریق |
 | 241 (pr. 240) | the sermon date «۲۸ ربیع الثانی ۱۳۲۲ھ»; the year's digits are faint in the scan | read as ۱۳۲۲ھ | |
+| 252 (pr. 251) | «کم کسے از سر حق آگاہ شد» and «گفتہ ایں کہ ما بشر ایشاں بشر / ماؤ ایشاں بستۂ خوابیم و خور» | indexed under the couplets as they read elsewhere in the book («کم کسے ز ابدال حق آگاہ شد», «گفت اینک ما بشر ایشاں بشر / ما وایشاں بستہ خوابیم و خور»); the text keeps the common reading | variant readings of the مثنوی lines |
