@@ -26,7 +26,8 @@ Update the **Status** and **Next steps** sections at the end of every working se
   signature list). Hadith check: `reports/vol13-hadith-check.md` (5 differs, all the book's spelling, kept). All
   corrections applied under the owner's rule are in `reports/vol13-corrections.md`. The sermon ضرورت تبلیغ also appears
   in Vol 4 (file 0406); its terms were matched to the Vol 4 ones and the place name «گجنیر» unified. Index built
-  (1410 entries); all volume indexes and the site rebuilt (`site/v13.html`).
+  (1410 entries); all volume indexes and the site rebuilt (`site/v13.html`). Preview (private artifact, republish to
+  the same URL): https://claude.ai/artifact/1ZMBsQuupvf5fFb3AzbX5w
 
 - **Volume 11 (حقیقت تصوف و تقویٰ) — done, awaiting the owner's review.** Folder `Vol 11 haqiqat e tasawwuf o taqwa/`.
   PDF page = printed page + 1; text printed pp. 11–528 (11 sermons; the فہرست says 526, the last sermon runs to 528),
