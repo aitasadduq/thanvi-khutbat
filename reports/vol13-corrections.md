@@ -19,3 +19,4 @@
 | 50 (pr. 49) | «یہاں مسائل کے نام صفر ہوگا» | kept as printed | «کے نام پر» intended |
 | 55 (pr. 54) | «واہ بے اوت کے اوت مکا مکانہ» | kept as printed | colloquial; wording unclear |
 | 65 (pr. 64) | «اس میں آج کل کی ہے» | kept as printed | «کمی ہے» |
+| 70 (pr. 69) | «(لم اجد الحدیث فی موسوعۃ اطراف الحدیث النبوی شریف)» | kept as printed | publisher's note inside the text |
