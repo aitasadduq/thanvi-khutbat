@@ -22,3 +22,4 @@
 | 218 (pr. 217) | the bracketed translations after 7:24-25, 7:26 and 7:27 are displaced: the one after 7:24-25 renders 7:27 and the one after 7:27 renders 7:24-25 | text kept as printed; ayat marked by their Arabic | keep the text as printed |
 | 221 (pr. 220) | after «یعجبک قولہ فی الحیوۃ الدنیا» the bracket gives the translation of the next hadith («بعض شعر میں حکمت ہوتی ہے اور بعض بیان میں جادو ہوتا ہے») | text kept as printed | the translation belongs to the hadith on the next page |
 | 230 (pr. 229) | 56:8-9 printed «فاصحب المیمنۃ واصحب المیمنۃ و اصحب المشئمۃ ما اصحب المشئمۃ» (first «ما» dropped); 56:10-11 printed «والسابقون اولئک المقربون» (second «السابقون» dropped) | marked as 56:8-9 (whole verses) and 56:10 (first word) + 56:11 | standard text used in the ayah markup; the omissions are printing slips |
+| 232 (pr. 231) | the translation after 37:61 «اس طرح عمل کرنے والے اس کی طرح عمل کر سکتے ہیں» | text kept as printed | translation slip |
