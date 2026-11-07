@@ -7,3 +7,4 @@
 | toc | a short untitled piece at p. 88 («سلسلہ اشرف المواعظ کا پہلا وعظ») is not in the اجمالی فہرست | its title is taken from the page when reached | |
 | 43 (pr. 42) | «ہر کجا دردے ست دوا آنجا رود، ہر کجا پستی ست آب آں جا رود» | kept as printed; indexed under the couplet already in the index («ہر کجا رنجے شفا آنجا رود») | a variant second half |
 | toc (p. 88) | a short sermon without a name of its own, headed «سلسلہ اشرف المواعظ کا پہلا وعظ» | that heading used as its name in toc.tsv and the index | not in the اجمالی فہرست |
+| 119 (pr. 118) | «وَاِنَّ مِنَ الۡحِجَارَةِ لَمَا یَهۡبِطُ مِنۡ خَشۡیَةِ اللّٰهِ» | the ayah written from the reference text of البقرة ۷۴ («وَاِنَّ مِنۡهَا لَمَا يَهۡبِطُ …») | the print joins the opening of an earlier clause of the same verse |
