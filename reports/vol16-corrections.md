@@ -42,3 +42,5 @@ Page = PDF page (printed page + 1) unless marked «pr.». Each row: what the boo
 | 350 (pr. 349) | misprint | «فسوف تری اذا الکشف الغبار / الفرس تحت رجلک ام حمار» | «اذا انکشف الغبار / افرس تحت رجلک» | the verse needs انکشف and the question particle أ (افرس … ام حمار); same as elsewhere in the series |
 | 359 (pr. 358) | misprint in translation | «فأووا الی الکہف (پس آؤ نماز کی طرف)» | «(پس آؤ غار کی طرف)» | الکہف means the cave; the same gloss is given correctly a few lines later |
 | 362 (pr. 361) | variant couplet | «سوئے زلفش نظرے کردن درویش دیدن» | kept as printed; indexed under «… نظرے کردن و رویش دیدن» | «درویش» is a run-together misprint of «و رویش» |
+| 364 (pr. 363) | misprint | «لکن ضعلوہا ابتغاء رضوان اللہ» | «لکن صنعوہا…» | the supplied verb (they made/devised it) is صنعوہا; ضعلوہا is not a word |
+| 364 (pr. 363) | misprint | «اور ہم کو ضرورت ہے فلیف القیاس» | «فکیف القیاس» | Arabic idiom «so how can one compare» |
