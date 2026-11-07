@@ -19,3 +19,4 @@
 | 202 (pr. 201) | «کفر ہم نسبت بخالق حکمت ست / گر بما نسبت کنی کفر آفت است»; «در کار خانہ عشق از کفر ناگزیر ست…» | text kept; indexed under the existing «…ور بما نسبت کنی کفر آفت ست (رومی)» and «در کارخانۂ عشق…(حافظ)» | variant readings of the same couplets |
 | 212 (pr. 211) | «دردم نہفتہ ز طبیباں مدعی / باشد کہ از خانہ غیبش دوا کند» (Hafiz: «…بہ ز طبیبان مدعی / …از خزانۂ غیبم دوا کنند») | text kept; indexed under the Hafiz wording | variant reading; the book's own translation says «خزانہ غیبی» |
 | 216 (pr. 215) | the citation under the opening ayah reads «(البقرۃ آیت: ۲۷)» | ayah marked as 2:207; citation text kept as printed | the quoted ayah is 2:207 |
+| 218 (pr. 217) | the bracketed translations after 7:24-25, 7:26 and 7:27 are displaced: the one after 7:24-25 renders 7:27 and the one after 7:27 renders 7:24-25 | text kept as printed; ayat marked by their Arabic | keep the text as printed |
