@@ -42,3 +42,5 @@
 | 172 (pr. 171) | «بس مبلغ اور مبلغ دو سے واسطہ ہوگا» | kept as printed | «مبلغ اور مبلّغ دہندہ» or similar intended |
 | 176 (pr. 175) | reference «سورۃ العصر آیت نمبر ۹ تا ۳» | kept as printed | «۱ تا ۳» intended |
 | toc | no «تمہید» row for التواصی بالصبر | row added at p. 175 | heading printed on the page |
+| 181 (pr. 180) | «کیا فرع سے نقص سے شے میں نقص نہیں آتا» | kept as printed | «فرع کے نقص سے» |
+| 184 (pr. 183) | «جو دانے توحید والے کو حاصل نہیں ہو سکتی» | kept as printed | probably «زبانی توحید والے» |
