@@ -37,3 +37,5 @@ Page = PDF page (printed page + 1) unless marked «pr.». Each row: what the boo
 | 333 (pr. 332) | variant couplet | «خسرو غریب است وگدا… / شاید کہ از بہر خدا…» | kept as printed; indexed under «خسرو غریب ست گدا… / باشد کہ…» | same couplet, wording differs from earlier volumes |
 | 335 (pr. 334) | the editor's reference note for «من حرمہا فقد حرم الخیر کلہ» says «لم اجد الحدیث فی موسوعۃ اطراف الحدیث» | kept as printed | the hadith is in Sunan Ibn Majah (no. 1644, from Anas) |
 | 340 (pr. 339) | misprint | «اور اس خواب کا واقع میں خلاف قواعد نہ ہونا» | «اور اس جواب کا…» | the passage is about the صاحب حال's answer (جواب) to Khizr; no dream is mentioned |
+| 343 (pr. 342) | variant couplet | «بزرگے دیدم اندر کہسارے / قناعت کرد از دنیا بغارے» | kept as printed; indexed under «بزرگے دیدم اندر کوہسارے / نشستہ از جہاں در کنج غارے» | same Saadi couplet, second half differs from Vol 3 |
+| 343 (pr. 342) | toc | toc had «فوائد خلوۃ» | «فوائد خلوت» | matches the printed heading |
