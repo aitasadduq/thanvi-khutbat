@@ -5,7 +5,7 @@ Page = PDF page (printed page + 1) unless marked «pr.». Each row: what the boo
 | Page | Book had | Applied | Why |
 |---|---|---|---|
 | toc | sermon start pages are not in the فہرست | provisional start pages entered; checked against the pages during transcription | the فہرست lists headings only |
-| toc | «قرآن حکیم کی ناقدری 201» between rows for pp. 209 and 210 | kept until the page is reached | probable misprint of 210 |
+| toc | «قرآن حکیم کی ناقدری 201» between rows for pp. 209 and 210 | changed to 210 | the heading is printed on p. 210 |
 | 22 (pr. 21) | only «بمان اے آنکہ جز تو پاک نیست» is printed | text kept; indexed under the existing «روزہا گر رفت گو رو باک نیست / تو بماں اے آنکہ چوں تو پاک نیست» | partial and variant quotation |
 | 23 (pr. 22) | the couplet «من نکردم خلق تا سودے کنم…» is printed twice in a row | both kept as printed | repetition in the book |
 | 24 (pr. 23) | «کان سعیہم مشکورا» (17:19 has «فاولئک کان سعیہم مشکورا»; 76:22 «وکان سعیکم مشکورا»); the translation «تمہاری کوشش» follows 76:22 | marked 76:22 words 5-7, as in Vol 10 (same sermon) | translation and Vol 10 both give 76:22 |
