@@ -21,3 +21,4 @@ Page = PDF page (printed page + 1) unless marked «pr.». Each row: what the boo
 | 107 (pr. 106) | only «نہ ہر کہ آئینہ دارد سکندری دارد» | indexed under the full couplet «نہ ہر کہ چہرہ برافروخت… / نہ ہر کہ آئینہ دارد سکندری داند» | partial and variant quotation |
 | toc | the فہرست has no row for «تمہید» on p. 73 (روح القیام) | added «تمہید» 73 | the heading is printed on the page |
 | 116 (pr. 115) | روح الصیام (2 Ramazan 1334) is the first sermon of the series «ہفت اختر» and روح القیام (9 Ramazan) the second, but the book prints روح القیام first | order kept as printed | — |
+| 119 (pr. 118) | «ان دو انڈوں کے سوا انڈے بنا سکتا ہوں» and «جو اٹھانوے انڈے» | kept as printed | probably «سو انڈے» (a hundred) — the father's «اٹھانوے» (98 = 100 − 2) implies it |
