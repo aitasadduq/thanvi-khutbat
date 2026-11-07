@@ -17,3 +17,5 @@ Page = PDF page (printed page + 1) unless marked «pr.». Each row: what the boo
 | 77 (pr. 76) | «سوی ان جمعنا فیہ قیل یقال» | text kept; indexed under «… قیل وقال» | variant reading |
 | 90 (pr. 89) | «خود بخود آں بت عیار ببر می آید» (one half only) | indexed under the existing «خود بخود آں شہ ابرار بر می آید / نہ بزور نہ بزاری نہ بزر می آید» | variant and partial quotation |
 | 90 (pr. 89) | «بر کریما کارہا دشوار نیست» | indexed under the existing «… / با کریماں کارہا دشوار نیست» | variant reading |
+| 106 (pr. 105) | «تو درو گم شو وصال ایں ست و بس / گم شدن گم کن کمال ایں ست و بس» | indexed under the existing «… / گم شدن را گم کن …» | variant reading |
+| 107 (pr. 106) | only «نہ ہر کہ آئینہ دارد سکندری دارد» | indexed under the full couplet «نہ ہر کہ چہرہ برافروخت… / نہ ہر کہ آئینہ دارد سکندری داند» | partial and variant quotation |
