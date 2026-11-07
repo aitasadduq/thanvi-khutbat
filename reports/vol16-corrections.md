@@ -44,3 +44,5 @@ Page = PDF page (printed page + 1) unless marked «pr.». Each row: what the boo
 | 362 (pr. 361) | variant couplet | «سوئے زلفش نظرے کردن درویش دیدن» | kept as printed; indexed under «… نظرے کردن و رویش دیدن» | «درویش» is a run-together misprint of «و رویش» |
 | 364 (pr. 363) | misprint | «لکن ضعلوہا ابتغاء رضوان اللہ» | «لکن صنعوہا…» | the supplied verb (they made/devised it) is صنعوہا; ضعلوہا is not a word |
 | 364 (pr. 363) | misprint | «اور ہم کو ضرورت ہے فلیف القیاس» | «فکیف القیاس» | Arabic idiom «so how can one compare» |
+| 367 (pr. 366) | toc | toc had «خلوۃ از اغیار» on 367 | 366 | the heading is printed at the foot of p. 366 |
+| 368 (pr. 367) | misprint in couplet | «نشوی زیں پس زبلبل سرگزشت» | «نشنوی زیں پس ز بلبل سرگزشت» | the Rumi line reads «نشنوی» (you will not hear) |
