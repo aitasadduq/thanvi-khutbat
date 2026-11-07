@@ -44,3 +44,5 @@
 | toc | no «تمہید» row for التواصی بالصبر | row added at p. 175 | heading printed on the page |
 | 181 (pr. 180) | «کیا فرع سے نقص سے شے میں نقص نہیں آتا» | kept as printed | «فرع کے نقص سے» |
 | 184 (pr. 183) | «جو دانے توحید والے کو حاصل نہیں ہو سکتی» | kept as printed | probably «زبانی توحید والے» |
+| 186 (pr. 185) | «جن مقدمہ اور آلہ تکمیل عقائد کو بنایا گیا ہے» | kept as printed | «جن کا مقدمہ اور آلہ عقائد کو» intended |
+| 190 (pr. 189) | «کیونکہ اس میں تقریر ہے۔ اس کی غلطی کی» | kept as printed | punctuation slip: «اس میں تقریر ہے اس کی غلطی کی» |
