@@ -47,3 +47,4 @@
 | 390 (pr. 389) | footnotes ۲ and ۳ print the same text («جن لوگوں کو مقتدایان اسلام پر اعتراض ہو…») | both kept as printed | duplicated footnote |
 | 394 (pr. 393) | after «امرہم شوریٰ بینہم وشاورہم فی الامر» the book prints the translation «(تو نے ایک چیز کو یاد رکھا اور دوسری چیزیں غائب کر دیں)», which renders the saying «حافظت شیئا…» printed below | text kept as printed; ayat marked as 42:38 and 3:159 | displaced translation |
 | 394 (pr. 393) | «حافظت شیئا وغابت عنک اشیاء» | text kept; indexed under the existing «حفظت شیئا وغابت عنک اشیاء» | variant reading |
+| 396 (pr. 395) | only the second half «نہ ہر کہ آئینہ دارد سکندری داند» is printed | text kept as printed; indexed under the full couplet «نہ ہر کہ چہرہ برافروخت… / نہ ہر کہ آئینہ دارد…» | partial quotation |
