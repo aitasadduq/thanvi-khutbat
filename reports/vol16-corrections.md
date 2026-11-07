@@ -36,3 +36,4 @@ Page = PDF page (printed page + 1) unless marked «pr.». Each row: what the boo
 | 332 (pr. 331) | the editor's reference note for «المعتکف یعتکف الذنوب…» says «لم اجد الحدیث فی موسوعۃ اطراف الحدیث» although the text says «رواہ ابن ماجہ» | kept as printed | the hadith is in Sunan Ibn Majah (Kitab al-Siyam, no. 1781) |
 | 333 (pr. 332) | variant couplet | «خسرو غریب است وگدا… / شاید کہ از بہر خدا…» | kept as printed; indexed under «خسرو غریب ست گدا… / باشد کہ…» | same couplet, wording differs from earlier volumes |
 | 335 (pr. 334) | the editor's reference note for «من حرمہا فقد حرم الخیر کلہ» says «لم اجد الحدیث فی موسوعۃ اطراف الحدیث» | kept as printed | the hadith is in Sunan Ibn Majah (no. 1644, from Anas) |
+| 340 (pr. 339) | misprint | «اور اس خواب کا واقع میں خلاف قواعد نہ ہونا» | «اور اس جواب کا…» | the passage is about the صاحب حال's answer (جواب) to Khizr; no dream is mentioned |
