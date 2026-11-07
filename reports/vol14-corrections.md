@@ -17,3 +17,6 @@
 | 308 (pr. 307) | «وعدہ اہل کرم گنج رواں / وعدہ نا اہل چوں رنج رواں» | kept as printed; indexed under the couplet as it reads elsewhere («… شد رنج رواں») | a variant reading |
 | 325 (pr. 324) | Masnavi couplets printed «ہر کجا پستی آب آنجا رود», «آزموں را یک زمانے خاک باش», «بعد ازاں دیوانہ سازم خویش را» | kept as printed; indexed under the couplets as they read elsewhere | variant readings |
 | 326 (pr. 325) | «محوی باید نہ نحو ایں جا بداں» | kept as printed; indexed under «محو می باید نہ نحو ایں جا بداں» (two earlier spellings in Vols 4/6 unified to it) | a variant reading |
+| 328 (pr. 327) | «حال دنیا را بہ پرسیدم … گفتہ یا خوابے یا بادیست یا افسانہ» | kept as printed; indexed under the couplet as it reads elsewhere | a variant reading |
+| 330 (pr. 329) | 26:50 quoted the second time as «لا ضیر انا الی ربنا لمنقلبون» (لمنقلبون is from 43:14) | written from the reference text of 26:50, as quoted the first time on the page | a misprint in the ayah |
+| 330 (pr. 329) | «جسم بگذارم سر جاں شوم» | kept as printed; indexed under «… سراسر جاں شوم» | a variant reading |
