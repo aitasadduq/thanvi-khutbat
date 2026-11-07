@@ -34,3 +34,4 @@
 | toc | the فہرست has no row for the heading «تمہید» on p. 314 (شکر السوانح) | added «تمہید» 314 | the heading is printed on the page |
 | 314 (pr. 313) | التعرف بالتصرف is dated ۲۳ ذی الحجہ ۱۳۴۷ھ at its head (p. 274) but signed «اشرف علی ۱۳ ذیقعدہ ۴۷ھ» at the end, a month earlier | both kept as printed | one of the two dates is a misprint; the source does not say which |
 | 314 (pr. 314) | شکر السوانح has no header page with date, place or recorder | none added | nothing printed to transcribe |
+| toc | the فہرست has no row for the heading «تمہید» on p. 320 (اعانۃ النافع) | added «تمہید» 320 | the heading is printed on the page |
