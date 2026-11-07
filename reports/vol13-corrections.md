@@ -36,3 +36,4 @@
 | 124 (pr. 123) | «اس لئے وہ ذہن میں متحضر تھا» | kept as printed | «غیر متحضر» intended |
 | 132 (pr. 131) | «سیرف حداد» | «سیوف حداد» | printer's slip in the verse |
 | 150 (pr. 149) | «میں زمین کے اندر گڑھ گیا» | kept as printed | «گڑ گیا» |
+| 156 (pr. 155) | «آدمی اور بوتا وغیرہ کی تصویر» | kept as printed | «لوٹا» intended |
