@@ -25,3 +25,4 @@
 | 83 (pr. 82) | «جو لوگ علماء کی شان میں گستاخی کرتا ہے» | kept as printed | number agreement slip |
 | 99 (pr. 98) | «ترغیب ترغیب کی ضرورت» | kept as printed | «ترغیب و ترہیب» intended |
 | 100 (pr. 99) | «دوسرے کے دعوے کو رد کرنے میں بھی اسے کبھی انقباض ہوتا ہے» | kept as printed | the argument needs «رد کرنے میں اسے انقباض ہوتا ہے» |
+| 103 (pr. 102) | «شرارت کا مرتب کرنا ہمارا کام ہے» | kept as printed | «ثمرات کا» intended |
