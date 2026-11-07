@@ -69,3 +69,4 @@
 | 442 (pr. 441) | «ملنے نہ ملنے کا تو وہ مختار ہے آپ / پر تجھ کو چاہئے کہ تگ و دو لگی رہے» | text kept; indexed under «ملنے کا اور نہ ملنے کا مختار آپ ہے / …» (p. 427) | variant reading |
 | 447 (pr. 446) | only the second half «سحرگہ خروشاں کہ واماندہ اند» is printed | text kept; indexed under the full couplet «فرس کشتہ از بس کہ شب راندہ اند / …» (the earlier entry's «اشب» corrected to «کہ شب» in all volumes) | partial quotation |
 | 447 (pr. 446) | the existing entry «اختلاف خلق از نام اوفتاد» was the first half only | completed to «… / چوں بمعنی رفت آرام اوفتاد» in all volumes | completion from this page |
+| 449 (pr. 448) | النفحات فی الاوقات is dated ۴ شوال ۱۳۴۴ھ at its head (p. 411) but signed «اشرف علی ۱۹ رمضان المبارک ۱۳۵۰ھ» | both kept as printed | the signature is probably the date of revision |
