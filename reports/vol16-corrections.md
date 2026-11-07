@@ -46,3 +46,5 @@ Page = PDF page (printed page + 1) unless marked «pr.». Each row: what the boo
 | 364 (pr. 363) | misprint | «اور ہم کو ضرورت ہے فلیف القیاس» | «فکیف القیاس» | Arabic idiom «so how can one compare» |
 | 367 (pr. 366) | toc | toc had «خلوۃ از اغیار» on 367 | 366 | the heading is printed at the foot of p. 366 |
 | 368 (pr. 367) | misprint in couplet | «نشوی زیں پس زبلبل سرگزشت» | «نشنوی زیں پس ز بلبل سرگزشت» | the Rumi line reads «نشنوی» (you will not hear) |
+| 370 (pr. 369) | misprint in couplet | «اسیرش نخواہد رہائی زبند / شکارش نجوید خلاصی بند» | kept as printed; indexed under «… شکارش نجوید خلاص از کمند» | the second half lost «از کمند»; the Saadi line is well known |
+| 369–370 (pr. 368–369) | order of glosses | the gloss «(اے سرو تجھے مبارک ہو…)» is printed under «دلفریباں نباتی…», and the gloss for «مقام امن…» under «دریں زمانہ…» | kept as printed | glosses appear one line out of place in the print |
