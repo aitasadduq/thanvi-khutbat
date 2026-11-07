@@ -21,3 +21,4 @@
 | 330 (pr. 329) | 26:50 quoted the second time as «لا ضیر انا الی ربنا لمنقلبون» (لمنقلبون is from 43:14) | written from the reference text of 26:50, as quoted the first time on the page | a misprint in the ayah |
 | 330 (pr. 329) | «جسم بگذارم سر جاں شوم» | kept as printed; indexed under «… سراسر جاں شوم» | a variant reading |
 | 345 (pr. 344) | the second quotation of the line printed «علمے کہ رہ حق نماید جہالت ست» | «نہ» restored: «علمے کہ رہ حق نہ نماید جہالت ست» | a dropped word; the first quotation on the page and the gloss («رہنمائی نہ کرے») both have it |
+| 348 (pr. 347) | «ایں مرض در نفس ہر انسان ہست» | kept as printed; indexed under «… در نفس ہر مخلوق ہست» | a variant reading |
