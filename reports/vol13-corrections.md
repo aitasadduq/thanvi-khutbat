@@ -63,3 +63,4 @@
 | toc | no «تمہید» row for الاستقامت | row added at p. 342 | heading printed on the page |
 | 351 (pr. 350) | «اللہم انی اسئلک من خشیتک ما تحول بہ بینی و بین معاصیک (لم اجد الحدیث …)» | kept as printed; indexed under the existing term «اللہم اقسم لنا من خشیتک ما تحول بہ بیننا وبین معاصیک» | known wording (Tirmidhi 3502); the publisher's «not found» note is kept |
 | 351 (pr. 350) | «اگر نماز کی آگ کو اتنی توفیق بھی نہ ہوتی۔ تو بتلایئے کہاں جہاں کر سر پٹکتے» | kept as printed | the sentence is garbled in print |
+| 353 (pr. 352) | «یا بنی سل اللہ الجنۃ … (لم اجد الحدیث …)» | kept as printed | the narration (Sa'd ibn Abi Waqqas to his son; Abu Dawud 1480, Ahmad) has «سیکون قوم یعتدون فی الدعاء»; the publisher's «not found» note is kept |
