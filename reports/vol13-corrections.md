@@ -30,3 +30,5 @@
 | 108 (pr. 107) | «ایسے ہی یہ ناریہ بھی ہیں» | kept as printed | wordplay on «آریہ» (people of the fire) |
 | 112 (pr. 111) | «وضوع حق ہو چکا تھا» | kept as printed | «وضوح» |
 | 115 (pr. 114) | «اتقائے معصیت پر عمل نہ کرے»; «اس میں تاکید نفس ہے» | kept as printed | «اقتضائے معصیت» and «تائید نفس» intended |
+| 117 (pr. 116) | «پھر خود جواب دیا ہے کہ مغلوب مطلق ارادہ کا فنا کرنا نہیں» | kept as printed | «مطلوب» intended |
+| 118 (pr. 117) | «اعمال اختیاریہ میں کمی کرے» | kept as printed | sense requires «سعی کرے» |
