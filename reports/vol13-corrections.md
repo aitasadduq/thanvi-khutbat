@@ -28,3 +28,4 @@
 | 103 (pr. 102) | «شرارت کا مرتب کرنا ہمارا کام ہے» | kept as printed | «ثمرات کا» intended |
 | 106 (pr. 105) | «جس کو حمد اللہ نہ آوے»; «مولانا محمد یعقوب صاحب سے کہا کیجئے» | kept as printed | wording as printed |
 | 108 (pr. 107) | «ایسے ہی یہ ناریہ بھی ہیں» | kept as printed | wordplay on «آریہ» (people of the fire) |
+| 112 (pr. 111) | «وضوع حق ہو چکا تھا» | kept as printed | «وضوح» |
