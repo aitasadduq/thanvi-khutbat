@@ -39,3 +39,4 @@ Page = PDF page (printed page + 1) unless marked «pr.». Each row: what the boo
 | 340 (pr. 339) | misprint | «اور اس خواب کا واقع میں خلاف قواعد نہ ہونا» | «اور اس جواب کا…» | the passage is about the صاحب حال's answer (جواب) to Khizr; no dream is mentioned |
 | 343 (pr. 342) | variant couplet | «بزرگے دیدم اندر کہسارے / قناعت کرد از دنیا بغارے» | kept as printed; indexed under «بزرگے دیدم اندر کوہسارے / نشستہ از جہاں در کنج غارے» | same Saadi couplet, second half differs from Vol 3 |
 | 343 (pr. 342) | toc | toc had «فوائد خلوۃ» | «فوائد خلوت» | matches the printed heading |
+| 350 (pr. 349) | misprint | «فسوف تری اذا الکشف الغبار / الفرس تحت رجلک ام حمار» | «اذا انکشف الغبار / افرس تحت رجلک» | the verse needs انکشف and the question particle أ (افرس … ام حمار); same as elsewhere in the series |
