@@ -35,3 +35,4 @@
 | toc | no «تمہید» row for التواصی بالحق | row added at p. 121 | heading printed on the page |
 | 124 (pr. 123) | «اس لئے وہ ذہن میں متحضر تھا» | kept as printed | «غیر متحضر» intended |
 | 132 (pr. 131) | «سیرف حداد» | «سیوف حداد» | printer's slip in the verse |
+| 150 (pr. 149) | «میں زمین کے اندر گڑھ گیا» | kept as printed | «گڑ گیا» |
