@@ -56,3 +56,5 @@
 | 276 (pr. 275) | «حدیث ہول قیامت کہ گفت وعظ شہر» | kept as printed; indexed under «واعظ شہر» | metre and the translation («واعظ شہر نے») need «واعظ» |
 | 276 (pr. 275) | «اعموا ما ابہم اللہ» | kept as printed; indexed as «ابہموا ما ابہمہ اللہ» | the known saying is «ابهموا ما ابهمه الله» |
 | 279 (pr. 278) | «وعظوں» (several times) and «وعظاں کیں جلوہ» | kept as printed | for «واعظوں» and «واعظاں»; the couplet is indexed under «واعظاں» |
+| 301 (pr. 300) | «الدنیا راس کل خطیئۃ» | kept as printed; indexed under «حب الدنیا راس کل خطیئۃ» | the translation on the page («دنیا کی محبت») and the known wording have «حب» |
+| 307 (pr. 306) | «شریف گر متضعف شود» | kept as printed; indexed under «متواضع» | the translation on the page («متواضع») and the form already indexed elsewhere read «متواضع» |
