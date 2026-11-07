@@ -23,3 +23,4 @@ Page = PDF page (printed page + 1) unless marked «pr.». Each row: what the boo
 | 116 (pr. 115) | روح الصیام (2 Ramazan 1334) is the first sermon of the series «ہفت اختر» and روح القیام (9 Ramazan) the second, but the book prints روح القیام first | order kept as printed | — |
 | 119 (pr. 118) | «ان دو انڈوں کے سوا انڈے بنا سکتا ہوں» and «جو اٹھانوے انڈے» | kept as printed | probably «سو انڈے» (a hundred) — the father's «اٹھانوے» (98 = 100 − 2) implies it |
 | 122 (pr. 121) | the couplet is printed «تصدق اپنے خدا کے جاؤں یہ پیار آتا ہے مجھے انشا / ادھر سے ایسے گناہ پیہم ادھر سے یہ دمبدم عنایت» | kept as printed; indexed under the canonical «تصدق اپنے خدا پہ جاؤں … ادھر سے انعام یہ دم بدم» | the same couplet appears elsewhere in the series with that wording |
+| 140 (pr. 139) | the couplet «الست از ازل ہمچناں شان بگوش …» is introduced with «عارف شیرازی فرماتے ہیں» | kept as printed; indexed under شیخ سعدیؒ | the couplet is from Saadi's Bustan; Saadi was from Shiraz |
