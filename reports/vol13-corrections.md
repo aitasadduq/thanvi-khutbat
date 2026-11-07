@@ -34,3 +34,4 @@
 | 118 (pr. 117) | «اعمال اختیاریہ میں کمی کرے» | kept as printed | sense requires «سعی کرے» |
 | toc | no «تمہید» row for التواصی بالحق | row added at p. 121 | heading printed on the page |
 | 124 (pr. 123) | «اس لئے وہ ذہن میں متحضر تھا» | kept as printed | «غیر متحضر» intended |
+| 132 (pr. 131) | «سیرف حداد» | «سیوف حداد» | printer's slip in the verse |
