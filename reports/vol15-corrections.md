@@ -26,3 +26,4 @@
 | 254 (pr. 253) | «گفت اے موت من نہ مہتیم / پیر زال غریب محنتیم» | text kept; indexed under the existing «…من نہ مہستیم / …محنتیم» | variant reading (the girl's name is printed مہتی here) |
 | 262 (pr. 261) | فناء النفوس is dated ۸ محرم ۱۳۴۴ھ at its head (p. 214) but signed «اشرف علی ۳۰ شوال ۱۳۴۸ھ» at the end | both kept as printed | the signature is probably the date of revision |
 | toc | the فہرست has no row for the heading «تمہید» on p. 263 (نشر الرحمۃ) | added «تمہید» 263 | the heading is printed on the page |
+| 267 (pr. 266) | 89:15-17 printed from «اذا ما ابتلٰہ» (without «فاما الانسان») and ending «کلا» | marked as 89:15 words 2-11, 89:16, 89:17 first word | the quotation begins mid-verse |
