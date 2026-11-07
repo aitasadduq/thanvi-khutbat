@@ -15,3 +15,5 @@ Page = PDF page (printed page + 1) unless marked «pr.». Each row: what the boo
 | 49 (pr. 48) | «جوش عشق است نے ترک ادب»; «ایں چنیں شیخ گدائے کو بکو» | text kept; indexed under the existing «جوشش عشق…» and «ایں چنیں شیخے…» | variant readings |
 | 77 (pr. 76) | the scholar who came to Shaykh Najm al-Din Kubra is unnamed («ایک بہت بڑے عالم فلسفی»); the same story elsewhere names Imam Razi | indexed under the existing story term (Imam Razi), with a note that this page leaves him unnamed | same story |
 | 77 (pr. 76) | «سوی ان جمعنا فیہ قیل یقال» | text kept; indexed under «… قیل وقال» | variant reading |
+| 90 (pr. 89) | «خود بخود آں بت عیار ببر می آید» (one half only) | indexed under the existing «خود بخود آں شہ ابرار بر می آید / نہ بزور نہ بزاری نہ بزر می آید» | variant and partial quotation |
+| 90 (pr. 89) | «بر کریما کارہا دشوار نیست» | indexed under the existing «… / با کریماں کارہا دشوار نیست» | variant reading |
