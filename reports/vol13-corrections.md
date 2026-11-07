@@ -55,3 +55,4 @@
 | 272 (pr. 271) | «اعقل ثم توکل» (no reference printed) | reference added as in the Vol 4 copy: موارد الظمآن ۲۵۴۹، حلیۃ الاولیاء ۸: ۳۹۰ | |
 | 276 (pr. 275) | «حدیث ہول قیامت کہ گفت وعظ شہر» | kept as printed; indexed under «واعظ شہر» | metre and the translation («واعظ شہر نے») need «واعظ» |
 | 276 (pr. 275) | «اعموا ما ابہم اللہ» | kept as printed; indexed as «ابہموا ما ابہمہ اللہ» | the known saying is «ابهموا ما ابهمه الله» |
+| 279 (pr. 278) | «وعظوں» (several times) and «وعظاں کیں جلوہ» | kept as printed | for «واعظوں» and «واعظاں»; the couplet is indexed under «واعظاں» |
