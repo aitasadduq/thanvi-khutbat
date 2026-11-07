@@ -19,3 +19,5 @@ Page = PDF page (printed page + 1) unless marked «pr.». Each row: what the boo
 | 90 (pr. 89) | «بر کریما کارہا دشوار نیست» | indexed under the existing «… / با کریماں کارہا دشوار نیست» | variant reading |
 | 106 (pr. 105) | «تو درو گم شو وصال ایں ست و بس / گم شدن گم کن کمال ایں ست و بس» | indexed under the existing «… / گم شدن را گم کن …» | variant reading |
 | 107 (pr. 106) | only «نہ ہر کہ آئینہ دارد سکندری دارد» | indexed under the full couplet «نہ ہر کہ چہرہ برافروخت… / نہ ہر کہ آئینہ دارد سکندری داند» | partial and variant quotation |
+| toc | the فہرست has no row for «تمہید» on p. 73 (روح القیام) | added «تمہید» 73 | the heading is printed on the page |
+| 116 (pr. 115) | روح الصیام (2 Ramazan 1334) is the first sermon of the series «ہفت اختر» and روح القیام (9 Ramazan) the second, but the book prints روح القیام first | order kept as printed | — |
