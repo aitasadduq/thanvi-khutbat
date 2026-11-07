@@ -50,3 +50,8 @@
 | 228 (pr. 227) | «اذا اغلب احدکم النعاس وہو یذکر اللہ فلیرتد … (لم اجد الحدیث …)» | kept as printed; indexed under the existing term «اذا غلب احدکم النعاس … فلیرقد» | «اغلب» and «فلیرتد» are slips for «غلب»/«فلیرقد»; the known wording (Bukhari, Muslim) is «اذا نعس احدکم وہو یصلی فلیرقد … لعلہ یستغفر فیسب نفسہ»; the publisher's «not found» note is kept |
 | 242 (pr. 241) | «اپنی پسند کا مکان نہ بنانے کی اجازت مستنبط ہوتی ہے» | kept as printed | «نہ» is a slip; the argument permits building a favoured house |
 | 261 (pr. 260) | «خیرہ یوسف داری باید دوید» (first of two printings) | kept as printed; indexed under «خیرہ یوسف وار می باید دوید» | the same couplet is printed correctly a few lines later |
+| 265 (pr. 264) | «موضع گجنیر» | kept as printed; the Vol 4 copy of this sermon was transcribed «گہنیر», and its index terms were changed to «گجنیر» (Gajner, near Kanpur) | |
+| 271 (pr. 270) | «تو پھر نکاح بھی کرو اور کہہ دو» | kept as printed | «نہ» is missing; the Vol 4 copy of this sermon reads «نکاح بھی نہ کرو» |
+| 272 (pr. 271) | «اعقل ثم توکل» (no reference printed) | reference added as in the Vol 4 copy: موارد الظمآن ۲۵۴۹، حلیۃ الاولیاء ۸: ۳۹۰ | |
+| 276 (pr. 275) | «حدیث ہول قیامت کہ گفت وعظ شہر» | kept as printed; indexed under «واعظ شہر» | metre and the translation («واعظ شہر نے») need «واعظ» |
+| 276 (pr. 275) | «اعموا ما ابہم اللہ» | kept as printed; indexed as «ابہموا ما ابہمہ اللہ» | the known saying is «ابهموا ما ابهمه الله» |
