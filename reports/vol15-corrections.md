@@ -45,3 +45,5 @@
 | toc | the فہرست has no row for the heading «تمہید» on p. 386 (قطع التمنی) | added «تمہید» 386 | the heading is printed on the page |
 | 388 (pr. 387) | «ما قدروا اللہ حق قدرہ» occurs in 6:91, 22:74 and 39:67 with no surah named | marked as 22:74 | the shortest exact form |
 | 390 (pr. 389) | footnotes ۲ and ۳ print the same text («جن لوگوں کو مقتدایان اسلام پر اعتراض ہو…») | both kept as printed | duplicated footnote |
+| 394 (pr. 393) | after «امرہم شوریٰ بینہم وشاورہم فی الامر» the book prints the translation «(تو نے ایک چیز کو یاد رکھا اور دوسری چیزیں غائب کر دیں)», which renders the saying «حافظت شیئا…» printed below | text kept as printed; ayat marked as 42:38 and 3:159 | displaced translation |
+| 394 (pr. 393) | «حافظت شیئا وغابت عنک اشیاء» | text kept; indexed under the existing «حفظت شیئا وغابت عنک اشیاء» | variant reading |
