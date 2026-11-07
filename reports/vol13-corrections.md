@@ -46,3 +46,4 @@
 | 184 (pr. 183) | «جو دانے توحید والے کو حاصل نہیں ہو سکتی» | kept as printed | probably «زبانی توحید والے» |
 | 186 (pr. 185) | «جن مقدمہ اور آلہ تکمیل عقائد کو بنایا گیا ہے» | kept as printed | «جن کا مقدمہ اور آلہ عقائد کو» intended |
 | 190 (pr. 189) | «کیونکہ اس میں تقریر ہے۔ اس کی غلطی کی» | kept as printed | punctuation slip: «اس میں تقریر ہے اس کی غلطی کی» |
+| 195 (pr. 194) | «بعض تو خودکشی کر لیتے ہیں اور بعض خودکشی کر لیتے ہیں» | kept as printed | second probably «خود کشی» (کنارہ کشی); explained in the next sentence |
