@@ -27,3 +27,7 @@
 | 370 (pr. 369) | «نیست از معراج یونس اجتبا» | kept as printed; indexed under «… نیست بر معراج یونس اجتبا» | a variant reading |
 | 371 (pr. 370) | «قرب از پستی بالا رفتن ست / قرب حق از قید ہستی رستن ست» (the gloss shows the sense «قرب نے بالا نہ پستی رفتن است») | kept as printed; indexed under the couplet as it reads elsewhere | a misprint or variant reading |
 | 384 (pr. 383) | «لعنۃ اللہ آں انا را در جفا / رحمۃ اللہ ایں انا را در وفا» | kept as printed; indexed under the couplet as it reads elsewhere («رحمۃ اللہ آں انا را در وفا / لعنۃ اللہ ایں انا را در قفا») | the halves are in a different order |
+| toc.tsv | فہرست headings «حکایت خلوت نشین» (328), «داہن اور ذاہن» (350), «ترک مالا یعنی» (363) | changed to the spelling on the page: «حکایت خلوت نشیں», «دہن اور ذہن», «ترک مالایعنی» | the toc follows the page heading |
+| 205 | 48:2 written with «ذَنۭۡ بِكَ» split, so the Arabic check read it as a different wording | the two parts joined («ذَنۭۡبِكَ») and the ayah kept as 48:2 | a spacing slip in the copied ayah text |
+| 305 | 28:76 «مَا٘ اِنَّ» split | joined («مَا٘اِنَّ») as in the reference | a spacing slip in the copied ayah text |
+| hadith check | 3 differs: p205 (the ayah above, now fixed), p353 colophon «تم بحمد اللہ الذی بنعمتہ تتم الصالحات» | colophon kept as printed | it is the book's closing line, not a hadith quotation |

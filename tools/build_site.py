@@ -28,6 +28,7 @@ VOLUMES = [
     {'no': 11, 'title': 'حقیقت تصوف و تقویٰ', 'dir': 'Vol 11 haqiqat e tasawwuf o taqwa'},
     {'no': 12, 'title': 'محاسن اسلام', 'dir': 'Vol 12 mahasin e islam'},
     {'no': 13, 'title': 'دعوت و تبلیغ', 'dir': 'Vol 13 dawat o tabligh'},
+    {'no': 14, 'title': 'جزا و سزا', 'dir': 'Vol 14 jaza o saza'},
 ]
 TOTAL_VOLUMES = 32
 # Where readers report mistakes: "new issue" page of the public site repository (prefilled with volume and page).
