@@ -32,3 +32,5 @@
 | 115 (pr. 114) | «اتقائے معصیت پر عمل نہ کرے»; «اس میں تاکید نفس ہے» | kept as printed | «اقتضائے معصیت» and «تائید نفس» intended |
 | 117 (pr. 116) | «پھر خود جواب دیا ہے کہ مغلوب مطلق ارادہ کا فنا کرنا نہیں» | kept as printed | «مطلوب» intended |
 | 118 (pr. 117) | «اعمال اختیاریہ میں کمی کرے» | kept as printed | sense requires «سعی کرے» |
+| toc | no «تمہید» row for التواصی بالحق | row added at p. 121 | heading printed on the page |
+| 124 (pr. 123) | «اس لئے وہ ذہن میں متحضر تھا» | kept as printed | «غیر متحضر» intended |

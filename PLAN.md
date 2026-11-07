@@ -143,7 +143,7 @@ Update the **Status** and **Next steps** sections at the end of every working se
    is truly impossible without him.
 1b. After every context compaction, re-read `CLAUDE.md` and this file before continuing.
 2. Do not stop to ask (rule 1a); decide, apply, and log.
-3. Commit after every batch (≈8 pages) and push to the branch above. No pull request unless asked.
+3. Commit after every 10 pages (owner, 2026-11-07) and push to the branch above (`git pull --rebase` first). No pull request unless asked.
    Commit messages end with:
    `Co-Authored-By: Claude Opus 5.5 <noreply@anthropic.com>` and
    `Claude-Session: https://claude.ai/code/session_015uM8b6tEpHrmFhzz1XdWLQ`. No model name elsewhere.
