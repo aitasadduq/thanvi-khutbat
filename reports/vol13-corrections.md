@@ -39,3 +39,6 @@
 | 156 (pr. 155) | «آدمی اور بوتا وغیرہ کی تصویر» | kept as printed | «لوٹا» intended |
 | 163 (pr. 162) | sentence repeated: «کہ وہ علماء کے ساتھ خاص ہے تو اس میں بھی عام مسلمانوں کے ذمہ یہ کام ہے» | kept as printed | printer's duplication |
 | 163 (pr. 162) | «جیسے نٹل بہلوان کا امام ہوتا ہے» | kept as printed | probably «نٹ (یا بہلوان) کا»; meaning unclear |
+| 172 (pr. 171) | «بس مبلغ اور مبلغ دو سے واسطہ ہوگا» | kept as printed | «مبلغ اور مبلّغ دہندہ» or similar intended |
+| 176 (pr. 175) | reference «سورۃ العصر آیت نمبر ۹ تا ۳» | kept as printed | «۱ تا ۳» intended |
+| toc | no «تمہید» row for التواصی بالصبر | row added at p. 175 | heading printed on the page |
