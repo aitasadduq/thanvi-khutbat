@@ -57,3 +57,5 @@
 | 413 (pr. 412) | the hadith is translated «(تمہارے رب کیلئے ساعات دہر میں نغمات ہیں)» | kept as printed | «نغمات» probably a misprint of «نفحات» |
 | 413 (pr. 412) | «ان لربکم فی دہرکم نفحات الا فتعرضوا لہ» | text kept; indexed under the existing «ان لربکم فی ایام دہرکم نفحات الا فتعرضوا لہا» | variant reading |
 | 415 (pr. 414) | only the first half «اصطلاحاتیست مر ابدال را» is printed | text kept as printed; indexed under the full couplet «… / کہ نباشد زاں خبر اقوال را» | partial quotation |
+| 417 (pr. 416) | «اعتقاد تقدیر کی ایک غایت تو عاجلہ یعنی اجر آخرت» — the next sentences contrast it with «ایک غایت عاجلہ بھی», so the first should read «آجلہ» | text kept as printed; indexed as غایت آجلہ | probable misprint |
+| 418 (pr. 417) | «ایاکم واللو فانہا مطیۃ الشیطان» | text kept; indexed under «ایاکم واللو فان لو یفتح عمل الشیطان» | variant wording of the same hadith |
