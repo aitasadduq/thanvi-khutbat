@@ -49,3 +49,4 @@
 | 394 (pr. 393) | «حافظت شیئا وغابت عنک اشیاء» | text kept; indexed under the existing «حفظت شیئا وغابت عنک اشیاء» | variant reading |
 | 396 (pr. 395) | only the second half «نہ ہر کہ آئینہ دارد سکندری داند» is printed | text kept as printed; indexed under the full couplet «نہ ہر کہ چہرہ برافروخت… / نہ ہر کہ آئینہ دارد…» | partial quotation |
 | 401 (pr. 400) | after «ان تکفروا فان اللہ غنی عنکم» the translation adds «اور اللہ تعالیٰ غنی ہے اور تم سب فقیر ہو», which renders 47:38 quoted below | text kept as printed; ayah marked as 39:7 words 0-5 | translation slip |
+| 403 (pr. 402) | «فبای حدیث بعدہ یؤمنون» occurs in 7:185 and 77:50 with no surah named | marked as 77:50 | the whole verse is the phrase |
