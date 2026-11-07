@@ -14,3 +14,4 @@
 | 241 (pr. 240) | the sermon date «۲۸ ربیع الثانی ۱۳۲۲ھ»; the year's digits are faint in the scan | read as ۱۳۲۲ھ | |
 | 252 (pr. 251) | «کم کسے از سر حق آگاہ شد» and «گفتہ ایں کہ ما بشر ایشاں بشر / ماؤ ایشاں بستۂ خوابیم و خور» | indexed under the couplets as they read elsewhere in the book («کم کسے ز ابدال حق آگاہ شد», «گفت اینک ما بشر ایشاں بشر / ما وایشاں بستہ خوابیم و خور»); the text kept as printed | variant readings of the مثنوی lines |
 | 288 (pr. 287) | «چورسی بکوئے دلبر بسیار جان مضطر» printed twice as the first half; the second half is set alone below | joined as one couplet «چو رسی بکوئے دلبر بسپار جان مضطر / کہ مبادا بار دیگر نرسی بدیں تمنا» | a repeated line; بسیار read as بسپار, as the gloss («اپنی جان اسی پر فدا کر دو») shows |
+| 308 (pr. 307) | «وعدہ اہل کرم گنج رواں / وعدہ نا اہل چوں رنج رواں» | kept as printed; indexed under the couplet as it reads elsewhere («… شد رنج رواں») | a variant reading |
