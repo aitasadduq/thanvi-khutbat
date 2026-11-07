@@ -59,3 +59,5 @@
 | 301 (pr. 300) | «الدنیا راس کل خطیئۃ» | kept as printed; indexed under «حب الدنیا راس کل خطیئۃ» | the translation on the page («دنیا کی محبت») and the known wording have «حب» |
 | 307 (pr. 306) | «شریف گر متضعف شود» | kept as printed; indexed under «متواضع» | the translation on the page («متواضع») and the form already indexed elsewhere read «متواضع» |
 | 316 (pr. 315) | «ہرہ کے ایک دوست» | kept as printed; indexed under «مارہرہ» | the same story is indexed elsewhere as told of Marehra |
+| toc | no «تمہید» row for التبشیر | row added at p. 297 | heading printed on the page |
+| toc | no «تمہید» row for الاستقامت | row added at p. 342 | heading printed on the page |
