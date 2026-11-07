@@ -24,3 +24,4 @@
 | 230 (pr. 229) | 56:8-9 printed «فاصحب المیمنۃ واصحب المیمنۃ و اصحب المشئمۃ ما اصحب المشئمۃ» (first «ما» dropped); 56:10-11 printed «والسابقون اولئک المقربون» (second «السابقون» dropped) | marked as 56:8-9 (whole verses) and 56:10 (first word) + 56:11 | standard text used in the ayah markup; the omissions are printing slips |
 | 232 (pr. 231) | the translation after 37:61 «اس طرح عمل کرنے والے اس کی طرح عمل کر سکتے ہیں» | text kept as printed | translation slip |
 | 254 (pr. 253) | «گفت اے موت من نہ مہتیم / پیر زال غریب محنتیم» | text kept; indexed under the existing «…من نہ مہستیم / …محنتیم» | variant reading (the girl's name is printed مہتی here) |
+| 262 (pr. 261) | فناء النفوس is dated ۸ محرم ۱۳۴۴ھ at its head (p. 214) but signed «اشرف علی ۳۰ شوال ۱۳۴۸ھ» at the end | both kept as printed | the signature is probably the date of revision |
