@@ -1,1 +1,3 @@
+# Decisions on ayat where the book's wording differs from the Qur'an (read by tools/mark_arabic.py).
+# page	book's words	keep | <surah:ayah>	Qur'an words to put in their place
 192	اِنَّ اللّٰهَ قَرِيۡبٌ مِّنَ الۡمُحۡسِنِيۡنَ	keep
