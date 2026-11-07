@@ -25,3 +25,4 @@
 | 232 (pr. 231) | the translation after 37:61 «اس طرح عمل کرنے والے اس کی طرح عمل کر سکتے ہیں» | text kept as printed | translation slip |
 | 254 (pr. 253) | «گفت اے موت من نہ مہتیم / پیر زال غریب محنتیم» | text kept; indexed under the existing «…من نہ مہستیم / …محنتیم» | variant reading (the girl's name is printed مہتی here) |
 | 262 (pr. 261) | فناء النفوس is dated ۸ محرم ۱۳۴۴ھ at its head (p. 214) but signed «اشرف علی ۳۰ شوال ۱۳۴۸ھ» at the end | both kept as printed | the signature is probably the date of revision |
+| toc | the فہرست has no row for the heading «تمہید» on p. 263 (نشر الرحمۃ) | added «تمہید» 263 | the heading is printed on the page |
