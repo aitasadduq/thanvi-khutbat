@@ -18,6 +18,12 @@ Update the **Status** and **Next steps** sections at the end of every working se
   «وحدت الوجود» → «وحدۃ الوجود», duplicate names for the same story merged). Index built (2048 entries); all volume
   indexes and the site rebuilt (`site/v12.html`). Preview (private artifact, republish to the same URL):
   https://claude.ai/artifact/BVo1Hr4sb48E3wPhTN3Wfx
+- **Volume 14 (جزا و سزا) — in progress.** Folder `Vol 14 jaza o saza/`. PDF page = printed page + 1; text printed
+  pp. 11–~390 (sermons: جمال الجلیل 11, حیوۃ طیبہ 62, an untitled short sermon «سلسلہ اشرف المواعظ کا پہلا وعظ» 88,
+  اجر الصیام من غیر انصرام 93, المعرق والرحیق 146, انوار السراج 215, طلب الجنۃ 240, آثار الربیع 281,
+  المودۃ الرحمانیہ 354). `toc.tsv` transcribed from the فہرست (290 rows); transcription under way (files 0011, 0062,
+  0088, 0093). Half-page images in the session scratchpad `v14/h/`.
+
 - **Volume 13 (دعوت و تبلیغ) — done, awaiting the owner's review.** Folder `Vol 13 dawat o tabligh/`. PDF page = printed
   page + 1; text printed pp. 11–376 (8 sermons: الدعوت الی اللہ 11, آداب التبلیغ 63, التواصی بالحق 120, التواصی بالصبر 174,
   ضرورت تبلیغ 215, اتباع علماء 272, التبشیر 296, الاستقامت 340), all transcribed (files 0011, 0063, 0120, 0174, 0215,
@@ -230,8 +236,8 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Volume 14: start (§3 steps 1–2): locate the PDF, check the page offset, transcribe the فہرست into `toc.tsv`, extract
-  half-page images, then transcribe sermon by sermon, logging corrections in `reports/vol14-corrections.md`.
+- Volume 14: continue transcribing (§3 step 2) from where the last page in `Vol 14 jaza o saza/page-notes/` ends,
+  logging corrections in `reports/vol14-corrections.md`; then §3 steps 4–8.
 - The owner will review `reports/vol02-corrections.md` … `reports/vol13-corrections.md` at leisure; revert anything the owner rejects.
 - Question answering (RAG) over the books: revised plan in `RAG_PLAN.md` (2026-11-06), awaiting the owner's go-ahead;
   transcription stays the priority.
