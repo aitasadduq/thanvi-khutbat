@@ -70,3 +70,5 @@
 | 447 (pr. 446) | only the second half «سحرگہ خروشاں کہ واماندہ اند» is printed | text kept; indexed under the full couplet «فرس کشتہ از بس کہ شب راندہ اند / …» (the earlier entry's «اشب» corrected to «کہ شب» in all volumes) | partial quotation |
 | 447 (pr. 446) | the existing entry «اختلاف خلق از نام اوفتاد» was the first half only | completed to «… / چوں بمعنی رفت آرام اوفتاد» in all volumes | completion from this page |
 | 449 (pr. 448) | النفحات فی الاوقات is dated ۴ شوال ۱۳۴۴ھ at its head (p. 411) but signed «اشرف علی ۱۹ رمضان المبارک ۱۳۵۰ھ» | both kept as printed | the signature is probably the date of revision |
+| 229, 416, 426 | ayah pairs quoted with a verse mark between partial verses (56:10-11, 57:22-23, 24:30-31) were flagged DIFFERS as one passage | each half marked as its own ayah fragment (56:10 + 56:11, 57:22 + 57:23, 24:30 + 24:31) | the words are exact Qur'an text; only the joined passage was partial |
+| 150 | 9:55/9:85 blend (see above) | `quran-decisions.tsv`: keep as printed | blended wording |
