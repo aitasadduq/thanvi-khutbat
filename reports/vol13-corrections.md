@@ -18,3 +18,4 @@
 | 47 (pr. 46) | «توکل کو اب ایک وقت گزارا» | kept as printed | probably «توکل کر کے» |
 | 50 (pr. 49) | «یہاں مسائل کے نام صفر ہوگا» | kept as printed | «کے نام پر» intended |
 | 55 (pr. 54) | «واہ بے اوت کے اوت مکا مکانہ» | kept as printed | colloquial; wording unclear |
+| 65 (pr. 64) | «اس میں آج کل کی ہے» | kept as printed | «کمی ہے» |
