@@ -20,3 +20,4 @@
 | 212 (pr. 211) | «دردم نہفتہ ز طبیباں مدعی / باشد کہ از خانہ غیبش دوا کند» (Hafiz: «…بہ ز طبیبان مدعی / …از خزانۂ غیبم دوا کنند») | text kept; indexed under the Hafiz wording | variant reading; the book's own translation says «خزانہ غیبی» |
 | 216 (pr. 215) | the citation under the opening ayah reads «(البقرۃ آیت: ۲۷)» | ayah marked as 2:207; citation text kept as printed | the quoted ayah is 2:207 |
 | 218 (pr. 217) | the bracketed translations after 7:24-25, 7:26 and 7:27 are displaced: the one after 7:24-25 renders 7:27 and the one after 7:27 renders 7:24-25 | text kept as printed; ayat marked by their Arabic | keep the text as printed |
+| 221 (pr. 220) | after «یعجبک قولہ فی الحیوۃ الدنیا» the bracket gives the translation of the next hadith («بعض شعر میں حکمت ہوتی ہے اور بعض بیان میں جادو ہوتا ہے») | text kept as printed | the translation belongs to the hadith on the next page |
