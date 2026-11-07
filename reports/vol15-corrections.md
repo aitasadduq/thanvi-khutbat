@@ -61,3 +61,4 @@
 | 418 (pr. 417) | «ایاکم واللو فانہا مطیۃ الشیطان» | text kept; indexed under «ایاکم واللو فان لو یفتح عمل الشیطان» | variant wording of the same hadith |
 | 420 (pr. 419) | «درجہ تفصیل میں اس کے بیان کی ضرورت نہ تھی تو اس سے شارع نے تعرض فرمایا» — the sense requires «تعرض نہیں فرمایا» | text kept as printed | probable dropped «نہیں» |
 | 424 (pr. 423) | «لا یدخل الجنۃ احد بعملہ» | text kept; indexed under the existing «لن یدخل احدا عملہ الجنۃ، ولا انت یا رسول اللہ» | variant wording of the same hadith |
+| 427 (pr. 426) | translations displaced: after 24:30-31 only the men's translation is printed, and after 20:131 the book prints the women's translation of 24:31 | text kept as printed; ayat marked as 24:30-31 and 20:131 | displaced translation |
