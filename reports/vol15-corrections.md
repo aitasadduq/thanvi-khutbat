@@ -31,3 +31,6 @@
 | 277 (pr. 276) | after the second «الا لہ الخلق والامر» the bracketed translation is that of «قل ہو اللہ احد» («آپ فرما دیجئے کہ وہ اللہ ایک ہے») | text kept as printed | translation displaced in print |
 | 286 (pr. 285) | «منصورؒ بچہ بود کہ از یک قطرہ بفریاد آمد۔ ایں جا مردانند کہ دریاہا فرو بردہ اند و آروغے نہ زدند» | text kept; indexed under the existing «منصور بچہ بود کہ از قطرہ بفریاد آمد / اینجا مردانند کہ دریاہا فرو برند و آروغ نزنند»; the older قول term for its first half unified to it | variant reading of the same saying |
 | 307 (pr. 306) | «حضرت مولانا دیوبندیؒ کے درس میں» — the teacher is not named | indexed under حضرت مولانا محمود حسن دیوبندیؒ (شیخ الہند) | the author's teacher at Deoband usually called «مولانا دیوبندی»; logged as an inference |
+| toc | the فہرست has no row for the heading «تمہید» on p. 314 (شکر السوانح) | added «تمہید» 314 | the heading is printed on the page |
+| 314 (pr. 313) | التعرف بالتصرف is dated ۲۳ ذی الحجہ ۱۳۴۷ھ at its head (p. 274) but signed «اشرف علی ۱۳ ذیقعدہ ۴۷ھ» at the end, a month earlier | both kept as printed | one of the two dates is a misprint; the source does not say which |
+| 314 (pr. 314) | شکر السوانح has no header page with date, place or recorder | none added | nothing printed to transcribe |
