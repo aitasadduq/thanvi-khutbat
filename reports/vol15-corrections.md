@@ -12,3 +12,4 @@
 | 151 (pr. 150) | the ayah is printed «ولا تعجبک اموالہم ولا اولادہم انما یرید اللہ لیعذبہم بہا فی الدنیا وتزہق انفسہم», a blend of 9:55 (فلا … لیعذبہم … فی الحیوۃ الدنیا) and 9:85 (ولا … ان یعذبہم … فی الدنیا) | marked as 9:55 with the printed «وَلَا» and «فِي الدُّنۡيَا» kept | keep the text as printed; 9:55 is the closer match (ولا اولادہم، لیعذبہم) |
 | 158 (pr. 157) | couplet «بلبلے برگ گلے… واندراں برگ و نوا خوش نغمہائے زار داشت» | text kept; indexed under the existing «…خوش نالہائے زار داشت» | variant reading of the same couplet |
 | 160 (pr. 159) | «کان دائم الاحزان متواصل الافکار» (the book notes it was not found in these words) | indexed under the existing «کان دائم الفکرۃ متواصل الاحزان» | variant wording of the same hadith (Shamail al-Tirmidhi) |
+| toc | the فہرست has no row for the heading «تمہید» on p. 174 (الوصل والفصل) | added «تمہید» 174 | the heading is printed on the page |
