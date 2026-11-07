@@ -223,7 +223,7 @@ def recheck(m, Q, report, page, decisions):
 
 
 # the author's signature and the colophon at the end of a sermon are Urdu, not quotations
-SIGNATURE = re.compile(r'^\(?(اشرف علی|حکیم الامت حضرت مولانا اشرف علی|بحمد اللہ تمت|بحمد اللہ تمام)')
+SIGNATURE = re.compile(r'^\(?(اشرف علی|حکیم الامت حضرت مولانا اشرف علی|بحمد اللہ تمت|بحمد اللہ تمام|بحمد اللہ تم$)')
 
 
 def process(lines, Q, report, page, decisions=None):

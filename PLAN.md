@@ -6,7 +6,7 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 ---
 
-## 1. Status (2026-11-06)
+## 1. Status (2026-11-07)
 
 - **Volume 12 (محاسن اسلام) — done, awaiting the owner's review.** Folder `Vol 12 mahasin e islam/`. PDF page = printed
   page + 1; text printed pp. 11–440 (7 sermons), all transcribed (files 0011, 0075, 0124, 0184, 0266, 0300, 0347).
@@ -18,10 +18,15 @@ Update the **Status** and **Next steps** sections at the end of every working se
   «وحدت الوجود» → «وحدۃ الوجود», duplicate names for the same story merged). Index built (2048 entries); all volume
   indexes and the site rebuilt (`site/v12.html`). Preview (private artifact, republish to the same URL):
   https://claude.ai/artifact/BVo1Hr4sb48E3wPhTN3Wfx
-- **Volume 13 (دعوت و تبلیغ) — in progress.** Folder `Vol 13 dawat o tabligh/`. PDF page = printed page + 1; text
-  printed pp. 11–~375 (8 sermons: الدعوت الی اللہ 11, آداب التبلیغ 63, التواصی بالحق 120, التواصی بالصبر 174, ضرورت تبلیغ
-  215, اتباع علماء 272, التبشیر 296, الاستقامت 340). `toc.tsv` transcribed from the فہرست; transcription under way
-  (file 0011).
+- **Volume 13 (دعوت و تبلیغ) — done, awaiting the owner's review.** Folder `Vol 13 dawat o tabligh/`. PDF page = printed
+  page + 1; text printed pp. 11–376 (8 sermons: الدعوت الی اللہ 11, آداب التبلیغ 63, التواصی بالحق 120, التواصی بالصبر 174,
+  ضرورت تبلیغ 215, اتباع علماء 272, التبشیر 296, الاستقامت 340), all transcribed (files 0011, 0063, 0120, 0174, 0215,
+  0272, 0296, 0340). `toc.tsv` from the فہرست; four missing «تمہید» rows added (logged). mark_arabic: DIFFERS 0, CITE 0
+  (multi-verse blocks rejoined with ۝; 2:261 split words joined; the colophon «بحمد اللہ تم» added to the tool's
+  signature list). Hadith check: `reports/vol13-hadith-check.md` (5 differs, all the book's spelling, kept). All
+  corrections applied under the owner's rule are in `reports/vol13-corrections.md`. The sermon ضرورت تبلیغ also appears
+  in Vol 4 (file 0406); its terms were matched to the Vol 4 ones and the place name «گجنیر» unified. Index built
+  (1410 entries); all volume indexes and the site rebuilt (`site/v13.html`).
 
 - **Volume 11 (حقیقت تصوف و تقویٰ) — done, awaiting the owner's review.** Folder `Vol 11 haqiqat e tasawwuf o taqwa/`.
   PDF page = printed page + 1; text printed pp. 11–528 (11 sermons; the فہرست says 526, the last sermon runs to 528),
@@ -221,9 +226,9 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Volume 13: continue transcribing (§3 step 3) from where the last page in `Vol 13 dawat o tabligh/page-notes/` ends,
-  logging corrections in `reports/vol13-corrections.md`; then §3 steps 4–8.
-- The owner will review `reports/vol02-corrections.md` … `reports/vol12-corrections.md` at leisure; revert anything the owner rejects.
+- Volume 14: start (§3 steps 1–2): locate the PDF, check the page offset, transcribe the فہرست into `toc.tsv`, extract
+  half-page images, then transcribe sermon by sermon, logging corrections in `reports/vol14-corrections.md`.
+- The owner will review `reports/vol02-corrections.md` … `reports/vol13-corrections.md` at leisure; revert anything the owner rejects.
 - Question answering (RAG) over the books: revised plan in `RAG_PLAN.md` (2026-11-06), awaiting the owner's go-ahead;
   transcription stays the priority.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
