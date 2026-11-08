@@ -60,3 +60,4 @@ Page = PDF page (printed page + 1) unless marked «pr.». Each row: what the boo
 | 428 (pr. 427) | toc | toc had «تکمیل صوم» | «مکمل صوم» | matches the printed heading |
 | 430 (pr. 429) | hadith text | «وآخرہ عتق من النیران» | kept as printed; indexed under «… وآخرہ عتق من النار» | same hadith, wording differs from the earlier entry |
 | 432 (pr. 431) | misprint | «وقلوبہم امر من الذیاب» | kept as printed; indexed under «… وقلوبہم قلوب الذئاب» | the gloss «دل بھیڑیوں سے زیادہ کڑوے» shows الذئاب (wolves); «الذیاب» is a spelling slip |
+| 439–440 (pr. 438–439) | person | the garden story is told of «حضرت طلحہؓ» (also the toc heading «حضرت طلحہؓ کی غیرت») | kept as printed; indexed under «حضرت ابو طلحہ انصاریؓ» | the story (bird in the garden during prayer, garden given away) is reported of Abu Talha al-Ansari in the Muwatta |
