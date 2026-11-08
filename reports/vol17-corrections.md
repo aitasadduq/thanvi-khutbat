@@ -8,3 +8,4 @@ Applied under the owner's rule (PLAN §2). Each row: page (PDF; printed), kind, 
 | 54 (pr. 53) | signature | «اشرف علی (ج ۱۔ ۱۳۵۵ھ)» at the end of سنت ابراہیم | kept as printed | «ج ۱» is probably جمادی الاولیٰ; the sermon carries no other date |
 | 55 (pr. 54) | toc | printed title page of the sermon is p. 54 | toc 54 | matches |
 | 57 (pr. 56) | toc | heading «ترتیب فرعی و عقلی» printed on p. 56 is missing from the فہرست | row added to toc | heading as printed |
+| 66 (pr. 65) | gloss | the gloss of «خود کہ یابد…» breaks off: «(تم ایسا بازار کہاں پاؤ گے کہ ایک پھول کے بدلہ» | kept as printed | gloss incomplete in the print |
