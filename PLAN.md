@@ -20,7 +20,7 @@ Update the **Status** and **Next steps** sections at the end of every working se
   `reports/vol16-corrections.md` (misprints, misplaced glosses, date mismatches ۱۳۳۳/۱۳۳۴ and ۱۳۳۶/۱۳۵۲, «طلحہ» for
   ابو طلحہ, editor's «لم اجد» notes for hadith that are in the collections). More couplet, story and person terms in
   all volumes were unified. Index built (2937 entries); site rebuilt (`site/v16.html`). Preview (private artifact,
-  republish to the same URL): VOL16_URL
+  republish to the same URL): https://claude.ai/artifact/B37zqH2ZJod8wctC22izF2
 - **Volume 12 (محاسن اسلام) — done, awaiting the owner's review.** Folder `Vol 12 mahasin e islam/`. PDF page = printed
   page + 1; text printed pp. 11–440 (7 sermons), all transcribed (files 0011, 0075, 0124, 0184, 0266, 0300, 0347).
   `toc.tsv` headings follow the page where the فہرست differs (4 headings; a missing «تمہید» row added; each change
@@ -264,12 +264,13 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 8. Update this file (Status, Next steps), commit, push, and continue with the next volume (no waiting).
    Preview watches (2026-11-07): a session can watch at most 10 artifacts for comments sent to Claude. Keep the 10
    newest volume previews watched: after publishing a new volume's preview, stop watching the oldest
-   (`ArtifactComments` watch `on: false`) and watch the new one. Now watched: Vols 6–15; Vols 1–5 are not.
+   (`ArtifactComments` watch `on: false`) and watch the new one. Now watched: Vols 7–16; Vols 1–6 are not.
 
 ## 4. Next steps
 
-- Volume 17: start §3 step 1 (page offset, فہرست into `toc.tsv`), then transcribe; log corrections in
-  `reports/vol17-corrections.md`.
+- Volume 17 (سنت ابراہیم, خطبات حج و قربانی; `Vol 17 sunnat e ibrahim/`): PDF page = printed page + 1; `toc.tsv` done
+  from the فہرست (337 rows, 13 sermons); half-page images in the scratchpad `v17/h/`. Transcribing: سنت ابراہیم started
+  (`page-notes/0016.txt`, pp. 15–22 done). Continue from p. 23; log corrections in `reports/vol17-corrections.md`.
 - The owner will review `reports/vol02-corrections.md` … `reports/vol16-corrections.md` at leisure; revert anything the owner rejects.
 - Question answering (RAG) over the books: revised plan in `RAG_PLAN.md` (2026-11-06), awaiting the owner's go-ahead;
   transcription stays the priority.
