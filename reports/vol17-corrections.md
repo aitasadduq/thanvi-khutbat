@@ -24,3 +24,4 @@ Applied under the owner's rule (PLAN §2). Each row: page (PDF; printed), kind, 
 | 165 (pr. 164) | incomplete line | intro reads «کے موضوع پر ۱۹ ذی الحجہ ۱۳۳۹ھ کو جامع مسجد تھانہ بھون میں بیان فرمایا۔» | kept as printed | the subject before «کے موضوع پر» is missing in the book |
 | 178 (pr. 177) | text | غنی section: درمیانی قیمت کا تصدق first called «مستحب», a few lines later «واجب» | kept as printed | both statements are in the book |
 | 190 (pr. 189) | wording | «افراط یہ کہ باوجود قوت کے نکاح ہی نہ کرے … تفریط کہ ضرورت سے زیادہ کرے» | kept as printed | the two labels look swapped, but the author's point stands; text left as in the book |
+| 199 (pr. 198) | editor's note | «رب اشعث اغبر یطیل سفرہ…» with «لم اجد الحدیث فی موسوعۃ» | kept as printed | the hadith is in Sahih Muslim (Kitab al-Zakat) in the wording «یطیل السفر اشعث اغبر…»; indexed under that |
