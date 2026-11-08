@@ -51,3 +51,4 @@ Page = PDF page (printed page + 1) unless marked «pr.». Each row: what the boo
 | 373 (pr. 372) | toc | the فہرست lists «مثلث رمضان 372» as the last heading of التہذیب and names the next sermon «احوال واقعی» | sermon named «مثلث رمضان» (start 372); «احوال واقعی» made a heading on 373 | the title page reads «الوعظ المسمی بہ مثلث رمضان»; «احوال واقعی (از جامع)» is the compiler's preface |
 | 382 (pr. 381) | ayah reference | «وقلیل ماہم (اور وہ ان میں سے کم ہیں)» | marked as 38:24 (وقلیل ما ہم) | the wording matches 38:24; the gloss is as printed |
 | 385 (pr. 384) | toc | toc had «مزدور افضلیت» | «مزہ دار فضیلت» | matches the printed heading; the فہرست entry is a misreading |
+| 398 (pr. 397) | gloss | the gloss under «پیش یوسف… / چوں تو یوسف…» repeats the gloss of «ناز را روئے…» before its own | kept as printed | the print joined the two glosses |
