@@ -15,3 +15,4 @@ Applied under the owner's rule (PLAN §2). Each row: page (PDF; printed), kind, 
 | 90 (pr. 89) | probable misprint | «اف علی الرجس والآس» | kept as printed | the translation «نرگس» shows the word is النرجس (narcissus); the index uses the printed line |
 | 97 (pr. 96) | toc | toc row «لذۃ روحانی 96» | heading in the text is «ابوۃ روحانی» | toc row to be fixed in the §3 check |
 | 112 (pr. 111) | name | «طلحہ رضی اللہ عنہ ایک صحابی ہیں» then «ابو طلحہ نماز پڑھ رہے تھے» | kept as printed | the garden story is about Abu Talha al-Ansari; indexed under حضرت ابو طلحہ انصاریؓ |
+| 127 (pr. 126) | heading | «فضیلت باعتبار ربانی» (heading and toc) | «فضیلت باعتبار بانی» | the section is about the founder (بانی و بادی) of the act; «ربانی» is a misprint |
