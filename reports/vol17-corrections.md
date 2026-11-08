@@ -21,3 +21,4 @@ Applied under the owner's rule (PLAN §2). Each row: page (PDF; printed), kind, 
 | 135 (pr. 134) | probable misprint | «الحج والثج» | kept as printed | the Tirmidhi wording is «العج والثج»; indexed under حدیث: افضل الحج العج والثج |
 | 135 (pr. 134) | editor's note | «سمنوا اضحایاکم» with «لم اجد الحدیث فی موسوعۃ» | kept as printed | the same hadith is sourced to al-Daylami two pages earlier (p. 132) |
 | 148 (pr. 147) | name variant | «مالک بن دینار رحمہ اللہ فرماتے ہیں» | kept as printed | the same story elsewhere in the series is told of عمرو بن دینار; indexed under the existing story entry with «بصورت: مالک بن دینار» |
+| 165 (pr. 164) | incomplete line | intro reads «کے موضوع پر ۱۹ ذی الحجہ ۱۳۳۹ھ کو جامع مسجد تھانہ بھون میں بیان فرمایا۔» | kept as printed | the subject before «کے موضوع پر» is missing in the book |
