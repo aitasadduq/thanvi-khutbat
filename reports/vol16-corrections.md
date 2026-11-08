@@ -66,3 +66,4 @@ Page = PDF page (printed page + 1) unless marked «pr.». Each row: what the boo
 | 454 (pr. 453) | gloss | «اے گراں جاں خوار دیدستی مرا» glossed as «تو مجھ کو صرف اس لئے جرنیل سمجھتا ہے» | kept as printed | «جرنیل» is evidently a misprint for «ذلیل» (خوار) |
 | 461 (pr. 460) | gloss | «خوشا وقتے و خرم روزگارے…» is glossed «(اسکے غم میں پریشان لوگوں کا کیا اچھا وقت ہے…)» | kept as printed | the gloss belongs to another couplet; the line means «happy the time when a friend enjoys union with the friend» |
 | 465 (pr. 464) | editor's note | «ما جزاء اجیر… فیرجعون مغفورا لہم» with the note «لم اجد الحدیث» | kept as printed | the hadith is reported by al-Bayhaqi in Shuʿab al-Iman (Ibn Abbas) |
+| 193 (pr. 192) | ayah quoted in short | 56:83–87 quoted as 83, 84, 87 (85–86 left out) | kept as printed (quran-decisions: keep) | the speaker abridged the passage |
