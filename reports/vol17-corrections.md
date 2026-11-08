@@ -20,3 +20,4 @@ Applied under the owner's rule (PLAN §2). Each row: page (PDF; printed), kind, 
 | 128 (pr. 127) | editor's note | «انہا علی الصراط مطایاکم» with «لم اجد الحدیث فی موسوعۃ» | kept as printed | — |
 | 135 (pr. 134) | probable misprint | «الحج والثج» | kept as printed | the Tirmidhi wording is «العج والثج»; indexed under حدیث: افضل الحج العج والثج |
 | 135 (pr. 134) | editor's note | «سمنوا اضحایاکم» with «لم اجد الحدیث فی موسوعۃ» | kept as printed | the same hadith is sourced to al-Daylami two pages earlier (p. 132) |
+| 148 (pr. 147) | name variant | «مالک بن دینار رحمہ اللہ فرماتے ہیں» | kept as printed | the same story elsewhere in the series is told of عمرو بن دینار; indexed under the existing story entry with «بصورت: مالک بن دینار» |
