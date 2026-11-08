@@ -52,3 +52,5 @@ Page = PDF page (printed page + 1) unless marked «pr.». Each row: what the boo
 | 382 (pr. 381) | ayah reference | «وقلیل ماہم (اور وہ ان میں سے کم ہیں)» | marked as 38:24 (وقلیل ما ہم) | the wording matches 38:24; the gloss is as printed |
 | 385 (pr. 384) | toc | toc had «مزدور افضلیت» | «مزہ دار فضیلت» | matches the printed heading; the فہرست entry is a misreading |
 | 398 (pr. 397) | gloss | the gloss under «پیش یوسف… / چوں تو یوسف…» repeats the gloss of «ناز را روئے…» before its own | kept as printed | the print joined the two glosses |
+| 400 (pr. 399) | misprint | «اس اخیر تقریر کا نام یقصان فی رمضان» | «الیقظان فی رمضان» | the compiler's preface (p. 373) gives the name «الیقظان فی رمضان»; the section is about staying awake |
+| 400 (pr. 399) | date | the sermon is dated ۱۳۳۶ھ (p. 372) but signed «۱۸ شوال ۱۳۵۲ھ» | kept as printed | the signature date is presumably when the author revised the text |
