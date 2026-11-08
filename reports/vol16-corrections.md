@@ -54,3 +54,4 @@ Page = PDF page (printed page + 1) unless marked «pr.». Each row: what the boo
 | 398 (pr. 397) | gloss | the gloss under «پیش یوسف… / چوں تو یوسف…» repeats the gloss of «ناز را روئے…» before its own | kept as printed | the print joined the two glosses |
 | 400 (pr. 399) | misprint | «اس اخیر تقریر کا نام یقصان فی رمضان» | «الیقظان فی رمضان» | the compiler's preface (p. 373) gives the name «الیقظان فی رمضان»; the section is about staying awake |
 | 400 (pr. 399) | date | the sermon is dated ۱۳۳۶ھ (p. 372) but signed «۱۸ شوال ۱۳۵۲ھ» | kept as printed | the signature date is presumably when the author revised the text |
+| 401 (pr. 400) | name | scribe printed as «حضرت مولانا محمد احمد صاحب عثمانی مرحوم» | kept as printed; indexed as «مولانا محمد احمد عثمانی» | no other sermon names this scribe; may be a misprint for another Usmani scribe |
