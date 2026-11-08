@@ -10,3 +10,4 @@ Applied under the owner's rule (PLAN §2). Each row: page (PDF; printed), kind, 
 | 57 (pr. 56) | toc | heading «ترتیب فرعی و عقلی» printed on p. 56 is missing from the فہرست | row added to toc | heading as printed |
 | 66 (pr. 65) | gloss | the gloss of «خود کہ یابد…» breaks off: «(تم ایسا بازار کہاں پاؤ گے کہ ایک پھول کے بدلہ» | kept as printed | gloss incomplete in the print |
 | 72 (pr. 71) | person | «ابن عطاء کا قول» on 9:111 | indexed as «ابن عطاءؒ (ابو العباس، صوفی)», not ابن عطاء اللہ اسکندری | this saying is reported from Abu'l-Abbas ibn Ata in Sufi tafsir (e.g. al-Sulami); attribution uncertain |
+| 79 (pr. 78) | editor's note | «یا فاطمۃ احضری اضحیتک…» with «لم اجد الحدیث فی موسوعۃ» | kept as printed | reported (with weakness) by al-Hakim and al-Bayhaqi |
