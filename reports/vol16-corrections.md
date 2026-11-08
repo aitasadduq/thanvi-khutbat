@@ -59,3 +59,4 @@ Page = PDF page (printed page + 1) unless marked «pr.». Each row: what the boo
 | 426 (pr. 425) | couplet | «توانی ازاں دل پرداختن / کہ نادانی کہ بے او تواں ساختن» | kept as printed; indexed under «توانی ازاں دل بپرداختن / کہ دانی کہ بے او تواں ساختن» | Saadi's line reads «کہ دانی»; the print's «نادانی» inverts the sense |
 | 428 (pr. 427) | toc | toc had «تکمیل صوم» | «مکمل صوم» | matches the printed heading |
 | 430 (pr. 429) | hadith text | «وآخرہ عتق من النیران» | kept as printed; indexed under «… وآخرہ عتق من النار» | same hadith, wording differs from the earlier entry |
+| 432 (pr. 431) | misprint | «وقلوبہم امر من الذیاب» | kept as printed; indexed under «… وقلوبہم قلوب الذئاب» | the gloss «دل بھیڑیوں سے زیادہ کڑوے» shows الذئاب (wolves); «الذیاب» is a spelling slip |
