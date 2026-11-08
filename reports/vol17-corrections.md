@@ -13,3 +13,4 @@ Applied under the owner's rule (PLAN §2). Each row: page (PDF; printed), kind, 
 | 79 (pr. 78) | editor's note | «یا فاطمۃ احضری اضحیتک…» with «لم اجد الحدیث فی موسوعۃ» | kept as printed | reported (with weakness) by al-Hakim and al-Bayhaqi |
 | 82 (pr. 81) | editor's reference | «بی یسمع وبی یبصر وبی ینطق وبی یبطش وبی یمشی» (الترمذی) | kept as printed | this wording is a variant of the Bukhari hadith «کنت سمعہ الذی یسمع بہ»; not found in Tirmidhi; indexed under that hadith |
 | 90 (pr. 89) | probable misprint | «اف علی الرجس والآس» | kept as printed | the translation «نرگس» shows the word is النرجس (narcissus); the index uses the printed line |
+| 97 (pr. 96) | toc | toc row «لذۃ روحانی 96» | heading in the text is «ابوۃ روحانی» | toc row to be fixed in the §3 check |
