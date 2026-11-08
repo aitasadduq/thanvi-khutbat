@@ -55,3 +55,4 @@ Page = PDF page (printed page + 1) unless marked «pr.». Each row: what the boo
 | 400 (pr. 399) | misprint | «اس اخیر تقریر کا نام یقصان فی رمضان» | «الیقظان فی رمضان» | the compiler's preface (p. 373) gives the name «الیقظان فی رمضان»; the section is about staying awake |
 | 400 (pr. 399) | date | the sermon is dated ۱۳۳۶ھ (p. 372) but signed «۱۸ شوال ۱۳۵۲ھ» | kept as printed | the signature date is presumably when the author revised the text |
 | 401 (pr. 400) | name | scribe printed as «حضرت مولانا محمد احمد صاحب عثمانی مرحوم» | kept as printed; indexed as «مولانا محمد احمد عثمانی» | no other sermon names this scribe; may be a misprint for another Usmani scribe |
+| 409 (pr. 408) | gloss | «لا یرید بکم العسر» is glossed as «(تم سے تنگی چاہتے ہیں)», and «ان اللہ لا یحب الکافرین» as «(اللہ تعالیٰ کو تمہارے لئے آسانی منظور رہے)» | kept as printed | both glosses are misplaced in the print; the argument (لا یرید العسر = یرید عدم العسر, like لا یحب = یبغض) is clear |
