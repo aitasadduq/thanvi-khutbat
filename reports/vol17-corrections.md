@@ -11,3 +11,4 @@ Applied under the owner's rule (PLAN §2). Each row: page (PDF; printed), kind, 
 | 66 (pr. 65) | gloss | the gloss of «خود کہ یابد…» breaks off: «(تم ایسا بازار کہاں پاؤ گے کہ ایک پھول کے بدلہ» | kept as printed | gloss incomplete in the print |
 | 72 (pr. 71) | person | «ابن عطاء کا قول» on 9:111 | indexed as «ابن عطاءؒ (ابو العباس، صوفی)», not ابن عطاء اللہ اسکندری | this saying is reported from Abu'l-Abbas ibn Ata in Sufi tafsir (e.g. al-Sulami); attribution uncertain |
 | 79 (pr. 78) | editor's note | «یا فاطمۃ احضری اضحیتک…» with «لم اجد الحدیث فی موسوعۃ» | kept as printed | reported (with weakness) by al-Hakim and al-Bayhaqi |
+| 82 (pr. 81) | editor's reference | «بی یسمع وبی یبصر وبی ینطق وبی یبطش وبی یمشی» (الترمذی) | kept as printed | this wording is a variant of the Bukhari hadith «کنت سمعہ الذی یسمع بہ»; not found in Tirmidhi; indexed under that hadith |
