@@ -6,8 +6,21 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 ---
 
-## 1. Status (2026-11-07)
+## 1. Status (2026-11-08)
 
+- **Volume 16 (برکات رمضان) — done, awaiting the owner's review.** Folder `Vol 16 barakat e ramazan/`. PDF page =
+  printed page + 1; text printed pp. 14–464 (11 sermons: تطہیر رمضان 14, تقلیل المنام بصورۃ القیام 37, روح القیام 71,
+  روح الصیام 115, روح الافطار 164 (with the عرضداشت «نور الصدور» pp. 209–214), روح الجوار 215, فی خیر مقدم 266,
+  التہذیب 336, مثلث رمضان 372, اکمال العدۃ 400, اکمال الصوم والعید 428), all transcribed (files 0014, 0037, 0071, 0115, 0164, 0215, 0266, 0336,
+  0372, 0400, 0428). `toc.tsv`: the sermon after التہذیب renamed «مثلث رمضان» (the فہرست called it «احوال واقعی»,
+  which is the compiler's preface heading); 18 headings/pages changed to follow the printed pages; three heading
+  misreadings fixed (all logged). mark_arabic: DIFFERS 0, CITE 0 (7:56 quoted without «رحمت» on p. 191 and the
+  abridged 56:83–87 on p. 192 kept as printed in `quran-decisions.tsv`). Hadith check: `reports/vol16-hadith-check.md`
+  (22 differs reviewed, all the book's wording, kept). All corrections applied under the owner's rule are in
+  `reports/vol16-corrections.md` (misprints, misplaced glosses, date mismatches ۱۳۳۳/۱۳۳۴ and ۱۳۳۶/۱۳۵۲, «طلحہ» for
+  ابو طلحہ, editor's «لم اجد» notes for hadith that are in the collections). More couplet, story and person terms in
+  all volumes were unified. Index built (2937 entries); site rebuilt (`site/v16.html`). Preview (private artifact,
+  republish to the same URL): VOL16_URL
 - **Volume 12 (محاسن اسلام) — done, awaiting the owner's review.** Folder `Vol 12 mahasin e islam/`. PDF page = printed
   page + 1; text printed pp. 11–440 (7 sermons), all transcribed (files 0011, 0075, 0124, 0184, 0266, 0300, 0347).
   `toc.tsv` headings follow the page where the فہرست differs (4 headings; a missing «تمہید» row added; each change
@@ -255,9 +268,9 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 
 ## 4. Next steps
 
-- Volume 16: start §3 step 1 (page offset, فہرست into `toc.tsv`), then transcribe; log corrections in
-  `reports/vol16-corrections.md`.
-- The owner will review `reports/vol02-corrections.md` … `reports/vol15-corrections.md` at leisure; revert anything the owner rejects.
+- Volume 17: start §3 step 1 (page offset, فہرست into `toc.tsv`), then transcribe; log corrections in
+  `reports/vol17-corrections.md`.
+- The owner will review `reports/vol02-corrections.md` … `reports/vol16-corrections.md` at leisure; revert anything the owner rejects.
 - Question answering (RAG) over the books: revised plan in `RAG_PLAN.md` (2026-11-06), awaiting the owner's go-ahead;
   transcription stays the priority.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
