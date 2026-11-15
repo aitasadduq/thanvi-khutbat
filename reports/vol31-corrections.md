@@ -33,3 +33,4 @@
 | 155 (154) | wording | «باقی دونوں کی حقیقت یوں تعبید ہے» — probably «بون بعید» (a great gap); kept as printed | kept as printed | |
 | 160 (159) | hadith | «من صلی علی واحدا صلی اللہ علیہ عشرا» | written «واحدۃ» (Muslim's wording) | |
 | 161 (160) | hadith | «اذا یلفی ہمک ویغفر ذنبک» | written «اذا یکفی ہمک ویغفر ذنبک» (Tirmidhi: «اذا تکفی ہمک»); «یلفی» is a misprint | |
+| 163 (162) | Arabic verse | «فامد دیمینک کی تحظی بہاشفتی» (words run together) | written «فامدد یمینک کی تحظی بہا شفتی» | print slip |
