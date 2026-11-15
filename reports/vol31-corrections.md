@@ -77,3 +77,5 @@
 | 293 (292) | translation | the gloss of «مرا از زلف تو موئے بسند است» («تیرے بال میری زلفوں کے چند پسندیدہ بال ہیں…») does not render the line closely | kept as printed | |
 | 294 (293) | wording | «مثلاً فریمسن زونا» (unclear; perhaps «فریمیسن لوگ» or «فریمیسن زون») | kept as printed | |
 | 300 (299) | wording | «وہ خود غیر فانونی ہے» | «وہ خود غیر فانی ہے» | misprint; the contrast is with «دنیا… خود فانی» above |
+| 301 (300) | wording | ملا دو پیازہ's «آل نامہ» (printed «آبل نامہ» in another volume) | kept as printed | |
+| 301 (300) | hadith | «اطیعوا اذا امرکم» quoted as a امر نبوی; wording not matched to a source | marked «…» and kept as printed | |
