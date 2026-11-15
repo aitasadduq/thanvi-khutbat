@@ -8,6 +8,7 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 ## 1. Status (2026-11-14)
 
+- **Owner (2026-11-15): finish Volume 31 but do not start Volume 32.**
 - **Volume 31 (رحمت دو عالم) — in progress (started 2026-11-14).** Details under §4 Next steps (Vol 31 entry).
 - **Volume 30 (خیر الاعمال) — done 2026-11-14, awaiting the owner's review.** Details under §4 Next steps (Vol 30 entry).
 - **Volume 29 (تصوف, provisional title) — done 2026-11-14, awaiting the owner's review.** Details under §4 Next steps (Vol 29 entry).
