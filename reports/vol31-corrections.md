@@ -17,3 +17,4 @@
 | 85 (pr. 84) | wording | the hadith is printed «اللہم ادس الحق معہ حیث دا» (misprint, the end of «دار» lost); written «ادر الحق معہ حیث دار» as the head; «ما اری ربک الا یسارع ہواک» (no «فی») kept | corrected / kept | |
 | 89 (88) | dittography | first line of p. 88 repeats the last line of p. 87 («میں کسی ضرر کا احتمال ہی نہ ہو… مثل مشہور ہے:») | written once (at the end of pdf 88) | printer's catch-line repeat |
 | 95 (94) | wording | «ایک ان تعلقات کا جو وجود کے ساتھ ہیں» — the sense (and «تعلق مع اللہ» next) needs «جو خدا کے ساتھ»; kept as printed | kept as printed | |
+| 96 (95) | wording | «کتنی دشواری کا تحمل گوارا فرمایا، کیا یہ رعب نہیں؟ یقیناً بڑی رحمت ہے» — the sense needs «رحمت نہیں»; kept as printed | kept as printed | |
