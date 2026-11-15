@@ -54,3 +54,4 @@
 | 207 (206) | date | «۱۲ شوال ۴۰ ہجری ۹ جون ۱۸۲۲ء» — evidently ۱۳۴۰ھ / ۹ جون ۱۹۲۲ء (12 Shawwal 1340 = 8/9 June 1922); kept as printed in the text, the date term notes it | kept as printed | |
 | 220 (219) | heading | «حور کی صفت» is printed as a heading twice (pr. 216 and pr. 219) | both kept; the index lists the same head twice | |
 | 231 (230) | ayah | «ماولکم النار» | marked as 57:15 «مأواکم النار» | DIFFERS rule (misprint) |
+| 233 (232) | ayah | «لا یمسنا فیہا نصب» (no surah given) | marked as 35:35 (فاطر), as on pr. 199 | |
