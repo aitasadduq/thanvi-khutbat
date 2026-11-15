@@ -26,3 +26,4 @@
 | 105 (104) | wording | «ہر شبے گویم کہ الف فردا ترک ایں سودا کنم» — a stray «الف» in the line; written without it | corrected | |
 | 106 (105) | ayah | «جنت تجری من تحتہا الانہر» (no surah given; the phrase is in many ayat) | marked as 9:89, the nearest instance in the surah under discussion (التوبة) | rule 13 |
 | 125 (124) | wording | the couplet's second half is printed «تو عین ذات ہے نگری در تبسمی» here, but «تو عین ذات می نگری در تبسمی» on pr. 125; kept as printed in the text, the head uses «می نگری» | kept as printed; head «می نگری» | |
+| 146 (145) | Arabic verse | حضرت عباسؓ's eight couplets are printed in two columns split at the wrong places («ترکب السفیر وقد / الجم نسرا…», «اشرق / الارض وضاء ت…», last line «فنحن فی ذالک الضیاء وفی النور سبل الرشاد تخترق» on one line) | written couplet by couplet as the poem is divided, with «السفین», «اشرقت الـ / ارض وضاءت», «وسبل الرشاد نخترق» | print slips; the poem's known text (نشر الطیب) |
