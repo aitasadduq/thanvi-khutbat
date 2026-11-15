@@ -57,3 +57,4 @@
 | 233 (232) | ayah | «لا یمسنا فیہا نصب» (no surah given) | marked as 35:35 (فاطر), as on pr. 199 | |
 | 237 (236) | ayah | «ونزعنا ما فی صدورہم من غل» is both 7:43 and 15:47 | marked as 7:43, the first occurrence | rule 13 |
 | 248 (247) | wording | the page opens «انحضرت نے صرف اپنے ایجاب کو…» — «انحضرت» here refers to the شاہ صاحب of the story («ان حضرت»); kept as printed | kept as printed | |
+| 254 (253) | ayah | «جزاء بما کانوا یعملون» (no surah given; the words are 32:17, 46:14 and 56:24) | marked as 56:24, whose text it matches exactly (جزاءً بما کانوا یعملون) | rule 13 |
