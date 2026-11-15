@@ -64,3 +64,6 @@
 | 269 (268) | ayah | «واللہ یحب المحسنین» (no surah given; the words are 3:134, 3:148 and 5:93) | marked as 3:134, the first occurrence | rule 13 |
 | 269 (268) | wording | «تحب اللہ» in «موقع تحب اللہ کا تھا» (Arabic but not quoted in the print) | marked «تحب اللہ» | |
 | 269 (268) | translation | the Urdu gloss after «اداء حق محبت عنایتے است ز دوست» renders the earlier «بخت اگر مدد کند» couplet, not this one | kept as printed | |
+| 272 (271) | verse | «کہ برحل نیل مستسقی اند» | «کہ بر ساحل نیل مستسقی اند» | the print squeezes «بر ساحل» into «برحل»; the line reads «بر ساحل» in the other volumes |
+| 272 (271) | verse | «گل چیں بہار تو ز داماں گلہ» — the line ends without «دارد» | kept as printed; filed under the full head «… گلہ دارد» with بصورت | |
+| 272 (271) | heading | the heading «جنت میں انتظار کی لذت ہوگی» is printed between «شاعر کہتا ہے:» and the couplet | kept where printed | |
