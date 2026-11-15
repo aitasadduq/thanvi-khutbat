@@ -50,3 +50,5 @@
 | 202 (201) | Arabic | الشفاء: printed «من العزۃ الرماۃ… مامسست القوس بیدی الاعلیٰ طہارۃ مند بلغنی» and «ثم وضعہا علی جبہتہ» | written «من الغزاۃ الرماۃ… ما مسست القوس بیدی الا علی طہارۃ منذ بلغنی» (الشفاء); «ثم وضعہا علی جبہتہ» kept as printed (the Urdu gloss «پیشانی» follows it) | reading errors |
 | 203 (202) | Arabic | البحر: printed «لا یجوز الا انہ عبادۃ والعیادۃ… ولا یجوز لخادم الشیخ… ولا التصرف فیہ بوجہ من الوجود» | written «لا یجوز لانہ عبادۃ والعبادۃ… بوجہ من الوجوہ» | print slips |
 | 206 (205) | wording | «اس دوسرے حصہ وعظ کا نام کام الحضور الامور الصدور» (pr. 204–205) — the name looks garbled (perhaps «الحضور لامور الصدور»); kept as printed | kept as printed | |
+| 207 (206) | title | the title page prints «السلام التحقیق», the اجمالی فہرست «السلام التحقیقی» | toc form «السلام التحقیقی» used (the title-page calligraphy appears to drop the final ی) | reversible |
+| 207 (206) | date | «۱۲ شوال ۴۰ ہجری ۹ جون ۱۸۲۲ء» — evidently ۱۳۴۰ھ / ۹ جون ۱۹۲۲ء (12 Shawwal 1340 = 8/9 June 1922); kept as printed in the text, the date term notes it | kept as printed | |
