@@ -19,3 +19,5 @@
 | 95 (94) | wording | «ایک ان تعلقات کا جو وجود کے ساتھ ہیں» — the sense (and «تعلق مع اللہ» next) needs «جو خدا کے ساتھ»; kept as printed | kept as printed | |
 | 96 (95) | wording | «کتنی دشواری کا تحمل گوارا فرمایا، کیا یہ رعب نہیں؟ یقیناً بڑی رحمت ہے» — the sense needs «رحمت نہیں»; kept as printed | kept as printed | |
 | 97 (96) | title | the اجمالی فہرست has «شکر النعمۃ بذکر الرحمۃ»; the title page has «شکر النعمۃ بذکر رحمۃ الرحمۃ» | title page form used | |
+| 98 (97) | ayah | «من اطاع الرسول فقد اطاع اللہ» — 4:80 reads «من یطع الرسول»; marked as «…» (paraphrase), not as an ayah | marked as «…» | |
+| 98 (97) | citation | «(التوبۃ آیت ۱۱۸)» | written «(التوبۃ آیت ۱۲۸)» (the ayah quoted is 9:128) | |
