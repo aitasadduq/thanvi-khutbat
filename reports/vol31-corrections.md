@@ -18,3 +18,4 @@
 | 89 (88) | dittography | first line of p. 88 repeats the last line of p. 87 («میں کسی ضرر کا احتمال ہی نہ ہو… مثل مشہور ہے:») | written once (at the end of pdf 88) | printer's catch-line repeat |
 | 95 (94) | wording | «ایک ان تعلقات کا جو وجود کے ساتھ ہیں» — the sense (and «تعلق مع اللہ» next) needs «جو خدا کے ساتھ»; kept as printed | kept as printed | |
 | 96 (95) | wording | «کتنی دشواری کا تحمل گوارا فرمایا، کیا یہ رعب نہیں؟ یقیناً بڑی رحمت ہے» — the sense needs «رحمت نہیں»; kept as printed | kept as printed | |
+| 97 (96) | title | the اجمالی فہرست has «شکر النعمۃ بذکر الرحمۃ»; the title page has «شکر النعمۃ بذکر رحمۃ الرحمۃ» | title page form used | |
