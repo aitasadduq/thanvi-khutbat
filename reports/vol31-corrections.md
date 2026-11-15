@@ -44,3 +44,4 @@
 | 191 (190) | hadith | Muslim (اللباس): «جبتہ طیالسیۃ کسرو انیۃ لبنۃ دیاح» — split and misspelt words | written «جبۃ طیالسیۃ کسروانیۃ لبنۃ دیباج»; the rest kept as printed | print slips |
 | 192 (191) | hadith | Anas's hadith (Muslim): printed «ثم وعن انس… ونحرنسکہ… وناول الحاق» | written «وعن انس… ونحر نسکہ… وناول الحالق» (stray «ثم» dropped) | print slips |
 | 192 (191) | citation | the footnote «(الصحیح لمسلم الحج: ۳۲۶، سنن الترمذی: ۹۱۳)» stands at the foot of pr. 191 without a visible mark in the text; placed after Anas's حلق hadith, which it fits | placed | |
+| 195 (194) | Arabic | the لمعات quotation is printed «اصل فی البرکۃ بآثار الصالحین» | written «اصل فی التبرک باثار الصالحین» (اللمعات; the Urdu gloss «برکت لینے میں اصل» fits) | reversible |
