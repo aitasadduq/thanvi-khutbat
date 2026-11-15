@@ -13,3 +13,4 @@
 | 48 (pr. 47) | wording | «اگر اس وقت بھی کہنے کی ہمت ہو تو جائز ہے ورنہ ناجائز نہیں» — the sense needs «ورنہ ناجائز»; kept as printed | kept as printed | |
 | 67 (pr. 66) | wording | «الا سیر یوثق ثم یوثق یسلم» (dittography of «یوثق», «الا سیر» split); written «الاسیر یوثق ثم یسلم» — reversible | corrected | |
 | 75–76 (pr. 74–75) | punctuation | the gloss «(تو آپ ان کو معاف» at the foot of pr. 74 breaks off and pr. 75 begins «دیکھنا یہ ہے»; completed «کر دیجئے)» from the same gloss two lines later — possibly a line lost between the pages | supplied | |
+| 77 (pr. 76) | ayah | printed «وضاقت علیہم الارض بما رحبت» (و prefixed, joining the following clause «وضاقت علیہم انفسہم»); written as the Quran slice ضاقت علیہم الارض بما رحبت | corrected | |
