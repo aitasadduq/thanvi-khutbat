@@ -82,3 +82,5 @@
 | 303 (302) | person | «حضرت علاؤ الدینؒ… گولر کھا کر بسر کرتے» | filed under the existing head حضرت علاء الدین علی احمد صابر کلیریؒ (بصورت) | identification from the گولر story; reversible |
 | 304 (303) | hadith | «ما قال لی قط لما فعلت» | kept as printed, marked «…»; filed under a new head «ما قال لی قط لم فعلت» with بصورت | |
 | 305 (304) | ayah | «ما اصابکم من مصیبۃ فباذن اللہ» (blends 64:11 «ما اصاب من مصیبۃ الا باذن اللہ» with 3:166 «وما اصابکم… فباذن اللہ») | marked as ﴿64:11﴾ with the mushaf text | closest in meaning («من مصیبۃ… باذن اللہ»); reversible |
+| 306 (305) | hadith | «کادان ترض فخذی» | kept as printed, marked «…»; filed under «کادت ان ترض فخذی» with بصورت | the narration reads «حتی خفت ان ترض فخذی» |
+| 306 (305) | wording | «حضرت زید بن ثابت رضی اللہ عنہم» (plural «عنہم») | kept as printed | |
