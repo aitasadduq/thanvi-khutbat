@@ -79,3 +79,4 @@
 | 300 (299) | wording | «وہ خود غیر فانونی ہے» | «وہ خود غیر فانی ہے» | misprint; the contrast is with «دنیا… خود فانی» above |
 | 301 (300) | wording | ملا دو پیازہ's «آل نامہ» (printed «آبل نامہ» in another volume) | kept as printed | |
 | 301 (300) | hadith | «اطیعوا اذا امرکم» quoted as a امر نبوی; wording not matched to a source | marked «…» and kept as printed | |
+| 303 (302) | person | «حضرت علاؤ الدینؒ… گولر کھا کر بسر کرتے» | filed under the existing head حضرت علاء الدین علی احمد صابر کلیریؒ (بصورت) | identification from the گولر story; reversible |
