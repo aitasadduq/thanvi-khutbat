@@ -2,7 +2,7 @@
 
 | pdf page (printed) | kind | printed | written / decision | note |
 |---|---|---|---|---|
-| 5–6 (pr. 4–5) | toc | the اجمالی فہرست lists شکر النعمۃ بذکر الرحمۃ (178) before الحبور لنور الصدور (165) | written in page order | |
+| 5–6 (pr. 4–5) | toc | the اجمالی فہرست gives شکر النعمۃ بذکر الرحمۃ as p. 178 (it begins on pr. 96, pdf 97) and ملت ابراہیم علیہ السلام as p. 336 (it begins on pr. 346, pdf 347); the other page numbers are right | page numbers taken from the text; toc.tsv follows the actual pages | |
 | 22 (pr. 21) | identification | scribe «مولوی عبد الکریم صاحب گمتھلی» | indexed under the existing head مولوی عبد الکریم صاحب گمتھلویؒ — reversible | |
 | 23 (pr. 22) | citation | «آل عمران آیت: ۱۹۵ … ۱۶۰» | written «آل عمران آیت: ۱۵۹» (the ayah quoted is 3:159) | |
 | 27 (pr. 26) | wording | «مگر جہلاء کی تصنیف سے اہل کمال کی تصنیف کا مقابلہ کرنا چاہیے» — the sense needs «نہ چاہیے»; kept as printed | kept as printed | |
