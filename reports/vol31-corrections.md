@@ -71,3 +71,4 @@
 | 285 (284) | wording | the closing line reads «دعوتم بحمد اللہ…» (for «تم بحمد اللہ…») | kept as printed | |
 | 286 (285) | ayah | the كاتب's du'a «رب اغفرلی ولوالدی ولمن دخل بیتی مؤمنا وللمؤمنین یوم یقوم الحساب» joins 71:28 with the ending of 14:41 | marked as ﴿71:28﴾ followed by ﴿14:41|یوم یقوم الحساب﴾ | |
 | 286 (285) | page | pdf 286 is the كاتب's التماس closing السلام التحقیقی (not the next sermon's title page) | written as the last page of 0207 under «## التماس کاتب» | |
+| 287 (286) | title | the title page prints «فضائل العلم والخشیة» | title written «فضائل العلم والخشیۃ» (Urdu ۃ, as in the toc and file naming of this edition) | |
