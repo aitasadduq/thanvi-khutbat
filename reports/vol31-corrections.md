@@ -31,3 +31,4 @@
 | 148 (147) | wording | «کفار کو بھی شامل ہے جو کہ امت اجابت میں داخل ہیں» — the sense needs «امت دعوت»; kept as printed | kept as printed | |
 | 150 (149) | ayah | «لا یخفف عنہم العذاب ولا ہم ینظرون» (no citation; the words are both 2:162 and 3:88) | marked as 2:162, the first occurrence | rule 13 |
 | 155 (154) | wording | «باقی دونوں کی حقیقت یوں تعبید ہے» — probably «بون بعید» (a great gap); kept as printed | kept as printed | |
+| 160 (159) | hadith | «من صلی علی واحدا صلی اللہ علیہ عشرا» | written «واحدۃ» (Muslim's wording) | |
