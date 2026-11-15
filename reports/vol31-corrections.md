@@ -75,3 +75,4 @@
 | 289–290 (288–289) | ayah | 10:99 «ولو شاء ربک… افانت تکرہ / الناس حتی یکونوا مؤمنین» runs across the page break | marked 10:99 in two parts, one on each page | |
 | 293 (292) | wording | «حضور صلی اللہ علیہ وسلم کا کوئی صنع مبارک» («صنع» for «صنیع») | kept as printed | |
 | 293 (292) | translation | the gloss of «مرا از زلف تو موئے بسند است» («تیرے بال میری زلفوں کے چند پسندیدہ بال ہیں…») does not render the line closely | kept as printed | |
+| 294 (293) | wording | «مثلاً فریمسن زونا» (unclear; perhaps «فریمیسن لوگ» or «فریمیسن زون») | kept as printed | |
