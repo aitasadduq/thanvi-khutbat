@@ -37,3 +37,4 @@
 | 165 (164) | Arabic | the closing صلوۃ is printed «ولا انتہا ولا امدلہا» | written «ولا انتہاء ولا امد لہا» | print slip |
 | 166–168 (165–167) | wording | the title-page note gives the sermon's لقب as «رأس الربیعین», the text on pr. 167 names the previous week's pair «اساس الربیعین»; both kept as printed | kept as printed | |
 | 173 (172) | ayah | the half-scholar's prompt «ان اللہ یعلم کثیرا مما تعملون» and the paraphrase «ان اللہ لا یعلم ظننتم» are not Quran text; marked as «…». The حافظ's reading and the ayah fragments are marked as 41:22 | marked as «…» / 41:22 | |
+| 176 (175) | ayah | «الا ما شاء ربک» is said of both اہل جنت and اہل نار (11:107 and 11:108 have the same words) | marked as 11:108 (the following discussion is about اہل جنت) | rule 13 |
