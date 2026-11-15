@@ -42,3 +42,5 @@
 | 179 (178) | wording | «کیونکہ حضور صلی اللہ علیہ وسلم ہیں تمام کائنات کے» — a word («اصل» or similar) seems dropped; kept as printed | kept as printed | |
 | 190 (189) | hadith | Bukhari (اللباس، باب ما یذکر فی الشیب): printed «عثمان بن عبد اللہ بن وہب… عین اوشئی بعث الیہا محصنۃ لہا… وکانت نفسکہ فی جلجل من فضۃ فحضحفتہ» | written «بن موہب… عین او شیء بعث الیہا مخضبہ… وکانت تمسکہ فی جلجل من فضۃ فخضخضتہ لہ» (Bukhari's text); the Urdu translation's «بن وہب» kept | reading errors |
 | 191 (190) | hadith | Muslim (اللباس): «جبتہ طیالسیۃ کسرو انیۃ لبنۃ دیاح» — split and misspelt words | written «جبۃ طیالسیۃ کسروانیۃ لبنۃ دیباج»; the rest kept as printed | print slips |
+| 192 (191) | hadith | Anas's hadith (Muslim): printed «ثم وعن انس… ونحرنسکہ… وناول الحاق» | written «وعن انس… ونحر نسکہ… وناول الحالق» (stray «ثم» dropped) | print slips |
+| 192 (191) | citation | the footnote «(الصحیح لمسلم الحج: ۳۲۶، سنن الترمذی: ۹۱۳)» stands at the foot of pr. 191 without a visible mark in the text; placed after Anas's حلق hadith, which it fits | placed | |
