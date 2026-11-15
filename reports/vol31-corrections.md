@@ -46,3 +46,4 @@
 | 192 (191) | citation | the footnote «(الصحیح لمسلم الحج: ۳۲۶، سنن الترمذی: ۹۱۳)» stands at the foot of pr. 191 without a visible mark in the text; placed after Anas's حلق hadith, which it fits | placed | |
 | 195 (194) | Arabic | the لمعات quotation is printed «اصل فی البرکۃ بآثار الصالحین» | written «اصل فی التبرک باثار الصالحین» (اللمعات; the Urdu gloss «برکت لینے میں اصل» fits) | reversible |
 | 198 (197) | Arabic | الشفاء is printed «وامکنۃ… ومعاہدہ وملامسہ علیہ الصلوۃ والسلام» | written «وامکنتہ… ومعاہدہ وما لمسہ علیہ الصلوۃ والسلام» (الشفاء's text) | reading error |
+| 200 (199) | Arabic verse | «ان تبریزا لعانعم المفاض» | written «ان تبریزا لنا نعم المفاض» (as elsewhere in the series) | print slip |
