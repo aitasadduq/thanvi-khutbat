@@ -40,3 +40,5 @@
 | 176 (175) | ayah | «الا ما شاء ربک» is said of both اہل جنت and اہل نار (11:107 and 11:108 have the same words) | marked as 11:108 (the following discussion is about اہل جنت) | rule 13 |
 | 177 (176) | ayah | «ولولا فضل اللہ علیکم ورحمتہ لکنتم من الخاسرین» | written as 2:64 «فلولا فضل اللہ…» | DIFFERS rule; the wording with «لکنتم من الخاسرین» is only 2:64 |
 | 179 (178) | wording | «کیونکہ حضور صلی اللہ علیہ وسلم ہیں تمام کائنات کے» — a word («اصل» or similar) seems dropped; kept as printed | kept as printed | |
+| 190 (189) | hadith | Bukhari (اللباس، باب ما یذکر فی الشیب): printed «عثمان بن عبد اللہ بن وہب… عین اوشئی بعث الیہا محصنۃ لہا… وکانت نفسکہ فی جلجل من فضۃ فحضحفتہ» | written «بن موہب… عین او شیء بعث الیہا مخضبہ… وکانت تمسکہ فی جلجل من فضۃ فخضخضتہ لہ» (Bukhari's text); the Urdu translation's «بن وہب» kept | reading errors |
+| 191 (190) | hadith | Muslim (اللباس): «جبتہ طیالسیۃ کسرو انیۃ لبنۃ دیاح» — split and misspelt words | written «جبۃ طیالسیۃ کسروانیۃ لبنۃ دیباج»; the rest kept as printed | print slips |
