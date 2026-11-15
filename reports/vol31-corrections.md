@@ -24,3 +24,4 @@
 | 101 (100) | printing | pr. 100 reprints pr. 98 word for word («اطاعت فرض ہے… ذکر رسول اللہ صلی اللہ علیہ وسلم کے»); the real pr. 100 (between «وہ بانی کے حق» at the foot of pr. 99 and «فضول خیالات میں نہیں پڑا کرتے» at the head of pr. 101) is missing from the book | the duplicate is not repeated; an editor's note on pdf 101 records the gap | text lost — needs another copy of the book |
 | 102 (101) | heading | the page opens without its heading context (pr. 100 missing); its first paragraph is filed under the last heading before the gap, «ریاء ہمیشہ ریاء نہیں رہتی» | filed under the preceding heading | |
 | 105 (104) | wording | «ہر شبے گویم کہ الف فردا ترک ایں سودا کنم» — a stray «الف» in the line; written without it | corrected | |
+| 106 (105) | ayah | «جنت تجری من تحتہا الانہر» (no surah given; the phrase is in many ayat) | marked as 9:89, the nearest instance in the surah under discussion (التوبة) | rule 13 |
