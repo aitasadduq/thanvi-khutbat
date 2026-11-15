@@ -36,3 +36,4 @@
 | 163 (162) | Arabic verse | «فامد دیمینک کی تحظی بہاشفتی» (words run together) | written «فامدد یمینک کی تحظی بہا شفتی» | print slip |
 | 165 (164) | Arabic | the closing صلوۃ is printed «ولا انتہا ولا امدلہا» | written «ولا انتہاء ولا امد لہا» | print slip |
 | 166–168 (165–167) | wording | the title-page note gives the sermon's لقب as «رأس الربیعین», the text on pr. 167 names the previous week's pair «اساس الربیعین»; both kept as printed | kept as printed | |
+| 173 (172) | ayah | the half-scholar's prompt «ان اللہ یعلم کثیرا مما تعملون» and the paraphrase «ان اللہ لا یعلم ظننتم» are not Quran text; marked as «…». The حافظ's reading and the ayah fragments are marked as 41:22 | marked as «…» / 41:22 | |
