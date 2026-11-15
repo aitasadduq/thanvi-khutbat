@@ -21,3 +21,4 @@
 | 97 (96) | title | the اجمالی فہرست has «شکر النعمۃ بذکر الرحمۃ»; the title page has «شکر النعمۃ بذکر رحمۃ الرحمۃ» | title page form used | |
 | 98 (97) | ayah | «من اطاع الرسول فقد اطاع اللہ» — 4:80 reads «من یطع الرسول»; marked as «…» (paraphrase), not as an ayah | marked as «…» | |
 | 98 (97) | citation | «(التوبۃ آیت ۱۱۸)» | written «(التوبۃ آیت ۱۲۸)» (the ayah quoted is 9:128) | |
+| 101 (100) | printing | pr. 100 reprints pr. 98 word for word («اطاعت فرض ہے… ذکر رسول اللہ صلی اللہ علیہ وسلم کے»); the real pr. 100 (between «وہ بانی کے حق» at the foot of pr. 99 and «فضول خیالات میں نہیں پڑا کرتے» at the head of pr. 101) is missing from the book | the duplicate is not repeated; an editor's note on pdf 101 records the gap | text lost — needs another copy of the book |
