@@ -60,3 +60,4 @@
 | 254 (253) | ayah | «جزاء بما کانوا یعملون» (no surah given; the words are 32:17, 46:14 and 56:24) | marked as 56:24, whose text it matches exactly (جزاءً بما کانوا یعملون) | rule 13 |
 | 264 (263) | ayah | «من یرد اللہ ان یہدیہ» | ﴿6:125|فَمَنۡ يُّرِدِ اللّٰهُ اَنۡ يَّهۡدِيَهٗ﴾ | quoted without the ف; ayah text sliced with فمن as in the mushaf |
 | 263–264 (262–263) | ayah | «ان المتقین فی جنت ونہر / فی مقعد صدق…» across the page break | 54:54 on pdf 263, 54:55 on pdf 264 | the page break falls on the verse boundary, so each verse is marked on its own page |
+| 268 (267) | verse | «ور بکشم زہے عجب», «ہر کہ عاشق بینیش… ہمیں و ہم آں», «تا بجوشد آیت» | kept as printed in the text; terms filed under the existing heads (زہے شرف; دیدیش… ہم ایں و ہم آں; آب) with بصورت | the other volumes print these lines with شرف, دیدیش and آب; «آیت» is likely a misprint for «آبت» |
