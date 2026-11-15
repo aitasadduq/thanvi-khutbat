@@ -81,3 +81,4 @@
 | 301 (300) | hadith | «اطیعوا اذا امرکم» quoted as a امر نبوی; wording not matched to a source | marked «…» and kept as printed | |
 | 303 (302) | person | «حضرت علاؤ الدینؒ… گولر کھا کر بسر کرتے» | filed under the existing head حضرت علاء الدین علی احمد صابر کلیریؒ (بصورت) | identification from the گولر story; reversible |
 | 304 (303) | hadith | «ما قال لی قط لما فعلت» | kept as printed, marked «…»; filed under a new head «ما قال لی قط لم فعلت» with بصورت | |
+| 305 (304) | ayah | «ما اصابکم من مصیبۃ فباذن اللہ» (blends 64:11 «ما اصاب من مصیبۃ الا باذن اللہ» with 3:166 «وما اصابکم… فباذن اللہ») | marked as ﴿64:11﴾ with the mushaf text | closest in meaning («من مصیبۃ… باذن اللہ»); reversible |
