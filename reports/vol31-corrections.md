@@ -61,3 +61,6 @@
 | 264 (263) | ayah | «من یرد اللہ ان یہدیہ» | ﴿6:125|فَمَنۡ يُّرِدِ اللّٰهُ اَنۡ يَّهۡدِيَهٗ﴾ | quoted without the ف; ayah text sliced with فمن as in the mushaf |
 | 263–264 (262–263) | ayah | «ان المتقین فی جنت ونہر / فی مقعد صدق…» across the page break | 54:54 on pdf 263, 54:55 on pdf 264 | the page break falls on the verse boundary, so each verse is marked on its own page |
 | 268 (267) | verse | «ور بکشم زہے عجب», «ہر کہ عاشق بینیش… ہمیں و ہم آں», «تا بجوشد آیت» | kept as printed in the text; terms filed under the existing heads (زہے شرف; دیدیش… ہم ایں و ہم آں; آب) with بصورت | the other volumes print these lines with شرف, دیدیش and آب; «آیت» is likely a misprint for «آبت» |
+| 269 (268) | ayah | «واللہ یحب المحسنین» (no surah given; the words are 3:134, 3:148 and 5:93) | marked as 3:134, the first occurrence | rule 13 |
+| 269 (268) | wording | «تحب اللہ» in «موقع تحب اللہ کا تھا» (Arabic but not quoted in the print) | marked «تحب اللہ» | |
+| 269 (268) | translation | the Urdu gloss after «اداء حق محبت عنایتے است ز دوست» renders the earlier «بخت اگر مدد کند» couplet, not this one | kept as printed | |
