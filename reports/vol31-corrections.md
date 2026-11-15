@@ -29,3 +29,4 @@
 | 146 (145) | Arabic verse | حضرت عباسؓ's eight couplets are printed in two columns split at the wrong places («ترکب السفیر وقد / الجم نسرا…», «اشرق / الارض وضاء ت…», last line «فنحن فی ذالک الضیاء وفی النور سبل الرشاد تخترق» on one line) | written couplet by couplet as the poem is divided, with «السفین», «اشرقت الـ / ارض وضاءت», «وسبل الرشاد نخترق» | print slips; the poem's known text (نشر الطیب) |
 | 148 (147) | hadith | «اسلمت اسلفت من خیر» (the «علی ما» dropped) | written «اسلمت علی ما اسلفت من خیر» (Muslim/Ahmad wording) | |
 | 148 (147) | wording | «کفار کو بھی شامل ہے جو کہ امت اجابت میں داخل ہیں» — the sense needs «امت دعوت»; kept as printed | kept as printed | |
+| 150 (149) | ayah | «لا یخفف عنہم العذاب ولا ہم ینظرون» (no citation; the words are both 2:162 and 3:88) | marked as 2:162, the first occurrence | rule 13 |
