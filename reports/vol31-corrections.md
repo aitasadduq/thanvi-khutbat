@@ -68,3 +68,4 @@
 | 272 (271) | verse | «گل چیں بہار تو ز داماں گلہ» — the line ends without «دارد» | kept as printed; filed under the full head «… گلہ دارد» with بصورت | |
 | 272 (271) | heading | the heading «جنت میں انتظار کی لذت ہوگی» is printed between «شاعر کہتا ہے:» and the couplet | kept where printed | |
 | 273 (272) | wording | «محبت خود اس فصل ہی کی خواہش کا نام ہے» («فصل» for «وصل») | kept as printed | |
+| 285 (284) | wording | the closing line reads «دعوتم بحمد اللہ…» (for «تم بحمد اللہ…») | kept as printed | |
