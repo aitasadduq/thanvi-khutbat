@@ -25,3 +25,4 @@
 | 102 (101) | heading | the page opens without its heading context (pr. 100 missing); its first paragraph is filed under the last heading before the gap, «ریاء ہمیشہ ریاء نہیں رہتی» | filed under the preceding heading | |
 | 105 (104) | wording | «ہر شبے گویم کہ الف فردا ترک ایں سودا کنم» — a stray «الف» in the line; written without it | corrected | |
 | 106 (105) | ayah | «جنت تجری من تحتہا الانہر» (no surah given; the phrase is in many ayat) | marked as 9:89, the nearest instance in the surah under discussion (التوبة) | rule 13 |
+| 125 (124) | wording | the couplet's second half is printed «تو عین ذات ہے نگری در تبسمی» here, but «تو عین ذات می نگری در تبسمی» on pr. 125; kept as printed in the text, the head uses «می نگری» | kept as printed; head «می نگری» | |
