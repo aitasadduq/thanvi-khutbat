@@ -15,3 +15,4 @@
 | 75–76 (pr. 74–75) | punctuation | the gloss «(تو آپ ان کو معاف» at the foot of pr. 74 breaks off and pr. 75 begins «دیکھنا یہ ہے»; completed «کر دیجئے)» from the same gloss two lines later — possibly a line lost between the pages | supplied | |
 | 77 (pr. 76) | ayah | printed «وضاقت علیہم الارض بما رحبت» (و prefixed, joining the following clause «وضاقت علیہم انفسہم»); written as the Quran slice ضاقت علیہم الارض بما رحبت | corrected | |
 | 85 (pr. 84) | wording | the hadith is printed «اللہم ادس الحق معہ حیث دا» (misprint, the end of «دار» lost); written «ادر الحق معہ حیث دار» as the head; «ما اری ربک الا یسارع ہواک» (no «فی») kept | corrected / kept | |
+| 89 (88) | dittography | first line of p. 88 repeats the last line of p. 87 («میں کسی ضرر کا احتمال ہی نہ ہو… مثل مشہور ہے:») | written once (at the end of pdf 88) | printer's catch-line repeat |
