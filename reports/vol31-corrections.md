@@ -84,3 +84,4 @@
 | 305 (304) | ayah | «ما اصابکم من مصیبۃ فباذن اللہ» (blends 64:11 «ما اصاب من مصیبۃ الا باذن اللہ» with 3:166 «وما اصابکم… فباذن اللہ») | marked as ﴿64:11﴾ with the mushaf text | closest in meaning («من مصیبۃ… باذن اللہ»); reversible |
 | 306 (305) | hadith | «کادان ترض فخذی» | kept as printed, marked «…»; filed under «کادت ان ترض فخذی» with بصورت | the narration reads «حتی خفت ان ترض فخذی» |
 | 306 (305) | wording | «حضرت زید بن ثابت رضی اللہ عنہم» (plural «عنہم») | kept as printed | |
+| 312 (311) | ayah | «انی انا اللہ» (the voice from the tree; also 20:14 «اننی انا اللہ», 27:9 «انہ انا اللہ») | marked as ﴿28:30|انی انا اللہ﴾, the exact wording | rule 13 |
