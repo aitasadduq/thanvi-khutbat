@@ -47,3 +47,4 @@
 | 195 (194) | Arabic | the لمعات quotation is printed «اصل فی البرکۃ بآثار الصالحین» | written «اصل فی التبرک باثار الصالحین» (اللمعات; the Urdu gloss «برکت لینے میں اصل» fits) | reversible |
 | 198 (197) | Arabic | الشفاء is printed «وامکنۃ… ومعاہدہ وملامسہ علیہ الصلوۃ والسلام» | written «وامکنتہ… ومعاہدہ وما لمسہ علیہ الصلوۃ والسلام» (الشفاء's text) | reading error |
 | 200 (199) | Arabic verse | «ان تبریزا لعانعم المفاض» | written «ان تبریزا لنا نعم المفاض» (as elsewhere in the series) | print slip |
+| 202 (201) | Arabic | الشفاء: printed «من العزۃ الرماۃ… مامسست القوس بیدی الاعلیٰ طہارۃ مند بلغنی» and «ثم وضعہا علی جبہتہ» | written «من الغزاۃ الرماۃ… ما مسست القوس بیدی الا علی طہارۃ منذ بلغنی» (الشفاء); «علی جبہتہ» written «علی وجہہ» (الشفاء) | reading errors; reversible |
