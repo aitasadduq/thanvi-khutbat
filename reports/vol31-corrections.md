@@ -55,3 +55,4 @@
 | 220 (219) | heading | «حور کی صفت» is printed as a heading twice (pr. 216 and pr. 219) | both kept; the index lists the same head twice | |
 | 231 (230) | ayah | «ماولکم النار» | marked as 57:15 «مأواکم النار» | DIFFERS rule (misprint) |
 | 233 (232) | ayah | «لا یمسنا فیہا نصب» (no surah given) | marked as 35:35 (فاطر), as on pr. 199 | |
+| 237 (236) | ayah | «ونزعنا ما فی صدورہم من غل» is both 7:43 and 15:47 | marked as 7:43, the first occurrence | rule 13 |
