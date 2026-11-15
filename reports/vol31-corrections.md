@@ -35,3 +35,4 @@
 | 161 (160) | hadith | «اذا یلفی ہمک ویغفر ذنبک» | written «اذا یکفی ہمک ویغفر ذنبک» (Tirmidhi: «اذا تکفی ہمک»); «یلفی» is a misprint | |
 | 163 (162) | Arabic verse | «فامد دیمینک کی تحظی بہاشفتی» (words run together) | written «فامدد یمینک کی تحظی بہا شفتی» | print slip |
 | 165 (164) | Arabic | the closing صلوۃ is printed «ولا انتہا ولا امدلہا» | written «ولا انتہاء ولا امد لہا» | print slip |
+| 166–168 (165–167) | wording | the title-page note gives the sermon's لقب as «رأس الربیعین», the text on pr. 167 names the previous week's pair «اساس الربیعین»; both kept as printed | kept as printed | |
