@@ -1,7 +1,7 @@
 """Build the reading website (GitHub Pages) from page-notes, toc.tsv and index.json.
 
 Usage:
-    python3 -I tools/build_site.py <out dir> [--artifact]
+    python3 -I tools/build_site.py <out dir> [--artifact] [--only N[,N...]]   (--only: rebuild just those volumes)
 
 Writes <out>/index.html (list of volumes) and <out>/vNN.html for every volume in VOLUMES.
 Each volume page is self-contained: contents (فہرست), a one-page-at-a-time reader and the
@@ -31,6 +31,13 @@ VOLUMES = [
     {'no': 14, 'title': 'جزا و سزا', 'dir': 'Vol 14 jaza o saza'},
     {'no': 15, 'title': 'تسلیم و رضا', 'dir': 'Vol 15 tasleem o raza'},
     {'no': 16, 'title': 'برکات رمضان', 'dir': 'Vol 16 barakat e ramazan'},
+    {'no': 17, 'title': 'سنت ابراہیم', 'dir': 'Vol 17 sunnat e ibrahim'},
+    {'no': 18, 'title': 'مفاسد گناہ', 'dir': 'Vol 18 mafasid e gunah'},
+    {'no': 19, 'title': 'آداب انسانیت', 'dir': 'Vol 19 adab e insaniyat'},
+    {'no': 20, 'title': 'حقوق الزوجین', 'dir': 'Vol 20 huqooq uz zaujain'},
+    {'no': 21, 'title': 'تدبیر و توکل', 'dir': 'Vol 21 tadbeer o tawakkul'},
+    {'no': 22, 'title': 'ذکر و فکر', 'dir': 'Vol 22 zikr o fikr'},
+    {'no': 23, 'title': 'راہ نجات', 'dir': 'Vol 23 rah e najat'},
 ]
 TOTAL_VOLUMES = 32
 # Where readers report mistakes: "new issue" page of the public site repository (prefilled with volume and page).
@@ -724,7 +731,10 @@ if __name__ == '__main__':
     out = sys.argv[1]
     artifact = '--artifact' in sys.argv
     os.makedirs(out, exist_ok=True)
+    only = next((set(int(x) for x in a.split('=', 1)[1].split(',')) for a in sys.argv if a.startswith('--only=')), None)
+    if '--only' in sys.argv: only = set(int(x) for x in sys.argv[sys.argv.index('--only') + 1].split(','))
     for v in VOLUMES:
+        if only and v['no'] not in only: continue
         path = os.path.join(out, f'v{v["no"]:02d}.html')
         open(path, 'w', encoding='utf-8').write(build_volume(v, artifact))
         print('wrote', path, os.path.getsize(path), 'bytes')

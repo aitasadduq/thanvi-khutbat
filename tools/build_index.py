@@ -174,6 +174,9 @@ for fn in sorted(os.listdir(SRC)):
         if not sec: continue
         lab = re.search(r'\s*\|\s*(heading|main|mention)\s*$', rest)
         if lab: rest = rest[:lab.start()]
+        # From Vol 17 on, terms carry the sub-heading they belong to (`| تمہید`) instead of a label;
+        # drop it so it does not become part of the index head (treated as a mention).
+        rest = re.sub(r'\s*\|[^|>]*$', '', rest) if '|' in rest else rest
         strong_ref = bool(lab) and lab.group(1) in ('heading', 'main')
         head, _, sub = rest.partition('>')
         head, sub = head.strip(), sub.strip()

@@ -1,0 +1,5 @@
+# Decisions on ayat where the book's wording differs from the Qur'an (read by tools/mark_arabic.py).
+# page	book's words	keep | <surah:ayah>	Qur'an words to put in their place
+63	برحمتک یا ارحم الراحمین	keep
+339	برحمتک یا ارحم الراحمین	keep
+448	آمین یا رب العالمین	keep
