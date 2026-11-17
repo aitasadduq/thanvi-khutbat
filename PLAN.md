@@ -6,8 +6,9 @@ Update the **Status** and **Next steps** sections at the end of every working se
 
 ---
 
-## 1. Status (2026-11-08)
+## 1. Status (2026-11-16)
 
+- **Report review tool:** `python3 -I tools/review_reports.py` opens a local browser UI for corrections, Qur'an checks and hadith checks. Corrections show the actual page transcription (or contents row), with the original reconstructed from the report's literal replacement; report explanations stay under Report details. Both panes scroll to the highlighted change beside the scan. Adjacent-page report offsets, cross-volume source references and multi-row contents summaries are supported. Accept/Reject saves an inline `<!-- review: ... -->` marker in the existing report without removing the entry; manual edits are saved as Review edit text. It does not apply or revert `page-notes/` edits. Regenerating a Qur'an/hadith report replaces its inline review markers.
 - **Volume 16 (برکات رمضان) — done, awaiting the owner's review.** Folder `Vol 16 barakat e ramazan/`. PDF page =
   printed page + 1; text printed pp. 14–464 (11 sermons: تطہیر رمضان 14, تقلیل المنام بصورۃ القیام 37, روح القیام 71,
   روح الصیام 115, روح الافطار 164 (with the عرضداشت «نور الصدور» pp. 209–214), روح الجوار 215, فی خیر مقدم 266,
@@ -271,7 +272,7 @@ owner rejects (DIFFERS decisions also go in quran-decisions.tsv so they survive 
 - Volume 17 (سنت ابراہیم, خطبات حج و قربانی; `Vol 17 sunnat e ibrahim/`): PDF page = printed page + 1; `toc.tsv` done
   from the فہرست (337 rows, 13 sermons); half-page images in the scratchpad `v17/h/`. Transcribing: سنت ابراہیم started
   (`page-notes/0016.txt`, pp. 15–22 done). Continue from p. 23; log corrections in `reports/vol17-corrections.md`.
-- The owner will review `reports/vol02-corrections.md` … `reports/vol16-corrections.md` at leisure; revert anything the owner rejects.
+- The owner can review the corrections, Qur'an checks and hadith checks with `python3 -I tools/review_reports.py`; use the status filters to revisit decisions. Applying accepted edits or reverting rejected `page-notes/` changes remains a separate step.
 - Question answering (RAG) over the books: revised plan in `RAG_PLAN.md` (2026-11-06), awaiting the owner's go-ahead;
   transcription stays the priority.
 - Still open with the owner: the master heading list for the index (HANDOFF §2); creating the public site repo
