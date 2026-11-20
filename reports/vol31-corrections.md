@@ -89,3 +89,5 @@
 | 320 (pr. 319) | missing name | «یہ جواب اصل میں حضرت رضی اللہ تعالیٰ عنہ سے منقول ہے» | kept as printed; index note names حضرت علیؓ | the name is dropped; the couplets «قال المنجم والطبیب…» are well known as حضرت علیؓ's |
 | 322 (pr. 321) | gloss mismatch | the gloss of «مبیں حقیر گدایان عشق را…» begins «عشق حقیقی کے پر چلے کو خیریت جانو» | kept as printed | a garbled gloss («فقیروں کو حقیر نہ جانو» is meant) |
 | 323 (pr. 322) | name | «حضرت حباب رضی اللہ تعالیٰ عنہ» | kept as printed; indexed as حضرت خباب بن الارتؓ | the report of weeping at death over the wealth that came after the Prophet's ﷺ time is خبابؓ's (Bukhari); «حباب» is a dot slip |
+| 331 (pr. 330) | gloss slip | gloss of 48:29 «کزرع اخرج شطأہ فآزرہ»: «جس کو اس نے اگایا ہو پھر اس کو ہلاک کر دیا ہو» | kept as printed | «فآزرہ» means «اس کو قوی کیا»; «ہلاک کر دیا» is a typesetting slip |
+| 332 (pr. 331) | ayah choice | «کلوا واشربوا ہنیئا بما کنتم تعملون» (no citation) | marked as 52:19 | the same words are 77:43; 52:19 chosen as the first occurrence, the context (rewards of the righteous) fits both |
