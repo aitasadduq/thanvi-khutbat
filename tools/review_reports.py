@@ -601,6 +601,11 @@ DECISIONS_HEADER = ("# Owner's decisions on ayat where the book's wording differ
 QURAN_DECISION_KINDS = ('DIFFERS', 'DECIDED', 'KEPT')
 
 
+MISSING_REFERENCE = ("The Qur'an and hadith reference texts are not downloaded on this computer (they are not kept "
+                     "in git). Stop the tool, run  bash tools/get_reference.sh  once from the project folder, "
+                     "then start the tool again.")
+
+
 def skeleton(text):
     from arabic import norm
     return norm(display_text(text))
@@ -708,8 +713,9 @@ def parse_quran(path, volume, reports):
         help_text = ''
         if kind in QURAN_DECISION_KINDS:
             from arabic import norm
-            help_text = ('Accept: put the Qur\'an words in the lower box in place of the book\'s words '
-                         '(“Use this” picks another ayah). Reject: keep the book\'s words as printed. '
+            help_text = ('Accept: put the Qur\'an words in the lower (green-bordered) box in place of the book\'s words. '
+                         'You can edit that box first, e.g. delete words you do not want; the words must stay '
+                         'words of the chosen ayah. “Use this” picks another ayah. Reject: keep the book\'s words as printed. '
                          'Saved to the volume\'s quran-decisions.tsv; run tools/mark_arabic.py --write to apply.')
             decision = decisions.get((page, norm(original)))
             if decision:
@@ -908,6 +914,8 @@ class ReportStore:
             if not ref:
                 raise ValueError('No Qur\'an reference to replace this with; reject it or edit the report')
             if self.quran is None:
+                if not (ROOT / 'reference' / 'ara-quranindopak.json').exists():
+                    raise ValueError(MISSING_REFERENCE)
                 self.quran = Quran()
             words = display_text(edited).replace('\n', ' ').strip()
             try:
@@ -935,13 +943,13 @@ header{background:var(--paper);border-bottom:1px solid var(--line);padding:12px 
 .top,.controls,.itembar{display:flex;align-items:center;gap:9px;flex-wrap:wrap}.top{justify-content:space-between;margin-bottom:10px}h1{font-size:20px;margin:0}.counts{color:var(--muted)}
 select,button{font:inherit;border:1px solid var(--line);border-radius:6px;background:#fff;color:inherit;padding:7px 11px}button{cursor:pointer;font-weight:600}button:hover:not(:disabled){border-color:var(--accent)}button:disabled{opacity:.45;cursor:default}
 .accept{background:var(--green);color:#fff;border-color:var(--green)}.reject{background:var(--red);color:#fff;border-color:var(--red)}.reset{margin-left:auto;font-weight:400}
-.workspace{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;padding:12px;height:calc(100vh - 122px);min-height:520px}.left{display:flex;flex-direction:column;gap:10px;min-height:0}.itembar{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:9px 12px}.itemtitle{font-weight:700}.badge{border-radius:20px;padding:2px 9px;font-size:12px;background:#edf0ee;color:var(--muted)}.badge.accepted{background:var(--greenbg);color:var(--green)}.badge.rejected{background:var(--redbg);color:var(--red)}
+.workspace{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;padding:12px;height:calc(100vh - 122px);min-height:520px}.left{display:flex;flex-direction:column;gap:10px;min-height:0;overflow:auto}.itembar{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:9px 12px}.itemtitle{font-weight:700}.badge{border-radius:20px;padding:2px 9px;font-size:12px;background:#edf0ee;color:var(--muted)}.badge.accepted{background:var(--greenbg);color:var(--green)}.badge.rejected{background:var(--redbg);color:var(--red)}
 details{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:7px 11px;max-height:38vh;overflow:auto;flex:none}
 .help{margin:6px 0;color:var(--muted);white-space:pre-wrap;direction:ltr;text-align:left}
 .alt{border-top:1px solid var(--line);padding:6px 0}.althead{direction:ltr;text-align:left;display:flex;align-items:center;gap:8px;color:var(--muted);font-size:13px}.althead b{color:var(--ink)}.althead button{padding:2px 9px;font-size:12px}.alt.chosen .althead b{color:var(--accent)}.alt.chosen{background:#f1f8f5}
 .ayah{direction:rtl;text-align:right;font:22px/2.1 "Scheherazade New","Geeza Pro","Noto Naskh Arabic",serif;margin:2px 4px}
 .text.arabic{font:23px/2.1 "Scheherazade New","Geeza Pro","Noto Naskh Arabic",serif;direction:rtl;text-align:right}summary{cursor:pointer;color:var(--muted)}.note{white-space:pre-wrap;margin:8px 0 2px;text-align:start;unicode-bidi:plaintext;font-family:"Noto Nastaliq Urdu","Geeza Pro",serif}
-.panel{background:var(--paper);border:1px solid var(--line);border-radius:8px;display:flex;flex-direction:column;min-height:0;flex:1;overflow:hidden}.panel h2{font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin:0;padding:9px 13px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between}.text{padding:15px;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;font:18px/2 "Noto Nastaliq Urdu","Geeza Pro",serif;direction:auto;text-align:start}.text[contenteditable=true]{outline:none}.text[contenteditable=true]:focus{box-shadow:inset 0 0 0 2px var(--accent)}.text mark{padding:1px 2px;border-radius:3px;color:inherit}.del{background:var(--redbg);text-decoration:line-through}.add{background:var(--greenbg)}.legend{font-size:11px;letter-spacing:0;text-transform:none}.legend span{display:inline-block;width:10px;height:10px;border-radius:2px;margin:0 4px 0 8px}
+.panel{background:var(--paper);border:1px solid var(--line);border-radius:8px;display:flex;flex-direction:column;min-height:150px;flex:1;overflow:hidden}.panel.editable{border:2px solid var(--accent)}.panel h2{font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin:0;padding:9px 13px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between}.text{padding:15px;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;font:18px/2 "Noto Nastaliq Urdu","Geeza Pro",serif;direction:auto;text-align:start}.text[contenteditable=true]{outline:none;background:#fbfdfc;cursor:text}.edithint{font-size:11px;letter-spacing:0;text-transform:none;color:var(--accent);font-weight:600}.text[contenteditable=true]:focus{box-shadow:inset 0 0 0 2px var(--accent)}.text mark{padding:1px 2px;border-radius:3px;color:inherit}.del{background:var(--redbg);text-decoration:line-through}.add{background:var(--greenbg)}.legend{font-size:11px;letter-spacing:0;text-transform:none}.legend span{display:inline-block;width:10px;height:10px;border-radius:2px;margin:0 4px 0 8px}
 .pdfpanel{background:var(--paper);border:1px solid var(--line);border-radius:8px;display:flex;flex-direction:column;min-height:0;overflow:hidden}.pdfhead{display:flex;justify-content:space-between;align-items:center;padding:8px 12px;border-bottom:1px solid var(--line)}.pdfhead a{color:var(--accent)}.pdfview{flex:1;overflow:auto;text-align:center;background:#e7ebe8;padding:10px}.pdfview img{max-width:100%;height:auto;background:#fff;box-shadow:0 1px 5px #68736d}.empty{margin:auto;color:var(--muted);padding:35px;text-align:center}.error{background:var(--redbg);color:var(--red);padding:8px 12px;display:none}.error.show{display:block}
 @media(max-width:850px){.workspace{grid-template-columns:1fr;height:auto}.left{height:700px}.pdfpanel{height:700px}.reset{margin-left:0}}
 </style>
@@ -964,7 +972,7 @@ details{background:var(--paper);border:1px solid var(--line);border-radius:8px;p
 <div class="itembar"><span id="itemtitle" class="itemtitle">No item</span><span id="badge" class="badge"></span></div>
 <details id="details" open><summary>Report details</summary><div id="help" class="help"></div><div id="note" class="note" dir="auto"></div><div id="alts"></div></details>
 <div class="panel"><h2><span id="originaltitle">Book’s words (as transcribed)</span> <span class="legend">removed <span style="background:var(--redbg)"></span></span></h2><div id="original" class="text" dir="auto"></div></div>
-<div class="panel"><h2><span id="correctedtitle">Correction — editable</span> <span class="legend">added <span style="background:var(--greenbg)"></span></span></h2><div id="corrected" class="text" dir="auto" contenteditable="true" spellcheck="false"></div></div>
+<div class="panel editable"><h2><span><span id="correctedtitle">Correction — editable</span> · <span class="edithint">click in this box to edit: delete or change words, then press Accept</span></span> <span class="legend">added <span style="background:var(--greenbg)"></span></span></h2><div id="corrected" class="text" dir="auto" contenteditable="true" spellcheck="false"></div></div>
 </section>
 <section class="pdfpanel"><div class="pdfhead"><strong id="pdftitle">PDF page</strong><a id="pdflink" target="_blank" rel="noopener">Open PDF</a></div><div class="pdfview" id="pdfview"><div class="empty">Select an item to view its page.</div></div></section>
 </main>
@@ -1202,6 +1210,9 @@ if __name__ == '__main__':
     parser.add_argument('--no-browser', action='store_true')
     parser.add_argument('--reports-dir', type=Path, default=REPORTS, help=argparse.SUPPRESS)
     args = parser.parse_args()
+    if not (ROOT / 'reference' / 'ara-quranindopak.json').exists():
+        print('Note: ' + MISSING_REFERENCE + '\nUntil then Qur\'an decisions cannot be saved and the hadith '
+              'collection wording is not shown.\n', flush=True)
     store = ReportStore(args.reports_dir.resolve())
     server = ReviewServer(('127.0.0.1', args.port), ReviewHandler, store)
     url = f'http://127.0.0.1:{server.server_port}/'
