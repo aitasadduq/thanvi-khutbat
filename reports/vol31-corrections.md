@@ -91,3 +91,4 @@
 | 323 (pr. 322) | name | «حضرت حباب رضی اللہ تعالیٰ عنہ» | kept as printed; indexed as حضرت خباب بن الارتؓ | the report of weeping at death over the wealth that came after the Prophet's ﷺ time is خبابؓ's (Bukhari); «حباب» is a dot slip |
 | 331 (pr. 330) | gloss slip | gloss of 48:29 «کزرع اخرج شطأہ فآزرہ»: «جس کو اس نے اگایا ہو پھر اس کو ہلاک کر دیا ہو» | kept as printed | «فآزرہ» means «اس کو قوی کیا»; «ہلاک کر دیا» is a typesetting slip |
 | 332 (pr. 331) | ayah choice | «کلوا واشربوا ہنیئا بما کنتم تعملون» (no citation) | marked as 52:19 | the same words are 77:43; 52:19 chosen as the first occurrence, the context (rewards of the righteous) fits both |
+| 363 (pr. 362) | gloss mismatch | gloss of «اے برادر بے نہایت درگہیست / ہرچہ بروے میرسی بروے مایست»: «جس منزل پر تیری رسائی ہو جائے اسی پر قناعت کر» | kept as printed | the couplet says «do not stop at any stage you reach»; the gloss inverts it (likely a dropped «نہ») |
