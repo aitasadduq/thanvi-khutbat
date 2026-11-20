@@ -673,16 +673,19 @@ def parse_quran(path, volume, reports):
         note = body
         original = corrected = ''
         ref = None
+        alternatives = []
         if kind == 'DIFFERS':
             original = continuation(block, 'book') or ''
-            alternatives = [line.strip() for line in block if re.match(r'^\s+alt \d+:', line)]
-            first = re.match(r'alt \d+:\s+(\S+)\s+\[[^]]+\]\s*(.*)', alternatives[0]) if alternatives else None
-            if first:
-                ref = first.group(1)
-                corrected = best_window(original, first.group(2)) or first.group(2)
+            for line in block:
+                alt = re.match(r'^\s+alt \d+:\s+(\S+)\s+\[([^]]+)\]\s*(.*)$', line)
+                if alt:
+                    alternatives.append({'ref': alt.group(1), 'score': alt.group(2), 'text': alt.group(3).strip(),
+                                         'suggest': best_window(original, alt.group(3)) or alt.group(3).strip()})
+            if alternatives:
+                ref, corrected = alternatives[0]['ref'], alternatives[0]['suggest']
             else:
                 corrected = original
-            note = '\n'.join(alternatives)
+            note = '' if alternatives else body
         elif kind == 'CITE':
             text = continuation(block, 'text') or ''
             reference = re.search(r'the words are ([^,]+)', body)
@@ -702,16 +705,23 @@ def parse_quran(path, volume, reports):
             original = re.sub(r'^\(owner: keep as printed\)\s*', '', body)
             corrected = original
         status = 'unreviewed'
+        help_text = ''
         if kind in QURAN_DECISION_KINDS:
             from arabic import norm
+            help_text = ('Accept: put the Qur\'an words in the lower box in place of the book\'s words '
+                         '(“Use this” picks another ayah). Reject: keep the book\'s words as printed. '
+                         'Saved to the volume\'s quran-decisions.tsv; run tools/mark_arabic.py --write to apply.')
             decision = decisions.get((page, norm(original)))
-            if decision and decision[0] == 'keep':
-                status = 'rejected'
-            elif decision:
-                status, ref, corrected = 'accepted', decision[0], decision[1] or corrected
-            note = ('Accept: put the Qur\'an words on the right in place of the book\'s words. '
-                    'Reject: keep the book\'s words as printed. Saved to quran-decisions.tsv; '
-                    'run tools/mark_arabic.py --write to apply.\n' + note)
+            if decision:
+                if decision[0] == 'keep':
+                    status = 'rejected'
+                else:
+                    status, ref, corrected = 'accepted', decision[0], decision[1] or corrected
+                said = 'keep as printed' if decision[0] == 'keep' else f'use {decision[0]}'
+                help_text += (f'\nAlready decided earlier ({said}), recorded in quran-decisions.tsv.')
+                if kind == 'DIFFERS':
+                    help_text += (' This report was generated before that decision, so it still lists the ayah; '
+                                  'it will drop out when the Qur\'an check is run again.')
         else:
             saved = reviews.get((page, skeleton(original)))
             if saved:
@@ -720,6 +730,9 @@ def parse_quran(path, volume, reports):
         item = base_item(volume, 'quran', i, kind, f'p{page}', original, corrected, note,
                          pdf=page + 1, printed=page)
         item['ref'] = ref
+        item['alternatives'] = alternatives
+        item['help'] = help_text
+        item['arabic'] = True
         item['status'] = status
         items.append(item)
         i = end
@@ -771,12 +784,7 @@ def parse_hadith(path, volume, references, reports):
             if nested and not source:
                 source = clean_review(nested.group(1).strip())
         note = source
-        if category == 'differs':
-            nearest = best_window(original, references.text(source))
-            if nearest:
-                note += '\nCollection wording (for comparison only): ' + nearest
-        note = ('Accept: the text on the right is what the book prints (edit it only to fix a reading error). '
-                'Reject: the passage needs another look.\n' + note)
+        nearest = best_window(original, references.text(source)) if category == 'differs' else ''
         corrected, status = original, 'unreviewed'
         saved = reviews.get((page, skeleton(original)))
         if saved:
@@ -784,6 +792,11 @@ def parse_hadith(path, volume, references, reports):
             corrected = saved[1] or original
         item = base_item(volume, 'hadith', i, category, f'p{page}', original, corrected, note,
                          pdf=page + 1, printed=page)
+        item['help'] = ('Accept: the lower box is what the book prints (edit it only to fix a reading error). '
+                        'Reject: the passage needs another look.')
+        item['compare'] = {'label': 'Collection wording, for comparison only (the book\'s wording stays):',
+                           'text': nearest} if nearest else None
+        item['arabic'] = True
         item['status'] = status
         items.append(item)
         i = end
@@ -862,7 +875,7 @@ class ReportStore:
             raise ValueError('This entry is no longer in the report (it was edited or regenerated); reload the page')
         return found
 
-    def review(self, volume, report, line, status, edited):
+    def review(self, volume, report, line, status, edited, ref=None):
         if status not in ('accepted', 'rejected'):
             raise ValueError('Status must be accepted or rejected')
         with self.lock:
@@ -873,7 +886,7 @@ class ReportStore:
                 save_corrections(lines, line, status, edited, item)
                 write_lines(path, lines, final_newline)
             elif report == 'quran' and item['category'] in QURAN_DECISION_KINDS:
-                self.save_decision(volume, item, status, edited)
+                self.save_decision(volume, item, status, edited, ref)
             else:
                 edit = '' if same_text(edited, item['corrected']) and item['status'] == 'unreviewed' else edited
                 key = skeleton(item['original'])
@@ -882,23 +895,27 @@ class ReportStore:
                             [report, str(item['printed_page']), key, status, stored_text(edit)])
         return self.item(volume, report, line)
 
-    def save_decision(self, volume, item, status, edited):
+    def save_decision(self, volume, item, status, edited, ref=None):
         from arabic import Quran, norm
         page, book = item['printed_page'], item['original']
         if status == 'rejected':
             row = [str(page), book, 'keep']
         else:
-            if not item.get('ref'):
+            choices = {item.get('ref')} | {alt['ref'] for alt in item.get('alternatives', [])}
+            ref = ref or item.get('ref')
+            if ref not in choices:
+                raise ValueError(f'Unknown reference {ref}')
+            if not ref:
                 raise ValueError('No Qur\'an reference to replace this with; reject it or edit the report')
             if self.quran is None:
                 self.quran = Quran()
             words = display_text(edited).replace('\n', ' ').strip()
             try:
-                self.quran.phrase(item['ref'], words)
+                self.quran.phrase(ref, words)
             except (ValueError, AttributeError):
-                raise ValueError(f'The words on the right are not found in {item["ref"]}; '
+                raise ValueError(f'The words in the lower box are not found in {ref}; '
                                  'edit them to words of that ayah') from None
-            row = [str(page), book, item['ref'], words]
+            row = [str(page), book, ref, words]
         tsv_replace(volume_dir(volume) / 'quran-decisions.tsv', DECISIONS_HEADER,
                     lambda r: r[0].strip() == str(page) and norm(r[1]) == norm(book), row)
 
@@ -908,6 +925,8 @@ PAGE = r'''<!doctype html>
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Scheherazade+New:wght@400;700&family=Noto+Nastaliq+Urdu&display=swap" rel="stylesheet">
 <title>Report review</title>
 <style>
 :root{--bg:#f3f5f4;--paper:#fff;--ink:#1d2925;--muted:#65736d;--line:#d6ded9;--accent:#176b57;--red:#a43b3b;--redbg:#fbe9e7;--green:#176b46;--greenbg:#e3f4e9}
@@ -917,7 +936,11 @@ header{background:var(--paper);border-bottom:1px solid var(--line);padding:12px 
 select,button{font:inherit;border:1px solid var(--line);border-radius:6px;background:#fff;color:inherit;padding:7px 11px}button{cursor:pointer;font-weight:600}button:hover:not(:disabled){border-color:var(--accent)}button:disabled{opacity:.45;cursor:default}
 .accept{background:var(--green);color:#fff;border-color:var(--green)}.reject{background:var(--red);color:#fff;border-color:var(--red)}.reset{margin-left:auto;font-weight:400}
 .workspace{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px;padding:12px;height:calc(100vh - 122px);min-height:520px}.left{display:flex;flex-direction:column;gap:10px;min-height:0}.itembar{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:9px 12px}.itemtitle{font-weight:700}.badge{border-radius:20px;padding:2px 9px;font-size:12px;background:#edf0ee;color:var(--muted)}.badge.accepted{background:var(--greenbg);color:var(--green)}.badge.rejected{background:var(--redbg);color:var(--red)}
-details{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:7px 11px;max-height:150px;overflow:auto}summary{cursor:pointer;color:var(--muted)}.note{white-space:pre-wrap;margin:8px 0 2px;direction:auto;text-align:start;font-family:"Noto Nastaliq Urdu","Geeza Pro",serif}
+details{background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:7px 11px;max-height:38vh;overflow:auto;flex:none}
+.help{margin:6px 0;color:var(--muted);white-space:pre-wrap;direction:ltr;text-align:left}
+.alt{border-top:1px solid var(--line);padding:6px 0}.althead{direction:ltr;text-align:left;display:flex;align-items:center;gap:8px;color:var(--muted);font-size:13px}.althead b{color:var(--ink)}.althead button{padding:2px 9px;font-size:12px}.alt.chosen .althead b{color:var(--accent)}.alt.chosen{background:#f1f8f5}
+.ayah{direction:rtl;text-align:right;font:22px/2.1 "Scheherazade New","Geeza Pro","Noto Naskh Arabic",serif;margin:2px 4px}
+.text.arabic{font:23px/2.1 "Scheherazade New","Geeza Pro","Noto Naskh Arabic",serif;direction:rtl;text-align:right}summary{cursor:pointer;color:var(--muted)}.note{white-space:pre-wrap;margin:8px 0 2px;text-align:start;unicode-bidi:plaintext;font-family:"Noto Nastaliq Urdu","Geeza Pro",serif}
 .panel{background:var(--paper);border:1px solid var(--line);border-radius:8px;display:flex;flex-direction:column;min-height:0;flex:1;overflow:hidden}.panel h2{font-size:12px;letter-spacing:.04em;text-transform:uppercase;color:var(--muted);margin:0;padding:9px 13px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between}.text{padding:15px;overflow:auto;white-space:pre-wrap;overflow-wrap:anywhere;font:18px/2 "Noto Nastaliq Urdu","Geeza Pro",serif;direction:auto;text-align:start}.text[contenteditable=true]{outline:none}.text[contenteditable=true]:focus{box-shadow:inset 0 0 0 2px var(--accent)}.text mark{padding:1px 2px;border-radius:3px;color:inherit}.del{background:var(--redbg);text-decoration:line-through}.add{background:var(--greenbg)}.legend{font-size:11px;letter-spacing:0;text-transform:none}.legend span{display:inline-block;width:10px;height:10px;border-radius:2px;margin:0 4px 0 8px}
 .pdfpanel{background:var(--paper);border:1px solid var(--line);border-radius:8px;display:flex;flex-direction:column;min-height:0;overflow:hidden}.pdfhead{display:flex;justify-content:space-between;align-items:center;padding:8px 12px;border-bottom:1px solid var(--line)}.pdfhead a{color:var(--accent)}.pdfview{flex:1;overflow:auto;text-align:center;background:#e7ebe8;padding:10px}.pdfview img{max-width:100%;height:auto;background:#fff;box-shadow:0 1px 5px #68736d}.empty{margin:auto;color:var(--muted);padding:35px;text-align:center}.error{background:var(--redbg);color:var(--red);padding:8px 12px;display:none}.error.show{display:block}
 @media(max-width:850px){.workspace{grid-template-columns:1fr;height:auto}.left{height:700px}.pdfpanel{height:700px}.reset{margin-left:0}}
@@ -939,15 +962,15 @@ details{background:var(--paper);border:1px solid var(--line);border-radius:8px;p
 <main class="workspace">
 <section class="left">
 <div class="itembar"><span id="itemtitle" class="itemtitle">No item</span><span id="badge" class="badge"></span></div>
-<details id="details" open><summary>Report details</summary><div id="note" class="note" dir="auto"></div></details>
-<div class="panel"><h2>Original OCR / printed text <span class="legend">removed <span style="background:var(--redbg)"></span></span></h2><div id="original" class="text" dir="auto"></div></div>
-<div class="panel"><h2>Correction — editable <span class="legend">added <span style="background:var(--greenbg)"></span></span></h2><div id="corrected" class="text" dir="auto" contenteditable="true" spellcheck="false"></div></div>
+<details id="details" open><summary>Report details</summary><div id="help" class="help"></div><div id="note" class="note" dir="auto"></div><div id="alts"></div></details>
+<div class="panel"><h2><span id="originaltitle">Book’s words (as transcribed)</span> <span class="legend">removed <span style="background:var(--redbg)"></span></span></h2><div id="original" class="text" dir="auto"></div></div>
+<div class="panel"><h2><span id="correctedtitle">Correction — editable</span> <span class="legend">added <span style="background:var(--greenbg)"></span></span></h2><div id="corrected" class="text" dir="auto" contenteditable="true" spellcheck="false"></div></div>
 </section>
 <section class="pdfpanel"><div class="pdfhead"><strong id="pdftitle">PDF page</strong><a id="pdflink" target="_blank" rel="noopener">Open PDF</a></div><div class="pdfview" id="pdfview"><div class="empty">Select an item to view its page.</div></div></section>
 </main>
 <script>
 const $=id=>document.getElementById(id);
-let allItems=[],items=[],position=0,dirty=false,busy=false;
+let allItems=[],items=[],position=0,dirty=false,busy=false,chosenRef=null;
 function escapeHtml(s){return s.replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]))}
 function tokens(s){return s.match(/\s+|[^\s]+/g)||[]}
 function diff(oldText,newText){
@@ -995,7 +1018,12 @@ function render(){
  const item=items[position];
  $('itemtitle').textContent=item.category+' · '+item.page_label+' · '+REPORT_LABEL[item.report];
  $('badge').textContent=item.status;$('badge').className='badge '+item.status;
- $('details').hidden=!item.note;$('note').textContent=item.note;
+ chosenRef=item.ref||null;
+ $('help').textContent=item.help||'';
+ $('note').replaceChildren(...(item.note||'').split('\n').filter(Boolean).map(line=>{const d=document.createElement('div');d.dir='auto';d.textContent=line;return d}));
+ $('details').hidden=!item.note&&!item.help&&!(item.alternatives||[]).length;
+ for(const id of ['original','corrected']){$(id).classList.toggle('arabic',!!item.arabic);$(id).dir=item.arabic?'rtl':'auto'}
+ renderAlternatives(item);
  $('original').innerHTML=diffHtml(item.original,item.corrected,'old');
  $('corrected').innerHTML=diffHtml(item.original,item.corrected,'new');
  for(const id of ['original','corrected']){const pane=$(id),mark=pane.querySelector('mark');if(mark)requestAnimationFrame(()=>{pane.scrollTop+=mark.getBoundingClientRect().top-pane.getBoundingClientRect().top-pane.clientHeight/2})}
@@ -1007,12 +1035,24 @@ function render(){
   const image=new Image();image.alt='PDF page '+item.pdf_page;image.onload=()=>{$('pdfview').replaceChildren(image)};image.onerror=()=>{$('pdfview').innerHTML='<div class="empty">Could not render this PDF page. Use “Open PDF”.</div>'};image.src='/api/page?volume='+pdfVolume+'&page='+item.pdf_page;
  }else{$('pdftitle').textContent='No single PDF page';$('pdflink').style.visibility='hidden';$('pdfview').innerHTML='<div class="empty">This entry refers to multiple pages or has no page number.</div>'}
 }
+function renderAlternatives(item){
+ const alts=item.alternatives||[];
+ const compare=item.compare?'<div class="alt"><div class="althead">'+escapeHtml(item.compare.label)+'</div><div class="ayah" dir="rtl" lang="ar">'+escapeHtml(item.compare.text)+'</div></div>':'';
+ $('alts').innerHTML=compare+alts.map((alt,k)=>'<div class="alt'+(alt.ref===chosenRef?' chosen':'')+'"><div class="althead"><b>'+(k+1)+'. '+escapeHtml(alt.ref)+'</b><span>match '+escapeHtml(alt.score)+'</span>'+
+  (alt.ref===chosenRef?'<span>✓ in the lower box</span>':'<button data-k="'+k+'">Use this</button>')+'</div><div class="ayah" dir="rtl" lang="ar">'+escapeHtml(alt.text)+'</div></div>').join('');
+ for(const button of $('alts').querySelectorAll('button'))button.onclick=()=>{const alt=alts[+button.dataset.k];chosenRef=alt.ref;
+  $('original').innerHTML=diffHtml(item.original,alt.suggest,'old');$('corrected').innerHTML=diffHtml(item.original,alt.suggest,'new');dirty=true;renderAlternatives(item);setTitles()};
+ setTitles();
+}
+function setTitles(){
+ const item=items[position];$('correctedtitle').textContent=item&&item.report==='quran'&&chosenRef?'Qur’an words ('+chosenRef+') — editable':'Correction — editable';
+}
 const REPORT_LABEL={corrections:'Correction',quran:'Qur’an check',hadith:'Hadith check'};
 async function save(status){
  if(!items.length||busy)return;busy=true;showError('');for(const id of ['accept','reject','prev','next'])$(id).disabled=true;
  const item=items[position];
  try{
-  await api('/api/review',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({volume:item.volume,report:item.report,line:item.line,status,corrected:editedText()})});
+  await api('/api/review',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({volume:item.volume,report:item.report,line:item.line,status,corrected:editedText(),ref:chosenRef})});
   dirty=false;await loadItems(item.line);
  }catch(error){
   showError(error.message);for(const id of ['accept','reject'])$(id).disabled=false;
@@ -1024,7 +1064,7 @@ $('report').addEventListener('change',async()=>{if(confirmDiscard())await loadIt
 $('filter').addEventListener('change',()=>{if(confirmDiscard())applyFilter();else render()});
 function move(delta){const next=position+delta;if(next>=0&&next<items.length&&confirmDiscard()){position=next;render()}}
 $('prev').onclick=()=>move(-1);$('next').onclick=()=>move(1);$('accept').onclick=()=>save('accepted');$('reject').onclick=()=>save('rejected');
-$('reset').onclick=()=>{if(items.length){const item=items[position];$('corrected').innerHTML=diffHtml(item.original,item.corrected,'new');dirty=false}};
+$('reset').onclick=()=>{if(items.length)render()};
 $('corrected').addEventListener('input',()=>{dirty=true});
 $('corrected').addEventListener('blur',()=>{if(items.length&&dirty){const item=items[position],text=editedText();$('original').innerHTML=diffHtml(item.original,text,'old');$('corrected').innerHTML=diffHtml(item.original,text,'new')}});
 $('corrected').addEventListener('paste',event=>{event.preventDefault();const text=event.clipboardData.getData('text/plain');document.execCommand('insertText',false,text)});
@@ -1098,6 +1138,7 @@ class ReviewHandler(BaseHTTPRequestHandler):
             data = json.loads(self.rfile.read(length).decode('utf-8'))
             item = self.server.store.review(
                 int(data['volume']), data['report'], int(data['line']), data['status'], data['corrected'],
+                data.get('ref') or None,
             )
             self.json_response({'ok': True, 'item': item})
         except PermissionError as error:
