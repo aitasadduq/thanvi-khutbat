@@ -101,4 +101,4 @@
 | 411 (pr. 410) | duration | sermon's opening note «دو گھنٹہ ۴۰ منٹ» vs the scribe's closing note «اڑھائی گھنٹہ» | kept as printed | both printed; the difference is the book's own |
 | 418 (pr. 417) | citation | «(النباء: ۷، ۸)» for «الم نجعل الارض مہادا … وجعلنا النہار معاشا» | corrected to النبا ۶ تا ۱۱ with editor's note | the quoted verses are 78:6–11 |
 | 418 (pr. 417) | citation | «(الذاریات: ۵۱)» for «والارض فرشناہا فنعم الماہدون» | corrected to الذاریات ۴۸ with editor's note | 51 is the surah number; the verse is 48 |
-| 418 (pr. 417) | unclear word | «تہاجا کمانہ» before «کلا سوف تعلمون» | kept as printed; ayah written as 78:4 «کلا سیعلمون» | the printed «کلا سوف تعلمون» is 102:3, but the context (sura al-Naba, the deniers of the Day) points to 78:4; «تہاجا کمانہ» is unclear in the scan |
+| 418 (pr. 417) | unclear word | «تہاجا کمانہ» before «کلا سوف تعلمون» | kept as printed; marked as 102:3 (the printed words) | the context (sura al-Naba, the deniers of the Day) suggests 78:4 «کلا سیعلمون» but the printed words are 102:3, so they are kept; «تہاجا کمانہ» is unclear in the scan |
