@@ -97,3 +97,4 @@
 | 377 (pr. 376) | misprint | «چوں بر گردی و بر گردد سرت» | transcribed «چوں تو گردی و بر گردد سرت» | the Masnavi half-line reads «چوں تو گردی»; «بر» repeated by the typesetter |
 | 382 (pr. 381) | scribe | «خواجہ صاحب نے (یہ احقر کاتب وعظ کی طرف مزاحاً اشارہ تھا بحوالہ احقر کے سابق عہدہ ڈپٹی کلکٹری کے ۱۲ کاتب)» | kept as printed; indexed as خواجہ عزیز الحسن مجذوبؒ | the sermon's opening note does not name its scribe; this note identifies him (former Deputy Collector) |
 | 399 (pr. 398) | unclear text | «ملک رہی سہی، نجار تھے یعنی بڑھئی کا کام کیا کرتے تھے» (left margin of the scan damaged) | kept as printed | a name (probably حضرت زکریا علیہ السلام, known as a carpenter) seems lost in the damaged margin |
+| 400 (pr. 399) | hadith wording | the tasbih of Fatimah given as «سبحان اللہ، الحمد للہ، لا الٰہ الا اللہ، اللہ اکبر ۳۳-۳۳ بار» | kept as printed | the collections give سبحان اللہ ۳۳، الحمد للہ ۳۳، اللہ اکبر ۳۴ (without لا الٰہ الا اللہ) |
