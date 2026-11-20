@@ -94,3 +94,4 @@
 | 363 (pr. 362) | gloss mismatch | gloss of «اے برادر بے نہایت درگہیست / ہرچہ بروے میرسی بروے مایست»: «جس منزل پر تیری رسائی ہو جائے اسی پر قناعت کر» | kept as printed | the couplet says «do not stop at any stage you reach»; the gloss inverts it (likely a dropped «نہ») |
 | 367 (pr. 366) | ayah wording | «واجعلنا من المسلمین» (first of the seven mentions of Islam in 2:127–136) | kept as printed in «», not marked as Quran | 2:128 reads «واجعلنا مسلمین لک»; the speaker paraphrases |
 | 375 (pr. 374) | ayah choice | «یبغونہا عوجا» (no citation) | marked as 7:45 | the same words are in 7:45, 11:19 and 14:3; 7:45 chosen as the first occurrence |
+| 377 (pr. 376) | misprint | «چوں بر گردی و بر گردد سرت» | transcribed «چوں تو گردی و بر گردد سرت» | the Masnavi half-line reads «چوں تو گردی»; «بر» repeated by the typesetter |
