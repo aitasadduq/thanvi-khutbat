@@ -106,3 +106,4 @@
 | 420 (pr. 419) | gap in source | «(تیسری شرط ناقل وعظ نے درج نہیں کی، جگہ سادہ چھوڑ رکھی ہے۔ نور)» | kept as printed | the publisher's own note on a missing third condition |
 | 422 (pr. 421) | text/translation mismatch | «وجعلنا نومکم سباتا ترجمہ: "اور ہم ہی نے رات کو پردہ کی چیز بنایا"» | kept as printed; marked as 78:9 (the printed Arabic) | the translation given is that of 78:10 «وجعلنا اللیل لباسا»; probably a slip in the source, left for the owner |
 | 423 (pr. 422) | unclear wording | «یہاں پر "الا" نہیں فرمایا بلکہ "الا لیعبدون" فرمایا» | kept as printed | the contrast intended (probably a fixed task named after «الا») is not recoverable from the page |
+| 425 (pr. 424) | incomplete source | the third rare sermon breaks off after the discussion of «انہ ھو السمیع البصیر» | kept as printed | the volume ends on this page with no closing formula; the sermon as recorded is incomplete |
