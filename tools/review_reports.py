@@ -4,8 +4,14 @@ Usage:
     python3 -I tools/review_reports.py
     python3 -I tools/review_reports.py --no-browser --port 8765
 
-Accept/reject decisions and edited replacement text are written back to the
-existing Markdown reports. Review markers look like <!-- review: accepted -->.
+Where decisions are saved (so that re-running the checks does not lose them):
+  corrections  an inline <!-- review: accepted|rejected --> mark in reports/volNN-corrections.md; a manual
+               edit is stored as the changed lines only ("Review edit: ⟦old⟧ ⇒ ⟦new⟧"), never the whole page
+  Qur'an       DIFFERS / DECIDED / KEPT ayat: <volume dir>/quran-decisions.tsv, read by mark_arabic.py
+               (Accept = use the Qur'an words, Reject = keep as printed; run mark_arabic.py --write to apply);
+               other entries: reports/volNN-review.tsv
+  hadith       reports/volNN-review.tsv; the text starts as the book's own words (PLAN rule 14)
+Nothing here edits page-notes/: applying an accepted correction or reverting a rejected one is a separate step.
 """
 
 import argparse
@@ -88,10 +94,13 @@ def split_row(line):
 
 
 def join_row(cells):
-    return '| ' + ' | '.join(cells) + ' |'
+    return '|' + '|'.join(f' {cell} ' if cell else ' ' for cell in cells) + '|'
 
 
-def page_numbers(label, volume, printed_default=True):
+def page_numbers(label, volume, printed_default=True, pdf_first=False):
+    """(pdf, printed) from a report's page cell. Labels seen in the reports: "40", "p305 (PDF 306)",
+    "169 (pr. 168)", "98 (97)", "97–98 (pr. 96–97)", "toc (PDF 14)". `pdf_first`: the column header
+    names the PDF page first ("pdf page (printed)"), so "N (M)" is PDF N, printed M."""
     label = clean_review(label).translate(DIGITS)
     pdf_match = re.search(r'\bPDF\s*(?:p\.?\s*)?(\d+)', label, re.I)
     printed_match = re.search(r'\bpr\.\s*(?:p\.?\s*)?(\d+)', label, re.I)
@@ -99,6 +108,11 @@ def page_numbers(label, volume, printed_default=True):
     first = int(first_match.group()) if first_match else None
     pdf = int(pdf_match.group(1)) if pdf_match else None
     printed = int(printed_match.group(1)) if printed_match else None
+    bare_pair = re.match(r'^\s*(\d+)(?:[–-]\d+)?\s*\((\d+)(?:[–-]\d+)?\)', label)
+    if not pdf and not printed and bare_pair and pdf_first:
+        return int(bare_pair.group(1)), int(bare_pair.group(2))
+    if not pdf and not printed and first and pdf_first:
+        return first, first - 1
     if pdf:
         printed = printed or (first if first != pdf else pdf - 1)
     elif printed:
@@ -133,6 +147,34 @@ def write_lines(path, lines, final_newline):
     finally:
         if os.path.exists(temporary):
             os.unlink(temporary)
+
+
+# The corrections tables changed their column names over the volumes:
+#   | Page | Kind | Book had | Applied | How decided |        (Vols 2–9, 15)
+#   | Page | Kind | Printed | Applied | Note |                (Vols 10–11)
+#   | page (pdf/printed) | book had | applied | why |         (Vols 12–14, 16)
+#   | pdf page (printed) | kind | printed | written / decision | note |   (Vol 22 on)
+#   | PDF page (printed) | kind | as printed | changed to | note |        (Vol 23)
+ORIGINAL_COLUMNS = ('book had', 'printed', 'as printed')
+APPLIED_COLUMNS = ('applied', 'written / decision', 'changed to')
+
+
+def table_columns(headers, cells):
+    """Header names fitted to a row (some rows omit or add the kind column), plus the page,
+    original and applied column names; None when the row does not fit."""
+    effective = list(headers)
+    if len(cells) == len(effective) - 1 and 'kind' in effective:
+        effective.remove('kind')
+    elif len(cells) == len(effective) + 1 and 'kind' not in effective:
+        effective.insert(1, 'kind')
+    if len(cells) != len(effective):
+        return None
+    page_key = next((key for key in effective if key.startswith(('page', 'pdf page'))), None)
+    original_key = next((key for key in effective if key in ORIGINAL_COLUMNS), None)
+    applied_key = next((key for key in effective if key in APPLIED_COLUMNS), None)
+    if not page_key or not original_key or not applied_key:
+        return None
+    return effective, page_key, original_key, applied_key
 
 
 def base_item(volume, report, line, category, page_label, original, corrected, note,
@@ -192,9 +234,9 @@ class VolumeText:
     def correction(self, printed, before, applied):
         from arabic import norm
         self.load()
-        self.matched_printed = printed
+        matched = printed
         if printed is None:
-            return self.toc_correction(before, applied)
+            return (*self.toc_correction(before, applied), None)
         page = self.pages.get(printed, '')
         old_fragments = replacement_fragments(before)
         new_fragments = replacement_fragments(applied)
@@ -206,10 +248,10 @@ class VolumeText:
                 candidate = self.pages.get(adjacent, '')
                 if any(has_fragment(candidate, f) for f in new_fragments + old_fragments):
                     page = candidate
-                    self.matched_printed = adjacent
+                    matched = adjacent
                     break
         if not page:
-            return '', ''
+            return '', '', matched
         original = corrected = page
         mismatched_quotation = not quoted_text(before) and quoted_text(applied) and '﴿' not in applied
         if not mismatched_quotation and not text_unchanged_report(applied):
@@ -233,7 +275,7 @@ class VolumeText:
                     corrected = replace_reported_text(corrected, new, old)
         if "editor's note" in applied:
             original = re.sub(r'\n*\[حاشیہ:\s*\(از مرتب\).*?\]', '', original, flags=re.S)
-        return original, corrected
+        return original, corrected, matched
 
     def toc_correction(self, before, applied):
         self.load()
@@ -386,6 +428,56 @@ def replace_reported_text(page, before, after):
     return page[:start] + before + page[end:]
 
 
+EDIT = re.compile(r'<br>\s*Review edit:\s*⟦(.*?)⟧\s*⇒\s*⟦(.*?)⟧', re.S)
+OLD_EDIT = re.compile(r'<br>\s*Review edit:.*?(?=<br>\s*Review edit:|\s*<!--\s*review:|$)', re.S)
+
+
+def review_edits(cell):
+    """(old, new) line blocks saved by the reviewer in an applied cell."""
+    return [(display_text(old), display_text(new)) for old, new in EDIT.findall(cell)]
+
+
+def strip_review_edits(cell):
+    return OLD_EDIT.sub('', cell).strip()
+
+
+def apply_edits(text, edits):
+    """Apply saved edits to the page text; returns the text and how many edits no longer apply."""
+    missed = 0
+    for old, new in edits:
+        if old and old in text:
+            text = text.replace(old, new, 1)
+        else:
+            missed += 1
+    return text, missed
+
+
+def same_text(a, b):
+    """Equal apart from trailing spaces and line endings (a browser's innerText can differ in those)."""
+    lines = lambda s: [line.rstrip() for line in s.replace('\r', '').strip('\n').split('\n')]
+    return lines(a) == lines(b)
+
+
+def line_edits(before, after):
+    """Only the changed lines, each as (old block, new block); an insertion carries a neighbouring line
+    so that it can be placed again. The whole page is never stored in the report."""
+    a = before.replace('\r', '').split('\n')
+    b = after.replace('\r', '').strip('\n').split('\n')
+    out = []
+    for op, i1, i2, j1, j2 in difflib.SequenceMatcher(None, a, b, autojunk=False).get_opcodes():
+        if op == 'equal':
+            continue
+        old, new = a[i1:i2], b[j1:j2]
+        if not old:                       # pure insertion: anchor on the line before (or after)
+            if i1 > 0:
+                old, new = [a[i1 - 1]], [a[i1 - 1]] + new
+            elif i2 < len(a):
+                old, new = [a[i2]], new + [a[i2]]
+        if old:
+            out.append(('\n'.join(old), '\n'.join(new)))
+    return out
+
+
 def parse_corrections(path, volume, text=None):
     lines, _ = read_lines(path)
     items = []
@@ -402,23 +494,15 @@ def parse_corrections(path, volume, text=None):
             if all(re.fullmatch(r':?-+:?', cell.replace(' ', '')) for cell in cells):
                 i += 1
                 continue
-            effective = list(headers)
-            if len(cells) == len(effective) - 1 and 'kind' in effective:
-                effective.remove('kind')
-            elif len(cells) == len(effective) + 1 and 'kind' not in effective:
-                effective.insert(1, 'kind')
-            if len(cells) != len(effective) or 'applied' not in effective:
+            columns = table_columns(headers, cells)
+            if not columns:
                 i += 1
                 continue
+            effective, page_key, original_key, applied_key = columns
             values = dict(zip(effective, cells))
-            page_key = next((key for key in values if key.startswith('page')), None)
-            original_key = next((key for key in values if key in ('book had', 'printed')), None)
-            if not page_key or not original_key:
-                i += 1
-                continue
             page_label = display_text(values[page_key])
-            review_edit = re.search(r'<br>\s*Review edit:\s*(.*?)(?=\s*<!--\s*review:|$)', values['applied'], re.S)
-            applied = display_text(re.sub(r'<br>\s*Review edit:.*?(?=\s*<!--\s*review:|$)', '', values['applied'], flags=re.S))
+            edits = review_edits(values[applied_key])
+            applied = display_text(strip_review_edits(values[applied_key]))
             original_report = display_text(values[original_key])
             cross_volume = re.match(r'^Vol\s+(\d+)\s+p\.?\s*(\d+)$', page_label, re.I)
             pdf_volume = int(cross_volume.group(1)) if cross_volume else volume
@@ -427,11 +511,12 @@ def parse_corrections(path, volume, text=None):
                 pdf = printed + 1
                 source_text = VolumeText(pdf_volume)
             else:
-                pdf, printed = page_numbers(page_label, volume, printed_default=volume < 10)
+                pdf, printed = page_numbers(page_label, volume, printed_default=volume < 10,
+                                            pdf_first=page_key.startswith('pdf') or 'pdf,' in page_key or 'pdf/' in page_key)
                 source_text = text
             notes = [f'Book had: {original_report}', f'Applied: {applied}']
             for key, value in values.items():
-                if key not in (page_key, original_key, 'applied') and display_text(value):
+                if key not in (page_key, original_key, applied_key) and display_text(value):
                     notes.append(f'{key.title()}: {display_text(value)}')
             if pdf is None and re.match(r'^(?:toc|contents|فہرست)', page_label, re.I):
                 for value in (applied, original_report, '\n'.join(notes)):
@@ -441,12 +526,14 @@ def parse_corrections(path, volume, text=None):
                         printed, pdf = numbers[-1], numbers[-1] + 1
                         break
             is_toc = re.match(r'^(?:toc|contents|فہرست)', page_label, re.I) or display_text(values.get('kind', '')).lower() == 'toc'
-            original, corrected = source_text.correction(None if is_toc else printed, original_report, applied)
-            if not is_toc and source_text.matched_printed is not None:
-                printed = source_text.matched_printed
+            original, corrected, matched = source_text.correction(None if is_toc else printed, original_report, applied)
+            if not is_toc and matched is not None:
+                printed = matched
                 pdf = printed + 1
-            if review_edit:
-                corrected = display_text(review_edit.group(1))
+            base = corrected
+            corrected, unapplied = apply_edits(corrected, edits)
+            if unapplied:
+                notes.append(f'{unapplied} saved review edit(s) no longer match the page text.')
             if not corrected:
                 notes.append('No transcribed page text was found for this report row.')
             item = base_item(
@@ -454,6 +541,7 @@ def parse_corrections(path, volume, text=None):
                 page_label, original, corrected, '\n'.join(notes), pdf, printed,
             )
             item['pdf_volume'] = pdf_volume
+            item['base'] = base
             item['status'] = review_status(lines[i])
             items.append(item)
             i += 1
@@ -469,8 +557,109 @@ def continuation(block, label):
     return None
 
 
-def parse_quran(path, volume):
+def best_window(query_text, reference_text):
+    """The run of words in `reference_text` closest to `query_text` (letter skeletons compared), as printed
+    in the reference; '' when nothing is close."""
+    from arabic import norm
+    reference_words = reference_text.split()
+    query = norm(query_text).split()
+    reference = [norm(word) for word in reference_words]
+    if not query or not reference:
+        return ''
+    positions = {}
+    for i in range(len(reference) - 2):
+        positions.setdefault(tuple(reference[i:i + 3]), set()).add(i)
+    starts = set()
+    for j in range(len(query) - 2):
+        for i in positions.get(tuple(query[j:j + 3]), ()):
+            starts.add(i - j)
+    if not starts:
+        starts = set(range(len(reference)))
+    best_score, best = 0, ''
+    for start in starts:
+        for offset in (-1, 0, 1):
+            begin = max(0, start + offset)
+            for length in (len(query) - 1, len(query), len(query) + 1):
+                if length < 1:
+                    continue
+                score = difflib.SequenceMatcher(None, query, reference[begin:begin + length], autojunk=False).ratio()
+                if score > best_score:
+                    best_score, best = score, ' '.join(reference_words[begin:begin + length])
+    return best
+
+
+# ---------------------------------------------------------------- decisions that survive report reruns
+# The Qur'an and hadith reports are regenerated by mark_arabic.py / check_hadith.py, so a mark written
+# into them would be lost. Owner decisions on DIFFERS ayat go where mark_arabic.py reads them
+# (<volume dir>/quran-decisions.tsv, PLAN rule); every other review of these two reports goes to
+# reports/volNN-review.tsv, keyed by report, printed page and the letter skeleton of the book's words.
+
+REVIEW_HEADER = ('# Owner review of the Qur\'an and hadith check reports (written by tools/review_reports.py).\n'
+                 '# report<TAB>printed page<TAB>skeleton of the book\'s words<TAB>accepted|rejected<TAB>edited text\n')
+DECISIONS_HEADER = ("# Owner's decisions on ayat where the book's wording differs from the Qur'an (read by tools/mark_arabic.py).\n"
+                    "# page<TAB>book's words<TAB>keep | <surah:ayah><TAB>Qur'an words to put in their place\n")
+QURAN_DECISION_KINDS = ('DIFFERS', 'DECIDED', 'KEPT')
+
+
+def skeleton(text):
+    from arabic import norm
+    return norm(display_text(text))
+
+
+def tsv_rows(path):
+    if not path.exists():
+        return []
+    return [line.split('\t') for line in path.read_text(encoding='utf-8').splitlines()
+            if line.strip() and not line.startswith('#')]
+
+
+def tsv_replace(path, header, matches, row):
+    """Drop the rows for which matches(row) is true, append `row` and write atomically."""
+    if path.exists():
+        lines = path.read_text(encoding='utf-8').splitlines()
+    else:
+        lines = header.rstrip('\n').split('\n')
+    kept = [line for line in lines if not line.strip() or line.startswith('#') or not matches(line.split('\t'))]
+    kept.append('\t'.join(cell.replace('\t', ' ').replace('\n', ' ') for cell in row))
+    write_lines(path, kept, True)
+
+
+def volume_dir(volume):
+    notes = VolumeText(volume).notes_dir
+    if not notes:
+        raise ValueError(f'No folder found for volume {volume}')
+    return notes.parent
+
+
+def review_file(reports, volume):
+    return reports / f'vol{volume:02d}-review.tsv'
+
+
+def saved_reviews(reports, volume, report):
+    out = {}
+    for row in tsv_rows(review_file(reports, volume)):
+        if len(row) >= 4 and row[0] == report and row[1].isdigit():
+            out[(int(row[1]), row[2])] = (row[3], row[4] if len(row) > 4 else '')
+    return out
+
+
+def saved_decisions(volume):
+    from arabic import norm
+    out = {}
+    try:
+        path = volume_dir(volume) / 'quran-decisions.tsv'
+    except ValueError:
+        return out
+    for row in tsv_rows(path):
+        if len(row) >= 3 and row[0].strip().isdigit():
+            out[(int(row[0]), norm(row[1]))] = ('keep',) if row[2] == 'keep' else (row[2], row[3] if len(row) > 3 else '')
+    return out
+
+
+def parse_quran(path, volume, reports):
     lines, _ = read_lines(path)
+    reviews = saved_reviews(reports, volume, 'quran')
+    decisions = saved_decisions(volume)
     items = []
     i = 0
     while i < len(lines):
@@ -479,18 +668,20 @@ def parse_quran(path, volume):
             i += 1
             continue
         kind, page, body = match.group(1), int(match.group(2)), match.group(3).strip()
-        end = i + 1
-        while end < len(lines) and not QURAN_START.match(clean_review(lines[end])) and not lines[end].startswith('## '):
-            end += 1
+        end = record_end(lines, i, QURAN_START)
         block = lines[i:end]
-        override = continuation(block, 'correction')
         note = body
         original = corrected = ''
+        ref = None
         if kind == 'DIFFERS':
             original = continuation(block, 'book') or ''
             alternatives = [line.strip() for line in block if re.match(r'^\s+alt \d+:', line)]
-            first = re.match(r'alt \d+:\s+\S+\s+\[[^]]+\]\s*(.*)', alternatives[0]) if alternatives else None
-            corrected = first.group(1) if first else original
+            first = re.match(r'alt \d+:\s+(\S+)\s+\[[^]]+\]\s*(.*)', alternatives[0]) if alternatives else None
+            if first:
+                ref = first.group(1)
+                corrected = best_window(original, first.group(2)) or first.group(2)
+            else:
+                corrected = original
             note = '\n'.join(alternatives)
         elif kind == 'CITE':
             text = continuation(block, 'text') or ''
@@ -499,21 +690,37 @@ def parse_quran(path, volume):
             original = f'Book citation: {citation.group(1) if citation else body}\n\n{text}'
             corrected = f'Correct citation: {reference.group(1) if reference else ""}\n\n{text}'
         elif kind == 'DECIDED':
-            content = body.split('(owner):', 1)[-1].strip()
-            original, _, corrected = content.partition(' → ')
+            head, _, content = body.partition('(owner):')
+            ref = head.strip() or None
+            original, _, corrected = content.strip().partition(' → ')
             corrected = display_text(corrected)
-            note = body.split('(owner):', 1)[0].strip()
+            note = head.strip()
         elif kind == 'QURAN':
             original = continuation(block, 'old') or ''
             corrected = continuation(block, 'new') or ''
         else:
             original = re.sub(r'^\(owner: keep as printed\)\s*', '', body)
             corrected = original
-        if override is not None:
-            corrected = override
+        status = 'unreviewed'
+        if kind in QURAN_DECISION_KINDS:
+            from arabic import norm
+            decision = decisions.get((page, norm(original)))
+            if decision and decision[0] == 'keep':
+                status = 'rejected'
+            elif decision:
+                status, ref, corrected = 'accepted', decision[0], decision[1] or corrected
+            note = ('Accept: put the Qur\'an words on the right in place of the book\'s words. '
+                    'Reject: keep the book\'s words as printed. Saved to quran-decisions.tsv; '
+                    'run tools/mark_arabic.py --write to apply.\n' + note)
+        else:
+            saved = reviews.get((page, skeleton(original)))
+            if saved:
+                status = saved[0]
+                corrected = saved[1] or corrected
         item = base_item(volume, 'quran', i, kind, f'p{page}', original, corrected, note,
                          pdf=page + 1, printed=page)
-        item['status'] = review_status(lines[i])
+        item['ref'] = ref
+        item['status'] = status
         items.append(item)
         i = end
     return items
@@ -523,56 +730,26 @@ class HadithReferences:
     def __init__(self):
         self.cache = {}
 
-    @staticmethod
-    def normalise(text):
-        from arabic import norm
-        return norm(text)
-
-    def suggestion(self, original, source):
+    def text(self, source):
+        """The collection's text of the hadith a report line names ("صحیح بخاری 3445 (0.92); …")."""
         match = re.match(r'^(.*?)\s+(\d+)\s+\([0-9.]+\)', source)
-        if not match:
-            return original
-        book = BOOK_FILES.get(match.group(1))
+        book = BOOK_FILES.get(match.group(1)) if match else None
         if not book:
-            return original
+            return ''
         if book not in self.cache:
             path = ROOT / 'reference' / f'ara-{book}.json'
             if not path.exists():
-                return original
+                return ''
             self.cache[book] = json.loads(path.read_text(encoding='utf-8'))['hadiths']
-        number = match.group(2)
-        record = next((row for row in self.cache[book] if str(row.get('hadithnumber')) == number), None)
-        if not record:
-            return original
-        query = self.normalise(original).split()
-        reference = self.normalise(record['text']).split()
-        if not query or not reference:
-            return original
-        positions = {}
-        for i in range(len(reference) - 2):
-            positions.setdefault(tuple(reference[i:i + 3]), set()).add(i)
-        starts = set()
-        for j in range(len(query) - 2):
-            for i in positions.get(tuple(query[j:j + 3]), ()):
-                starts.add(i - j)
-        if not starts:
-            starts = set(range(len(reference)))
-        best_score, best = 0, original
-        for start in starts:
-            for offset in (-1, 0, 1):
-                begin = max(0, start + offset)
-                for length in (len(query) - 1, len(query), len(query) + 1):
-                    if length < 1:
-                        continue
-                    words = reference[begin:begin + length]
-                    score = difflib.SequenceMatcher(None, query, words, autojunk=False).ratio()
-                    if score > best_score:
-                        best_score, best = score, ' '.join(words)
-        return best
+        record = next((row for row in self.cache[book] if str(row.get('hadithnumber')) == match.group(2)), None)
+        return record['text'] if record else ''
 
 
-def parse_hadith(path, volume, references):
+def parse_hadith(path, volume, references, reports):
+    """The right pane starts as the book's own words (PLAN rule 14: the book's wording stays as printed);
+    the collection's nearest wording is shown in the details only, for checking a reading error."""
     lines, _ = read_lines(path)
+    reviews = saved_reviews(reports, volume, 'hadith')
     items = []
     category = ''
     i = 0
@@ -587,27 +764,27 @@ def parse_hadith(path, volume, references):
             i += 1
             continue
         page, original = int(match.group(1)), match.group(2).strip()
-        end = i + 1
-        while end < len(lines) and not HADITH_START.match(clean_review(lines[end])) and not lines[end].startswith('## '):
-            end += 1
-        block = lines[i:end]
+        end = record_end(lines, i, HADITH_START)
         source = ''
-        override = None
-        for line in block[1:]:
+        for line in lines[i + 1:end]:
             nested = re.match(r'^\s+-\s*(.*)$', line)
-            if not nested:
-                continue
-            value = nested.group(1).strip()
-            if value.startswith('correction:'):
-                override = display_text(value.split(':', 1)[1].strip())
-            elif not source:
-                source = clean_review(value)
-        corrected = override if override is not None else (
-            references.suggestion(original, source) if category == 'differs' else original
-        )
-        item = base_item(volume, 'hadith', i, category, f'p{page}', original, corrected, source,
+            if nested and not source:
+                source = clean_review(nested.group(1).strip())
+        note = source
+        if category == 'differs':
+            nearest = best_window(original, references.text(source))
+            if nearest:
+                note += '\nCollection wording (for comparison only): ' + nearest
+        note = ('Accept: the text on the right is what the book prints (edit it only to fix a reading error). '
+                'Reject: the passage needs another look.\n' + note)
+        corrected, status = original, 'unreviewed'
+        saved = reviews.get((page, skeleton(original)))
+        if saved:
+            status = saved[0]
+            corrected = saved[1] or original
+        item = base_item(volume, 'hadith', i, category, f'p{page}', original, corrected, note,
                          pdf=page + 1, printed=page)
-        item['status'] = review_status(lines[i])
+        item['status'] = status
         items.append(item)
         i = end
     return items
@@ -620,17 +797,7 @@ def record_end(lines, start, pattern):
     return end
 
 
-def upsert_correction(lines, start, end, corrected, indent):
-    encoded = stored_text(corrected)
-    pattern = re.compile(r'^\s+-?\s*correction:\s*')
-    for i in range(start + 1, end):
-        if pattern.match(lines[i]):
-            lines[i] = f'{indent}correction: {encoded}'
-            return
-    lines.insert(end, f'{indent}correction: {encoded}')
-
-
-def save_corrections(lines, start, status, corrected, current_corrected):
+def save_corrections(lines, start, status, edited, item):
     if not lines[start].lstrip().startswith('|'):
         raise ValueError('The report changed; reload before reviewing')
     cells = split_row(lines[start])
@@ -641,52 +808,20 @@ def save_corrections(lines, start, status, corrected, current_corrected):
             break
     if not headers:
         raise ValueError('Could not find the table header')
-    if len(cells) == len(headers) - 1 and 'kind' in headers:
-        headers.remove('kind')
-    elif len(cells) == len(headers) + 1 and 'kind' not in headers:
-        headers.insert(1, 'kind')
-    if len(cells) != len(headers) or 'applied' not in headers:
+    columns = table_columns(headers, cells)
+    if not columns:
         raise ValueError('Could not identify the applied column')
-    applied = headers.index('applied')
+    effective, _, _, applied_key = columns
+    applied = effective.index(applied_key)
     value = cells[applied]
-    if corrected != current_corrected:
-        value = re.sub(r'<br>\s*Review edit:.*?(?=\s*<!--\s*review:|$)', '', value, flags=re.S).strip()
-        value += '<br>Review edit: ' + stored_text(corrected).replace('|', r'\|')
+    if not same_text(edited, item['corrected']):
+        # store only the changed lines, measured from the page text before any review edit
+        value = strip_review_edits(value)
+        for old, new in line_edits(item['base'], edited):
+            value += '<br>Review edit: ⟦' + stored_text(old).replace('|', r'\|') + '⟧ ⇒ ⟦' + \
+                     stored_text(new).replace('|', r'\|') + '⟧'
     cells[applied] = set_review(value, status)
     lines[start] = join_row(cells)
-
-
-def save_quran(lines, start, status, corrected):
-    match = QURAN_START.match(clean_review(lines[start]))
-    if not match:
-        raise ValueError('The report changed; reload before reviewing')
-    kind = match.group(1)
-    end = record_end(lines, start, QURAN_START)
-    encoded = stored_text(corrected)
-    if kind == 'DECIDED':
-        line = clean_review(lines[start])
-        before, separator, _ = line.partition(' → ')
-        if not separator:
-            raise ValueError('Could not identify the decided replacement')
-        lines[start] = before + ' → ' + encoded
-    elif kind == 'QURAN':
-        for i in range(start + 1, end):
-            if re.match(r'^\s+new:', lines[i]):
-                lines[i] = re.sub(r'(^\s+new:\s*).*$', lambda m: m.group(1) + encoded, lines[i])
-                break
-        else:
-            raise ValueError('Could not identify the Qur’an replacement')
-    else:
-        upsert_correction(lines, start, end, corrected, '   ')
-    lines[start] = set_review(lines[start], status)
-
-
-def save_hadith(lines, start, status, corrected):
-    if not HADITH_START.match(clean_review(lines[start])):
-        raise ValueError('The report changed; reload before reviewing')
-    end = record_end(lines, start, HADITH_START)
-    upsert_correction(lines, start, end, corrected, '  - ')
-    lines[start] = set_review(lines[start], status)
 
 
 class ReportStore:
@@ -694,7 +829,8 @@ class ReportStore:
         self.reports = reports
         self.references = HadithReferences()
         self.texts = {}
-        self.lock = threading.Lock()
+        self.quran = None
+        self.lock = threading.RLock()   # review() reloads items while holding it
 
     def volumes(self):
         volumes = {}
@@ -712,31 +848,59 @@ class ReportStore:
         if not path.exists():
             return []
         if report == 'corrections':
-            text = self.texts.setdefault(volume, VolumeText(volume))
+            with self.lock:
+                text = self.texts.setdefault(volume, VolumeText(volume))
+                text.load()
             return parse_corrections(path, volume, text)
         if report == 'quran':
-            return parse_quran(path, volume)
-        return parse_hadith(path, volume, self.references)
+            return parse_quran(path, volume, self.reports)
+        return parse_hadith(path, volume, self.references, self.reports)
 
-    def review(self, volume, report, start, status, corrected):
+    def item(self, volume, report, line):
+        found = next((item for item in self.items(volume, report) if item['line'] == line), None)
+        if not found:
+            raise ValueError('This entry is no longer in the report (it was edited or regenerated); reload the page')
+        return found
+
+    def review(self, volume, report, line, status, edited):
         if status not in ('accepted', 'rejected'):
             raise ValueError('Status must be accepted or rejected')
-        path = report_path(self.reports, volume, report)
         with self.lock:
-            current_corrected = None
+            item = self.item(volume, report, line)
             if report == 'corrections':
-                current_corrected = next(item['corrected'] for item in self.items(volume, report) if item['line'] == start)
-            lines, final_newline = read_lines(path)
-            if start < 0 or start >= len(lines):
-                raise ValueError('The report changed; reload before reviewing')
-            if report == 'corrections':
-                save_corrections(lines, start, status, corrected, current_corrected)
-            elif report == 'quran':
-                save_quran(lines, start, status, corrected)
+                path = report_path(self.reports, volume, report)
+                lines, final_newline = read_lines(path)
+                save_corrections(lines, line, status, edited, item)
+                write_lines(path, lines, final_newline)
+            elif report == 'quran' and item['category'] in QURAN_DECISION_KINDS:
+                self.save_decision(volume, item, status, edited)
             else:
-                save_hadith(lines, start, status, corrected)
-            write_lines(path, lines, final_newline)
-        return next(item for item in self.items(volume, report) if item['line'] == start)
+                edit = '' if same_text(edited, item['corrected']) and item['status'] == 'unreviewed' else edited
+                key = skeleton(item['original'])
+                tsv_replace(review_file(self.reports, volume), REVIEW_HEADER,
+                            lambda row: row[:3] == [report, str(item['printed_page']), key],
+                            [report, str(item['printed_page']), key, status, stored_text(edit)])
+        return self.item(volume, report, line)
+
+    def save_decision(self, volume, item, status, edited):
+        from arabic import Quran, norm
+        page, book = item['printed_page'], item['original']
+        if status == 'rejected':
+            row = [str(page), book, 'keep']
+        else:
+            if not item.get('ref'):
+                raise ValueError('No Qur\'an reference to replace this with; reject it or edit the report')
+            if self.quran is None:
+                self.quran = Quran()
+            words = display_text(edited).replace('\n', ' ').strip()
+            try:
+                self.quran.phrase(item['ref'], words)
+            except (ValueError, AttributeError):
+                raise ValueError(f'The words on the right are not found in {item["ref"]}; '
+                                 'edit them to words of that ayah') from None
+            row = [str(page), book, item['ref'], words]
+        tsv_replace(volume_dir(volume) / 'quran-decisions.tsv', DECISIONS_HEADER,
+                    lambda r: r[0].strip() == str(page) and norm(r[1]) == norm(book), row)
 
 
 PAGE = r'''<!doctype html>
@@ -775,7 +939,7 @@ details{background:var(--paper);border:1px solid var(--line);border-radius:8px;p
 <main class="workspace">
 <section class="left">
 <div class="itembar"><span id="itemtitle" class="itemtitle">No item</span><span id="badge" class="badge"></span></div>
-<details id="details"><summary>Report details</summary><div id="note" class="note" dir="auto"></div></details>
+<details id="details" open><summary>Report details</summary><div id="note" class="note" dir="auto"></div></details>
 <div class="panel"><h2>Original OCR / printed text <span class="legend">removed <span style="background:var(--redbg)"></span></span></h2><div id="original" class="text" dir="auto"></div></div>
 <div class="panel"><h2>Correction — editable <span class="legend">added <span style="background:var(--greenbg)"></span></span></h2><div id="corrected" class="text" dir="auto" contenteditable="true" spellcheck="false"></div></div>
 </section>
@@ -927,6 +1091,7 @@ class ReviewHandler(BaseHTTPRequestHandler):
             if urlparse(self.path).path != '/api/review':
                 self.json_response({'error': 'Not found'}, 404)
                 return
+            self.check_same_origin()
             length = int(self.headers.get('Content-Length', '0'))
             if length > 2_000_000:
                 raise ValueError('Request is too large')
@@ -935,10 +1100,25 @@ class ReviewHandler(BaseHTTPRequestHandler):
                 int(data['volume']), data['report'], int(data['line']), data['status'], data['corrected'],
             )
             self.json_response({'ok': True, 'item': item})
+        except PermissionError as error:
+            self.json_response({'error': str(error)}, 403)
         except (KeyError, ValueError, json.JSONDecodeError) as error:
             self.json_response({'error': str(error) or 'Invalid request'}, 400)
         except Exception as error:
-            self.json_response({'error': str(error)}, 500)
+            self.json_response({'error': f'{type(error).__name__}: {error}'}, 500)
+
+    def check_same_origin(self):
+        """Only this tool's own page may save. A web page open in another tab could otherwise POST here
+        (a form or no-cors fetch cannot send application/json, and a browser always sends Origin on a
+        cross-site POST); the Host check stops DNS rebinding."""
+        own = {f'127.0.0.1:{self.server.server_port}', f'localhost:{self.server.server_port}'}
+        if self.headers.get('Host', '') not in own:
+            raise PermissionError('Unexpected Host header')
+        origin = self.headers.get('Origin')
+        if origin is not None and urlparse(origin).netloc not in own:
+            raise PermissionError('Requests from other sites are not accepted')
+        if self.headers.get('Content-Type', '').split(';')[0].strip().lower() != 'application/json':
+            raise PermissionError('Expected application/json')
 
     def render_page(self, volume, page):
         if volume < 1 or volume > 32 or page < 1:

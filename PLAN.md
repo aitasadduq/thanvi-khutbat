@@ -9,6 +9,7 @@ Update the **Status** and **Next steps** sections at the end of every working se
 ## 1. Status (2026-11-20)
 
 - **Owner (2026-11-15): finish Volume 31 but do not start Volume 32.**
+- **Report review tool (2026-11-20, from Anas Tasadduq's PR, fixed):** `python3 -I tools/review_reports.py` opens a local browser page (127.0.0.1 only) to accept or reject the entries of the corrections, Qur'an-check and hadith-check reports beside the scan. Decisions: corrections → inline `<!-- review: … -->` mark in the report (manual edits stored as changed lines only); Qur'an DIFFERS/DECIDED/KEPT → the volume's `quran-decisions.tsv` (then run `mark_arabic.py --write`); everything else → `reports/volNN-review.tsv`, so re-running the checks loses nothing. It never edits `page-notes/`: applying accepted edits and reverting rejected corrections stays a separate step (see the standing line under Next steps).
 - **Volume 31 (رحمت دو عالم) — done 2026-11-20, awaiting the owner's review. Stopped here as instructed; Volume 32 not started.** Details under §4 Next steps (Vol 31 entry).
 - **Volume 30 (خیر الاعمال) — done 2026-11-14, awaiting the owner's review.** Details under §4 Next steps (Vol 30 entry).
 - **Volume 29 (تصوف, provisional title) — done 2026-11-14, awaiting the owner's review.** Details under §4 Next steps (Vol 29 entry).
