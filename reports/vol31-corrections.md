@@ -93,3 +93,4 @@
 | 332 (pr. 331) | ayah choice | «کلوا واشربوا ہنیئا بما کنتم تعملون» (no citation) | marked as 52:19 | the same words are 77:43; 52:19 chosen as the first occurrence, the context (rewards of the righteous) fits both |
 | 363 (pr. 362) | gloss mismatch | gloss of «اے برادر بے نہایت درگہیست / ہرچہ بروے میرسی بروے مایست»: «جس منزل پر تیری رسائی ہو جائے اسی پر قناعت کر» | kept as printed | the couplet says «do not stop at any stage you reach»; the gloss inverts it (likely a dropped «نہ») |
 | 367 (pr. 366) | ayah wording | «واجعلنا من المسلمین» (first of the seven mentions of Islam in 2:127–136) | kept as printed in «», not marked as Quran | 2:128 reads «واجعلنا مسلمین لک»; the speaker paraphrases |
+| 375 (pr. 374) | ayah choice | «یبغونہا عوجا» (no citation) | marked as 7:45 | the same words are in 7:45, 11:19 and 14:3; 7:45 chosen as the first occurrence |
