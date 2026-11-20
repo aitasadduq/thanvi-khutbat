@@ -104,3 +104,5 @@
 | 418 (pr. 417) | unclear word | «تہاجا کمانہ» before «کلا سوف تعلمون» | kept as printed; marked as 102:3 (the printed words) | the context (sura al-Naba, the deniers of the Day) suggests 78:4 «کلا سیعلمون» but the printed words are 102:3, so they are kept; «تہاجا کمانہ» is unclear in the scan |
 | 420 (pr. 419) | citation | «(النساء: ۴)» for «مثنیٰ وثلٰث وربٰع فان خفتم الا تعدلوا فواحدۃ» | corrected to النساء ۳ with editor's note | the verse is 4:3 |
 | 420 (pr. 419) | gap in source | «(تیسری شرط ناقل وعظ نے درج نہیں کی، جگہ سادہ چھوڑ رکھی ہے۔ نور)» | kept as printed | the publisher's own note on a missing third condition |
+| 422 (pr. 421) | text/translation mismatch | «وجعلنا نومکم سباتا ترجمہ: "اور ہم ہی نے رات کو پردہ کی چیز بنایا"» | kept as printed; marked as 78:9 (the printed Arabic) | the translation given is that of 78:10 «وجعلنا اللیل لباسا»; probably a slip in the source, left for the owner |
+| 423 (pr. 422) | unclear wording | «یہاں پر "الا" نہیں فرمایا بلکہ "الا لیعبدون" فرمایا» | kept as printed | the contrast intended (probably a fixed task named after «الا») is not recoverable from the page |
