@@ -87,3 +87,5 @@
 | 312 (311) | ayah | «انی انا اللہ» (the voice from the tree; also 20:14 «اننی انا اللہ», 27:9 «انہ انا اللہ») | marked as ﴿28:30|انی انا اللہ﴾, the exact wording | rule 13 |
 | 318 (pr. 317) | possible slip | p.316 names «حضرت نوح علیہ السلام» and the next page continues the same point with «حضرت ہود علیہ السلام» | kept as printed | both prophets fit the point (a nation that rejected tauhid); the switch may be the speaker's own |
 | 320 (pr. 319) | missing name | «یہ جواب اصل میں حضرت رضی اللہ تعالیٰ عنہ سے منقول ہے» | kept as printed; index note names حضرت علیؓ | the name is dropped; the couplets «قال المنجم والطبیب…» are well known as حضرت علیؓ's |
+| 322 (pr. 321) | gloss mismatch | the gloss of «مبیں حقیر گدایان عشق را…» begins «عشق حقیقی کے پر چلے کو خیریت جانو» | kept as printed | a garbled gloss («فقیروں کو حقیر نہ جانو» is meant) |
+| 323 (pr. 322) | name | «حضرت حباب رضی اللہ تعالیٰ عنہ» | kept as printed; indexed as حضرت خباب بن الارتؓ | the report of weeping at death over the wealth that came after the Prophet's ﷺ time is خبابؓ's (Bukhari); «حباب» is a dot slip |
