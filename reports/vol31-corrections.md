@@ -86,3 +86,4 @@
 | 306 (305) | wording | «حضرت زید بن ثابت رضی اللہ عنہم» (plural «عنہم») | kept as printed | |
 | 312 (311) | ayah | «انی انا اللہ» (the voice from the tree; also 20:14 «اننی انا اللہ», 27:9 «انہ انا اللہ») | marked as ﴿28:30|انی انا اللہ﴾, the exact wording | rule 13 |
 | 318 (pr. 317) | possible slip | p.316 names «حضرت نوح علیہ السلام» and the next page continues the same point with «حضرت ہود علیہ السلام» | kept as printed | both prophets fit the point (a nation that rejected tauhid); the switch may be the speaker's own |
+| 320 (pr. 319) | missing name | «یہ جواب اصل میں حضرت رضی اللہ تعالیٰ عنہ سے منقول ہے» | kept as printed; index note names حضرت علیؓ | the name is dropped; the couplets «قال المنجم والطبیب…» are well known as حضرت علیؓ's |
